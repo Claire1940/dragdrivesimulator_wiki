@@ -60,9 +60,9 @@
     "subtitle": "Jump to any section below",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "Release & Editions",
-        "description": "Compare all 4 editions and release dates"
+        "icon": "Gift",
+        "title": "Drag Drive Simulator Codes",
+        "description": "Active and expired codes with quick redeem steps"
       },
       {
         "icon": "Users",
@@ -92,7 +92,7 @@
       {
         "icon": "Briefcase",
         "title": "MyGM",
-        "description": "Manage your WWE brand"
+        "description": "Manage your Drag Drive Simulator brand"
       },
       {
         "icon": "Trophy",
@@ -102,7 +102,7 @@
       {
         "icon": "Globe",
         "title": "Universe Mode",
-        "description": "Control the WWE Universe"
+        "description": "Control the Drag Drive Simulator Universe"
       },
       {
         "icon": "Palette",
@@ -143,111 +143,75 @@
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
-      "quickFacts": [
+      "title": "Drag Drive Simulator Codes",
+      "subtitle": "Latest active rewards, expired list, and fast redeem flow",
+      "intro": "Redeem the latest working Drag Drive Simulator codes first to claim free RP for vehicles, upgrades, and faster early progression.",
+      "activeCodes": [
         {
-          "label": "Standard Release",
-          "value": "March 13, 2026"
+          "code": "DRAGDRIVESIMULATORFEBRUARY26",
+          "reward": "Reward: 35,000,000 RP",
+          "status": "Active"
         },
         {
-          "label": "Premium Early Access",
-          "value": "March 6, 2026"
+          "code": "WELCOMERAMADAN2026",
+          "reward": "Reward: 30,000,000 RP",
+          "status": "Active"
         },
         {
-          "label": "Platforms",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "code": "LUNARNEWYEAR2026",
+          "reward": "Reward: RP",
+          "status": "Active"
         },
         {
-          "label": "Genre",
-          "value": "Sports, Professional Wrestling"
+          "code": "SABARDELAYDIKITYAK",
+          "reward": "Reward: 25,000,000 RP",
+          "status": "Active"
+        },
+        {
+          "code": "100KLIKESFORBIGCODE",
+          "reward": "Reward: 80,000,000 RP",
+          "status": "Active"
         }
       ],
-      "editions": [
-        {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game"
-          ]
-        },
-        {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
-          ]
-        },
-        {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
-          ]
-        },
-        {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
-          ]
-        }
+      "expiredCodes": [
+        "DRAGDRIVESIMULATORJANUARY26",
+        "2026DDSNEXTLEVEL",
+        "HAPPY1STANNIVERSARYDDS",
+        "THX1MILLIONROBLOXMEMBERS",
+        "ALAMAKDELAYDIKIT"
       ],
-      "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
+      "howToRedeem": [
+        "Open the Shop cart on the bottom-right side of the screen.",
+        "Go to the Redeem tab.",
+        "Paste a working code exactly as shown.",
+        "Press Redeem and claim the RP instantly."
+      ],
+      "codeNotes": [
+        "Codes are case-sensitive.",
+        "Extra spaces can make a code fail.",
+        "The game page currently points to the next code milestone at 125,000 likes."
+      ],
+      "referenceLinks": [
+        {
+          "title": "Pocket Gamer - Drag Drive Simulator Codes",
+          "url": "https://www.pocketgamer.com/roblox/drag-drive-simulator-codes/"
+        },
+        {
+          "title": "Pocket Tactics - Drag Drive Simulator Codes",
+          "url": "https://www.pockettactics.com/drag-drive-simulator-codes"
+        },
+        {
+          "title": "Try Hard Guides - Drag Drive Simulator Codes",
+          "url": "https://tryhardguides.com/drag-drive-simulator-codes/"
+        },
+        {
+          "title": "Roblox Official Game Page - Drag Drive Simulator",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        }
       ]
     },
     "roster": {
-      "title": "WWE 2K26 Roster",
+      "title": "Drag Drive Simulator Roster",
       "subtitle": "Browse 400+ playable Superstars and Legends",
       "stats": [
         {
@@ -307,7 +271,7 @@
       ]
     },
     "ratings": {
-      "title": "WWE 2K26 Ratings",
+      "title": "Drag Drive Simulator Ratings",
       "subtitle": "Top-rated Superstars rankings",
       "menTopRated": [
         {
@@ -400,7 +364,7 @@
       ]
     },
     "controls": {
-      "title": "WWE 2K26 Controls",
+      "title": "Drag Drive Simulator Controls",
       "subtitle": "Master the core controls for PS5, Xbox, and PC",
       "platforms": [
         {
@@ -526,7 +490,7 @@
       ]
     },
     "matchTypes": {
-      "title": "WWE 2K26 New Match Types",
+      "title": "Drag Drive Simulator New Match Types",
       "subtitle": "Experience 4 new match types and expanded gameplay",
       "quickFacts": [
         {
@@ -574,7 +538,7 @@
       ]
     },
     "showcase": {
-      "title": "WWE 2K26 Showcase",
+      "title": "Drag Drive Simulator Showcase",
       "subtitle": "Relive CM Punk's greatest rivalries",
       "quickFacts": [
         {
@@ -583,7 +547,7 @@
         },
         {
           "label": "Timeline",
-          "value": "25+ years of WWE history"
+          "value": "25+ years of Drag Drive Simulator history"
         },
         {
           "label": "Match Types",
@@ -614,7 +578,7 @@
       }
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
+      "title": "Drag Drive Simulator MyGM",
       "subtitle": "Run your brand with deeper booking and strategy",
       "quickFacts": [
         {
@@ -672,7 +636,7 @@
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
+      "title": "Drag Drive Simulator MyRISE",
       "subtitle": "Fight your way back in The Comeback",
       "quickFacts": [
         {
@@ -701,7 +665,7 @@
       "divisions": [
         {
           "name": "Men's Division",
-          "goal": "Earn another shot at WWE Champion Bron Breakker",
+          "goal": "Earn another shot at Drag Drive Simulator Champion Bron Breakker",
           "opponents": [
             "Jey Uso",
             "Jacob Fatu",
@@ -712,7 +676,7 @@
         },
         {
           "name": "Women's Division",
-          "goal": "Chase another showdown with WWE Women's Champion Jordynne Grace",
+          "goal": "Chase another showdown with Drag Drive Simulator Women's Champion Jordynne Grace",
           "opponents": [
             "Naomi",
             "Roxanne Perez",
@@ -725,7 +689,7 @@
       ],
       "features": [
         "Branching dialogue shapes story progression",
-        "WWE press conferences with player choice responses",
+        "Drag Drive Simulator press conferences with player choice responses",
         "Major final decision affects championship reign"
       ],
       "rewards": [
@@ -739,8 +703,8 @@
       ]
     },
     "universeMode": {
-      "title": "WWE 2K26 Universe Mode",
-      "subtitle": "Build your dream WWE calendar with deeper control",
+      "title": "Drag Drive Simulator Universe Mode",
+      "subtitle": "Build your dream Drag Drive Simulator calendar with deeper control",
       "quickFacts": [
         {
           "label": "Setup Tool",
@@ -765,7 +729,7 @@
           "description": "Start saves faster by choosing shows, PLEs, champions, and rosters upfront"
         },
         {
-          "title": "WWE Draft",
+          "title": "Drag Drive Simulator Draft",
           "description": "Create and schedule Draft events where shows trade Superstars"
         },
         {
@@ -783,7 +747,7 @@
       ]
     },
     "communityCreations": {
-      "title": "WWE 2K26 Community Creations",
+      "title": "Drag Drive Simulator Community Creations",
       "subtitle": "Create bigger and more detailed custom content",
       "quickFacts": [
         {
@@ -831,7 +795,7 @@
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 The Island",
+      "title": "Drag Drive Simulator The Island",
       "subtitle": "Choose an Order and fight for control",
       "quickFacts": [
         {
@@ -894,7 +858,7 @@
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
+      "title": "Drag Drive Simulator MyFACTION",
       "subtitle": "Build stronger lineups with chemistry and Quick Swap",
       "quickFacts": [
         {
@@ -938,7 +902,7 @@
       ]
     },
     "lockerCodes": {
-      "title": "WWE 2K26 Locker Codes",
+      "title": "Drag Drive Simulator Locker Codes",
       "subtitle": "Redeem active codes for MyFACTION rewards",
       "quickFacts": [
         {
@@ -965,15 +929,15 @@
         }
       ],
       "howToRedeem": [
-        "Open WWE 2K26 from the main menu",
+        "Open Drag Drive Simulator from the main menu",
         "Select Locker Codes",
         "Enter the code exactly as shown",
         "Redeem and open your packs in MyFACTION"
       ]
     },
     "pcRequirements": {
-      "title": "WWE 2K26 PC Requirements",
-      "subtitle": "Check if your PC can run WWE 2K26",
+      "title": "Drag Drive Simulator PC Requirements",
+      "subtitle": "Check if your PC can run Drag Drive Simulator",
       "quickFacts": [
         {
           "label": "OS",
@@ -1012,7 +976,7 @@
       }
     },
     "arenas": {
-      "title": "WWE 2K26 Arenas",
+      "title": "Drag Drive Simulator Arenas",
       "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
       "quickFacts": [
         {
@@ -1066,10 +1030,10 @@
             "WCW Halloween Havoc 1997",
             "WCW Nitro 1998",
             "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
+            "Drag Drive Simulator SummerSlam 2008",
+            "Drag Drive Simulator WrestleMania 29",
+            "Drag Drive Simulator WrestleMania 32",
+            "Drag Drive Simulator WrestleMania 35"
           ]
         },
         {
@@ -1088,7 +1052,7 @@
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLC & Unlockables",
+      "title": "Drag Drive Simulator DLC & Unlockables",
       "subtitle": "Track every major post-launch reward path",
       "quickFacts": [
         {
@@ -1210,33 +1174,33 @@
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about WWE 2K26",
+    "title": "Drag Drive Simulator",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know about Drag Drive Simulator",
     "questions": [
       {
-        "question": "When is WWE 2K26 released?",
-        "answer": "WWE 2K26 standard edition releases on March 13, 2026. Deluxe editions get early access starting March 6, 2026."
+        "question": "What is Drag Drive Simulator on Roblox?",
+        "answer": "Drag Drive Simulator is a Roblox drag racing and roleplay experience focused on vehicles, tuning, jobs, races, and map exploration."
       },
       {
-        "question": "How many superstars are in WWE 2K26?",
-        "answer": "WWE 2K26 features over 400 playable superstars, including legends, current roster, and DLC characters."
+        "question": "How do I redeem Drag Drive Simulator codes?",
+        "answer": "Open the Shop cart, switch to the Redeem tab, paste a valid code, and press Redeem to receive RP instantly."
       },
       {
-        "question": "What platforms is WWE 2K26 available on?",
-        "answer": "WWE 2K26 is available on PS5, Xbox Series X|S, Steam (PC), and Nintendo Switch 2."
+        "question": "What should beginners do first in Drag Drive Simulator?",
+        "answer": "Redeem active codes first, buy a practical starter vehicle, and learn basic tuning before spending on cosmetics."
       },
       {
-        "question": "How do I redeem WWE 2K26 locker codes?",
-        "answer": "Go to MyFACTION mode, select the Locker Code menu, and enter the code. Check our codes page for the latest active codes."
+        "question": "Where can I play Drag Drive Simulator and follow updates?",
+        "answer": "Play on the Roblox game page and follow the official Discord, Roblox group, and YouTube channel for updates."
       },
       {
-        "question": "What are the new match types in WWE 2K26?",
-        "answer": "WWE 2K26 introduces 4 new match types including Inferno Match, Dumpster Match, Three Stages of Hell, and I Quit Match."
+        "question": "Which activities give the best early RP in Drag Drive Simulator?",
+        "answer": "Codes provide the fastest starting RP burst, then races and jobs like Courier or Barista give steady progression."
       },
       {
-        "question": "What game modes are in WWE 2K26?",
-        "answer": "WWE 2K26 includes MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION, and Creation Suite."
+        "question": "Does Drag Drive Simulator support both cars and bikes?",
+        "answer": "Yes. Drag Drive Simulator includes both cars and motorcycles with different handling, tuning goals, and progression paths."
       }
     ]
   },

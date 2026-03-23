@@ -16,6 +16,7 @@ import {
   Gift,
   Hammer,
   Home,
+  Info,
   Keyboard,
   MessageCircle,
   Package,
@@ -121,6 +122,14 @@ export default function HomePage() {
 
   // Copy state
   const [copiedPath, setCopiedPath] = useState<string | null>(null)
+  const [moduleOneTab, setModuleOneTab] = useState<'active' | 'expired' | 'redeem' | 'notes'>('active')
+
+  const moduleOne = t.modules?.releaseEditions ?? {}
+  const moduleOneActiveCodes = moduleOne.activeCodes ?? []
+  const moduleOneExpiredCodes = moduleOne.expiredCodes ?? []
+  const moduleOneHowToRedeem = moduleOne.howToRedeem ?? []
+  const moduleOneCodeNotes = moduleOne.codeNotes ?? []
+  const moduleOneReferenceLinks = moduleOne.referenceLinks ?? []
 
   const copyToClipboard = async (text: string) => {
     try {
@@ -347,31 +356,123 @@ export default function HomePage() {
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.releaseEditions.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">
+              {t.modules.releaseEditions.intro}
+            </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-            {t.modules.releaseEditions.quickFacts.map((fact: any, i: number) => (
-              <div key={i} className="p-4 rounded-lg bg-card border-2 border-[hsl(var(--gold)/0.3)] text-center hover:border-[hsl(var(--gold))] transition-all duration-300">
-                <div className="text-2xl font-bebas text-gold-gradient">{fact.value}</div>
-                <div className="text-sm text-muted-foreground mt-1">{fact.label}</div>
-              </div>
-            ))}
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            {[
+              { key: 'active', label: 'Active Codes', icon: Gift },
+              { key: 'expired', label: 'Expired Codes', icon: X },
+              { key: 'redeem', label: 'How to Redeem', icon: Keyboard },
+              { key: 'notes', label: 'Code Notes', icon: AlertTriangle },
+            ].map((tab) => {
+              const TabIcon = tab.icon
+              const isActive = moduleOneTab === tab.key
+              return (
+                <button
+                  key={tab.key}
+                  onClick={() => setModuleOneTab(tab.key as 'active' | 'expired' | 'redeem' | 'notes')}
+                  className={`flex items-center justify-center gap-2 px-4 py-3 rounded-lg border-2 transition-all duration-300 ${
+                    isActive
+                      ? 'border-[hsl(var(--gold))] bg-[hsl(var(--gold)/0.1)] text-foreground'
+                      : 'border-border bg-card text-muted-foreground hover:border-[hsl(var(--nav-theme)/0.5)]'
+                  }`}
+                >
+                  <TabIcon className="w-4 h-4" />
+                  <span className="text-sm font-semibold">{tab.label}</span>
+                </button>
+              )
+            })}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {t.modules.releaseEditions.editions.map((edition: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl border-2 border-border bg-card hover:border-[hsl(var(--nav-theme))] transition-all duration-300 hover:shadow-[0_8px_24px_rgba(220,38,38,0.2)] hover:-translate-y-1">
-                <h3 className="text-xl font-bebas mb-2">{edition.name}</h3>
-                <div className="text-3xl font-bebas text-gold-gradient mb-4">{edition.price}</div>
-                <div className="text-sm text-muted-foreground mb-4">{edition.releaseDate}</div>
-                <ul className="space-y-2">
-                  {edition.includes.map((item: string, j: number) => (
-                    <li key={j} className="flex items-start gap-2 text-sm">
-                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
+
+          <div className="rounded-2xl border-2 border-[hsl(var(--gold)/0.4)] bg-card p-6 md:p-8 glow-gold">
+            {moduleOneTab === 'active' && (
+              <div className="space-y-4">
+                {moduleOneActiveCodes.map((codeItem: any, i: number) => (
+                  <div key={i} className="rounded-xl border border-border bg-muted/30 p-4 md:p-5">
+                    <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                      <div className="flex items-center gap-3 flex-wrap">
+                        <span className="font-mono text-base md:text-lg font-semibold text-[hsl(var(--nav-theme-light))] break-all">
+                          {codeItem.code}
+                        </span>
+                        <span className="px-3 py-1 rounded-full text-xs font-semibold border border-[hsl(var(--gold)/0.6)] bg-[hsl(var(--gold)/0.12)] text-[hsl(var(--gold))] inline-flex items-center gap-1">
+                          <Clock className="w-3 h-3" />
+                          {codeItem.status}
+                        </span>
+                      </div>
+                      <button
+                        onClick={() => copyToClipboard(codeItem.code)}
+                        className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white text-sm font-semibold transition-all duration-300"
+                      >
+                        {copiedPath === codeItem.code ? <ClipboardCheck className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                        {copiedPath === codeItem.code ? 'Copied' : 'Copy'}
+                      </button>
+                    </div>
+                    <p className="mt-3 text-sm text-muted-foreground">{codeItem.reward}</p>
+                  </div>
+                ))}
               </div>
-            ))}
+            )}
+
+            {moduleOneTab === 'expired' && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {moduleOneExpiredCodes.map((code: string, i: number) => (
+                  <div key={i} className="rounded-lg border border-border bg-muted/30 p-3 flex items-center gap-2">
+                    <X className="w-4 h-4 text-muted-foreground" />
+                    <span className="font-mono text-sm break-all">{code}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {moduleOneTab === 'redeem' && (
+              <ol className="space-y-3">
+                {moduleOneHowToRedeem.map((step: string, i: number) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+                      {i + 1}
+                    </span>
+                    <span className="text-sm md:text-base">{step}</span>
+                  </li>
+                ))}
+              </ol>
+            )}
+
+            {moduleOneTab === 'notes' && (
+              <ul className="space-y-3">
+                {moduleOneCodeNotes.map((note: string, i: number) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <Info className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                    <span className="text-sm md:text-base">{note}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+
+          <div className="mt-8 rounded-xl border border-border bg-muted/30 p-5">
+            <h3 className="text-xl font-bebas mb-4 flex items-center gap-2">
+              <ExternalLink className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              Official & Community References
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {moduleOneReferenceLinks.map((linkItem: any, i: number) => (
+                <a
+                  key={i}
+                  href={linkItem.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300"
+                >
+                  <div className="text-sm font-medium flex items-center justify-between gap-2">
+                    <span>{linkItem.title}</span>
+                    <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-[hsl(var(--nav-theme-light))] shrink-0" />
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </section>
