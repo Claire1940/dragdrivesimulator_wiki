@@ -46,7 +46,7 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 
 export default function HomePage() {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
 
   // Structured data
   const structuredData = {
@@ -56,14 +56,14 @@ export default function HomePage() {
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "WWE 2K26 Wiki",
-        description: "Complete WWE 2K26 resource hub with roster, ratings, locker codes, match types, and game mode guides.",
+        name: "Drag Drive Simulator Wiki",
+        description: "Guides, codes, tuning setups, jobs, and map resources for Drag Drive Simulator on Roblox.",
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          caption: "WWE 2K26 - Wrestling Simulation Game",
+          caption: "Drag Drive Simulator Wiki",
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -74,10 +74,10 @@ export default function HomePage() {
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "WWE 2K26 Wiki",
-        alternateName: "WWE 2K26",
+        name: "Drag Drive Simulator Wiki",
+        alternateName: "Drag Drive Simulator",
         url: siteUrl,
-        description: "Complete WWE 2K26 Wiki resource hub for roster, ratings, and game modes",
+        description: "Community-driven Drag Drive Simulator wiki for codes, tuning, jobs, vehicles, and tracks.",
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -89,30 +89,31 @@ export default function HomePage() {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          caption: "WWE 2K26 Wiki - Master Wrestling",
+          caption: "Drag Drive Simulator Wiki - Roblox Racing Guides",
         },
         sameAs: [
-          'https://wwe.2k.com/2k26/',
-          'https://discord.com/invite/wwe2k',
-          'https://x.com/WWEgames',
+          'https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator',
+          'https://www.roblox.com/communities/11378976/ADV-Gamers-Team',
+          'https://discord.com/invite/officialadvgamers',
+          'https://www.youtube.com/channel/UC6bXTzU6mefwqPV2zFU-HZg',
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "WWE 2K26",
-        gamePlatform: ['PlayStation 5', 'Xbox Series X|S', 'PC', 'Nintendo Switch 2'],
+        name: "Drag Drive Simulator",
+        gamePlatform: ['Roblox'],
         applicationCategory: 'Game',
-        genre: ['Sports', 'Wrestling', 'Simulation'],
+        genre: ['Racing', 'Simulation', 'Roleplay'],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 4,
+          maxValue: 40,
         },
         offers: {
           '@type': 'Offer',
-          price: '69.99',
+          price: '0',
           priceCurrency: 'USD',
-          availability: 'https://schema.org/PreOrder',
-          url: 'https://store.steampowered.com/app/3717070/WWE_2K26/',
+          availability: 'https://schema.org/InStock',
+          url: 'https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator',
         },
       },
     ],
@@ -226,7 +227,7 @@ export default function HomePage() {
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3717070/WWE_2K26/"
+                href="https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4
@@ -258,7 +259,7 @@ export default function HomePage() {
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
               videoId="ZJR6KxyDTDE"
-              title="TRAILER DRAG AND DRIVE SIMULATOR UPDATE V1.0.9"
+              title="Official Drag Drive Simulator Trailer"
               posterImage="/images/hero.webp"
             />
           </div>
@@ -852,7 +853,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/wwe2k"
+                    href="https://discord.com/invite/officialadvgamers"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -862,7 +863,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <a
-                    href="https://x.com/WWEgames"
+                    href="https://www.roblox.com/communities/11378976/ADV-Gamers-Team"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -872,7 +873,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.reddit.com/r/WWEGames/"
+                    href="https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
@@ -882,7 +883,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.youtube.com/@WWEGames"
+                    href="https://www.youtube.com/channel/UC6bXTzU6mefwqPV2zFU-HZg"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
@@ -892,7 +893,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.instagram.com/wwegames/"
+                    href="https://www.youtube.com/watch?v=ZJR6KxyDTDE"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"

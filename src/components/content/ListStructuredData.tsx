@@ -7,13 +7,15 @@ interface ListStructuredDataProps {
 }
 
 export function ListStructuredData({ contentType, locale, items }: ListStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
 	const listUrl =
 		locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
 
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'ItemList',
+		name: `Drag Drive Simulator Wiki ${contentType}`,
+		url: listUrl,
 		itemListElement: items.map((item, index) => ({
 			'@type': 'ListItem',
 			position: index + 1,

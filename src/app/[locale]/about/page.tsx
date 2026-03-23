@@ -9,18 +9,18 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
   const path = '/about'
 
   return {
-    title: 'About WWE 2K26 Wiki - Your Ultimate Wrestling Game Resource',
-    description: 'Learn about WWE 2K26 Wiki, a community-driven resource hub providing comprehensive guides, roster info, ratings, locker codes, and strategies for the WWE 2K26 game.',
+    title: 'About Drag Drive Simulator Wiki - Your Ultimate Wrestling Game Resource',
+    description: 'Learn about Drag Drive Simulator Wiki, a community-driven resource hub providing comprehensive guides, roster info, ratings, locker codes, and strategies for the Drag Drive Simulator game.',
     keywords: [
-      'about WWE 2K26 Wiki',
-      'WWE 2K26 community',
-      'wrestling game wiki',
+      'about Drag Drive Simulator Wiki',
+      'Drag Drive Simulator community',
+      'Roblox racing game wiki',
       'game resource hub',
-      'WWE 2K26 team',
+      'Drag Drive Simulator team',
     ],
     robots: {
       index: true,
@@ -37,22 +37,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'WWE 2K26 Wiki',
-      title: 'About WWE 2K26 Wiki',
-      description: 'Learn about our mission to provide the best WWE 2K26 game resources and guides.',
+      siteName: 'Drag Drive Simulator Wiki',
+      title: 'About Drag Drive Simulator Wiki',
+      description: 'Learn about our mission to provide the best Drag Drive Simulator game resources and guides.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'WWE 2K26 Wiki',
+          alt: 'Drag Drive Simulator Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About WWE 2K26 Wiki',
-      description: 'Learn about our mission to provide the best WWE 2K26 game resources.',
+      title: 'About Drag Drive Simulator Wiki',
+      description: 'Learn about our mission to provide the best Drag Drive Simulator game resources.',
       images: [`${siteUrl}/og-image.jpg`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
@@ -66,10 +66,10 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About WWE 2K26 Wiki
+            About Drag Drive Simulator Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for WWE 2K26
+            Your community-driven resource center for Drag Drive Simulator
           </p>
         </div>
       </section>
@@ -78,15 +78,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to WWE 2K26 Wiki</h2>
+            <h2>Welcome to Drag Drive Simulator Wiki</h2>
             <p>
-              WWE 2K26 Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the WWE 2K26 wrestling game. We are a community-driven platform that provides the latest locker codes,
+              Drag Drive Simulator Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              master the Drag Drive Simulator Roblox racing game. We are a community-driven platform that provides the latest locker codes,
               comprehensive guides, roster ratings, match type info, and strategic insights to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your wrestling journey or a seasoned veteran looking to optimize your MyFACTION team,
-              WWE 2K26 Wiki is here to support you every step of the way.
+              Whether you're a new player just starting your drag racing journey or a seasoned veteran looking to optimize your fastest build,
+              Drag Drive Simulator Wiki is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Our Mission</h2>
             <p>
-              Our mission is simple: <strong>to empower WWE 2K26 players with accurate, up-to-date information
+              Our mission is simple: <strong>to empower Drag Drive Simulator players with accurate, up-to-date information
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
@@ -110,9 +110,9 @@ export default function About() {
 
             <h2>Our Vision</h2>
             <p>
-              We envision WWE 2K26 Wiki as the <strong>go-to destination</strong> for every WWE 2K26 player seeking
+              We envision Drag Drive Simulator Wiki as the <strong>go-to destination</strong> for every Drag Drive Simulator player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              the latest locker codes, want to check superstar ratings, or are looking for advanced wrestling game tactics.
+              the latest locker codes, want to check vehicle comparisons, or are looking for advanced Roblox racing game tactics.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function About() {
               <div className="text-2xl mb-3">⚔️</div>
               <h3 className="text-xl font-semibold text-white mb-2">Mode Guides</h3>
               <p className="text-slate-300">
-                Detailed guides on MyGM, MyRISE, Universe, Showcase, and MyFACTION modes.
+                Detailed guides on jobs, tuning, tracks, and events, and MyFACTION modes.
                 Learn the strategies that top players use.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function About() {
               <h3 className="text-xl font-semibold text-white mb-2">Comprehensive Database</h3>
               <p className="text-slate-300">
                 Detailed information on every superstar, move, match type, and game mechanic.
-                Your one-stop encyclopedia for all things WWE 2K26.
+                Your one-stop encyclopedia for all things Drag Drive Simulator.
               </p>
             </div>
 
@@ -192,7 +192,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              WWE 2K26 Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              Drag Drive Simulator Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
               feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
             </p>
             <ul>
@@ -215,21 +215,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              WWE 2K26 Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              WWE 2K26 as much as you do. We're players first, constantly testing strategies, exploring game
+              Drag Drive Simulator Wiki is maintained by a dedicated team of passionate gamers and developers who love
+              Drag Drive Simulator as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest meta.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of WWE 2K26 mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of Drag Drive Simulator mechanics and strategies</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Lighthouse" – Guiding wrestlers through the ring.
+              Project Codename: "Lighthouse" – Guiding racers through the strip.
             </p>
           </div>
         </div>
@@ -241,15 +241,15 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>WWE 2K26 Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with 2K Sports, Visual Concepts, or WWE.
+              <strong>Drag Drive Simulator Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              endorsed by, or associated with Roblox Corporation or ADV Gamers Team.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              WWE 2K26 Wiki is a non-profit, community resource created by fans, for fans.
+              Drag Drive Simulator Wiki is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>
@@ -266,26 +266,26 @@ export default function About() {
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@wwe2k26.wiki
+                <a href="mailto:contact@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@dragdrivesimulator.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@wwe2k26.wiki
+                <a href="mailto:support@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@dragdrivesimulator.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@wwe2k26.wiki
+                <a href="mailto:contribute@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@dragdrivesimulator.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@wwe2k26.wiki
+                <a href="mailto:partnerships@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@dragdrivesimulator.wiki
                 </a>
               </div>
             </div>
@@ -301,7 +301,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest locker codes, guides, and WWE 2K26 news.
+            Stay updated with the latest locker codes, guides, and Drag Drive Simulator news.
             Bookmark this site and check back regularly for new content!
           </p>
           <Link

@@ -22,7 +22,7 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
 
 	// 获取 SEO 翻译
 	const t = await getTranslations('seo.home')
@@ -50,15 +50,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'WWE 2K26 Wiki',
+			siteName: 'Drag Drive Simulator Wiki',
 			title: t('ogTitle'),
 			description: t('ogDescription'),
 			images: [
 				{
-					url: `${siteUrl}/og-image.jpg`,
+					url: `${siteUrl}/images/hero.webp`,
 					width: 1200,
 					height: 630,
-					alt: 'WWE 2K26 - Wrestling Simulation Game',
+					alt: 'Drag Drive Simulator Wiki Hero',
 				},
 			],
 		},
@@ -66,8 +66,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			card: 'summary_large_image',
 			title: t('twitterTitle'),
 			description: t('twitterDescription'),
-			images: [`${siteUrl}/og-image.jpg`],
-			creator: '@WWEgames',
+			images: [`${siteUrl}/images/hero.webp`],
 		},
 		icons: {
 			icon: [

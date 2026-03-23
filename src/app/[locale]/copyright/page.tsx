@@ -9,15 +9,15 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - WWE 2K26 Wiki',
-    description: 'Copyright and intellectual property information for WWE 2K26 Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - Drag Drive Simulator Wiki',
+    description: 'Copyright and intellectual property information for Drag Drive Simulator Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     keywords: [
       'copyright notice',
-      'WWE 2K26 Wiki copyright',
+      'Drag Drive Simulator Wiki copyright',
       'DMCA policy',
       'intellectual property',
       'content ownership',
@@ -37,21 +37,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'WWE 2K26 Wiki',
-      title: 'Copyright Notice - WWE 2K26 Wiki',
-      description: 'Copyright and intellectual property information for WWE 2K26 Wiki.',
+      siteName: 'Drag Drive Simulator Wiki',
+      title: 'Copyright Notice - Drag Drive Simulator Wiki',
+      description: 'Copyright and intellectual property information for Drag Drive Simulator Wiki.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'WWE 2K26 Wiki',
+          alt: 'Drag Drive Simulator Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - WWE 2K26 Wiki',
+      title: 'Copyright Notice - Drag Drive Simulator Wiki',
       description: 'Copyright and intellectual property information.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -72,7 +72,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 6, 2026
+            Last Updated: March 23, 2026
           </p>
         </div>
       </section>
@@ -84,23 +84,23 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 WWE 2K26 Wiki. All rights reserved.
+              © 2025-2026 Drag Drive Simulator Wiki. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of WWE 2K26 Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of Drag Drive Simulator Wiki and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              WWE 2K26 Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              Drag Drive Simulator Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>2K Sports</strong> - Publisher of WWE 2K26</li>
-              <li><strong>Visual Concepts</strong> - Developer of WWE 2K26</li>
-              <li><strong>WWE</strong> - Owner of WWE trademarks and content</li>
+              <li><strong>Roblox Corporation</strong> - Publisher of Drag Drive Simulator</li>
+              <li><strong>ADV Gamers Team</strong> - Developer of Drag Drive Simulator</li>
+              <li><strong>WWE</strong> - Owner of Roblox platform trademarks and assets</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -161,13 +161,13 @@ export default function Copyright() {
             </p>
             <ul>
               <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>WWE 2K26</strong> - Trademark of 2K Sports and WWE</li>
-              <li><strong>WWE 2K26 Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Drag Drive Simulator</strong> - Trademark of Roblox Corporation and WWE</li>
+              <li><strong>Drag Drive Simulator Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with WWE 2K26 Wiki.
+              affiliation with Drag Drive Simulator Wiki.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -209,8 +209,8 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              WWE 2K26 Wiki<br />
-              Email: <a href="mailto:dmca@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@wwe2k26.wiki</a>
+              Drag Drive Simulator Wiki<br />
+              Email: <a href="mailto:dmca@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@dragdrivesimulator.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -246,12 +246,12 @@ export default function Copyright() {
               If you wish to use or reference our original content (guides, articles, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "WWE 2K26 Wiki"</li>
+              <li>Provide clear attribution to "Drag Drive Simulator Wiki"</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: WWE 2K26 Wiki (wwe2k26.wiki)"</em>
+              Example attribution: <em>"Source: Drag Drive Simulator Wiki (dragdrivesimulator.wiki)"</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
@@ -286,8 +286,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@wwe2k26.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@wwe2k26.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@dragdrivesimulator.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@dragdrivesimulator.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.

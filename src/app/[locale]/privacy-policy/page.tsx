@@ -9,15 +9,15 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
   const path = '/privacy-policy'
 
   return {
-    title: 'Privacy Policy - WWE 2K26 Wiki',
-    description: 'WWE 2K26 Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our wrestling game resource platform. Your privacy matters to us.',
+    title: 'Privacy Policy - Drag Drive Simulator Wiki',
+    description: 'Drag Drive Simulator Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Roblox racing game resource platform. Your privacy matters to us.',
     keywords: [
       'privacy policy',
-      'WWE 2K26 Wiki privacy',
+      'Drag Drive Simulator Wiki privacy',
       'data protection',
       'user privacy',
       'GDPR compliance',
@@ -37,21 +37,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'WWE 2K26 Wiki',
-      title: 'Privacy Policy - WWE 2K26 Wiki',
+      siteName: 'Drag Drive Simulator Wiki',
+      title: 'Privacy Policy - Drag Drive Simulator Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'WWE 2K26 Wiki',
+          alt: 'Drag Drive Simulator Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Privacy Policy - WWE 2K26 Wiki',
+      title: 'Privacy Policy - Drag Drive Simulator Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -72,7 +72,7 @@ export default function PrivacyPolicy() {
             How we collect, use, and protect your information
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 6, 2026
+            Last Updated: March 23, 2026
           </p>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Information Collection</h2>
             <p>
-              WWE 2K26 Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
+              Drag Drive Simulator Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
               We collect information in the following ways:
             </p>
             <ul>
@@ -148,7 +148,7 @@ export default function PrivacyPolicy() {
 
             <h2>4. Third-Party Services</h2>
             <p>
-              Our website may contain links to external websites, including official WWE 2K26 platforms, Discord, and social media platforms.
+              Our website may contain links to external websites, including official Drag Drive Simulator platforms, Discord, and social media platforms.
               We are not responsible for the privacy practices or content of these third-party sites. We encourage
               you to review their privacy policies before providing any personal information.
             </p>
@@ -219,8 +219,8 @@ export default function PrivacyPolicy() {
 
             <h2>11. Disclaimer</h2>
             <p>
-              WWE 2K26 Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with 2K Sports, Visual Concepts, or WWE. All game content, trademarks, and assets are
+              Drag Drive Simulator Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
+              with Roblox Corporation or ADV Gamers Team. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 
@@ -230,7 +230,7 @@ export default function PrivacyPolicy() {
               please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:privacy@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@wwe2k26.wiki</a>
+              <strong>Email:</strong> <a href="mailto:privacy@dragdrivesimulator.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@dragdrivesimulator.wiki</a>
             </p>
             <p>
               We will respond to all legitimate requests within 30 days.
