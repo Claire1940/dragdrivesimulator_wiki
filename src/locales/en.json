@@ -81,23 +81,23 @@
       },
       {
         "icon": "Flame",
-        "title": "New Match Types",
-        "description": "4 new match types debut"
+        "title": "Drag Drive Simulator Starter Vehicles",
+        "description": "Best first-buy route and early garage planning"
       },
       {
         "icon": "Film",
-        "title": "Showcase",
-        "description": "CM Punk's legendary career"
+        "title": "Drag Drive Simulator Dealership Locations",
+        "description": "Map routes for shopping zones and race test tracks"
       },
       {
         "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Manage your Drag Drive Simulator brand"
+        "title": "Drag Drive Simulator Vehicles",
+        "description": "Cars, motorcycles, limited categories, and pass access"
       },
       {
         "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Create your Superstar story"
+        "title": "Drag Drive Simulator Tuning Guide",
+        "description": "Gear ratio fundamentals and practical setup workflow"
       },
       {
         "icon": "Globe",
@@ -120,7 +120,7 @@
         "description": "Build your dream faction"
       },
       {
-        "icon": "Gift",
+        "icon": "Shield",
         "title": "Locker Codes",
         "description": "Active codes for rewards"
       },
@@ -490,216 +490,367 @@
       ]
     },
     "matchTypes": {
-      "title": "Drag Drive Simulator New Match Types",
-      "subtitle": "Experience 4 new match types and expanded gameplay",
+      "title": "Drag Drive Simulator Starter Vehicles",
+      "subtitle": "Build a strong first garage with low-risk purchases and smarter upgrades",
+      "intro": "Your first garage should be built for progress, not prestige. Redeem RP codes first, compare dealership inventory, and use an affordable motorcycle to learn races and tuning before moving into bigger cars.",
       "quickFacts": [
         {
-          "label": "New Match Types",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "label": "Best early-value path",
+          "value": "Redeem codes, buy a budget motorcycle, tune it, then upgrade"
         },
         {
-          "label": "New Brawl Space",
-          "value": "Scrapyard Brawl"
+          "label": "Why bikes matter early",
+          "value": "Motorcycles are cheaper than cars and can beat expensive stock cars when tuned"
         },
         {
-          "label": "Mode Addition",
-          "value": "Quick Swap in MyFACTION"
+          "label": "Main early race hub",
+          "value": "Sentul Track on the main map"
+        },
+        {
+          "label": "Server size",
+          "value": "25 players"
         }
       ],
       "matches": [
         {
-          "name": "I Quit",
-          "description": "Force your opponent to say 'I Quit' to win this brutal showdown"
+          "name": "Best First Buy Strategy",
+          "description": "Redeem every active RP code first. Code rewards remove a large part of the early grind and let you start with a stronger vehicle plan."
         },
         {
-          "name": "Inferno",
-          "description": "Light your opponent on fire to secure victory in this scorched-earth match"
+          "name": "Why A Motorcycle Is The Best Starter Pick",
+          "description": "A tuned motorcycle is the strongest early value: lower cost, faster map learning, and strong drag performance once you adjust gear ratios."
         },
         {
-          "name": "Dumpster",
-          "description": "Beat down your opponent and throw them into the dumpster to win"
+          "name": "When To Move Into Cars",
+          "description": "Switch to cars after RP income becomes steady from races, jobs, daily quests, and hidden crates for a more balanced long-term garage."
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "Best-of-three challenge where each fall uses a different match type"
+          "name": "What To Skip At The Start",
+          "description": "Delay helmets, cosmetic extras, and premium-only vehicles until your core garage is stable and your launch consistency improves."
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "New brawl environment set in The Island's wasteland of wreckage"
+          "name": "A Clean Starter Route",
+          "description": "Redeem codes, compare dealerships, buy a motorcycle, test at Sentul Track, tune in free roam, then save for your first serious car."
         }
       ],
-      "newSystems": [
-        "Expanded Crowd Combat",
-        "Stackable Tables",
-        "Thumbtacks",
-        "Surprise Attackers",
-        "Barricade Combat",
-        "Quick Swap team knockout action"
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator Guide - Beginner Tips, Dealerships & Tuning",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator: A Beginner's Guide",
+          "url": "https://www.sportskeeda.com/roblox-news/drag-drive-simulator-a-beginner-s-guide"
+        },
+        {
+          "title": "Drag Drive Simulator | Rolimon's Game Stats",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Basic Tutorial for Beginners in Drag & Drive Simulator",
+          "url": "https://www.youtube.com/watch?v=s3qOfMp6KhU"
+        }
       ]
     },
     "showcase": {
-      "title": "Drag Drive Simulator Showcase",
-      "subtitle": "Relive CM Punk's greatest rivalries",
+      "title": "Drag Drive Simulator Dealership Locations",
+      "subtitle": "Plan a shopping route across map zones and test every fresh purchase faster",
+      "intro": "Dealerships are spread across the map, and inventory changes by area. Use this module as a route planner for where to buy next and where to test immediately.",
       "quickFacts": [
         {
-          "label": "Cover Star",
-          "value": "CM Punk"
+          "label": "Main shopping area",
+          "value": "Original map around the starting zone"
         },
         {
-          "label": "Timeline",
-          "value": "25+ years of Drag Drive Simulator history"
+          "label": "Main race test area",
+          "value": "Sentul Track"
         },
         {
-          "label": "Match Types",
-          "value": "Historical, Fantasy, What If"
+          "label": "Major city expansion",
+          "value": "Surakarta City"
+        },
+        {
+          "label": "Latest test route expansion",
+          "value": "Pettarani Track in Makassar City"
         }
       ],
       "moments": [
         {
-          "title": "Opening Match",
-          "description": "WrestleMania 41 Triple Threat: CM Punk vs Seth Rollins vs Roman Reigns"
+          "title": "Original Map Dealership Route",
+          "description": "The original map is the easiest first shopping loop because it connects multiple dealerships, the Coffee Shop, and Sentul Track."
         },
         {
-          "title": "Historical Matches",
-          "description": "Faithful recreations with authentic arenas and match objectives"
+          "title": "Surakarta City Expansion",
+          "description": "Surakarta adds new roads, hidden spots, and extra dealership coverage. Explore it after learning the original map layout."
         },
         {
-          "title": "Fantasy Warfare",
-          "description": "Dream matchups against legends who influenced Punk's journey"
+          "title": "Where To Test A Fresh Purchase",
+          "description": "Use Sentul Track for repeatable drag tests. Pettarani Track also supports road and drag systems for setup comparisons."
         },
         {
-          "title": "What If Matches",
-          "description": "Alternate timeline scenarios exploring different career paths"
+          "title": "How To Shop Efficiently",
+          "description": "Do not buy the first vehicle at spawn. Compare inventory first because better starter options are often one short drive away."
+        },
+        {
+          "title": "What This Module Should Show",
+          "description": "Pin each shopping area with short notes: browse starters, compare bikes vs cars, test launches, then continue into expansions."
         }
       ],
-      "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "Face 20 consecutive opponents as CM Punk or AJ Lee to unlock all Showcase rewards at once"
-      }
+      "referenceLinks": [
+        {
+          "title": "Roblox Drag Drive Simulator Dealership All Location",
+          "url": "https://www.youtube.com/watch?v=TtTVbirgLrw"
+        },
+        {
+          "title": "Drag Drive Simulator Guide - Beginner Tips, Dealerships & Tuning",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator | Rolimon's Game Stats",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Drag Drive Simulator | Roblox Official Game Page",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        }
+      ]
     },
     "mygm": {
-      "title": "Drag Drive Simulator MyGM",
-      "subtitle": "Run your brand with deeper booking and strategy",
+      "title": "Drag Drive Simulator Vehicles",
+      "subtitle": "Compare vehicle categories, access paths, and showcase models before spending RP",
+      "intro": "Drag Drive Simulator has a broad garage across standard cars, motorcycles, limited releases, and premium pass categories. Use this hub to scan options before you chase upgrades.",
       "quickFacts": [
         {
-          "label": "Season Length",
-          "value": "50 weeks"
+          "label": "Tracked visits",
+          "value": "223M+"
         },
         {
-          "label": "Starting Budgets",
-          "value": "$3M - $7M"
+          "label": "Favorites",
+          "value": "1.86M+"
         },
         {
-          "label": "Avg Roster Size",
-          "value": "20-35 Superstars"
+          "label": "Rating",
+          "value": "95.85%"
         },
         {
-          "label": "New Difficulty",
-          "value": "Immortal"
+          "label": "Latest big-update vehicle note",
+          "value": "6 new limited special vehicles plus many new cars and motorcycles"
         }
       ],
       "features": [
         {
-          "title": "Extended Seasons",
-          "description": "Default season length now 50 weeks with flexible budget options"
+          "title": "Core Vehicle Types",
+          "description": "The live garage is built around cars and motorcycles. Both become race-viable once you tune instead of staying stock."
         },
         {
-          "title": "Expanded Match Types",
-          "description": "Book 5-way, 6-way, 8-way, triple threat tag, fatal four way tag, and handicap matches"
+          "title": "Limited Special Vehicles",
+          "description": "The latest major update added six limited special vehicles, making this a high-interest category for returning players."
         },
         {
-          "title": "New Match Rules",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "title": "Premium Vehicle Categories",
+          "description": "Luxury Pass unlocks premium luxury vehicles, and DragSpec Pass unlocks purpose-built drag bikes and modified race machines."
         },
         {
-          "title": "Power Card Trading",
-          "description": "Trade Power Cards during trade weeks with option to disable Power Card Store"
+          "title": "Featured Public Showcase Models",
+          "description": "Commonly highlighted models include Kawasaki ZX25R, Kawasaki ZX10R, PCX 160, RX KING, and Aerox All New Limited."
         },
         {
-          "title": "Intergender Matches",
-          "description": "Book intergender matches with added booking cost"
+          "title": "What Players Should Learn From This Hub",
+          "description": "Price alone does not decide performance. Tune quality, launch setup, and race use case matter more than buying the most expensive option early."
         }
       ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
+      "vehicleCategories": [
+        {
+          "name": "Standard Cars",
+          "access": "Dealership purchase",
+          "notes": "Core garage category for general driving and progression"
+        },
+        {
+          "name": "Motorcycles",
+          "access": "Dealership purchase",
+          "notes": "Strong early value and highly competitive after tuning"
+        },
+        {
+          "name": "Limited Special Vehicles",
+          "access": "Limited-time update content",
+          "notes": "Recent big-update focus category"
+        },
+        {
+          "name": "Luxury Vehicles",
+          "access": "Luxury Pass",
+          "priceRobux": 119,
+          "notes": "Premium luxury rides, sports bikes, and big-engine motorcycles"
+        },
+        {
+          "name": "Drag Spec Vehicles",
+          "access": "DragSpec Pass",
+          "priceRobux": 109,
+          "notes": "Purpose-built drag bikes and heavily modified race machines"
+        }
+      ],
+      "featuredVehicles": [
+        {
+          "name": "Kawasaki ZX25R",
+          "type": "Motorcycle",
+          "tag": "Public showcase model"
+        },
+        {
+          "name": "Kawasaki ZX10R",
+          "type": "Motorcycle",
+          "tag": "Public showcase model"
+        },
+        {
+          "name": "PCX 160",
+          "type": "Motorcycle",
+          "tag": "Public showcase model"
+        },
+        {
+          "name": "RX KING",
+          "type": "Motorcycle",
+          "tag": "Public showcase model"
+        },
+        {
+          "name": "Aerox All New Limited",
+          "type": "Limited Motorcycle",
+          "tag": "Limited showcase model"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator | Rolimon's Game Stats",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Luxury Pass | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1032530306"
+        },
+        {
+          "title": "DragSpec Pass | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1152953570"
+        },
+        {
+          "title": "Roblox Drag Drive Simulator Kawasaki ZX25R Showcase",
+          "url": "https://www.youtube.com/watch?v=W5rLYIUtbpM"
+        },
+        {
+          "title": "NEW!!! KAWASAKI ZX10R | DRAG DRIVE SIMULATOR",
+          "url": "https://www.youtube.com/watch?v=hjpbgN20RlM"
+        },
+        {
+          "title": "Roblox Drag Drive Simulator Aerox All New Limited Showcase",
+          "url": "https://www.youtube.com/watch?v=yn_0X131e_k"
+        }
       ]
     },
     "myrise": {
-      "title": "Drag Drive Simulator MyRISE",
-      "subtitle": "Fight your way back in The Comeback",
+      "title": "Drag Drive Simulator Tuning Guide",
+      "subtitle": "Use gear ratios and test loops to convert mid-tier vehicles into competitive drag builds",
+      "intro": "Tuning is the real performance system in Drag Drive Simulator. A smart setup can transform a mid-tier vehicle, while a poor setup wastes expensive builds.",
       "quickFacts": [
         {
-          "label": "Story Name",
-          "value": "The Comeback"
+          "label": "Main performance system",
+          "value": "Gear Ratio Tuning"
         },
         {
-          "label": "Main Character",
-          "value": "The Archetype"
+          "label": "Shorter gears",
+          "value": "Faster launch, lower top speed"
         },
         {
-          "label": "Theme",
-          "value": "Return after 2-year absence"
-        }
-      ],
-      "paths": [
-        {
-          "name": "Traditional Route",
-          "description": "Earn opportunities the right way and work back into the title picture"
+          "label": "Longer gears",
+          "value": "Slower launch, higher top speed"
         },
         {
-          "name": "Ruthless Route",
-          "description": "Cut corners and fast-track the comeback through aggressive tactics"
+          "label": "Best test flow",
+          "value": "Tune in free roam, then validate at Sentul Track"
         }
       ],
       "divisions": [
         {
-          "name": "Men's Division",
-          "goal": "Earn another shot at Drag Drive Simulator Champion Bron Breakker",
+          "name": "How Gear Ratios Work",
+          "goal": "Shorter ratios improve acceleration and launch but cap top speed earlier.",
           "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
+            "Longer ratios raise top-end speed but reduce off-line punch."
           ]
         },
         {
-          "name": "Women's Division",
-          "goal": "Chase another showdown with Drag Drive Simulator Women's Champion Jordynne Grace",
+          "name": "What A Good Drag Tune Looks Like",
+          "goal": "Launch hard in lower gears, stretch cleanly through higher gears, and hit peak speed near the finish line.",
           "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
+            "Avoid topping out too early during the run."
+          ]
+        },
+        {
+          "name": "Best Beginner Tuning Flow",
+          "goal": "Make one change per run, test in free roam, launch again, and compare behavior.",
+          "opponents": [
+            "Small gear changes are easier to track than full rebuilds."
+          ]
+        },
+        {
+          "name": "Where To Test Your Tune",
+          "goal": "Sentul Track is the most repeatable early test route; Pettarani Track adds another route for launch and top-end checks.",
+          "opponents": [
+            "Use identical test conditions before comparing results."
+          ]
+        },
+        {
+          "name": "Visual And Advanced Setup Options",
+          "goal": "Livery, secondary color, rims, custom plates, and basic color edits support visual builds.",
+          "opponents": [
+            "Pro Suspension and premium paint add deeper control for advanced users."
           ]
         }
       ],
-      "features": [
-        "Branching dialogue shapes story progression",
-        "Drag Drive Simulator press conferences with player choice responses",
-        "Major final decision affects championship reign"
+      "tuningOptions": [
+        {
+          "name": "Gear Ratio Tuning",
+          "access": "Base game system",
+          "notes": "Core performance tuning for drag racing"
+        },
+        {
+          "name": "Pro Suspension Tuning",
+          "access": "Suspension Pro Pass",
+          "priceRobux": 29,
+          "notes": "Advanced control over damping and stiffness"
+        },
+        {
+          "name": "Advanced Paint",
+          "access": "Advance Paint Pass",
+          "priceRobux": 59,
+          "notes": "HEX color support and materials like carbon fiber, matte, glossy, and metal"
+        },
+        {
+          "name": "Custom Plate",
+          "access": "Custom Plate Pass",
+          "priceRobux": 79,
+          "notes": "Custom text plates for personalized builds"
+        }
       ],
-      "rewards": [
-        "Arenas",
-        "Championships",
-        "CAS Parts",
-        "Playable characters",
-        "Weapons",
-        "Paybacks",
-        "MyFACTION content"
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator Guide - Beginner Tips, Dealerships & Tuning",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator | Rolimon's Game Stats",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Suspension Pro Pass | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1539617636"
+        },
+        {
+          "title": "Advance Paint Pass | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1191705830"
+        },
+        {
+          "title": "Custom Plate Pass | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1264299861"
+        },
+        {
+          "title": "Drag Drive Simulator Roblox [ZX-10R]",
+          "url": "https://www.youtube.com/shorts/7kWk2DA2-hg"
+        }
       ]
     },
     "universeMode": {

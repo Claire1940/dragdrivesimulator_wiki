@@ -301,7 +301,7 @@ export default function HomePage() {
               // 映射卡片索引到 section ID
               const sectionIds = [
                 'release-editions', 'roster', 'ratings', 'controls',
-                'match-types', 'showcase', 'mygm', 'myrise',
+                'starter-vehicles', 'dealership-locations', 'vehicles-hub', 'tuning-guide',
                 'universe-mode', 'community-creations', 'the-island', 'myfaction',
                 'locker-codes', 'pc-requirements', 'arenas', 'dlc-unlockables'
               ]
@@ -597,55 +597,155 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 5: Match Types */}
-      <section id="match-types" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      {/* Module 5: Starter Vehicles */}
+      <section id="starter-vehicles" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.matchTypes.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.matchTypes.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.matchTypes.intro}</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.matchTypes.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
+              </div>
+            ))}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {t.modules.matchTypes.matches.map((match: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{match.name}</h3>
+              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300 relative overflow-hidden">
+                <div className="absolute top-4 right-4 w-8 h-8 rounded-full bg-[hsl(var(--gold)/0.15)] text-[hsl(var(--gold))] text-sm font-bebas flex items-center justify-center">
+                  {i + 1}
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))] pr-10">{match.name}</h3>
                 <p className="text-sm text-muted-foreground">{match.description}</p>
               </div>
+            ))}
+          </div>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.matchTypes.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-muted/30 px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Module 6: Showcase */}
-      <section id="showcase" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      {/* Module 6: Dealership Locations */}
+      <section id="dealership-locations" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.showcase.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.showcase.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.showcase.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.showcase.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {t.modules.showcase.moments.map((moment: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
+              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
                 <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{moment.title}</h3>
                 <p className="text-sm text-muted-foreground">{moment.description}</p>
               </div>
             ))}
           </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.showcase.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Module 7: MyGM */}
-      <section id="mygm" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      {/* Module 7: Vehicles */}
+      <section id="vehicles-hub" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.mygm.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.mygm.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.mygm.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.mygm.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4 text-center">
+                <div className="text-lg font-bebas text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
+                <div className="text-xs text-muted-foreground">{fact.label}</div>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {t.modules.mygm.features.map((feature: any, i: number) => (
               <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
                 <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
                 <p className="text-sm text-muted-foreground">{feature.description}</p>
               </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            <div className="rounded-xl border border-border bg-card p-6">
+              <h3 className="text-lg font-bold mb-4 text-[hsl(var(--nav-theme))]">Vehicle Categories</h3>
+              <div className="space-y-3">
+                {t.modules.mygm.vehicleCategories.map((category: any, i: number) => (
+                  <div key={i} className="rounded-lg border border-border bg-muted/40 p-3">
+                    <div className="font-semibold">{category.name}</div>
+                    <div className="text-xs text-muted-foreground mt-1">{category.access}{category.priceRobux ? ` · ${category.priceRobux} Robux` : ''}</div>
+                    <div className="text-sm mt-1">{category.notes}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="rounded-xl border border-border bg-card p-6">
+              <h3 className="text-lg font-bold mb-4 text-[hsl(var(--nav-theme))]">Featured Vehicles</h3>
+              <div className="space-y-3">
+                {t.modules.mygm.featuredVehicles.map((vehicle: any, i: number) => (
+                  <div key={i} className="flex items-center justify-between rounded-lg border border-border bg-muted/40 p-3">
+                    <div>
+                      <div className="font-semibold">{vehicle.name}</div>
+                      <div className="text-xs text-muted-foreground">{vehicle.type}</div>
+                    </div>
+                    <span className="text-xs px-3 py-1 rounded-full border border-[hsl(var(--gold)/0.5)] bg-[hsl(var(--gold)/0.1)] text-[hsl(var(--gold))]">{vehicle.tag}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.mygm.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-muted/30 px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
@@ -658,14 +758,23 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 8: MyRISE */}
-      <section id="myrise" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      {/* Module 8: Tuning Guide */}
+      <section id="tuning-guide" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myrise.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myrise.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.myrise.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.myrise.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {t.modules.myrise.divisions.map((division: any, i: number) => (
               <div key={i} className="p-6 rounded-xl bg-card border border-border">
                 <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{division.name}</h3>
@@ -676,6 +785,43 @@ export default function HomePage() {
                   ))}
                 </div>
               </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            <div className="rounded-xl border border-border bg-card p-6">
+              <h3 className="text-lg font-bold mb-4 text-[hsl(var(--nav-theme))]">Tuning Options</h3>
+              <div className="space-y-3">
+                {t.modules.myrise.tuningOptions.map((option: any, i: number) => (
+                  <div key={i} className="rounded-lg border border-border bg-muted/40 p-3">
+                    <div className="font-semibold">{option.name}</div>
+                    <div className="text-xs text-muted-foreground mt-1">{option.access}{option.priceRobux ? ` · ${option.priceRobux} Robux` : ''}</div>
+                    <div className="text-sm mt-1">{option.notes}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="rounded-xl border border-border bg-card p-6 bg-gradient-to-br from-card to-[hsl(var(--nav-theme)/0.08)]">
+              <h3 className="text-lg font-bold mb-4 text-[hsl(var(--nav-theme))]">Drag Tuning Workflow</h3>
+              <ol className="space-y-3 text-sm">
+                <li className="flex items-start gap-3"><span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-bold flex items-center justify-center shrink-0">1</span><span>Set a baseline with one launch run at Sentul Track.</span></li>
+                <li className="flex items-start gap-3"><span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-bold flex items-center justify-center shrink-0">2</span><span>Adjust one gear ratio value only, then repeat the same route.</span></li>
+                <li className="flex items-start gap-3"><span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-bold flex items-center justify-center shrink-0">3</span><span>Track launch feel, shift timing, and top-end behavior before the finish.</span></li>
+                <li className="flex items-start gap-3"><span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-bold flex items-center justify-center shrink-0">4</span><span>Lock the best setup, then apply visual customization and suspension fine-tuning.</span></li>
+              </ol>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.myrise.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
