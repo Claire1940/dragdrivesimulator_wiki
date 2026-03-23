@@ -100,24 +100,24 @@
         "description": "Gear ratio fundamentals and practical setup workflow"
       },
       {
-        "icon": "Globe",
-        "title": "Universe Mode",
-        "description": "Control the Drag Drive Simulator Universe"
+        "icon": "BookOpen",
+        "title": "Drag Drive Simulator Drag Racing Guide",
+        "description": "Race hubs, mode differences, and starter run strategy"
       },
       {
-        "icon": "Palette",
-        "title": "Community Creations",
-        "description": "Download and share creations"
+        "icon": "Calendar",
+        "title": "Drag Drive Simulator Limited Vehicles",
+        "description": "Current limited snapshot and smart timing rules"
       },
       {
         "icon": "Map",
-        "title": "The Island",
-        "description": "Faction-based battle mode"
+        "title": "Drag Drive Simulator Map Guide",
+        "description": "Sentul, Surakarta, Pettarani, and route planning"
       },
       {
         "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Build your dream faction"
+        "title": "Drag Drive Simulator Hidden Crates and Anomalies",
+        "description": "Crate sweep patterns and anomaly badge milestones"
       },
       {
         "icon": "Shield",
@@ -854,201 +854,283 @@
       ]
     },
     "universeMode": {
-      "title": "Drag Drive Simulator Universe Mode",
-      "subtitle": "Build your dream Drag Drive Simulator calendar with deeper control",
+      "title": "Drag Drive Simulator Drag Racing Guide",
+      "subtitle": "Learn race hubs, drag modes, and run-building fundamentals",
+      "intro": "Learn where to race, how each drag mode works, and how to build a faster run with better launch timing and gear ratios.",
       "quickFacts": [
         {
-          "label": "Setup Tool",
-          "value": "Universe Wizard"
+          "label": "Main race hub",
+          "value": "Sentul Track"
         },
         {
-          "label": "Max Draft Events",
-          "value": "8"
+          "label": "Core public modes",
+          "value": "Time Trial and Tournament Drag Race"
         },
         {
-          "label": "Titles Per Show",
-          "value": "Up to 8"
+          "label": "Server capacity",
+          "value": "Up to 25 players"
         },
         {
-          "label": "MITB Slots",
-          "value": "2 per show"
-        }
-      ],
-      "features": [
-        {
-          "title": "Universe Wizard",
-          "description": "Start saves faster by choosing shows, PLEs, champions, and rosters upfront"
-        },
-        {
-          "title": "Drag Drive Simulator Draft",
-          "description": "Create and schedule Draft events where shows trade Superstars"
-        },
-        {
-          "title": "MITB Cash-Ins",
-          "description": "Briefcases can be cashed in on any eligible title on a show"
-        },
-        {
-          "title": "Enhanced Promos",
-          "description": "Self-Promos, Call-Outs, Interrupts, Open Challenges, Post-Match Interviews"
-        },
-        {
-          "title": "Matchmaking Sliders",
-          "description": "Tune match card sorting with bonuses for titles, rivalries, and match types"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "Drag Drive Simulator Community Creations",
-      "subtitle": "Create bigger and more detailed custom content",
-      "quickFacts": [
-        {
-          "label": "CAS Slots",
-          "value": "200"
-        },
-        {
-          "label": "Image Slots",
-          "value": "2,000"
-        },
-        {
-          "label": "Body Templates",
-          "value": "40+"
-        },
-        {
-          "label": "Layer Split",
-          "value": "60 attire + 40 head/body"
+          "label": "Starter workflow",
+          "value": "Free roam, Time Trial, then Tournament"
         }
       ],
       "sections": [
         {
-          "title": "Create-a-Superstar",
-          "description": "Body morphing and improved face morphing with 40+ body templates"
+          "title": "Race Hub",
+          "content": "Public drag racing is centered around Sentul Track on the main map. This is the main racing location for both practice runs and competitive RP farming."
         },
         {
-          "title": "Hair and Body Paint",
-          "description": "Two-tone hair color blending and Joy-Con 2 mouse controls for body paint"
+          "title": "Time Trial Drag Race",
+          "content": "Time Trial is a solo mode built for tune testing. RP payout is based on the distance covered per second, which makes it the best place to test launch balance before joining a live race."
         },
         {
-          "title": "Create-an-Arena",
-          "description": "LED barricades, new announcer tables, expanded ring mat and apron options"
+          "title": "Tournament Drag Race",
+          "content": "Tournament Drag Race is the competitive mode. Players in the server can enter, races start automatically every few minutes, and the winner takes the biggest share of the RP prize pool."
         },
         {
-          "title": "Create-an-Image",
-          "description": "Image uploader limit doubled from 1,000 to 2,000 slots"
+          "title": "What Wins Runs",
+          "content": "A tuned vehicle beats an expensive stock vehicle more often than most new players expect. Shorter lower gears help launch harder, while longer higher gears help you reach top speed closer to the finish line."
         },
         {
-          "title": "Create-a-Championship",
-          "description": "Expanded parts and refreshed building interface"
+          "title": "Starter Strategy",
+          "content": "Use a budget motorcycle or starter car, test in free roam first, then move into Time Trial before joining Tournament races. This is the easiest path to learning the drag system without wasting RP."
         },
         {
-          "title": "Create-an-Entrance",
-          "description": "Advanced timeline editing for champion, MITB, and stable entrances (Quad/Quint)"
+          "title": "Server Facts",
+          "content": "A Drag Drive Simulator server supports up to 25 players, so race traffic stays active enough for public tournament cycles without feeling overcrowded."
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator Guide - BrainrotGames",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator - Roblox",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        },
+        {
+          "title": "Drag Drive Simulator Map Basic Tutorial - YouTube",
+          "url": "https://www.youtube.com/watch?v=MBPPqW15fpQ"
+        }
+      ]
+    },
+    "communityCreations": {
+      "title": "Drag Drive Simulator Limited Vehicles",
+      "subtitle": "Track limited drops, showcase models, and smarter buying timing",
+      "intro": "Track the limited side of Drag Drive Simulator, including update-driven limited drops, recent showcase vehicles, and what makes a limited worth chasing.",
+      "quickFacts": [
+        {
+          "label": "Current update note",
+          "value": "Beta V1.1.3 added 6 Limited Special Vehicles"
+        },
+        {
+          "label": "Best buy timing",
+          "value": "Right after major updates"
+        },
+        {
+          "label": "Main value",
+          "value": "Exclusivity, event identity, and tuned drag appeal"
+        },
+        {
+          "label": "Progression rule",
+          "value": "Secure income and a tuned daily driver first"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Current Limited Snapshot",
+          "content": "The current public update notes for Beta V1.1.3 state that the game added 6 new Limited Special Vehicles, alongside more new cars and motorcycles. Limited drops are clearly tied to major update cycles."
+        },
+        {
+          "title": "Why Limited Vehicles Matter",
+          "content": "Limited vehicles are one of the main collection drivers in the game. Players chase them for exclusivity, event identity, and stronger drag-race appeal when combined with a good tune."
+        },
+        {
+          "title": "Recent Public Highlights",
+          "content": "Recent public showcases around Drag Drive Simulator limited content include a limited Aerox showcase, limited luxury motorcycles, and a limited event reward Vesmet bike from the holiday cycle."
+        },
+        {
+          "title": "Best Time to Buy",
+          "content": "The strongest timing is right after a major update lands. That is when limited stock, showcase videos, and player demand all spike together."
+        },
+        {
+          "title": "Smart Buying Rule",
+          "content": "Secure one reliable money route and one tuned daily driver first, then spend on limited vehicles. Limiteds are exciting, but tuning and RP income still decide your overall progression speed."
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator - Rolimon's Game Page",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Drag Drive Simulator - Roblox",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        },
+        {
+          "title": "Auto Number One! Buy and Modify the Fastest Limited Drag Bike - YouTube",
+          "url": "https://www.youtube.com/watch?v=baW0Gjxf_OI"
+        },
+        {
+          "title": "Roblox Drag Drive Simulator Aerox All New Limited Showcase - YouTube",
+          "url": "https://www.youtube.com/watch?v=yn_0X131e_k"
+        },
+        {
+          "title": "CARA DAPAT MOTOR DRAG VESMET LIMITED HADIAH EVENT NATAL - YouTube",
+          "url": "https://www.youtube.com/watch?v=ydCaA4-9WlQ"
         }
       ]
     },
     "theIsland": {
-      "title": "Drag Drive Simulator The Island",
-      "subtitle": "Choose an Order and fight for control",
+      "title": "Drag Drive Simulator Map Guide",
+      "subtitle": "Understand map structure, race zones, and daily travel planning",
+      "intro": "Use this guide to understand the current public map structure, major driving zones, and where each area fits into racing, jobs, exploration, and crate routes.",
       "quickFacts": [
         {
-          "label": "Factions",
-          "value": "3 Orders"
+          "label": "Main onboarding map",
+          "value": "Original map with dealerships, Coffee Shop, and Sentul Track"
         },
         {
-          "label": "Story Chapters",
-          "value": "3"
+          "label": "Main race location",
+          "value": "Sentul Track with Time Trial and Tournament modes"
         },
         {
-          "label": "Prestige Tiers",
-          "value": "4"
+          "label": "City expansion",
+          "value": "Surakarta City in V1.11"
         },
         {
-          "label": "New PvP",
-          "value": "2v2 PvP"
+          "label": "Latest expansion",
+          "value": "Pettarani Track in Makassar City (Beta V1.1.3)"
         }
       ],
-      "orders": [
+      "sections": [
         {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "Built around ring heritage, spectacle, and old-school values"
+          "title": "Main Map Overview",
+          "content": "The original map is still the main onboarding area. It includes multiple dealerships, the Coffee Shop, and Sentul Track, which remains the central hub for public drag racing."
         },
         {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "Embraces the strange, theatrical, and power of intimidation"
+          "title": "Sentul Track",
+          "content": "Sentul Track, also called Sentul Circuit in public guides, is the main competitive racing area. It supports both Time Trial Drag Race and Tournament Drag Race."
         },
         {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "Rejects the status quo and pushes The Island in bold new directions"
+          "title": "Surakarta City",
+          "content": "Surakarta City was added in V1.11 as a full city expansion. It adds new roads, dealerships, hidden spots, and its own crate-search routes, making it the most important exploration map for midgame players."
+        },
+        {
+          "title": "Pettarani Track",
+          "content": "The current Beta V1.1.3 update notes list Pettarani Track in Makassar City as a new map expansion. It adds both Road Race and Drag Race systems to the current map rotation."
+        },
+        {
+          "title": "Important Stops",
+          "content": "For most players, the most important stops are spawn dealerships, the Coffee Shop for the Barista job, Sentul Track for drag racing, and Surakarta side roads for crate and exploration routes."
+        },
+        {
+          "title": "Route Planning Tip",
+          "content": "A strong daily route combines one racing stop, one job stop, and one crate sweep. That structure gives you steady RP while also uncovering more of the map."
         }
       ],
-      "prestige": [
+      "referenceLinks": [
         {
-          "tier": "Recruit",
-          "ovrRange": "70-85"
+          "title": "Drag Drive Simulator Guide - BrainrotGames",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
         },
         {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
+          "title": "Drag Drive Simulator - Rolimon's Game Page",
+          "url": "https://www.rolimons.com/game/131378148336503"
         },
         {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
+          "title": "Drag Drive Simulator Map Basic Tutorial - YouTube",
+          "url": "https://www.youtube.com/watch?v=MBPPqW15fpQ"
         },
         {
-          "tier": "Legendary",
-          "ovrRange": "85-100"
+          "title": "Roblox Drag Drive Simulator Dealership All Location - YouTube",
+          "url": "https://www.youtube.com/watch?v=TtTVbirgLrw"
         }
-      ],
-      "highlights": [
-        "Scrapyard: central brawl zone with hazards and climbable structures",
-        "Towers: repeatable PvE with random paths and boss fights",
-        "Weekly quests reward XP, cosmetics, and Island rewards",
-        "Seasonal Ranked Play with leaderboards for 1v1, 2v2, and Championships"
       ]
     },
     "myfaction": {
-      "title": "Drag Drive Simulator MyFACTION",
-      "subtitle": "Build stronger lineups with chemistry and Quick Swap",
+      "title": "Drag Drive Simulator Hidden Crates and Anomalies",
+      "subtitle": "Optimize crate routes and track anomaly badge milestones",
+      "intro": "Discover how crate routes and anomaly badges work, which areas are worth checking, and which progression milestones are already visible in public game data.",
       "quickFacts": [
         {
-          "label": "Lineup Size",
-          "value": "4 Superstars"
+          "label": "Crate spawn zones",
+          "value": "Alleys, behind buildings, rooftops, and dead-end roads"
         },
         {
-          "label": "Chemistry Traits",
-          "value": "60 across 10 categories"
+          "label": "Best sweep logic",
+          "value": "Side streets first, then rooftops and dead ends"
         },
         {
-          "label": "New Match Type",
-          "value": "Quick Swap"
+          "label": "Visible anomaly milestone",
+          "value": "Anomaly Collector: Brainrot! - 288,227 awards"
         },
         {
-          "label": "Launch Card Sets",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
+          "label": "Barista chain status",
+          "value": "Three public badges already track the anomaly route"
         }
       ],
-      "features": [
+      "sections": [
         {
-          "title": "Team Chemistry",
-          "description": "Positive and negative reactions affect Chemistry Score; Managers reduce negatives"
+          "title": "Hidden Crate Rules",
+          "content": "Hidden crates spawn on both maps and commonly appear in alleys, behind buildings, on rooftops, and at dead-end roads. They reset over time, so repeat sweeps across different sessions are worth doing."
         },
         {
-          "title": "Intergender Support",
-          "description": "Build mixed-gender four-person lineups"
+          "title": "Best Search Pattern",
+          "content": "Do not stay on main roads. The most efficient sweep checks side streets first, then rooftops and dead ends, then moves from the original map into Surakarta for a second pass."
         },
         {
-          "title": "Quick Swap",
-          "description": "Swap teammates mid-match, share Signature/Finisher slots, win by knockout"
+          "title": "Surakarta Crate Advantage",
+          "content": "Surakarta has its own separate hidden-crate spawns, which makes it more valuable than a simple expansion map. Players who only stay on the original map miss part of the crate economy."
         },
         {
-          "title": "Faction Wars",
-          "description": "Deck-based progression starting with Crowd's Deck"
+          "title": "Anomaly Collector Progress",
+          "content": "Public badge data shows that Anomaly Collector: Brainrot! has been awarded 288,227 times, making it the most visible anomaly milestone in current public tracking."
         },
         {
-          "title": "World Tour",
-          "description": "Rewards include Personas, MFP, Arc Cards, and packs across global locations"
+          "title": "Barista Anomaly Chain",
+          "content": "The current barista-side anomaly chain is visible through public badges: Anomaly Barista Visitor: Unknown Entity! has 71,093 awards, Anomaly Barista Menu: Cursed Recipe! has 50,562 awards, and Barista Hunter: 13 Anomalies! has 87 awards."
+        },
+        {
+          "title": "Why This Module Matters",
+          "content": "This is one of the best exploration modules on the homepage because it mixes hidden rewards, repeat visits, badge hunting, and route efficiency in one place."
+        }
+      ],
+      "spoilerToggle": {
+        "label": "Show anomaly badge details",
+        "items": [
+          "Anomaly Collector: Brainrot! - 288,227 awards",
+          "Anomaly Barista Visitor: Unknown Entity! - 71,093 awards",
+          "Anomaly Barista Menu: Cursed Recipe! - 50,562 awards",
+          "Barista Hunter: 13 Anomalies! - 87 awards"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator Guide - BrainrotGames",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Anomaly Collector: Brainrot! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/1032394059005806"
+        },
+        {
+          "title": "Anomaly Barista Visitor: Unknown Entity! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/1039385304620397"
+        },
+        {
+          "title": "Anomaly Barista Menu: Cursed Recipe! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/2578281478541060"
+        },
+        {
+          "title": "Barista Hunter: 13 Anomalies! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/2538591935552852"
+        },
+        {
+          "title": "How To Get The NEW Brainrot Anomaly in Drag Drive Simulator - YouTube",
+          "url": "https://www.youtube.com/watch?v=ySUGVDcNsoM"
         }
       ]
     },

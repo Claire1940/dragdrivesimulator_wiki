@@ -5,6 +5,7 @@ import Link from 'next/link'
 import {
   AlertTriangle,
   ArrowRight,
+  BookOpen,
   Check,
   ChevronDown,
   ClipboardCheck,
@@ -14,10 +15,12 @@ import {
   ExternalLink,
   Gamepad2,
   Gift,
+  Flag,
   Hammer,
   Home,
   Info,
   Keyboard,
+  Map as MapIcon,
   MessageCircle,
   Package,
   Shield,
@@ -107,7 +110,7 @@ export default function HomePage() {
         genre: ['Racing', 'Simulation', 'Roleplay'],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 40,
+          maxValue: 25,
         },
         offers: {
           '@type': 'Offer',
@@ -833,13 +836,44 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.universeMode.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.universeMode.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.universeMode.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.universeMode.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.universeMode.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
               </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {[Home, Clock, Users, TrendingUp, Flag, Shield].map((ItemIcon, i) => {
+              const section = t.modules.universeMode.sections[i]
+              if (!section) return null
+
+              return (
+                <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                    <ItemIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
+                  <p className="text-sm text-muted-foreground">{section.content}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.universeMode.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
@@ -851,13 +885,44 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.communityCreations.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.communityCreations.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.communityCreations.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.communityCreations.sections.map((section: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
-                <p className="text-sm text-muted-foreground">{section.description}</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.communityCreations.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
               </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {[Gift, Star, Sparkles, Clock, Check].map((ItemIcon, i) => {
+              const section = t.modules.communityCreations.sections[i]
+              if (!section) return null
+
+              return (
+                <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg mb-4 bg-[hsl(var(--gold)/0.14)] border border-[hsl(var(--gold)/0.4)] flex items-center justify-center">
+                    <ItemIcon className="w-5 h-5 text-[hsl(var(--gold))]" />
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
+                  <p className="text-sm text-muted-foreground">{section.content}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.communityCreations.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
@@ -876,22 +941,44 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.theIsland.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.theIsland.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.theIsland.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            {t.modules.theIsland.orders.map((order: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme))]">{order.name}</h3>
-                <p className="text-sm text-muted-foreground mb-3">Leader: {order.leader}</p>
-                <p className="text-sm">{order.description}</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.theIsland.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.theIsland.prestige.map((tier: any, i: number) => (
-              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
-                <div className="font-bold text-[hsl(var(--nav-theme))] mb-1">{tier.tier}</div>
-                <div className="text-xs text-muted-foreground">{tier.ovrRange}</div>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {[MapIcon, Home, TrendingUp, Gamepad2, Package, ArrowRight].map((ItemIcon, i) => {
+              const section = t.modules.theIsland.sections[i]
+              if (!section) return null
+
+              return (
+                <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                    <ItemIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
+                  <p className="text-sm text-muted-foreground">{section.content}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.theIsland.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
@@ -903,13 +990,58 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myfaction.title}</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myfaction.subtitle}</p>
+            <p className="text-sm text-muted-foreground/90 max-w-3xl mx-auto mt-4">{t.modules.myfaction.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.myfaction.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.myfaction.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="rounded-xl border border-border bg-card p-4">
+                <div className="text-xs text-muted-foreground mb-1">{fact.label}</div>
+                <div className="font-semibold text-[hsl(var(--nav-theme-light))]">{fact.value}</div>
               </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {[Package, TrendingUp, MapIcon, Star, MessageCircle, BookOpen].map((ItemIcon, i) => {
+              const section = t.modules.myfaction.sections[i]
+              if (!section) return null
+
+              return (
+                <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg mb-4 bg-[hsl(var(--gold)/0.14)] border border-[hsl(var(--gold)/0.4)] flex items-center justify-center">
+                    <ItemIcon className="w-5 h-5 text-[hsl(var(--gold))]" />
+                  </div>
+                  <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
+                  <p className="text-sm text-muted-foreground">{section.content}</p>
+                </div>
+              )
+            })}
+          </div>
+          <details className="rounded-xl border border-border bg-card p-5 mb-8 group">
+            <summary className="cursor-pointer list-none font-semibold flex items-center justify-between gap-3">
+              <span>{t.modules.myfaction.spoilerToggle.label}</span>
+              <ChevronDown className="w-4 h-4 text-muted-foreground transition-transform group-open:rotate-180" />
+            </summary>
+            <ul className="mt-4 space-y-2">
+              {t.modules.myfaction.spoilerToggle.items.map((item: string, i: number) => (
+                <li key={i} className="text-sm text-muted-foreground flex items-start gap-2">
+                  <AlertTriangle className="w-4 h-4 text-[hsl(var(--gold))] mt-0.5 shrink-0" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </details>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {t.modules.myfaction.referenceLinks.map((linkItem: any, i: number) => (
+              <a
+                key={i}
+                href={linkItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-border bg-card px-4 py-3 hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300 text-sm font-medium flex items-center justify-between gap-2"
+              >
+                <span>{linkItem.title}</span>
+                <ExternalLink className="w-4 h-4 text-muted-foreground shrink-0" />
+              </a>
             ))}
           </div>
         </div>
