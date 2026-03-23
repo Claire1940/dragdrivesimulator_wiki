@@ -121,23 +121,23 @@
       },
       {
         "icon": "Shield",
-        "title": "Locker Codes",
-        "description": "Active codes for rewards"
+        "title": "Drag Drive Simulator Gamepasses",
+        "description": "Best value passes, role unlocks, and garage expansion picks"
       },
       {
         "icon": "Monitor",
-        "title": "PC Requirements",
-        "description": "Minimum and recommended specs"
+        "title": "Drag Drive Simulator Customization",
+        "description": "Paint, plates, suspension, rims, and premium accessories"
       },
       {
         "icon": "Building",
-        "title": "Arenas",
-        "description": "40+ iconic venues"
+        "title": "Drag Drive Simulator Updates and Events",
+        "description": "Latest patch timeline, highlights, and event endings"
       },
       {
         "icon": "Package",
-        "title": "DLC & Unlockables",
-        "description": "Season Pass and content roadmap"
+        "title": "Drag Drive Simulator Community and Private Servers",
+        "description": "Official hubs, social stats, and private server use cases"
       }
     ]
   },
@@ -1135,273 +1135,397 @@
       ]
     },
     "lockerCodes": {
-      "title": "Drag Drive Simulator Locker Codes",
-      "subtitle": "Redeem active codes for MyFACTION rewards",
+      "title": "Drag Drive Simulator Gamepasses",
+      "subtitle": "Compare progression, access, and utility passes before you spend",
+      "intro": "These gamepasses shape progression in different ways. The strongest value picks usually improve income, unlock a new job path, open drag-spec vehicles, or expand garage capacity.",
       "quickFacts": [
         {
-          "label": "Mode",
-          "value": "MyFACTION"
+          "label": "Top progression pick",
+          "value": "2x Paycheck"
         },
         {
-          "label": "Active Code",
-          "value": "BSTINTWRLD26"
+          "label": "Best role unlock",
+          "value": "Police Pass"
         },
         {
-          "label": "Expires",
-          "value": "March 13, 2026"
-        }
-      ],
-      "codes": [
+          "label": "Race-focused pass",
+          "value": "DragSpec Pass"
+        },
         {
-          "code": "BSTINTWRLD26",
-          "rewards": [
-            "1x Aftershock Series I Basic Pack",
-            "1x Momentum Series I Basic Pack"
-          ],
-          "expires": "March 13, 2026"
+          "label": "Utility pick",
+          "value": "Slot Expansion Pass"
         }
       ],
-      "howToRedeem": [
-        "Open Drag Drive Simulator from the main menu",
-        "Select Locker Codes",
-        "Enter the code exactly as shown",
-        "Redeem and open your packs in MyFACTION"
+      "sections": [
+        {
+          "title": "Best Value Picks",
+          "content": "2x Paycheck is the premium progression option for players who spend time on jobs, races, and other RP activities. Police Pass is the cleanest unlock for a dedicated police role with vehicles, rank progression, and mission-style play. DragSpec Pass is the focused option for straight-line performance players."
+        },
+        {
+          "title": "Collection and Access Picks",
+          "content": "Luxury Pass opens the premium side of the vehicle catalog, while Slot Expansion Pass helps once your garage starts filling up. Slot Expansion becomes practical for limited collectors or players who keep separate builds for roleplay, jobs, and drag racing."
+        },
+        {
+          "title": "What to Buy First",
+          "content": "For long-term progression, start with 2x Paycheck if your goal is faster RP growth. Buy Police Pass if you want a new role and rank ladder. Choose DragSpec Pass if your endgame is drag racing, and pick Slot Expansion after garage space becomes an active bottleneck."
+        }
+      ],
+      "gamepassData": [
+        {
+          "name": "2x Paycheck",
+          "priceRobux": 499,
+          "role": "Income boost",
+          "userBenefit": "Doubles RP income from gameplay activities and is the strongest value pass for steady progression.",
+          "updated": "7 months ago"
+        },
+        {
+          "name": "Police Pass",
+          "priceRobux": 149,
+          "role": "Job unlock",
+          "userBenefit": "Unlocks the Police Job, police vehicles, rank progression, special missions, and police gear tied to promotion.",
+          "updated": "6 months ago"
+        },
+        {
+          "name": "DragSpec Pass",
+          "priceRobux": 109,
+          "role": "Race access",
+          "userBenefit": "Unlocks drag-spec vehicles built for straight-line racing and higher-performance drag setups.",
+          "updated": "1 month ago"
+        },
+        {
+          "name": "Luxury Pass",
+          "priceRobux": 119,
+          "role": "Premium vehicle access",
+          "userBenefit": "Unlocks the luxury vehicle category, including high-end bikes and premium rides.",
+          "updated": "3 months ago"
+        },
+        {
+          "name": "Slot Expansion Pass",
+          "priceRobux": 89,
+          "role": "Garage utility",
+          "userBenefit": "Expands vehicle storage beyond the standard 75-slot cap for larger collections and more saved builds.",
+          "updated": "4 weeks ago"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator Game Overview",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "2x Paycheck",
+          "url": "https://www.rolimons.com/gamepass/1032450517"
+        },
+        {
+          "title": "Police Pass",
+          "url": "https://www.rolimons.com/gamepass/1428858969"
+        },
+        {
+          "title": "DragSpec Pass",
+          "url": "https://www.rolimons.com/gamepass/1152953570"
+        },
+        {
+          "title": "Luxury Pass",
+          "url": "https://www.rolimons.com/gamepass/1032530306"
+        },
+        {
+          "title": "Slot Expansion Pass",
+          "url": "https://www.rolimons.com/gamepass/1703642794"
+        },
+        {
+          "title": "Drag Drive Simulator Guide",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        }
       ]
     },
     "pcRequirements": {
-      "title": "Drag Drive Simulator PC Requirements",
-      "subtitle": "Check if your PC can run Drag Drive Simulator",
+      "title": "Drag Drive Simulator Customization",
+      "subtitle": "Build unique style setups with paint, plate, stance, and visual passes",
+      "intro": "Customization in Drag Drive Simulator goes beyond paint. Current paid options support custom plates, advanced paint control, stance tuning, and category-based visual upgrades like rims and premium accessories.",
       "quickFacts": [
         {
-          "label": "OS",
-          "value": "Windows 10 64-bit"
+          "label": "Identity pass",
+          "value": "Custom Plate Pass"
         },
         {
-          "label": "RAM",
-          "value": "16 GB"
+          "label": "Paint pass",
+          "value": "Advance Paint Pass"
         },
         {
-          "label": "Storage",
-          "value": "120 GB"
+          "label": "Stance pass",
+          "value": "Suspension Pro Pass"
         },
         {
-          "label": "CPU Note",
-          "value": "AVX2 and F16C support required"
+          "label": "Visual expansion",
+          "value": "Rims and premium accessories"
         }
       ],
-      "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 or AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 or AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "GPU must have at least 6 GB VRAM; CPU must support AVX2 and F16C"
-      },
-      "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 or AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 or AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "At least 12 GB VRAM; CPU must support AVX2 and F16C"
-      }
+      "sections": [
+        {
+          "title": "Core Visual Upgrades",
+          "content": "Custom Plate Pass lets players create personalized license plates. Advance Paint Pass expands paint control and supports more unique build identity and cleaner screenshot-ready themes."
+        },
+        {
+          "title": "Stance and Fitment",
+          "content": "Suspension Pro Pass enables more advanced stance setups and is the most direct paid option for lowered builds, fitment-focused screenshots, and style-heavy roleplay vehicles."
+        },
+        {
+          "title": "Style-Focused Progression",
+          "content": "Exclusive Rims Pass and Premium Accessories Pass extend the cosmetic side further. Together they provide enough variety for showcase pages, style galleries, and themed build collections."
+        }
+      ],
+      "customizationData": [
+        {
+          "name": "Advance Paint Pass",
+          "priceRobux": 59,
+          "type": "Color customization",
+          "userBenefit": "Expands paint customization and supports more personalized vehicle color setups.",
+          "updated": "7 months ago"
+        },
+        {
+          "name": "Custom Plate Pass",
+          "priceRobux": 79,
+          "type": "Identity customization",
+          "userBenefit": "Lets players create custom license plates with their own letters and numbers.",
+          "updated": "1 month ago"
+        },
+        {
+          "name": "Suspension Pro Pass",
+          "priceRobux": 29,
+          "type": "Stance customization",
+          "userBenefit": "Adds more suspension flexibility for players who want stronger stance styling and visual tuning.",
+          "updated": "4 months ago"
+        },
+        {
+          "name": "Exclusive Rims Pass",
+          "priceRobux": 79,
+          "type": "Wheel customization",
+          "userBenefit": "Unlocks extra rim options for players building style-focused cars and bikes.",
+          "updated": "1 month ago"
+        },
+        {
+          "name": "Premium Accessories Pass",
+          "priceRobux": null,
+          "type": "Accessory customization",
+          "userBenefit": "Unlocks the Premium category in the Accessories menu and gives access to premium add-ons such as winglets and other visual parts.",
+          "updated": "1 month ago",
+          "status": "Off Sale"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Advance Paint Pass",
+          "url": "https://www.rolimons.com/gamepass/1191705830"
+        },
+        {
+          "title": "Custom Plate Pass",
+          "url": "https://www.rolimons.com/gamepass/1264299861"
+        },
+        {
+          "title": "Suspension Pro Pass",
+          "url": "https://www.rolimons.com/gamepass/1539617636"
+        },
+        {
+          "title": "Drag Drive Simulator Game Overview",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Premium Accessories Pass",
+          "url": "https://www.rolimons.com/gamepass/1703277898"
+        }
+      ]
     },
     "arenas": {
-      "title": "Drag Drive Simulator Arenas",
-      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
+      "title": "Drag Drive Simulator Updates and Events",
+      "subtitle": "Follow patch highlights, event cadence, and milestone changes in one timeline",
+      "intro": "Drag Drive Simulator is update-driven. Major patches and seasonal events often combine new vehicles, map expansions, limited content, cosmetic systems, and fresh redeem codes.",
       "quickFacts": [
         {
-          "label": "Arena Count",
-          "value": "40+"
+          "label": "Players now",
+          "value": "31,372"
         },
         {
-          "label": "New Venues",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "label": "Total visits",
+          "value": "223,069,237"
         },
         {
-          "label": "Classic Highlights",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "label": "Favorites",
+          "value": "1,866,075"
+        },
+        {
+          "label": "Rating",
+          "value": "95.853%"
+        },
+        {
+          "label": "All-time peak CCU",
+          "value": "74,020 on 2026-02-20"
         }
       ],
-      "categories": [
+      "sections": [
         {
-          "name": "Current Weekly Shows",
-          "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
-          ]
+          "title": "Latest Major Update",
+          "content": "The current headline update is BETA V1.1.3. It added the Pettarani Track map expansion in Makassar City, gear ratio tuning, more accessories, six new limited special vehicles, more cars and motorcycles, five new redeem codes, revving animation updates, and new race systems in Pettarani."
         },
         {
-          "name": "Premium Live Events",
-          "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
-          ]
+          "title": "Recent Event Pattern",
+          "content": "The recent cadence includes Ramadan, Lunar New Year, Winter Holiday, Independence Day, Halloween, Eid-themed content, and anomaly-style side content. A rotating event block is better than a static one-note patch panel."
         },
         {
-          "name": "Classic Arenas",
-          "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "Drag Drive Simulator SummerSlam 2008",
-            "Drag Drive Simulator WrestleMania 29",
-            "Drag Drive Simulator WrestleMania 32",
-            "Drag Drive Simulator WrestleMania 35"
-          ]
+          "title": "Why This Module Matters",
+          "content": "Codes, limited vehicles, map changes, race systems, and new jobs often ship together. A compact update tracker helps players understand major changes quickly and branch into dedicated guides."
+        }
+      ],
+      "latestVersion": "BETA V1.1.3",
+      "latestHighlights": [
+        "Pettarani Track map expansion in Makassar City",
+        "Gear ratio tuning and more accessories",
+        "6 new limited special vehicles",
+        "New cars and motorcycles",
+        "5 new redeem codes",
+        "Revving animation and speedometer revamp",
+        "Road Race and Drag Race system in Pettarani",
+        "Eid Mubarak map decorations"
+      ],
+      "eventHistory": [
+        {
+          "name": "Good Ending: Ramadan x LNY Event 2026",
+          "awarded": 46568,
+          "updated": "1 week ago"
         },
         {
-          "name": "Original and Brawl Spaces",
-          "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
-          ]
+          "name": "Bad Ending: Ramadan x LNY Event 2026",
+          "awarded": 25705,
+          "updated": "1 week ago"
+        },
+        {
+          "name": "Secret Ending: Ramadan x LNY Event 2026",
+          "awarded": 26018,
+          "updated": "1 week ago"
+        },
+        {
+          "name": "Ending 1: Winter Holiday Event 2025",
+          "awarded": 35956,
+          "updated": "2 months ago"
+        },
+        {
+          "name": "Ending 2: Winter Holiday Event 2025",
+          "awarded": 16119,
+          "updated": "2 months ago"
+        },
+        {
+          "name": "Freedom Fighter: Independence Day Event 2025",
+          "awarded": 2911,
+          "updated": "7 months ago"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator Game Overview",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "ADV Gamers Team",
+          "url": "https://www.roblox.com/communities/11378976/ADV-Gamers-Team"
+        },
+        {
+          "title": "ADV Gamers YouTube",
+          "url": "https://www.youtube.com/@ADVGamers"
+        },
+        {
+          "title": "Big Modification Update Video",
+          "url": "https://www.youtube.com/watch?v=uo-t_MQ_x5k"
+        },
+        {
+          "title": "Modif x Limited Update Video",
+          "url": "https://www.youtube.com/watch?v=TBUm0vass8o"
+        },
+        {
+          "title": "Ending 1: Winter Holiday Event 2025",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Freedom Fighter: Independence Day Event 2025",
+          "url": "https://www.rolimons.com/gamebadge/2631651973973236"
         }
       ]
     },
     "dlcUnlockables": {
-      "title": "Drag Drive Simulator DLC & Unlockables",
-      "subtitle": "Track every major post-launch reward path",
+      "title": "Drag Drive Simulator Community and Private Servers",
+      "subtitle": "Use official hubs and private sessions for events, convoys, and coordinated play",
+      "intro": "Drag Drive Simulator has a strong community layer around roleplay sessions, giveaways, convoy-style play, clan activity, and update tracking. Private servers matter because they support more controlled sessions for events and showcases.",
       "quickFacts": [
         {
-          "label": "Ringside Pass Seasons",
-          "value": "6"
+          "label": "Server size",
+          "value": "25 players"
         },
         {
-          "label": "Tiers Per Season",
-          "value": "40"
+          "label": "ADV Gamers group",
+          "value": "3,136,163 members"
         },
         {
-          "label": "Free Track Rewards",
-          "value": "60"
+          "label": "ADV Gamers Discord",
+          "value": "114,763 members"
         },
         {
-          "label": "Total Rewards",
-          "value": "120"
+          "label": "ADV Gamers YouTube",
+          "value": "609,000 subscribers"
         }
       ],
-      "seasons": [
+      "sections": [
         {
-          "season": "Season 1",
-          "release": "March 6, 2026"
+          "title": "Official Community Hubs",
+          "content": "The core public hubs are the ADV Gamers Team Roblox group, ADV Gamers YouTube, Drag Drive Simulator Official YouTube, and the ADV Gamers Discord server. These are the best exits for news, event notices, codes, and showcase videos."
         },
         {
-          "season": "Season 2",
-          "release": "April 2026"
+          "title": "Private Server Use Cases",
+          "content": "Private servers are practical for convoy driving, screenshot sessions, friend-only roleplay, and moderated community events. Public guides also note Multi Spawn and Moderator System support in private lobbies."
         },
         {
-          "season": "Season 3",
-          "release": "June 2026"
-        },
-        {
-          "season": "Season 4",
-          "release": "July 2026"
-        },
-        {
-          "season": "Season 5",
-          "release": "September 2026"
-        },
-        {
-          "season": "Season 6",
-          "release": "October 2026"
+          "title": "At-a-Glance Community Snapshot",
+          "content": "With 25-player servers and over 3.1 million Roblox group members, the game keeps a strong social loop where players track updates through community channels and return for events, jobs, codes, and limited vehicles."
         }
       ],
-      "editionPacks": [
+      "communityData": {
+        "serverSize": 25,
+        "groupMembers": 3136163,
+        "discordMembers": 114763,
+        "youtubeChannelSubscribers": 609000,
+        "privateServerFeatures": [
+          "Multi Spawn support",
+          "Moderator System support",
+          "Useful for convoy sessions",
+          "Useful for roleplay groups",
+          "Useful for controlled screenshots and showcases"
+        ]
+      },
+      "referenceLinks": [
         {
-          "name": "King of Kings Edition Pack",
-          "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Triple H Signature Taunt"
-          ]
+          "title": "ADV Gamers Team Roblox Group",
+          "url": "https://www.roblox.com/communities/11378976/ADV-Gamers-Team"
         },
         {
-          "name": "Attitude Era Edition Pack",
-          "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Stone Cold Steve Austin EVO Card",
-            "The Rock EVO Card",
-            "Raw Is War '98 arena"
-          ]
+          "title": "ADV Gamers Team Group Stats",
+          "url": "https://www.rolimons.com/group/11378976"
         },
         {
-          "name": "Monday Night War Edition Pack",
-          "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "WCW Thunder '98 arena"
-          ]
+          "title": "ADV Gamers Discord",
+          "url": "https://discord.com/invite/officialadvgamers"
         },
         {
-          "name": "WrestleMania 42 Pack",
-          "includes": [
-            "WrestleMania 42 arena",
-            "WM42 Persona #1",
-            "WM42 Persona #2",
-            "WM42 Persona #3"
-          ]
-        }
-      ],
-      "unlockExamples": [
-        {
-          "name": "AJ Lee",
-          "source": "Showcase: What If Match #7"
+          "title": "ADV Gamers YouTube",
+          "url": "https://www.youtube.com/@ADVGamers"
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "Ringside Pass #1 Free Track Tier 5"
+          "title": "Drag Drive Simulator Official YouTube",
+          "url": "https://www.youtube.com/channel/UC6bXTzU6mefwqPV2zFU-HZg"
         },
         {
-          "name": "Andre The Giant",
-          "source": "Ringside Pass #1 Free Track Tier 4"
+          "title": "Drag Drive Simulator Guide",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
         },
         {
-          "name": "El Hijo del Vikingo",
-          "source": "Ringside Pass #1 Premium Track Tier 1"
-        },
-        {
-          "name": "Flammer",
-          "source": "Ringside Pass #1 Premium Track Tier 7"
-        },
-        {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: Historical Match #7"
+          "title": "Official Game Page",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
         }
       ]
     }
