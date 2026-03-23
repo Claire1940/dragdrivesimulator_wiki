@@ -2,7 +2,7 @@ import { defineRouting } from 'next-intl/routing'
 
 export const routing = defineRouting({
 	// 支持的语言列表
-	locales: ['en', 'es', 'pt', 'de', 'fr', 'ja', 'ar', 'ko'],
+	locales: ['en', 'es', 'pt', 'de', 'fr', 'ja', 'ko', 'tr'],
 
 	// 默认语言
 	defaultLocale: 'en',

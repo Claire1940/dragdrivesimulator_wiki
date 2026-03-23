@@ -9,19 +9,19 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["es", "pt", "de", "fr", "ja", "ar", "ko"],
+  "languages": ["es", "pt", "de", "fr", "ja", "ko", "tr"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "WWE 2K26",
-    "es": "WWE 2K26",
-    "pt": "WWE 2K26",
-    "de": "WWE 2K26",
-    "fr": "WWE 2K26",
-    "ja": "WWE 2K26",
-    "ar": "WWE 2K26",
-    "ko": "WWE 2K26"
+    "en": "Drag Drive Simulator",
+    "es": "Simulador Drag Drive",
+    "pt": "Simulador Drag Drive",
+    "de": "Drag Drive Simulator",
+    "fr": "Drag Drive Simulator",
+    "ja": "ドラッグドライブシミュレーター",
+    "ko": "드래그 드라이브 시뮬레이터",
+    "tr": "Drag Drive Simulator"
   },
 
   "lang_names": {
@@ -30,8 +30,8 @@
     "de": "German",
     "fr": "French",
     "ja": "Japanese",
-    "ar": "Arabic",
-    "ko": "Korean"
+    "ko": "Korean",
+    "tr": "Turkish"
   },
 
   "batch_size": 20,
