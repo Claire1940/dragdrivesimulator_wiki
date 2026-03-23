@@ -24,7 +24,8 @@ class MessagesTranslator:
         # API credentials
         self.api_key = config['api_key']
         self.api_base_url = config['api_base_url']
-        self.api_url = f"{self.api_base_url.rstrip('/')}/chat/completions"
+        base_url = self.api_base_url.rstrip('/')
+        self.api_url = base_url if base_url.endswith('/chat/completions') else f"{base_url}/chat/completions"
         self.model = config.get('model', 'gemini-2.0-flash')
         self.temperature = config.get('temperature', 0.7)
         self.max_tokens = config.get('max_tokens', 8192)

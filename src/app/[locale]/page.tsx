@@ -42,14 +42,21 @@ const FAQSection = lazy(() => import('@/components/home/FAQSection'))
 const CTASection = lazy(() => import('@/components/home/CTASection'))
 
 // Loading placeholder
-const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
+const LoadingPlaceholder = ({
+  height = 'h-64',
+  text = 'Loading content...',
+}: {
+  height?: string
+  text?: string
+}) => (
   <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center`}>
-    <div className="text-muted-foreground">Loading...</div>
+    <div className="text-muted-foreground">{text}</div>
   </div>
 )
 
 export default function HomePage() {
   const t = useMessages() as any
+  const loadingText = t.common?.loading ?? 'Loading content...'
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragdrivesimulator.wiki'
 
   // Structured data
@@ -256,7 +263,7 @@ export default function HomePage() {
           </div>
 
           {/* Stats */}
-          <Suspense fallback={<LoadingPlaceholder height="h-32" />}>
+          <Suspense fallback={<LoadingPlaceholder height="h-32" text={loadingText} />}>
             <HeroStats stats={Object.values(t.hero.stats)} />
           </Suspense>
         </div>
@@ -1358,7 +1365,7 @@ export default function HomePage() {
       </section>
 
       {/* FAQ Section */}
-      <Suspense fallback={<LoadingPlaceholder />}>
+      <Suspense fallback={<LoadingPlaceholder text={loadingText} />}>
         <FAQSection
           title={t.faq.title}
           titleHighlight={t.faq.titleHighlight}
@@ -1368,7 +1375,7 @@ export default function HomePage() {
       </Suspense>
 
       {/* CTA Section */}
-      <Suspense fallback={<LoadingPlaceholder />}>
+      <Suspense fallback={<LoadingPlaceholder text={loadingText} />}>
         <CTASection
           title={t.cta.title}
           description={t.cta.description}
@@ -1452,7 +1459,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link
-                    href="/about"
+                    href="about"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
@@ -1460,7 +1467,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/privacy-policy"
+                    href="privacy-policy"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
@@ -1468,7 +1475,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/terms-of-service"
+                    href="terms-of-service"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
@@ -1476,7 +1483,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/copyright"
+                    href="copyright"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}

@@ -1,20 +1,21 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki WWE 2K26 - Roster, Notes, Modes et Guides",
-      "description": "Le Wiki WWE 2K26 couvre le roster, les notes, les codes de vestiaire, les types de matchs, MyGM, MyRISE, Universe et les guides pour The Island sur PS5, Xbox, Steam et Switch 2.",
-      "keywords": "WWE 2K26, roster WWE 2K26, notes WWE 2K26, codes de vestiaire WWE 2K26, MyGM WWE 2K26",
-      "ogTitle": "Wiki WWE 2K26 - Roster, Notes, Modes et Guides",
-      "ogDescription": "Le Wiki WWE 2K26 couvre le roster, les notes, les codes de vestiaire, les types de matchs, MyGM, MyRISE, Universe et les guides pour The Island sur PS5, Xbox, Steam et Switch 2.",
-      "twitterTitle": "Wiki WWE 2K26 - Roster, Notes, Modes et Guides",
-      "twitterDescription": "Le Wiki WWE 2K26 couvre le roster, les notes, les codes de vestiaire, les types de matchs et les guides des modes de jeu."
+      "title": "Drag Drive Simulator Wiki - Codes, voitures et tuning",
+      "description": "Wiki Drag Drive Simulator avec codes actifs, guides de tuning, listes de voitures et de motos, métiers, emplacements des concessionnaires, astuces de carte et mises à jour d'événements pour les joueurs de Roblox.",
+      "keywords": "Drag Drive Simulator, Roblox, codes, tuning, voitures, motos, métiers, carte",
+      "ogTitle": "Drag Drive Simulator Wiki - Codes, voitures et tuning",
+      "ogDescription": "Wiki Drag Drive Simulator avec codes actifs, guides de tuning, listes de voitures et de motos, métiers, emplacements des concessionnaires, astuces de carte et mises à jour d'événements pour les joueurs de Roblox.",
+      "twitterTitle": "Drag Drive Simulator Wiki - Codes, voitures et tuning",
+      "twitterDescription": "Le Wiki Drag Drive Simulator couvre les codes, le tuning, les véhicules, les métiers, les circuits et les mises à jour de la communauté pour les joueurs de Roblox."
     }
   },
   "nav": {},
   "common": {
     "home": "Accueil",
     "more": "Plus",
-    "playNow": "Acheter maintenant",
+    "loading": "Chargement du contenu...",
+    "playNow": "Jouer maintenant",
     "switchLanguage": "Changer de langue",
     "switchTheme": "Changer de thème",
     "lightMode": "Mode clair",
@@ -26,43 +27,43 @@
     "readMore": "Lire la suite"
   },
   "hero": {
-    "badge": "Simulation de catch officielle avec plus de 400 Superstars",
-    "title": "Wiki WWE 2K26",
-    "description": "Suivez le roster complet, les notes, les types de match, les éditions et les guides de mode pour WWE 2K26, du CM Punk Showcase à The Island, MyGM, MyRISE et Universe.",
+    "badge": "Roblox Drag Course & Roleplay",
+    "title": "Wiki Drag Drive Simulator",
+    "description": "Maîtrisez les codes, le tuning, les métiers, l'emplacement des concessionnaires, les circuits et le contenu des événements dans cette expérience de course de drag et de roleplay Roblox en pleine expansion.",
     "getFreeCodesCTA": "Obtenir des codes gratuits",
-    "playOnRobloxCTA": "Acheter WWE 2K26",
+    "playOnRobloxCTA": "Jouer à Drag Drive Simulator sur Roblox",
     "stats": {
       "stat1": {
-        "value": "2026-03-13",
-        "label": "Sortie Standard"
+        "value": "222.9M+",
+        "label": "Visites totales"
       },
       "stat2": {
-        "value": "400+",
-        "label": "Superstars jouables"
+        "value": "49.9K",
+        "label": "Pic de __PROTECTED_76434754__"
       },
       "stat3": {
-        "value": "40+",
-        "label": "Arènes"
+        "value": "95.9%",
+        "label": "Évaluation des utilisateurs"
       },
       "stat4": {
-        "value": "4",
-        "label": "Nouveaux types de match"
+        "value": "12h",
+        "label": "Mise à jour récente"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de WWE 2K26",
-    "description": "Découvrez la simulation de catch la plus authentique avec plus de 400 superstars et de nouveaux types de matchs !"
+    "title": "Bande-annonce officielle de Drag Drive Simulator",
+    "description": "Regardez la dernière bande-annonce et commencez à créer votre configuration de drag la plus rapide sur Roblox."
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Drag Drive Simulator",
     "titleHighlight": "Navigation rapide",
     "subtitle": "Accédez à n'importe quelle section ci-dessous",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "Sortie & Éditions",
-        "description": "Comparez les 4 éditions et les dates de sortie"
+        "icon": "Gift",
+        "title": "Codes Drag Drive Simulator",
+        "description": "Codes actifs et expirés avec étapes d'utilisation rapides"
       },
       {
         "icon": "Users",
@@ -71,8 +72,8 @@
       },
       {
         "icon": "TrendingUp",
-        "title": "Notes",
-        "description": "Classement des Superstars les mieux notées"
+        "title": "Classements",
+        "description": "Classements des Superstars les mieux notées"
       },
       {
         "icon": "Gamepad2",
@@ -81,173 +82,137 @@
       },
       {
         "icon": "Flame",
-        "title": "Nouveaux types de match",
-        "description": "4 nouveaux types de match font leurs débuts"
+        "title": "Véhicules de départ Drag Drive Simulator",
+        "description": "Meilleur itinéraire de premier achat et planification initiale du garage"
       },
       {
         "icon": "Film",
-        "title": "Showcase",
-        "description": "La carrière légendaire de CM Punk"
+        "title": "Emplacements des concessionnaires Drag Drive Simulator",
+        "description": "Itinéraires de la carte pour les zones d'achat et les pistes d'essai de course"
       },
       {
         "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Gérez votre division WWE"
+        "title": "Véhicules Drag Drive Simulator",
+        "description": "Voitures, motos, catégories limitées et accès aux pass"
       },
       {
         "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Créez l'histoire de votre Superstar"
+        "title": "Guide de réglage Drag Drive Simulator",
+        "description": "Fondamentaux des rapports de vitesse et flux de travail de configuration pratique"
       },
       {
-        "icon": "Globe",
-        "title": "Mode Univers",
-        "description": "Contrôlez l'Univers WWE"
+        "icon": "BookOpen",
+        "title": "Guide de course Drag Drive Simulator Drag",
+        "description": "Hubs de course, différences entre les modes et stratégie de départ"
       },
       {
-        "icon": "Palette",
-        "title": "Créations de la communauté",
-        "description": "Téléchargez et partagez des créations"
+        "icon": "Calendar",
+        "title": "Véhicules limités Drag Drive Simulator",
+        "description": "Aperçu actuel des véhicules limités et règles de timing intelligentes"
       },
       {
         "icon": "Map",
-        "title": "The Island",
-        "description": "Mode de combat basé sur les factions"
+        "title": "Guide de la carte Drag Drive Simulator",
+        "description": "Sentul, Surakarta, Pettarani et planification d'itinéraires"
       },
       {
         "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Créez votre faction de rêve"
+        "title": "Caisses cachées et anomalies Drag Drive Simulator",
+        "description": "Modèles de balayage des caisses et jalons des badges d'anomalie"
       },
       {
-        "icon": "Gift",
-        "title": "Codes de vestiaire",
-        "description": "Codes actifs pour des récompenses"
+        "icon": "Shield",
+        "title": "Gamepasses Drag Drive Simulator",
+        "description": "Pass au meilleur rapport qualité-prix, déblocages de rôles et choix d'extension de garage"
       },
       {
         "icon": "Monitor",
-        "title": "Configuration PC requise",
-        "description": "Configurations minimales et recommandées"
+        "title": "Personnalisation Drag Drive Simulator",
+        "description": "Peinture, plaques, suspension, jantes et accessoires premium"
       },
       {
         "icon": "Building",
-        "title": "Arènes",
-        "description": "Plus de 40 lieux emblématiques"
+        "title": "Mises à jour et événements Drag Drive Simulator",
+        "description": "Chronologie des derniers patchs, points forts et fins d'événements"
       },
       {
         "icon": "Package",
-        "title": "DLC & Objets à débloquer",
-        "description": "Season Pass et feuille de route du contenu"
+        "title": "Communauté et serveurs privés Drag Drive Simulator",
+        "description": "Hubs officiels, statistiques sociales et cas d'utilisation des serveurs privés"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
-      "quickFacts": [
+      "title": "Codes Drag Drive Simulator",
+      "subtitle": "Dernières récompenses actives, liste expirée et flux d'utilisation rapide",
+      "intro": "Utilisez d'abord les derniers codes Drag Drive Simulator fonctionnels pour obtenir des __PROTECTED_c4cb0a6b__ gratuits pour vos véhicules, vos améliorations et une progression initiale plus rapide.",
+      "activeCodes": [
         {
-          "label": "Standard Release",
-          "value": "March 13, 2026"
+          "code": "DRAGDRIVESIMULATORFEBRUARY26",
+          "reward": "Récompense : 35 000 000 __PROTECTED_c4cb0a6b__",
+          "status": "Actif"
         },
         {
-          "label": "Premium Early Access",
-          "value": "March 6, 2026"
+          "code": "WELCOMERAMADAN2026",
+          "reward": "Récompense : 30 000 000 __PROTECTED_c4cb0a6b__",
+          "status": "Actif"
         },
         {
-          "label": "Platforms",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "code": "LUNARNEWYEAR2026",
+          "reward": "Récompense : __PROTECTED_c4cb0a6b__",
+          "status": "Actif"
         },
         {
-          "label": "Genre",
-          "value": "Sports, Professional Wrestling"
+          "code": "SABARDELAYDIKITYAK",
+          "reward": "Récompense : 25 000 000 __PROTECTED_c4cb0a6b__",
+          "status": "Actif"
+        },
+        {
+          "code": "100KLIKESFORBIGCODE",
+          "reward": "Récompense : 80 000 000 __PROTECTED_c4cb0a6b__",
+          "status": "Actif"
         }
       ],
-      "editions": [
-        {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game"
-          ]
-        },
-        {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
-          ]
-        },
-        {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
-          ]
-        },
-        {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
-          ],
-          "includes": [
-            "WWE 2K26 base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
-          ]
-        }
+      "expiredCodes": [
+        "DRAGDRIVESIMULATORJANUARY26",
+        "2026DDSNEXTLEVEL",
+        "HAPPY1STANNIVERSARYDDS",
+        "THX1MILLIONROBLOXMEMBERS",
+        "ALAMAKDELAYDIKIT"
       ],
-      "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
+      "howToRedeem": [
+        "Ouvrez le panier de la boutique en bas à droite de l'écran.",
+        "Allez dans l'onglet Utiliser (Redeem).",
+        "Collez un code fonctionnel exactement comme indiqué.",
+        "Appuyez sur Utiliser et récupérez les __PROTECTED_c4cb0a6b__ instantanément."
+      ],
+      "codeNotes": [
+        "Les codes sont sensibles à la casse.",
+        "Les espaces supplémentaires peuvent faire échouer un code.",
+        "La page du jeu indique actuellement le prochain palier de code à 125 000 likes."
+      ],
+      "referenceLinks": [
+        {
+          "title": "Pocket Gamer - Codes Drag Drive Simulator",
+          "url": "https://www.pocketgamer.com/roblox/drag-drive-simulator-codes/"
+        },
+        {
+          "title": "Pocket Tactics - Codes Drag Drive Simulator",
+          "url": "https://www.pockettactics.com/drag-drive-simulator-codes"
+        },
+        {
+          "title": "Try Hard Guides - Codes Drag Drive Simulator",
+          "url": "https://tryhardguides.com/drag-drive-simulator-codes/"
+        },
+        {
+          "title": "Page officielle du jeu Roblox - Drag Drive Simulator",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        }
       ]
     },
     "roster": {
-      "title": "Roster WWE 2K26",
+      "title": "Liste des personnages Drag Drive Simulator",
       "subtitle": "Parcourez plus de 400 Superstars et Légendes jouables",
       "stats": [
         {
@@ -255,12 +220,12 @@
           "value": "400+"
         },
         {
-          "label": "Nouveaux ajouts",
+          "label": "Nouvelles additions",
           "value": "50+"
         },
         {
-          "label": "Taille de l'effectif",
-          "value": "Le plus grand de l'histoire de la franchise"
+          "label": "Portée de la liste",
+          "value": "La plus grande de l'histoire de la franchise"
         }
       ],
       "categories": [
@@ -298,7 +263,7 @@
           ]
         },
         {
-          "name": "Mise en avant Saison 1",
+          "name": "Projecteur sur la Saison 1",
           "superstars": [
             "El Hijo del Vikingo",
             "Flammer"
@@ -307,7 +272,7 @@
       ]
     },
     "ratings": {
-      "title": "Notes de WWE 2K26",
+      "title": "Notes Drag Drive Simulator",
       "subtitle": "Classement des Superstars les mieux notées",
       "menTopRated": [
         {
@@ -400,7 +365,7 @@
       ]
     },
     "controls": {
-      "title": "Commandes de WWE 2K26",
+      "title": "Commandes Drag Drive Simulator",
       "subtitle": "Maîtrisez les commandes de base pour PS5, Xbox et PC",
       "platforms": [
         {
@@ -411,27 +376,27 @@
               "input": "Maintenir L2 + Stick gauche"
             },
             {
-              "action": "Saisie (Prise)",
+              "action": "Saisir (Grapple)",
               "input": "O"
             },
             {
-              "action": "Attaque légère / Prise légère",
+              "action": "Frappe légère / Prise légère",
               "input": "Carré"
             },
             {
-              "action": "Attaque lourde / Prise lourde",
+              "action": "Frappe lourde / Prise lourde",
               "input": "X"
             },
             {
-              "action": "Irish Whip",
+              "action": "Projection (Irish Whip)",
               "input": "O (pendant une saisie)"
             },
             {
-              "action": "Coup spécial",
+              "action": "Coup spécial (Signature)",
               "input": "R2 + Carré"
             },
             {
-              "action": "Coup de grâce",
+              "action": "Prise de finition (Finisher)",
               "input": "R2 + X"
             },
             {
@@ -439,7 +404,7 @@
               "input": "R2 + O"
             },
             {
-              "action": "Payback",
+              "action": "Vengeance (Payback)",
               "input": "R2 + Triangle"
             },
             {
@@ -468,27 +433,27 @@
               "input": "Maintenir LT + Stick gauche"
             },
             {
-              "action": "Saisie (Prise)",
+              "action": "Saisir (Grapple)",
               "input": "B"
             },
             {
-              "action": "Attaque légère / Prise légère",
+              "action": "Frappe légère / Prise légère",
               "input": "X"
             },
             {
-              "action": "Attaque lourde / Prise lourde",
+              "action": "Frappe lourde / Prise lourde",
               "input": "A"
             },
             {
-              "action": "Irish Whip",
+              "action": "Projection (Irish Whip)",
               "input": "B (pendant une saisie)"
             },
             {
-              "action": "Coup spécial",
+              "action": "Coup spécial (Signature)",
               "input": "RT + X"
             },
             {
-              "action": "Coup de grâce",
+              "action": "Prise de finition (Finisher)",
               "input": "RT + A"
             },
             {
@@ -496,7 +461,7 @@
               "input": "RT + B"
             },
             {
-              "action": "Payback",
+              "action": "Vengeance (Payback)",
               "input": "RT + Y"
             },
             {
@@ -519,749 +484,1106 @@
         }
       ],
       "tips": [
-        "Les combos enchaînent les attaques légères et lourdes",
-        "Les Breakers utilisent la même touche que celle pressée par votre adversaire",
-        "Le mini-jeu de kick-out chronométré utilise le Stick droit vers le haut",
-        "Les actions de l'arbitre spécial incluent le compte, le rope break, les avertissements et les expulsions"
+        "Les combos enchaînent les frappes légères et lourdes",
+        "Les contres (Breakers) utilisent la même touche que celle pressée par votre adversaire",
+        "Le mini-jeu de dégagement (kick-out) chronométré utilise le stick droit vers le haut",
+        "Les actions de l'arbitre spécial incluent le compte, la rupture de corde, les avertissements et les expulsions"
       ]
     },
     "matchTypes": {
-      "title": "Nouveaux types de match WWE 2K26",
-      "subtitle": "Découvrez 4 nouveaux types de match et un gameplay enrichi",
+      "title": "Véhicules de départ Drag Drive Simulator",
+      "subtitle": "Construisez un premier garage solide avec des achats à faible risque et des améliorations plus intelligentes",
+      "intro": "Votre premier garage doit être construit pour la progression, pas pour le prestige. Utilisez d'abord les codes __PROTECTED_c4cb0a6b__, comparez l'inventaire des concessionnaires et utilisez une moto abordable pour apprendre les courses et les réglages avant de passer à des voitures plus grosses.",
       "quickFacts": [
         {
-          "label": "Nouveaux types de match",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "label": "Meilleur chemin de valeur initiale",
+          "value": "Utilisez les codes, achetez une moto économique, réglez-la, puis améliorez-la"
         },
         {
-          "label": "Nouvel espace de bagarre",
-          "value": "Scrapyard Brawl"
+          "label": "Pourquoi les motos comptent au début",
+          "value": "Les motos sont moins chères que les voitures et peuvent battre des voitures d'origine coûteuses une fois réglées"
         },
         {
-          "label": "Ajout au mode",
-          "value": "Quick Swap dans MyFACTION"
+          "label": "Centre de course principal",
+          "value": "Piste de Sentul sur la carte principale"
+        },
+        {
+          "label": "Taille du serveur",
+          "value": "25 joueurs"
         }
       ],
       "matches": [
         {
-          "name": "I Quit",
-          "description": "Forcez votre adversaire à dire « I Quit » pour remporter cet affrontement brutal"
+          "name": "Stratégie du meilleur premier achat",
+          "description": "Utilisez d'abord chaque code __PROTECTED_c4cb0a6b__ actif. Les récompenses de codes éliminent une grande partie du broyage initial et vous permettent de commencer avec un plan de véhicule plus solide."
         },
         {
-          "name": "Inferno",
-          "description": "Mettez le feu à votre adversaire pour assurer la victoire dans ce match de la terre brûlée"
+          "name": "Pourquoi une moto est le meilleur choix de départ",
+          "description": "Une moto réglée offre la meilleure valeur initiale : coût réduit, apprentissage plus rapide de la carte et excellentes performances de drag une fois les rapports de vitesse ajustés."
         },
         {
-          "name": "Dumpster",
-          "description": "Battez votre adversaire et jetez-le dans la benne à ordures pour gagner"
+          "name": "Quand passer aux voitures",
+          "description": "Passez aux voitures une fois que vos revenus en __PROTECTED_c4cb0a6b__ deviennent stables grâce aux courses, aux emplois, aux quêtes quotidiennes et aux caisses cachées pour un garage équilibré à long terme."
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "Défi au meilleur des trois manches où chaque tombé utilise un type de match différent"
+          "name": "Ce qu'il faut ignorer au début",
+          "description": "Attendez avant d'acheter des casques, des accessoires cosmétiques et des véhicules exclusivement premium jusqu'à ce que votre garage de base soit stable et que votre régularité au départ s'améliore."
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "Nouvel environnement de bagarre situé dans le désert de débris de The Island"
+          "name": "Un itinéraire de départ propre",
+          "description": "Utilisez les codes, comparez les concessionnaires, achetez une moto, testez sur la piste de Sentul, réglez en mode libre, puis économisez pour votre première voiture sérieuse."
         }
       ],
-      "newSystems": [
-        "Combat dans la foule étendu",
-        "Tables empilables",
-        "Punaises",
-        "Attaquants surprises",
-        "Combat sur les barricades",
-        "Action d'élimination par équipe Quick Swap"
+      "referenceLinks": [
+        {
+          "title": "Guide Drag Drive Simulator - Conseils pour débutants, concessionnaires et réglages",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator : Guide du débutant",
+          "url": "https://www.sportskeeda.com/roblox-news/drag-drive-simulator-a-beginner-s-guide"
+        },
+        {
+          "title": "Drag Drive Simulator | Statistiques de jeu Rolimon's",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Tutoriel de base pour débutants dans Drag & Drive Simulator",
+          "url": "https://www.youtube.com/watch?v=s3qOfMp6KhU"
+        }
       ]
     },
     "showcase": {
-      "title": "Showcase WWE 2K26",
-      "subtitle": "Revivez les plus grandes rivalités de CM Punk",
+      "title": "Emplacements des concessionnaires Drag Drive Simulator",
+      "subtitle": "Planifiez un itinéraire d'achat à travers les zones de la carte et testez chaque nouvel achat plus rapidement",
+      "intro": "Les concessionnaires sont répartis sur la carte et l'inventaire change selon la zone. Utilisez ce module comme planificateur d'itinéraire pour savoir où acheter ensuite et où tester immédiatement.",
       "quickFacts": [
         {
-          "label": "Star en couverture",
-          "value": "CM Punk"
+          "label": "Zone commerciale principale",
+          "value": "Carte originale autour de la zone de départ"
         },
         {
-          "label": "Chronologie",
-          "value": "Plus de 25 ans d'histoire de la WWE"
+          "label": "Zone de test de course principale",
+          "value": "Piste de Sentul"
         },
         {
-          "label": "Types de match",
-          "value": "Historique, Fantaisie, Et si"
+          "label": "Expansion urbaine majeure",
+          "value": "Ville de Surakarta"
+        },
+        {
+          "label": "Dernière extension de l'itinéraire de test",
+          "value": "__PROTECTED_6036fd09__ à __PROTECTED_1e2e9c18__"
         }
       ],
       "moments": [
         {
-          "title": "Match d'ouverture",
-          "description": "WrestleMania 41 Triple Menace : CM Punk vs Seth Rollins vs Roman Reigns"
+          "title": "Itinéraire des concessionnaires de la carte originale",
+          "description": "La carte originale est la boucle d'achat initiale la plus facile car elle relie plusieurs concessionnaires, le Coffee Shop et la piste de Sentul."
         },
         {
-          "title": "Matchs historiques",
-          "description": "Recréations fidèles avec des arènes authentiques et des objectifs de match"
+          "title": "Expansion de la ville de Surakarta",
+          "description": "Surakarta ajoute de nouvelles routes, des endroits cachés et une couverture supplémentaire de concessionnaires. Explorez-la après avoir appris la disposition de la carte originale."
         },
         {
-          "title": "Guerre fantastique",
-          "description": "Matchs de rêve contre des légendes qui ont influencé le parcours de Punk"
+          "title": "Où tester un nouvel achat",
+          "description": "Utilisez la piste de Sentul pour des tests de drag reproductibles. __PROTECTED_6036fd09__ prend également en charge les systèmes de course sur route et de drag pour comparer les configurations."
         },
         {
-          "title": "Matchs « Et si »",
-          "description": "Scénarios de chronologies alternatives explorant différents parcours de carrière"
+          "title": "Comment acheter efficacement",
+          "description": "N'achetez pas le premier véhicule au point d'apparition. Comparez d'abord l'inventaire car de meilleures options de départ se trouvent souvent à une courte distance en voiture."
+        },
+        {
+          "title": "Ce que ce module doit montrer",
+          "description": "Épinglez chaque zone commerciale avec de brèves notes : parcourez les modèles de départ, comparez motos vs voitures, testez les départs, puis continuez vers les extensions."
         }
       ],
-      "specialFeature": {
-        "name": "Le Gauntlet",
-        "description": "Affrontez 20 adversaires consécutifs en tant que CM Punk ou AJ Lee pour débloquer toutes les récompenses Showcase d'un coup"
-      }
+      "referenceLinks": [
+        {
+          "title": "Tous les emplacements des concessionnaires Roblox Drag Drive Simulator",
+          "url": "https://www.youtube.com/watch?v=TtTVbirgLrw"
+        },
+        {
+          "title": "Guide Drag Drive Simulator - Conseils pour débutants, concessionnaires et réglages",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator | Statistiques de jeu Rolimon's",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Drag Drive Simulator | Page officielle du jeu Roblox",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        }
+      ]
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
-      "subtitle": "Gérez votre division avec une programmation et une stratégie plus approfondies",
+      "title": "Véhicules Drag Drive Simulator",
+      "subtitle": "Comparez les catégories de véhicules, les chemins d'accès et les modèles d'exposition avant de dépenser des __PROTECTED_c4cb0a6b__",
+      "intro": "Drag Drive Simulator dispose d'un large garage comprenant des voitures standard, des motos, des éditions limitées et des catégories de pass premium. Utilisez ce centre pour examiner les options avant de chercher des améliorations.",
       "quickFacts": [
         {
-          "label": "Durée de la saison",
-          "value": "50 semaines"
+          "label": "Visites suivies",
+          "value": "223M+"
         },
         {
-          "label": "Budgets de départ",
-          "value": "$3M - $7M"
+          "label": "Favoris",
+          "value": "1,86M+"
         },
         {
-          "label": "Taille moyenne de l'effectif",
-          "value": "20-35 Superstars"
+          "label": "Note",
+          "value": "95,85 %"
         },
         {
-          "label": "Nouvelle difficulté",
-          "value": "Immortal"
+          "label": "Note sur les véhicules de la dernière mise à jour",
+          "value": "6 nouveaux véhicules spéciaux limités plus de nombreuses nouvelles voitures et motos"
         }
       ],
       "features": [
         {
-          "title": "Saisons prolongées",
-          "description": "La durée de saison par défaut est désormais de 50 semaines avec des options de budget flexibles"
+          "title": "Types de véhicules de base",
+          "description": "Le garage actuel est construit autour des voitures et des motos. Les deux deviennent viables pour la course une fois réglés au lieu de rester d'origine."
         },
         {
-          "title": "Types de matchs élargis",
-          "description": "Organisez des matchs à 5, 6, 8, par équipe triple menace, par équipe fatal four-way et des matchs handicap"
+          "title": "Véhicules spéciaux limités",
+          "description": "La dernière mise à jour majeure a ajouté six véhicules spéciaux limités, ce qui en fait une catégorie très intéressante pour les joueurs qui reviennent."
         },
         {
-          "title": "Nouvelles règles de match",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "title": "Catégories de véhicules Premium",
+          "description": "Le Luxury Pass débloque des véhicules de luxe premium, et le DragSpec Pass débloque des motos de drag spécialisées et des machines de course modifiées."
         },
         {
-          "title": "Échange de Power Cards",
-          "description": "Échangez des Power Cards pendant les semaines d'échange avec l'option de désactiver le magasin de Power Cards"
+          "title": "Modèles d'exposition publics mis en avant",
+          "description": "Les modèles couramment mis en avant incluent la Kawasaki ZX25R, la Kawasaki ZX10R, la PCX 160, la RX KING et l'Aerox All New Limited."
         },
         {
-          "title": "Matchs intergenres",
-          "description": "Organisez des matchs intergenres avec un coût de programmation supplémentaire"
+          "title": "Ce que les joueurs doivent apprendre de ce centre",
+          "description": "Le prix seul ne décide pas de la performance. La qualité du réglage, la configuration du départ et l'utilisation en course comptent plus que l'achat de l'option la plus chère au début."
         }
       ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
+      "vehicleCategories": [
+        {
+          "name": "Voitures standard",
+          "access": "Achat chez le concessionnaire",
+          "notes": "Catégorie de garage de base pour la conduite générale et la progression"
+        },
+        {
+          "name": "Motos",
+          "access": "Achat chez le concessionnaire",
+          "notes": "Excellente valeur initiale et très compétitives après réglage"
+        },
+        {
+          "name": "Véhicules spéciaux limités",
+          "access": "Contenu de mise à jour à durée limitée",
+          "notes": "Catégorie phare de la récente mise à jour majeure"
+        },
+        {
+          "name": "Véhicules de luxe",
+          "access": "Luxury Pass",
+          "priceRobux": 119,
+          "notes": "Véhicules de luxe premium, motos sportives et motos à grosse cylindrée"
+        },
+        {
+          "name": "Véhicules Drag Spec",
+          "access": "Pass DragSpec",
+          "priceRobux": 109,
+          "notes": "Motos de drag spécialisées et machines de course lourdement modifiées"
+        }
+      ],
+      "featuredVehicles": [
+        {
+          "name": "Kawasaki ZX25R",
+          "type": "Moto",
+          "tag": "Modèle d'exposition public"
+        },
+        {
+          "name": "Kawasaki ZX10R",
+          "type": "Moto",
+          "tag": "Modèle d'exposition public"
+        },
+        {
+          "name": "PCX 160",
+          "type": "Moto",
+          "tag": "Modèle d'exposition public"
+        },
+        {
+          "name": "RX KING",
+          "type": "Moto",
+          "tag": "Modèle d'exposition public"
+        },
+        {
+          "name": "Aerox All New Limited",
+          "type": "Moto limitée",
+          "tag": "Modèle d'exposition limité"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator | Statistiques de jeu Rolimon's",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Luxury Pass | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1032530306"
+        },
+        {
+          "title": "Pass DragSpec | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1152953570"
+        },
+        {
+          "title": "Présentation Kawasaki ZX25R Roblox Drag Drive Simulator",
+          "url": "https://www.youtube.com/watch?v=W5rLYIUtbpM"
+        },
+        {
+          "title": "NOUVEAU !!! KAWASAKI ZX10R | DRAG DRIVE SIMULATOR",
+          "url": "https://www.youtube.com/watch?v=hjpbgN20RlM"
+        },
+        {
+          "title": "Présentation Aerox All New Limited Roblox Drag Drive Simulator",
+          "url": "https://www.youtube.com/watch?v=yn_0X131e_k"
+        }
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
-      "subtitle": "Battez-vous pour revenir dans The Comeback",
+      "title": "Guide de réglage Drag Drive Simulator",
+      "subtitle": "Utilisez les rapports de vitesse et les boucles de test pour transformer des véhicules de milieu de gamme en modèles de drag de compétition",
+      "intro": "Le réglage est le véritable système de performance dans Drag Drive Simulator. Une configuration intelligente peut transformer un véhicule moyen, tandis qu'une mauvaise configuration gaspille des modèles coûteux.",
       "quickFacts": [
         {
-          "label": "Nom de l'histoire",
-          "value": "The Comeback"
+          "label": "Système de performance principal",
+          "value": "Réglage des __PROTECTED_d3802592__"
         },
         {
-          "label": "Personnage principal",
-          "value": "The Archetype"
+          "label": "Rapports courts",
+          "value": "Départ plus rapide, vitesse de pointe plus faible"
         },
         {
-          "label": "Thème",
-          "value": "Retour après 2 ans d'absence"
-        }
-      ],
-      "paths": [
-        {
-          "name": "Voie traditionnelle",
-          "description": "Gagnez des opportunités de la bonne manière et revenez dans la course au titre"
+          "label": "Rapports longs",
+          "value": "Départ plus lent, vitesse de pointe plus élevée"
         },
         {
-          "name": "Voie impitoyable",
-          "description": "Prenez des raccourcis et accélérez le retour grâce à des tactiques agressives"
+          "label": "Meilleur flux de test",
+          "value": "Réglez en mode libre, puis validez sur la piste de Sentul"
         }
       ],
       "divisions": [
         {
-          "name": "Division masculine",
-          "goal": "Gagnez une autre chance face au champion de la WWE Bron Breakker",
+          "name": "Comment fonctionnent les __PROTECTED_d3802592__",
+          "goal": "Des rapports plus courts améliorent l'accélération et le départ mais limitent la vitesse de pointe plus tôt.",
           "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
+            "Des rapports plus longs augmentent la vitesse maximale mais réduisent la puissance au démarrage."
           ]
         },
         {
-          "name": "Division féminine",
-          "goal": "Cherchez une nouvelle confrontation avec la championne féminine de la WWE Jordynne Grace",
+          "name": "À quoi ressemble un bon réglage Drag",
+          "goal": "Démarrez fort dans les rapports inférieurs, montez proprement dans les rapports supérieurs et atteignez la vitesse de pointe près de la ligne d'arrivée.",
           "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
+            "Évitez d'atteindre le régime maximum trop tôt pendant la course."
+          ]
+        },
+        {
+          "name": "Meilleur flux de réglage pour débutants",
+          "goal": "Faites un seul changement par course, testez en mode libre, redémarrez et comparez le comportement.",
+          "opponents": [
+            "Les petits changements de rapports sont plus faciles à suivre que les reconstructions complètes."
+          ]
+        },
+        {
+          "name": "Où tester votre réglage",
+          "goal": "La piste de Sentul est l'itinéraire de test initial le plus reproductible ; __PROTECTED_6036fd09__ ajoute un autre itinéraire pour les vérifications de départ et de vitesse de pointe.",
+          "opponents": [
+            "Utilisez des conditions de test identiques avant de comparer les résultats."
+          ]
+        },
+        {
+          "name": "Options de configuration visuelle et avancée",
+          "goal": "Les livrées, les couleurs secondaires, les jantes, les plaques personnalisées et les modifications de couleurs de base permettent des créations visuelles.",
+          "opponents": [
+            "La suspension Pro et la peinture premium offrent un contrôle plus approfondi pour les utilisateurs avancés."
           ]
         }
       ],
-      "features": [
-        "Les dialogues à choix multiples façonnent la progression de l'histoire",
-        "Conférences de presse de la WWE avec des réponses au choix du joueur",
-        "Une décision finale majeure affecte le règne de champion"
+      "tuningOptions": [
+        {
+          "name": "Réglage des __PROTECTED_d3802592__",
+          "access": "Système du jeu de base",
+          "notes": "Réglage de performance de base pour les courses de drag"
+        },
+        {
+          "name": "Réglage de suspension Pro",
+          "access": "Pass Suspension Pro",
+          "priceRobux": 29,
+          "notes": "Contrôle avancé de l'amortissement et de la rigidité"
+        },
+        {
+          "name": "Peinture avancée",
+          "access": "Pass Peinture Avancée",
+          "priceRobux": 59,
+          "notes": "Prise en charge des couleurs HEX et de matériaux comme la fibre de carbone, le mat, le brillant et le métal"
+        },
+        {
+          "name": "Plaque personnalisée",
+          "access": "Pass Plaque Personnalisée",
+          "priceRobux": 79,
+          "notes": "Plaques de texte personnalisées pour des créations personnalisées"
+        }
       ],
-      "rewards": [
-        "Arènes",
-        "Championnats",
-        "Pièces CAS",
-        "Personnages jouables",
-        "Armes",
-        "Paybacks",
-        "Contenu MyFACTION"
+      "referenceLinks": [
+        {
+          "title": "Guide Drag Drive Simulator - Conseils pour débutants, concessionnaires et réglages",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator | Statistiques de jeu Rolimon's",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Pass Suspension Pro | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1539617636"
+        },
+        {
+          "title": "Pass Peinture Avancée | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1191705830"
+        },
+        {
+          "title": "Pass Plaque Personnalisée | Rolimon's",
+          "url": "https://www.rolimons.com/gamepass/1264299861"
+        },
+        {
+          "title": "Drag Drive Simulator Roblox [ZX-10R]",
+          "url": "https://www.youtube.com/shorts/7kWk2DA2-hg"
+        }
       ]
     },
     "universeMode": {
-      "title": "Mode Universe WWE 2K26",
-      "subtitle": "Créez votre calendrier WWE de rêve avec un contrôle plus approfondi",
+      "title": "Guide de course Drag Drag Drive Simulator",
+      "subtitle": "Apprenez les centres de course, les modes de drag et les bases de la construction d'une course",
+      "intro": "Apprenez où courir, comment fonctionne chaque mode de drag et comment construire une course plus rapide avec un meilleur timing de départ et de meilleurs rapports de vitesse.",
       "quickFacts": [
         {
-          "label": "Outil de configuration",
-          "value": "Assistant Universe"
+          "label": "Centre de course principal",
+          "value": "Piste de Sentul"
         },
         {
-          "label": "Événements de Draft max",
-          "value": "8"
+          "label": "Modes publics de base",
+          "value": "Contre-la-montre et Course Drag de tournoi"
         },
         {
-          "label": "Titres par show",
-          "value": "Jusqu'à 8"
+          "label": "Capacité du serveur",
+          "value": "Jusqu'à 25 joueurs"
         },
         {
-          "label": "Emplacements MITB",
-          "value": "2 par show"
-        }
-      ],
-      "features": [
-        {
-          "title": "Assistant Universe",
-          "description": "Lancez vos sauvegardes plus rapidement en choisissant les shows, les PLE, les champions et les rosters dès le départ"
-        },
-        {
-          "title": "WWE Draft",
-          "description": "Créez et planifiez des événements de Draft où les shows s'échangent des Superstars"
-        },
-        {
-          "title": "Encaissements MITB",
-          "description": "Les mallettes peuvent être encaissées pour n'importe quel titre éligible d'un show"
-        },
-        {
-          "title": "Promos améliorées",
-          "description": "Self-Promos, Call-Outs, Interruptions, Open Challenges, Interviews d'après-match"
-        },
-        {
-          "title": "Curseurs de matchmaking",
-          "description": "Ajustez le tri de la carte des matchs avec des bonus pour les titres, les rivalités et les types de matchs"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "WWE 2K26 Créations de la communauté",
-      "subtitle": "Créez du contenu personnalisé plus vaste et plus détaillé",
-      "quickFacts": [
-        {
-          "label": "Emplacements CAS",
-          "value": "200"
-        },
-        {
-          "label": "Emplacements d'images",
-          "value": "2 000"
-        },
-        {
-          "label": "Modèles de corps",
-          "value": "40+"
-        },
-        {
-          "label": "Répartition des couches",
-          "value": "60 tenue + 40 tête/corps"
+          "label": "Flux de travail pour débutants",
+          "value": "Mode libre, Contre-la-montre, puis Tournoi"
         }
       ],
       "sections": [
         {
-          "title": "Créer une Superstar",
-          "description": "Morphing du corps et morphing du visage amélioré avec plus de 40 modèles de corps"
+          "title": "Centre de course",
+          "content": "Les courses de drag publiques sont centrées sur la piste de Sentul sur la carte principale. C'est le lieu de course principal pour les essais et la collecte compétitive de __PROTECTED_c4cb0a6b__."
         },
         {
-          "title": "Cheveux et peintures corporelles",
-          "description": "Mélange de couleurs de cheveux bicolores et commandes à la souris Joy-Con 2 pour les peintures corporelles"
+          "title": "Course Drag contre-la-montre",
+          "content": "Le contre-la-montre est un mode solo conçu pour tester les réglages. Le gain de __PROTECTED_c4cb0a6b__ est basé sur la distance parcourue par seconde, ce qui en fait le meilleur endroit pour tester l'équilibre du départ avant de rejoindre une course en direct."
         },
         {
-          "title": "Créer une arène",
-          "description": "Barricades LED, nouvelles tables des commentateurs, options de tapis et de bords de ring étendues"
+          "title": "Course Drag de tournoi",
+          "content": "La course Drag de tournoi est le mode compétitif. Les joueurs du serveur peuvent y participer, les courses commencent automatiquement toutes les quelques minutes et le gagnant remporte la plus grande part de la cagnotte de __PROTECTED_c4cb0a6b__."
         },
         {
-          "title": "Créer une image",
-          "description": "Limite de l'outil de téléchargement d'images doublée, passant de 1 000 à 2 000 emplacements"
+          "title": "Ce qui fait gagner les courses",
+          "content": "Un véhicule réglé bat un véhicule d'origine coûteux plus souvent que ne le pensent la plupart des nouveaux joueurs. Des rapports inférieurs plus courts aident à démarrer plus fort, tandis que des rapports supérieurs plus longs vous aident à atteindre la vitesse de pointe plus près de la ligne d'arrivée."
         },
         {
-          "title": "Créer un championnat",
-          "description": "Pièces étendues et interface de création actualisée"
+          "title": "Stratégie de départ",
+          "content": "Utilisez une moto économique ou une voiture de départ, testez d'abord en mode libre, puis passez au contre-la-montre avant de rejoindre les courses de tournoi. C'est le chemin le plus facile pour apprendre le système de drag sans gaspiller de __PROTECTED_c4cb0a6b__."
         },
         {
-          "title": "Créer une entrée",
-          "description": "Édition avancée de la chronologie pour les entrées de champion, MITB et de clans (Quad/Quint)"
+          "title": "Infos sur le serveur",
+          "content": "Un serveur Drag Drive Simulator prend en charge jusqu'à 25 joueurs, le trafic de course reste donc assez actif pour les cycles de tournois publics sans paraître surpeuplé."
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Guide Drag Drive Simulator - BrainrotGames",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Drag Drive Simulator - Roblox",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        },
+        {
+          "title": "Tutoriel de base de la carte Drag Drive Simulator - YouTube",
+          "url": "https://www.youtube.com/watch?v=MBPPqW15fpQ"
+        }
+      ]
+    },
+    "communityCreations": {
+      "title": "Véhicules limités Drag Drive Simulator",
+      "subtitle": "Suivez les sorties limitées, les modèles d'exposition et le meilleur moment pour acheter",
+      "intro": "Suivez le côté limité de Drag Drive Simulator, y compris les sorties limitées liées aux mises à jour, les véhicules d'exposition récents et ce qui rend un véhicule limité digne d'intérêt.",
+      "quickFacts": [
+        {
+          "label": "Note sur la mise à jour actuelle",
+          "value": "La Beta V1.1.3 a ajouté 6 véhicules spéciaux limités"
+        },
+        {
+          "label": "Meilleur moment pour acheter",
+          "value": "Juste après les mises à jour majeures"
+        },
+        {
+          "label": "Valeur principale",
+          "value": "Exclusivité, identité d'événement et attrait pour le drag réglé"
+        },
+        {
+          "label": "Règle de progression",
+          "value": "Assurez-vous d'abord un revenu et un véhicule quotidien réglé"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Aperçu actuel des limités",
+          "content": "Les notes de mise à jour publiques actuelles pour la Beta V1.1.3 indiquent que le jeu a ajouté 6 nouveaux véhicules spéciaux limités, ainsi que d'autres nouvelles voitures et motos. Les sorties limitées sont clairement liées aux cycles de mises à jour majeures."
+        },
+        {
+          "title": "Pourquoi les véhicules limités sont importants",
+          "content": "Les véhicules limités sont l'un des principaux moteurs de collection dans le jeu. Les joueurs les recherchent pour leur exclusivité, leur identité liée aux événements et leur attrait accru pour les courses de drag lorsqu'ils sont combinés à un bon réglage."
+        },
+        {
+          "title": "Points forts publics récents",
+          "content": "Les présentations publiques récentes concernant le contenu limité de Drag Drive Simulator incluent une présentation de l'Aerox limitée, des motos de luxe limitées et une moto Vesmet limitée, récompense d'événement du cycle des fêtes."
+        },
+        {
+          "title": "Meilleur moment pour acheter",
+          "content": "Le meilleur moment est juste après le déploiement d'une mise à jour majeure. C'est à ce moment-là que le stock limité, les vidéos de présentation et la demande des joueurs atteignent leur apogée simultanément."
+        },
+        {
+          "title": "Règle d'achat intelligente",
+          "content": "Sécurisez d'abord une source d'argent fiable et un véhicule quotidien réglé, puis dépensez pour des véhicules limités. Les limités sont passionnants, mais le réglage et les revenus en __PROTECTED_c4cb0a6b__ décident toujours de votre vitesse de progression globale."
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Drag Drive Simulator - Page de jeu Rolimon's",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Drag Drive Simulator - Roblox",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
+        },
+        {
+          "title": "Auto numéro un ! Achetez et modifiez la moto de drag limitée la plus rapide - YouTube",
+          "url": "https://www.youtube.com/watch?v=baW0Gjxf_OI"
+        },
+        {
+          "title": "Présentation Aerox All New Limited Roblox Drag Drive Simulator - YouTube",
+          "url": "https://www.youtube.com/watch?v=yn_0X131e_k"
+        },
+        {
+          "title": "COMMENT OBTENIR LA MOTO DRAG VESMET LIMITÉE RÉCOMPENSE ÉVÉNEMENT NOËL - YouTube",
+          "url": "https://www.youtube.com/watch?v=ydCaA4-9WlQ"
         }
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 The Island",
-      "subtitle": "Choose an Order and fight for control",
+      "title": "Guide de la carte Drag Drive Simulator",
+      "subtitle": "Comprendre la structure de la carte, les zones de course et la planification des trajets quotidiens",
+      "intro": "Utilisez ce guide pour comprendre la structure actuelle de la carte publique, les principales zones de conduite et la place de chaque zone dans les courses, les emplois, l'exploration et les itinéraires de caisses.",
       "quickFacts": [
         {
-          "label": "Factions",
-          "value": "3 Orders"
+          "label": "Carte d'accueil principale",
+          "value": "Carte originale avec concessionnaires, Coffee Shop et piste de Sentul"
         },
         {
-          "label": "Story Chapters",
-          "value": "3"
+          "label": "Lieu de course principal",
+          "value": "Piste de Sentul avec modes Contre-la-montre et Tournoi"
         },
         {
-          "label": "Prestige Tiers",
-          "value": "4"
+          "label": "Expansion urbaine",
+          "value": "Ville de Surakarta en V1.11"
         },
         {
-          "label": "New PvP",
-          "value": "2v2 PvP"
+          "label": "Dernière expansion",
+          "value": "__PROTECTED_6036fd09__ à __PROTECTED_1e2e9c18__ (Beta V1.1.3)"
         }
       ],
-      "orders": [
+      "sections": [
         {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "Built around ring heritage, spectacle, and old-school values"
+          "title": "Vue d'ensemble de la carte principale",
+          "content": "La carte originale est toujours la zone d'accueil principale. Elle comprend plusieurs concessionnaires, le Coffee Shop et la piste de Sentul, qui reste le centre névralgique des courses de drag publiques."
         },
         {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "Embraces the strange, theatrical, and power of intimidation"
+          "title": "Piste de Sentul",
+          "content": "La piste de Sentul, également appelée circuit de Sentul dans les guides publics, est la zone de course compétitive principale. Elle prend en charge les courses Drag en mode Contre-la-montre et Tournoi."
         },
         {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "Rejects the status quo and pushes The Island in bold new directions"
+          "title": "Ville de Surakarta",
+          "content": "La ville de Surakarta a été ajoutée en V1.11 en tant qu'expansion urbaine complète. Elle ajoute de nouvelles routes, des concessionnaires, des endroits cachés et ses propres itinéraires de recherche de caisses, ce qui en fait la carte d'exploration la plus importante pour les joueurs de milieu de jeu."
+        },
+        {
+          "title": "__PROTECTED_6036fd09__",
+          "content": "Les notes de mise à jour actuelles de la Beta V1.1.3 listent __PROTECTED_6036fd09__ à __PROTECTED_1e2e9c18__ comme une nouvelle expansion de carte. Elle ajoute des systèmes de course sur route et de course Drag à la rotation actuelle des cartes."
+        },
+        {
+          "title": "Arrêts importants",
+          "content": "Pour la plupart des joueurs, les arrêts les plus importants sont les concessionnaires du point d'apparition, le Coffee Shop pour l'emploi de Barista, la piste de Sentul pour les courses de drag et les routes secondaires de Surakarta pour les caisses et l'exploration."
+        },
+        {
+          "title": "Conseil de planification d'itinéraire",
+          "content": "Un bon itinéraire quotidien combine un arrêt de course, un arrêt de travail et un balayage de caisses. Cette structure vous donne des __PROTECTED_c4cb0a6b__ réguliers tout en découvrant davantage la carte."
         }
       ],
-      "prestige": [
+      "referenceLinks": [
         {
-          "tier": "Recruit",
-          "ovrRange": "70-85"
+          "title": "Guide Drag Drive Simulator - BrainrotGames",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
         },
         {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
+          "title": "Drag Drive Simulator - Page de jeu Rolimon's",
+          "url": "https://www.rolimons.com/game/131378148336503"
         },
         {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
+          "title": "Tutoriel de base de la carte Drag Drive Simulator - YouTube",
+          "url": "https://www.youtube.com/watch?v=MBPPqW15fpQ"
         },
         {
-          "tier": "Legendary",
-          "ovrRange": "85-100"
+          "title": "Tous les emplacements des concessionnaires Roblox Drag Drive Simulator - YouTube",
+          "url": "https://www.youtube.com/watch?v=TtTVbirgLrw"
         }
-      ],
-      "highlights": [
-        "Scrapyard: central brawl zone with hazards and climbable structures",
-        "Towers: repeatable PvE with random paths and boss fights",
-        "Weekly quests reward XP, cosmetics, and Island rewards",
-        "Seasonal Ranked Play with leaderboards for 1v1, 2v2, and Championships"
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
-      "subtitle": "Créez des effectifs plus puissants grâce à la chimie et au Quick Swap",
+      "title": "Caisses cachées et anomalies Drag Drive Simulator",
+      "subtitle": "Optimisez les itinéraires de caisses et suivez les étapes des badges d'anomalie",
+      "intro": "Découvrez comment fonctionnent les itinéraires de caisses et les badges d'anomalie, quelles zones valent la peine d'être vérifiées et quelles étapes de progression sont déjà visibles dans les données publiques du jeu.",
       "quickFacts": [
         {
-          "label": "Taille de l'effectif",
-          "value": "4 Superstars"
+          "label": "Zones d'apparition des caisses",
+          "value": "Ruelles, derrière les bâtiments, toits et impasses"
         },
         {
-          "label": "Traits de chimie",
-          "value": "60 répartis dans 10 catégories"
+          "label": "Meilleure logique de balayage",
+          "value": "Rues secondaires d'abord, puis toits et impasses"
         },
         {
-          "label": "Nouveau type de match",
-          "value": "Quick Swap"
+          "label": "Étape d'anomalie visible",
+          "value": "Collecteur d'anomalies : Brainrot ! - 288 227 récompenses"
         },
         {
-          "label": "Séries de cartes de lancement",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
+          "label": "Statut de la chaîne Barista",
+          "value": "Trois badges publics suivent déjà l'itinéraire de l'anomalie"
         }
       ],
-      "features": [
+      "sections": [
         {
-          "title": "Chimie d'équipe",
-          "description": "Les réactions positives et négatives affectent le score de chimie ; les managers réduisent les effets négatifs"
+          "title": "Règles des caisses cachées",
+          "content": "Les caisses cachées apparaissent sur les deux cartes et se trouvent couramment dans les ruelles, derrière les bâtiments, sur les toits et dans les impasses. Elles se réinitialisent avec le temps, il est donc utile de refaire des balayages lors de différentes sessions."
         },
         {
-          "title": "Soutien intergenre",
-          "description": "Créez des effectifs mixtes de quatre personnes"
+          "title": "Meilleur modèle de recherche",
+          "content": "Ne restez pas sur les routes principales. Le balayage le plus efficace vérifie d'abord les rues secondaires, puis les toits et les impasses, puis passe de la carte originale à Surakarta pour un second passage."
         },
         {
-          "title": "Quick Swap",
-          "description": "Changez de coéquipier en plein match, partagez les emplacements de Signature/Finisher, gagnez par knockout"
+          "title": "Avantage des caisses de Surakarta",
+          "content": "Surakarta possède ses propres apparitions de caisses cachées, ce qui la rend plus précieuse qu'une simple carte d'extension. Les joueurs qui ne restent que sur la carte originale passent à côté d'une partie de l'économie des caisses."
         },
         {
-          "title": "Faction Wars",
-          "description": "Progression basée sur des decks, commençant par le Crowd's Deck"
+          "title": "Progression du collectionneur d'anomalies",
+          "content": "Les données publiques sur les badges montrent que « Collecteur d'anomalies : Brainrot ! » a été décerné 288 227 fois, ce qui en fait l'étape d'anomalie la plus visible dans le suivi public actuel."
         },
         {
-          "title": "World Tour",
-          "description": "Les récompenses incluent des Personas, des MFP, des Arc Cards et des packs dans des lieux du monde entier"
+          "title": "Chaîne d'anomalies du Barista",
+          "content": "La chaîne d'anomalies actuelle côté barista est visible via les badges publics : « Visiteur anomalie Barista : Entité inconnue ! » a 71 093 récompenses, « Menu anomalie Barista : Recette maudite ! » a 50 562 récompenses, et « Chasseur de Barista : 13 anomalies ! » a 87 récompenses."
+        },
+        {
+          "title": "Pourquoi ce module est important",
+          "content": "C'est l'un des meilleurs modules d'exploration de la page d'accueil car il mélange récompenses cachées, visites répétées, chasse aux badges et efficacité d'itinéraire en un seul endroit."
+        }
+      ],
+      "spoilerToggle": {
+        "label": "Afficher les détails des badges d'anomalie",
+        "items": [
+          "Collecteur d'anomalies : Brainrot ! - 288 227 récompenses",
+          "Visiteur anomalie Barista : Entité inconnue ! - 71 093 récompenses",
+          "Menu anomalie Barista : Recette maudite ! - 50 562 récompenses",
+          "Chasseur de Barista : 13 anomalies ! - 87 récompenses"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "Guide Drag Drive Simulator - BrainrotGames",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        },
+        {
+          "title": "Collecteur d'anomalies : Brainrot ! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/1032394059005806"
+        },
+        {
+          "title": "Visiteur anomalie Barista : Entité inconnue ! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/1039385304620397"
+        },
+        {
+          "title": "Menu anomalie Barista : Recette maudite ! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/2578281478541060"
+        },
+        {
+          "title": "Chasseur de Barista : 13 anomalies ! - Rolimon's",
+          "url": "https://www.rolimons.com/gamebadge/2538591935552852"
+        },
+        {
+          "title": "Comment obtenir la NOUVELLE anomalie Brainrot dans Drag Drive Simulator - YouTube",
+          "url": "https://www.youtube.com/watch?v=ySUGVDcNsoM"
         }
       ]
     },
     "lockerCodes": {
-      "title": "Codes de vestiaire WWE 2K26",
-      "subtitle": "Utilisez les codes actifs pour des récompenses MyFACTION",
+      "title": "Gamepasses Drag Drive Simulator",
+      "subtitle": "Comparez la progression, l'accès et les pass utilitaires avant de dépenser",
+      "intro": "Ces gamepasses façonnent la progression de différentes manières. Les choix les plus rentables améliorent généralement les revenus, débloquent un nouveau chemin de carrière, ouvrent l'accès aux véhicules drag-spec ou augmentent la capacité du garage.",
       "quickFacts": [
         {
-          "label": "Mode",
-          "value": "MyFACTION"
+          "label": "Meilleur choix de progression",
+          "value": "2x Paycheck (Double salaire)"
         },
         {
-          "label": "Code actif",
-          "value": "BSTINTWRLD26"
+          "label": "Meilleur déblocage de rôle",
+          "value": "Police Pass"
         },
         {
-          "label": "Expire le",
-          "value": "March 13, 2026"
-        }
-      ],
-      "codes": [
+          "label": "Pass axé sur la course",
+          "value": "Pass DragSpec"
+        },
         {
-          "code": "BSTINTWRLD26",
-          "rewards": [
-            "1x Pack de base Aftershock Series I",
-            "1x Pack de base Momentum Series I"
-          ],
-          "expires": "March 13, 2026"
+          "label": "Choix utilitaire",
+          "value": "Pass d'extension d'emplacements"
         }
       ],
-      "howToRedeem": [
-        "Ouvrez WWE 2K26 depuis le menu principal",
-        "Sélectionnez Codes de vestiaire",
-        "Saisissez le code exactement comme il apparaît",
-        "Utilisez le code et ouvrez vos packs dans MyFACTION"
+      "sections": [
+        {
+          "title": "Meilleurs choix de valeur",
+          "content": "Le 2x Paycheck est l'option de progression premium pour les joueurs qui passent du temps sur les emplois, les courses et d'autres activités rémunérées en __PROTECTED_c4cb0a6b__. Le Police Pass est le déblocage le plus propre pour un rôle de police dédié avec véhicules, progression de grade et jeu de style mission. Le Pass DragSpec est l'option ciblée pour les joueurs de performance en ligne droite."
+        },
+        {
+          "title": "Choix de collection et d'accès",
+          "content": "Le Luxury Pass ouvre le côté premium du catalogue de véhicules, tandis que le Pass d'extension d'emplacements aide une fois que votre garage commence à se remplir. L'extension d'emplacements devient pratique pour les collectionneurs de modèles limités ou les joueurs qui conservent des configurations séparées pour le jeu de rôle, les emplois et les courses de drag."
+        },
+        {
+          "title": "Quoi acheter en premier",
+          "content": "Pour une progression à long terme, commencez par le 2x Paycheck si votre objectif est une croissance plus rapide des __PROTECTED_c4cb0a6b__. Achetez le Police Pass si vous voulez un nouveau rôle et une échelle de grades. Choisissez le Pass DragSpec si votre objectif final est la course de drag, et prenez l'extension d'emplacements une fois que l'espace du garage devient un goulot d'étranglement actif."
+        }
+      ],
+      "gamepassData": [
+        {
+          "name": "2x Paycheck",
+          "priceRobux": 499,
+          "role": "Boost de revenus",
+          "userBenefit": "Double les revenus en __PROTECTED_c4cb0a6b__ provenant des activités de jeu et constitue le pass le plus rentable pour une progression régulière.",
+          "updated": "Il y a 7 mois"
+        },
+        {
+          "name": "Police Pass",
+          "priceRobux": 149,
+          "role": "Déblocage d'emploi",
+          "userBenefit": "Débloque l'emploi de policier, les véhicules de police, la progression de grade, les missions spéciales et l'équipement de police lié aux promotions.",
+          "updated": "Il y a 6 mois"
+        },
+        {
+          "name": "Pass DragSpec",
+          "priceRobux": 109,
+          "role": "Accès course",
+          "userBenefit": "Débloque des véhicules drag-spec conçus pour les courses en ligne droite et des configurations de drag plus performantes.",
+          "updated": "Il y a 1 mois"
+        },
+        {
+          "name": "Luxury Pass",
+          "priceRobux": 119,
+          "role": "Accès véhicules premium",
+          "userBenefit": "Débloque la catégorie des véhicules de luxe, y compris les motos haut de gamme et les modèles premium.",
+          "updated": "Il y a 3 mois"
+        },
+        {
+          "name": "Pass d'extension d'emplacements",
+          "priceRobux": 89,
+          "role": "Utilité garage",
+          "userBenefit": "Étend le stockage des véhicules au-delà de la limite standard de 75 emplacements pour les grandes collections et plus de configurations sauvegardées.",
+          "updated": "Il y a 4 semaines"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Présentation du jeu Drag Drive Simulator",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "2x Paycheck",
+          "url": "https://www.rolimons.com/gamepass/1032450517"
+        },
+        {
+          "title": "Police Pass",
+          "url": "https://www.rolimons.com/gamepass/1428858969"
+        },
+        {
+          "title": "Pass DragSpec",
+          "url": "https://www.rolimons.com/gamepass/1152953570"
+        },
+        {
+          "title": "Luxury Pass",
+          "url": "https://www.rolimons.com/gamepass/1032530306"
+        },
+        {
+          "title": "Pass d'extension d'emplacements",
+          "url": "https://www.rolimons.com/gamepass/1703642794"
+        },
+        {
+          "title": "Guide Drag Drive Simulator",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
+        }
       ]
     },
     "pcRequirements": {
-      "title": "Configuration PC pour WWE 2K26",
-      "subtitle": "Vérifiez si votre PC peut faire tourner WWE 2K26",
+      "title": "Personnalisation Drag Drive Simulator",
+      "subtitle": "Créez des styles uniques avec la peinture, les plaques, la posture et les pass visuels",
+      "intro": "La personnalisation dans Drag Drive Simulator va au-delà de la peinture. Les options payantes actuelles prennent en charge les plaques personnalisées, le contrôle avancé de la peinture, le réglage de la posture et les améliorations visuelles par catégorie comme les jantes et les accessoires premium.",
       "quickFacts": [
         {
-          "label": "Système d'exploitation",
-          "value": "Windows 10 64 bits"
+          "label": "Pass d'identité",
+          "value": "Pass Plaque Personnalisée"
         },
         {
-          "label": "RAM",
-          "value": "16 Go"
+          "label": "Pass de peinture",
+          "value": "Pass Peinture Avancée"
         },
         {
-          "label": "Stockage",
-          "value": "120 Go"
+          "label": "Pass de posture",
+          "value": "Pass Suspension Pro"
         },
         {
-          "label": "Note sur le processeur",
-          "value": "Prise en charge de AVX2 et F16C requise"
+          "label": "Expansion visuelle",
+          "value": "Jantes et accessoires premium"
         }
       ],
-      "minimum": {
-        "os": "Windows 10 64 bits",
-        "processor": "Intel Core i7-4770 ou AMD Ryzen 5 1500X",
-        "memory": "16 Go de RAM",
-        "graphics": "NVIDIA RTX 2060 ou AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 Go d'espace disque disponible",
-        "notes": "Le GPU doit avoir au moins 6 Go de VRAM ; le processeur doit prendre en charge AVX2 et F16C"
-      },
-      "recommended": {
-        "os": "Windows 10 64 bits",
-        "processor": "Intel Core i7-7700 ou AMD Ryzen 5 2600",
-        "memory": "16 Go de RAM",
-        "graphics": "NVIDIA RTX 3060 ou AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 Go d'espace disque disponible",
-        "notes": "Au moins 12 Go de VRAM ; le processeur doit prendre en charge AVX2 et F16C"
-      }
+      "sections": [
+        {
+          "title": "Améliorations visuelles de base",
+          "content": "Le Pass Plaque Personnalisée permet aux joueurs de créer des plaques d'immatriculation personnalisées. Le Pass Peinture Avancée étend le contrôle de la peinture et permet une identité de création plus unique et des thèmes parfaits pour les captures d'écran."
+        },
+        {
+          "title": "Posture et ajustement",
+          "content": "Le Pass Suspension Pro permet des configurations de posture plus avancées et constitue l'option payante la plus directe pour les modèles surbaissés, les captures d'écran axées sur l'ajustement et les véhicules de jeu de rôle au style affirmé."
+        },
+        {
+          "title": "Progression axée sur le style",
+          "content": "Le Pass Jantes Exclusives et le Pass Accessoires Premium étendent encore plus le côté cosmétique. Ensemble, ils offrent suffisamment de variété pour les pages de présentation, les galeries de style et les collections de créations thématiques."
+        }
+      ],
+      "customizationData": [
+        {
+          "name": "Pass Peinture Avancée",
+          "priceRobux": 59,
+          "type": "Personnalisation des couleurs",
+          "userBenefit": "Étend la personnalisation de la peinture et permet des configurations de couleurs de véhicules plus personnalisées.",
+          "updated": "Il y a 7 mois"
+        },
+        {
+          "name": "Pass Plaque Personnalisée",
+          "priceRobux": 79,
+          "type": "Personnalisation d'identité",
+          "userBenefit": "Permet aux joueurs de créer des plaques d'immatriculation personnalisées avec leurs propres lettres et chiffres.",
+          "updated": "Il y a 1 mois"
+        },
+        {
+          "name": "Pass Suspension Pro",
+          "priceRobux": 29,
+          "type": "Personnalisation de la posture",
+          "userBenefit": "Ajoute plus de flexibilité à la suspension pour les joueurs qui souhaitent un style de posture et un réglage visuel plus marqués.",
+          "updated": "Il y a 4 mois"
+        },
+        {
+          "name": "Pass Jantes Exclusives",
+          "priceRobux": 79,
+          "type": "Personnalisation des roues",
+          "userBenefit": "Débloque des options de jantes supplémentaires pour les joueurs créant des voitures et des motos axées sur le style.",
+          "updated": "Il y a 1 mois"
+        },
+        {
+          "name": "Pass Accessoires Premium",
+          "priceRobux": null,
+          "type": "Personnalisation d'accessoires",
+          "userBenefit": "Débloque la catégorie Premium dans le menu Accessoires et donne accès à des ajouts premium tels que des winglets et d'autres pièces visuelles.",
+          "updated": "Il y a 1 mois",
+          "status": "Hors vente"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Pass Peinture Avancée",
+          "url": "https://www.rolimons.com/gamepass/1191705830"
+        },
+        {
+          "title": "Pass Plaque Personnalisée",
+          "url": "https://www.rolimons.com/gamepass/1264299861"
+        },
+        {
+          "title": "Pass Suspension Pro",
+          "url": "https://www.rolimons.com/gamepass/1539617636"
+        },
+        {
+          "title": "Présentation du jeu Drag Drive Simulator",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Pass Accessoires Premium",
+          "url": "https://www.rolimons.com/gamepass/1703277898"
+        }
+      ]
     },
     "arenas": {
-      "title": "Arènes WWE 2K26",
-      "subtitle": "Explorez plus de 40 arènes à travers des lieux modernes, classiques et originaux",
+      "title": "Mises à jour et événements Drag Drive Simulator",
+      "subtitle": "Suivez les points forts des correctifs, la cadence des événements et les changements d'étapes sur une seule chronologie",
+      "intro": "Drag Drive Simulator est axé sur les mises à jour. Les correctifs majeurs et les événements saisonniers combinent souvent de nouveaux véhicules, des extensions de carte, du contenu limité, des systèmes cosmétiques et de nouveaux codes à utiliser.",
       "quickFacts": [
         {
-          "label": "Nombre d'arènes",
-          "value": "40+"
+          "label": "Joueurs actuellement",
+          "value": "31 372"
         },
         {
-          "label": "Nouveaux lieux",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "label": "Total des visites",
+          "value": "223 069 237"
         },
         {
-          "label": "Points forts classiques",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "label": "Favoris",
+          "value": "1 866 075"
+        },
+        {
+          "label": "Note",
+          "value": "95,853 %"
+        },
+        {
+          "label": "Pic historique de __PROTECTED_76434754__",
+          "value": "74 020 le 20-02-2026"
         }
       ],
-      "categories": [
+      "sections": [
         {
-          "name": "Émissions hebdomadaires actuelles",
-          "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
-          ]
+          "title": "Dernière mise à jour majeure",
+          "content": "La mise à jour phare actuelle est la BETA V1.1.3. Elle a ajouté l'extension de carte __PROTECTED_6036fd09__ à __PROTECTED_1e2e9c18__, le réglage des rapports de vitesse, plus d'accessoires, six nouveaux véhicules spéciaux limités, plus de voitures et de motos, cinq nouveaux codes à utiliser, des mises à jour des animations de montée en régime et de nouveaux systèmes de course à Pettarani."
         },
         {
-          "name": "Premium Live Events",
-          "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
-          ]
+          "title": "Modèle d'événement récent",
+          "content": "La cadence récente inclut le Ramadan, le Nouvel An lunaire, les vacances d'hiver, le jour de l'Indépendance, Halloween, du contenu sur le thème de l'Aïd et du contenu secondaire de style anomalie. Un bloc d'événements rotatif est préférable à un panneau de correctifs statique et monotone."
         },
         {
-          "name": "Arènes classiques",
-          "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
-          ]
+          "title": "Pourquoi ce module est important",
+          "content": "Les codes, les véhicules limités, les changements de carte, les systèmes de course et les nouveaux emplois sont souvent livrés ensemble. Un suivi de mise à jour compact aide les joueurs à comprendre rapidement les changements majeurs et à s'orienter vers des guides dédiés."
+        }
+      ],
+      "latestVersion": "BETA V1.1.3",
+      "latestHighlights": [
+        "Extension de carte __PROTECTED_6036fd09__ à __PROTECTED_1e2e9c18__",
+        "Réglage des rapports de vitesse et plus d'accessoires",
+        "6 nouveaux véhicules spéciaux limités",
+        "Nouvelles voitures et motos",
+        "5 nouveaux codes à utiliser",
+        "Animation de montée en régime et refonte du compteur de vitesse",
+        "Système de course sur route et de course Drag à Pettarani",
+        "Décorations de carte pour l'Aïd Moubarak"
+      ],
+      "eventHistory": [
+        {
+          "name": "Bonne fin : Événement Ramadan x LNY 2026",
+          "awarded": 46568,
+          "updated": "Il y a 1 semaine"
         },
         {
-          "name": "Espaces originaux et de bagarre",
-          "arenas": [
-            "Gymnase archétypal",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Convention de catch (Grapple Legends)",
-            "Bagarre en coulisses",
-            "Parking de la NXT",
-            "La casse"
-          ]
+          "name": "Mauvaise fin : Événement Ramadan x LNY 2026",
+          "awarded": 25705,
+          "updated": "Il y a 1 semaine"
+        },
+        {
+          "name": "Fin secrète : Événement Ramadan x LNY 2026",
+          "awarded": 26018,
+          "updated": "Il y a 1 semaine"
+        },
+        {
+          "name": "Fin 1 : Événement vacances d'hiver 2025",
+          "awarded": 35956,
+          "updated": "Il y a 2 mois"
+        },
+        {
+          "name": "Fin 2 : Événement vacances d'hiver 2025",
+          "awarded": 16119,
+          "updated": "Il y a 2 mois"
+        },
+        {
+          "name": "Combattant de la liberté : Événement jour de l'Indépendance 2025",
+          "awarded": 2911,
+          "updated": "Il y a 7 mois"
+        }
+      ],
+      "referenceLinks": [
+        {
+          "title": "Présentation du jeu Drag Drive Simulator",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "__PROTECTED_eac4d037__",
+          "url": "https://www.roblox.com/communities/11378976/ADV-Gamers-Team"
+        },
+        {
+          "title": "YouTube ADV Gamers",
+          "url": "https://www.youtube.com/@ADVGamers"
+        },
+        {
+          "title": "Vidéo de la mise à jour des modifications majeures",
+          "url": "https://www.youtube.com/watch?v=uo-t_MQ_x5k"
+        },
+        {
+          "title": "Vidéo de la mise à jour Modif x Limited",
+          "url": "https://www.youtube.com/watch?v=TBUm0vass8o"
+        },
+        {
+          "title": "Fin 1 : Événement vacances d'hiver 2025",
+          "url": "https://www.rolimons.com/game/131378148336503"
+        },
+        {
+          "title": "Combattant de la liberté : Événement jour de l'Indépendance 2025",
+          "url": "https://www.rolimons.com/gamebadge/2631651973973236"
         }
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLC et objets déblocables",
-      "subtitle": "Suivez chaque parcours de récompense majeur après le lancement",
+      "title": "Communauté et serveurs privés Drag Drive Simulator",
+      "subtitle": "Utilisez les centres officiels et les sessions privées pour les événements, les convois et le jeu coordonné",
+      "intro": "Drag Drive Simulator possède une forte dimension communautaire autour des sessions de jeu de rôle, des cadeaux, du jeu de style convoi, de l'activité des clans et du suivi des mises à jour. Les serveurs privés sont importants car ils permettent des sessions plus contrôlées pour les événements et les présentations.",
       "quickFacts": [
         {
-          "label": "Saisons du Ringside Pass",
-          "value": "6"
+          "label": "Taille du serveur",
+          "value": "25 joueurs"
         },
         {
-          "label": "Paliers par saison",
-          "value": "40"
+          "label": "Groupe ADV Gamers",
+          "value": "3 136 163 membres"
         },
         {
-          "label": "Récompenses de la voie gratuite",
-          "value": "60"
+          "label": "Discord ADV Gamers",
+          "value": "114 763 membres"
         },
         {
-          "label": "Total des récompenses",
-          "value": "120"
+          "label": "YouTube ADV Gamers",
+          "value": "609 000 abonnés"
         }
       ],
-      "seasons": [
+      "sections": [
         {
-          "season": "Saison 1",
-          "release": "March 6, 2026"
+          "title": "Centres communautaires officiels",
+          "content": "Les principaux centres publics sont le groupe Roblox __PROTECTED_eac4d037__, la chaîne YouTube ADV Gamers, la chaîne YouTube officielle Drag Drive Simulator et le serveur Discord ADV Gamers. Ce sont les meilleurs endroits pour les actualités, les avis d'événements, les codes et les vidéos de présentation."
         },
         {
-          "season": "Saison 2",
-          "release": "April 2026"
+          "title": "Cas d'utilisation des serveurs privés",
+          "content": "Les serveurs privés sont pratiques pour la conduite en convoi, les sessions de captures d'écran, le jeu de rôle entre amis et les événements communautaires modérés. Les guides publics notent également la prise en charge du Multi Spawn et du système de modérateur dans les salons privés."
         },
         {
-          "season": "Saison 3",
-          "release": "June 2026"
-        },
-        {
-          "season": "Saison 4",
-          "release": "July 2026"
-        },
-        {
-          "season": "Saison 5",
-          "release": "September 2026"
-        },
-        {
-          "season": "Saison 6",
-          "release": "October 2026"
+          "title": "Aperçu de la communauté en un coup d'œil",
+          "content": "Avec des serveurs de 25 joueurs et plus de 3,1 millions de membres dans le groupe Roblox, le jeu maintient une boucle sociale forte où les joueurs suivent les mises à jour via les canaux communautaires et reviennent pour les événements, les emplois, les codes et les véhicules limités."
         }
       ],
-      "editionPacks": [
+      "communityData": {
+        "serverSize": 25,
+        "groupMembers": 3136163,
+        "discordMembers": 114763,
+        "youtubeChannelSubscribers": 609000,
+        "privateServerFeatures": [
+          "Prise en charge du Multi Spawn",
+          "Prise en charge du système de modérateur",
+          "Utile pour les sessions de convoi",
+          "Utile pour les groupes de jeu de rôle",
+          "Utile pour les captures d'écran et les présentations contrôlées"
+        ]
+      },
+      "referenceLinks": [
         {
-          "name": "Pack Édition King of Kings",
-          "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Provocation signature de Triple H"
-          ]
+          "title": "Groupe Roblox __PROTECTED_eac4d037__",
+          "url": "https://www.roblox.com/communities/11378976/ADV-Gamers-Team"
         },
         {
-          "name": "Pack Édition Attitude Era",
-          "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Carte EVO de Stone Cold Steve Austin",
-            "Carte EVO de The Rock",
-            "Arène Raw Is War '98"
-          ]
+          "title": "Statistiques du groupe __PROTECTED_eac4d037__",
+          "url": "https://www.rolimons.com/group/11378976"
         },
         {
-          "name": "Pack Édition Monday Night War",
-          "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "Arène WCW Thunder '98"
-          ]
+          "title": "Discord ADV Gamers",
+          "url": "https://discord.com/invite/officialadvgamers"
         },
         {
-          "name": "Pack WrestleMania 42",
-          "includes": [
-            "Arène WrestleMania 42",
-            "Persona WM42 nº 1",
-            "Persona WM42 nº 2",
-            "Persona WM42 nº 3"
-          ]
-        }
-      ],
-      "unlockExamples": [
-        {
-          "name": "AJ Lee",
-          "source": "Showcase : Match What If nº 7"
+          "title": "YouTube ADV Gamers",
+          "url": "https://www.youtube.com/@ADVGamers"
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "Ringside Pass nº 1 Voie gratuite Palier 5"
+          "title": "YouTube officiel Drag Drive Simulator",
+          "url": "https://www.youtube.com/channel/UC6bXTzU6mefwqPV2zFU-HZg"
         },
         {
-          "name": "Andre The Giant",
-          "source": "Ringside Pass nº 1 Voie gratuite Palier 4"
+          "title": "Guide Drag Drive Simulator",
+          "url": "https://brainrotgames.games/guides/drag-drive-simulator-guide/"
         },
         {
-          "name": "El Hijo del Vikingo",
-          "source": "Ringside Pass nº 1 Voie Premium Palier 1"
-        },
-        {
-          "name": "Flammer",
-          "source": "Ringside Pass nº 1 Voie Premium Palier 7"
-        },
-        {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase : Match historique nº 7"
+          "title": "Page officielle du jeu",
+          "url": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator"
         }
       ]
     }
   },
   "faq": {
-    "title": "Foire aux",
-    "titleHighlight": "Questions",
-    "subtitle": "Tout ce que vous devez savoir sur WWE 2K26",
+    "title": "Drag Drive Simulator",
+    "titleHighlight": "FAQ",
+    "subtitle": "Tout ce que vous devez savoir sur Drag Drive Simulator",
     "questions": [
       {
-        "question": "Quand sort WWE 2K26 ?",
-        "answer": "L'édition standard de WWE 2K26 sort le 13 mars 2026. Les éditions Deluxe bénéficient d'un accès anticipé à partir du 6 mars 2026."
+        "question": "Qu'est-ce que Drag Drive Simulator sur Roblox ?",
+        "answer": "Drag Drive Simulator est une expérience de course de dragsters et de jeu de rôle sur Roblox axée sur les véhicules, le tuning, les métiers, les courses et l'exploration de la carte."
       },
       {
-        "question": "Combien de superstars y a-t-il dans WWE 2K26 ?",
-        "answer": "WWE 2K26 propose plus de 400 superstars jouables, incluant des légendes, le roster actuel et des personnages DLC."
+        "question": "Comment utiliser les codes de Drag Drive Simulator ?",
+        "answer": "Ouvrez le panier de la boutique, allez dans l'onglet Utiliser, collez un code valide et appuyez sur Utiliser pour recevoir instantanément des __PROTECTED_c4cb0a6b__."
       },
       {
-        "question": "Sur quelles plateformes WWE 2K26 est-il disponible ?",
-        "answer": "WWE 2K26 est disponible sur PS5, Xbox Series X|S, Steam (PC) et Nintendo Switch 2."
+        "question": "Que doivent faire les débutants en premier dans Drag Drive Simulator ?",
+        "answer": "Utilisez d'abord les codes actifs, achetez un véhicule de départ pratique et apprenez les bases du tuning avant de dépenser pour l'esthétique."
       },
       {
-        "question": "Comment utiliser les codes de vestiaire WWE 2K26 ?",
-        "answer": "Allez dans le mode MyFACTION, sélectionnez le menu Code de vestiaire et saisissez le code. Consultez notre page de codes pour les derniers codes actifs."
+        "question": "Où puis-je jouer à Drag Drive Simulator et suivre les mises à jour ?",
+        "answer": "Jouez sur la page du jeu Roblox et suivez le Discord officiel, le groupe Roblox et la chaîne YouTube pour les mises à jour."
       },
       {
-        "question": "Quels sont les nouveaux types de matchs dans WWE 2K26 ?",
-        "answer": "WWE 2K26 introduit 4 nouveaux types de matchs, dont l'Inferno Match, le Dumpster Match, le Three Stages of Hell et le I Quit Match."
+        "question": "Quelles activités rapportent le plus de __PROTECTED_c4cb0a6b__ au début dans Drag Drive Simulator ?",
+        "answer": "Les codes offrent le gain de __PROTECTED_c4cb0a6b__ le plus rapide pour commencer, puis les courses et les métiers comme coursier ou barista permettent une progression régulière."
       },
       {
-        "question": "Quels modes de jeu sont présents dans WWE 2K26 ?",
-        "answer": "WWE 2K26 inclut MyGM, MyRISE, le Mode Univers, Showcase (CM Punk), The Island, MyFACTION et la Creation Suite."
+        "question": "Est-ce que Drag Drive Simulator propose à la fois des voitures et des motos ?",
+        "answer": "Oui. Drag Drive Simulator inclut à la fois des voitures et des motos avec des maniabilités, des objectifs de tuning et des parcours de progression différents."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à monter sur le ring ?",
-    "description": "Rejoignez la communauté WWE 2K26 sur Discord pour les mises à jour, les révélations du roster et les discussions sur le gameplay !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Acheter WWE 2K26"
+    "title": "Prêt à dominer la piste de Drag ?",
+    "description": "Rejoignez la communauté officielle de Drag Drive Simulator, récupérez de nouveaux codes et préparez votre bolide pour la prochaine course.",
+    "joinCommunity": "Rejoindre le Discord officiel",
+    "joinGame": "Jouer à Drag Drive Simulator sur Roblox"
   },
   "footer": {
-    "title": "Wiki WWE 2K26",
-    "description": "Votre centre de ressources complet pour le roster, les notes, les codes de vestiaire, les types de match et les guides des modes de jeu de WWE 2K26.",
+    "title": "Wiki Drag Drive Simulator",
+    "description": "Votre centre de ressources complet pour les codes, le tuning, les véhicules, les métiers, les circuits et les guides d'événements de Drag Drive Simulator.",
     "resources": "Ressources",
     "community": "Communauté",
     "legal": "Mentions légales",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "reddit": "Reddit",
-    "youtube": "YouTube",
-    "instagram": "Instagram",
+    "discord": "Discord officiel",
+    "twitter": "Groupe Roblox",
+    "reddit": "Jouer sur Roblox",
+    "youtube": "YouTube officiel",
+    "instagram": "Bande-annonce officielle",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 WWE 2K26 Wiki. Non affilié à 2K Sports, Visual Concepts ou WWE.",
-    "disclaimer": "Site de ressources non officiel créé par des fans."
+    "copyrightNotice": "Droit d'auteur",
+    "copyright": "© 2026 Wiki Drag Drive Simulator. Ressource de fans non officielle, non affiliée à Roblox Corporation.",
+    "disclaimer": "Drag Drive Simulator et les actifs associés appartiennent à leurs propriétaires respectifs."
   }
 }
