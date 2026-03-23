@@ -1,0 +1,139 @@
+[OK] Configuration loaded from D:\web\0306WWE2K26\tools\articles\modules\transpage\transpage_config.json
+[OK] Messages translation prompt template loaded
+[OK] Values translation prompt template loaded
+[OK] Translator initialized
+[LANG] Target languages: es, pt, de, fr, ja, ar, ko
+
+============================================================
+[START] STARTING MESSAGES TRANSLATION
+============================================================
+
+[TARGET] Target languages: es, pt, de, fr, ja, ar, ko
+[MODE] Translation mode: 值抽取模式 (优化)
+
+[OK] English messages loaded (30596 characters)
+[OK] Extracted 652 values from JSON
+[INFO] Content size reduced: 30596 -> 14120 characters
+
+[BUILD] Building translation tasks...
+[OK] Built 7 translation tasks
+
+[EXEC] Executing 7 translation tasks in parallel...
+
+  [SEND] API请求 [ES] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [SEND] API请求 [PT] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [SEND] API请求 [DE] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [SEND] API请求 [FR] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [SEND] API请求 [JA] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [SEND] API请求 [AR] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [SEND] API请求 [KO] (值列表模式):
+     模型: gemini-2.0-flash
+     值数量: 652 个
+     内容长度: 14771 字符
+     最大tokens: 32768
+  [FAIL] [FR] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [JA] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [AR] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [KO] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [DE] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [PT] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [ES] 异常 (尝试 1/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [WARN] [ES] 行数不匹配: 期望 652, 得到 654
+     已截断到 652 行
+  [OK] [ES] 成功 - 652 个值
+  [OK] [ES] 已保存 - es.json
+  [FAIL] [PT] 异常 (尝试 2/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [JA] 异常 (尝试 2/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [DE] 异常 (尝试 2/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [KO] 异常 (尝试 2/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [FR] 异常 (尝试 2/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [AR] 异常 (尝试 2/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [WARN] [PT] 行数不匹配: 期望 652, 得到 653
+     已截断到 652 行
+  [OK] [PT] 成功 - 652 个值
+  [OK] [PT] 已保存 - pt.json
+  [FAIL] [AR] 异常 (尝试 3/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [KO] 异常 (尝试 3/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [JA] 异常 (尝试 3/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [FR] 异常 (尝试 3/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [DE] 异常 (尝试 3/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [KO] 异常 (尝试 4/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [AR] 异常 (尝试 4/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [JA] 异常 (尝试 4/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [FR] 异常 (尝试 4/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [DE] 异常 (尝试 4/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [KO] 异常 (尝试 5/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [KO] Translation failed
+  [FAIL] [AR] 异常 (尝试 5/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [AR] Translation failed
+  [FAIL] [JA] 异常 (尝试 5/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [JA] Translation failed
+  [FAIL] [FR] 异常 (尝试 5/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [FR] Translation failed
+  [FAIL] [DE] 异常 (尝试 5/5)
+     异常: ServerDisconnectedError: Server disconnected
+  [FAIL] [DE] Translation failed
+
+[STATS] Collecting statistics...
+
+
+============================================================
+[STATS] TRANSLATION COMPLETE
+============================================================
+Total tasks:      7
+[OK] Successful:    2
+[FAIL] Failed:        5
+Success rate:     28.6%
+============================================================
+

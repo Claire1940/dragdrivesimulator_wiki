@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 0 82% 48%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 0 88% 60%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 0 82% 48%;
+    --radius: 0.5rem;
+    --chart-1: 0 82% 48%;
+    --chart-2: 0 88% 60%;
+    --chart-3: 0 70% 40%;
+    --chart-4: 0 75% 65%;
+    --chart-5: 0 80% 55%;
+
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 0 82% 48%;  /* WWE red */
+    --nav-theme-light: 0 88% 60%;  /* brighter red */
+
+    /* 金色系统 - Championship Belt Luxury */
+    --gold: 45 100% 51%;  /* 纯金色 */
+    --gold-light: 48 100% 67%;  /* 亮金色 */
+    --gold-dark: 38 92% 40%;  /* 深金色 */
+    
+    /* Callout 组件颜色 */
+    --callout-info-bg: 217 91% 97%;  /* blue-50 */
+    --callout-info-border: 217 91% 85%;  /* blue-200 */
+    --callout-info-text: 217 91% 30%;  /* blue-900 */
+    --callout-warning-bg: 45 93% 97%;  /* yellow-50 */
+    --callout-warning-border: 45 93% 85%;  /* yellow-200 */
+    --callout-warning-text: 45 93% 30%;  /* yellow-900 */
+    --callout-success-bg: 152 76% 97%;  /* emerald-50 */
+    --callout-success-border: 152 76% 85%;  /* emerald-200 */
+    --callout-success-text: 152 76% 30%;  /* emerald-900 */
+    --callout-tip-bg: 142 76% 97%;  /* green-50 */
+    --callout-tip-border: 142 76% 85%;  /* green-200 */
+    --callout-tip-text: 142 76% 30%;  /* green-900 */
+  }
+
+  .dark {
+    --background: 220 30% 3%;
+    --foreground: 0 0% 98%;
+    --card: 220 25% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 25% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 82% 48%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 220 20% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 220 10% 60%;
+    --accent: 0 88% 60%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 20% 15%;
+    --input: 220 20% 15%;
+    --ring: 0 82% 48%;
+    --chart-1: 0 82% 48%;
+    --chart-2: 0 88% 60%;
+    --chart-3: 0 70% 40%;
+    --chart-4: 0 75% 65%;
+    --chart-5: 0 80% 55%;
+
+    /* 导航页主题色 - 暗色主题 */
+    --nav-theme: 0 82% 48%;  /* WWE red */
+    --nav-theme-light: 0 88% 60%;  /* brighter red */
+
+    /* 金色系统 - Championship Belt Luxury */
+    --gold: 45 100% 51%;
+    --gold-light: 48 100% 67%;
+    --gold-dark: 38 92% 40%;
+
+    /* Callout 组件颜色 - 暗色主题 */
+    --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */
+    --callout-info-border: 217 91% 50%;  /* 中等蓝色（模拟 blue-500/30） */
+    --callout-info-text: 217 91% 75%;  /* 浅蓝色（blue-300） */
+    --callout-warning-bg: 45 93% 22%;  /* 更浅的深黄色 */
+    --callout-warning-border: 45 93% 45%;  /* 深黄色（yellow-700） */
+    --callout-warning-text: 45 93% 75%;  /* 浅黄色 */
+    --callout-success-bg: 152 76% 22%;  /* 更浅的深绿色 */
+    --callout-success-border: 152 76% 48%;  /* 中等绿色 */
+    --callout-success-text: 152 76% 75%;  /* 浅绿色 */
+    --callout-tip-bg: 142 76% 22%;  /* 更浅的深绿色 */
+    --callout-tip-border: 142 76% 48%;  /* 中等绿色 */
+    --callout-tip-text: 142 76% 75%;  /* 浅绿色 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* 滚动揭示动画 - 临时禁用以调试黑色区域问题 */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 金色渐变工具类 */
+.text-gold-gradient {
+  background: linear-gradient(135deg, hsl(var(--gold-light)), hsl(var(--gold-dark)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.border-gold-gradient {
+  border-image: linear-gradient(135deg, hsl(var(--gold-light)), hsl(var(--gold-dark))) 1;
+}
+
+/* 卡片悬停动画 */
+@keyframes card-lift {
+  from {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  to {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(220,38,38,0.3);
+  }
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  animation: card-lift 0.3s forwards;
+}
+
+/* 图标缩放动画 */
+.icon-scale {
+  transition: transform 0.3s ease;
+}
+
+.icon-scale:hover {
+  transform: scale(1.1);
+}
+
+/* 发光效果 */
+.glow-red {
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.4);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(251, 191, 36, 0.4);
+}
+
+/* Bebas Neue 字体类 */
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
+
+/* Prose 样式自定义 - 直接设置元素颜色确保文字清晰可读 */
+@layer components {
+  .prose p,
+  .prose li,
+  .prose td,
+  .prose th,
+  .prose strong,
+  .prose b {
+    color: hsl(240 10% 3.9%) !important;
+  }
+
+  .dark .prose p,
+  .dark .prose li,
+  .dark .prose td,
+  .dark .prose th,
+  .dark .prose strong,
+  .dark .prose b {
+    color: hsl(0 0% 98%) !important;
+  }
+
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    color: hsl(240 10% 3.9%) !important;
+  }
+
+  .dark .prose h1,
+  .dark .prose h2,
+  .dark .prose h3,
+  .dark .prose h4,
+  .dark .prose h5,
+  .dark .prose h6 {
+    color: hsl(0 0% 98%) !important;
+  }
+
+  /* 链接样式 - 确保在深色背景下清晰可见 */
+  .prose a {
+    color: #3b82f6 !important; /* blue-500 */
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.2s;
+  }
+
+  .prose a:hover {
+    color: #2563eb !important; /* blue-600 */
+  }
+
+  .dark .prose a {
+    color: #60a5fa !important; /* blue-400 */
+  }
+
+  .dark .prose a:hover {
+    color: #93c5fd !important; /* blue-300 */
+  }
+
+  /* 表格样式 - 表头和单元格居中 */
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .prose th,
+  .prose td {
+    text-align: center !important;
+    padding: 0.75rem 1rem;
+    border: 1px solid hsl(var(--border));
+  }
+
+  .prose th {
+    font-weight: 600;
+    background-color: hsl(var(--muted));
+  }
+
+  .dark .prose th {
+    background-color: hsl(var(--muted));
+  }
+}
+
+/* 锚点跳转滚动偏移 - 避免被固定导航栏遮挡 */
+.scroll-mt-24 {
+  scroll-margin-top: 6rem; /* 96px - 导航栏高度 + 额外间距 */
+}
+
+/* 减少运动偏好支持 - 关闭平滑滚动和过渡动画 */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  .scroll-reveal {
+    transition: none !important;
+  }
+
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,1267 @@
+{
+  "seo": {
+    "home": {
+      "title": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
+      "description": "WWE 2K26 Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
+      "keywords": "WWE 2K26, WWE 2K26 ロースター, WWE 2K26 レーティング, WWE 2K26 ロッカーコード, WWE 2K26 MyGM",
+      "ogTitle": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
+      "ogDescription": "WWE 2K26 Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
+      "twitterTitle": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
+      "twitterDescription": "WWE 2K26 Wikiでは、ロースター、レーティング、ロッカーコード、試合形式、ゲームモードのガイドを網羅しています。"
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "今すぐ購入",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む"
+  },
+  "hero": {
+    "badge": "400人以上のスーパースターを収録した公式レスリングシミュレーター",
+    "title": "WWE 2K26 Wiki",
+    "description": "CM Punk ShowcaseからThe Island、MyGM、MyRISE、Universeまで、WWE 2K26の全ロースター、評価、試合形式、エディション、モードガイドを網羅。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "WWE 2K26を購入",
+    "stats": {
+      "stat1": {
+        "value": "2026-03-13",
+        "label": "通常版発売日"
+      },
+      "stat2": {
+        "value": "400+",
+        "label": "プレイ可能なスーパースター"
+      },
+      "stat3": {
+        "value": "40+",
+        "label": "アリーナ"
+      },
+      "stat4": {
+        "value": "4",
+        "label": "新しい試合形式"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "WWE 2K26 ゲームプレイ",
+    "description": "400人以上のスーパースターと新しいマッチタイプで、最もリアルなレスリングシミュレーションを体験しよう！"
+  },
+  "tools": {
+    "title": "WWE 2K26",
+    "titleHighlight": "クイックナビゲーション",
+    "subtitle": "以下のセクションへ移動",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "発売日とエディション",
+        "description": "全4種類のエディションと発売日を比較"
+      },
+      {
+        "icon": "Users",
+        "title": "ロースター",
+        "description": "400人以上のプレイ可能なスーパースターを閲覧"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "レーティング",
+        "description": "トップ評価のスーパースターランキング"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "操作方法",
+        "description": "PS5、Xbox、PCの操作方法"
+      },
+      {
+        "icon": "Flame",
+        "title": "新しい試合形式",
+        "description": "4つの新しい試合形式が登場"
+      },
+      {
+        "icon": "Film",
+        "title": "ショーケース",
+        "description": "CM Punkの伝説的なキャリア"
+      },
+      {
+        "icon": "Briefcase",
+        "title": "MyGM",
+        "description": "WWEブランドを運営"
+      },
+      {
+        "icon": "Trophy",
+        "title": "MyRISE",
+        "description": "自分だけのスーパースターの物語を作成"
+      },
+      {
+        "icon": "Globe",
+        "title": "ユニバースモード",
+        "description": "WWEユニバースをコントロール"
+      },
+      {
+        "icon": "Palette",
+        "title": "コミュニティ・クリエイション",
+        "description": "クリエイションをダウンロードして共有"
+      },
+      {
+        "icon": "Map",
+        "title": "The Island",
+        "description": "ユニットベースのバトルモード"
+      },
+      {
+        "icon": "Layers",
+        "title": "MyFACTION",
+        "description": "夢のユニットを結成"
+      },
+      {
+        "icon": "Gift",
+        "title": "ロッカーコード",
+        "description": "報酬用の有効なコード"
+      },
+      {
+        "icon": "Monitor",
+        "title": "PC動作環境",
+        "description": "最小および推奨スペック"
+      },
+      {
+        "icon": "Building",
+        "title": "アリーナ",
+        "description": "40以上の象徴的な会場"
+      },
+      {
+        "icon": "Package",
+        "title": "DLCとアンロック要素",
+        "description": "シーズンパスとコンテンツロードマップ"
+      }
+    ]
+  },
+  "modules": {
+    "releaseEditions": {
+      "title": "WWE 2K26 Release Date & Editions",
+      "subtitle": "Choose the edition that fits your play style",
+      "quickFacts": [
+        {
+          "label": "Standard Release",
+          "value": "March 13, 2026"
+        },
+        {
+          "label": "Premium Early Access",
+          "value": "March 6, 2026"
+        },
+        {
+          "label": "Platforms",
+          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+        },
+        {
+          "label": "Genre",
+          "value": "Sports, Professional Wrestling"
+        }
+      ],
+      "editions": [
+        {
+          "name": "Standard Edition",
+          "price": "$69.99",
+          "releaseDate": "March 13, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "WWE 2K26 base game"
+          ]
+        },
+        {
+          "name": "King of Kings Edition",
+          "price": "$99.99",
+          "releaseDate": "March 6, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "WWE 2K26 base game",
+            "King of Kings Edition Pack",
+            "Ringside Pass Premium Season 1",
+            "7-Day Early Access",
+            "Joe Hendry Pack"
+          ]
+        },
+        {
+          "name": "Attitude Era Edition",
+          "price": "$129.99",
+          "releaseDate": "March 6, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "WWE 2K26 base game",
+            "King of Kings Edition Pack",
+            "Attitude Era Edition Pack",
+            "Ringside Pass Premium Season 1-4",
+            "7-Day Early Access",
+            "Superstar Mega-Boost",
+            "Joe Hendry Pack"
+          ]
+        },
+        {
+          "name": "Monday Night War Edition",
+          "price": "$149.99",
+          "releaseDate": "March 6, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "WWE 2K26 base game",
+            "Monday Night War Edition Pack",
+            "King of Kings Edition Pack",
+            "Attitude Era Edition Pack",
+            "WrestleMania 42 Pack",
+            "Ringside Pass Premium Season 1-6",
+            "7-Day Early Access",
+            "Superstar Mega-Boost",
+            "Joe Hendry Pack",
+            "32,500 VC"
+          ]
+        }
+      ],
+      "highlights": [
+        "Premium editions unlock the game 7 days early",
+        "Monday Night War Edition includes all three premium content packs",
+        "Ringside Pass expands across six seasons in premium editions"
+      ]
+    },
+    "roster": {
+      "title": "WWE 2K26 ロースター",
+      "subtitle": "400人以上のプレイ可能なスーパースターとレジェンドをチェック",
+      "stats": [
+        {
+          "label": "スーパースター総数",
+          "value": "400+"
+        },
+        {
+          "label": "新規追加",
+          "value": "50+"
+        },
+        {
+          "label": "ロースター規模",
+          "value": "シリーズ史上最大"
+        }
+      ],
+      "categories": [
+        {
+          "name": "現役スター",
+          "superstars": [
+            "CM Punk",
+            "Cody Rhodes",
+            "Rhea Ripley",
+            "Roman Reigns",
+            "Seth Rollins",
+            "Becky Lynch"
+          ]
+        },
+        {
+          "name": "レジェンド",
+          "superstars": [
+            "The Rock",
+            "Triple H",
+            "Stone Cold Steve Austin",
+            "Undertaker",
+            "Batista",
+            "Chyna"
+          ]
+        },
+        {
+          "name": "新時代のハイライト",
+          "superstars": [
+            "Rey Fénix",
+            "Rusev",
+            "Blake Monroe",
+            "Giulia",
+            "Bron Breakker",
+            "Stephanie Vaquer"
+          ]
+        },
+        {
+          "name": "シーズン1 スポットライト",
+          "superstars": [
+            "El Hijo del Vikingo",
+            "Flammer"
+          ]
+        }
+      ]
+    },
+    "ratings": {
+      "title": "WWE 2K26 レーティング",
+      "subtitle": "最高評価のスーパースターランキング",
+      "menTopRated": [
+        {
+          "name": "Stone Cold Steve Austin",
+          "rating": 97
+        },
+        {
+          "name": "Roman Reigns '22",
+          "rating": 97
+        },
+        {
+          "name": "John Cena",
+          "rating": 97
+        },
+        {
+          "name": "John Cena '12",
+          "rating": 96
+        },
+        {
+          "name": "The Rock '01",
+          "rating": 96
+        },
+        {
+          "name": "The Undertaker",
+          "rating": 96
+        },
+        {
+          "name": "Stone Cold Steve Austin '00",
+          "rating": 95
+        },
+        {
+          "name": "The Rock",
+          "rating": 95
+        },
+        {
+          "name": "Cody Rhodes",
+          "rating": 95
+        },
+        {
+          "name": "Roman Reigns",
+          "rating": 95
+        }
+      ],
+      "womenTopRated": [
+        {
+          "name": "Rhea Ripley",
+          "rating": 96
+        },
+        {
+          "name": "Becky Lynch",
+          "rating": 94
+        },
+        {
+          "name": "Bianca Belair",
+          "rating": 94
+        },
+        {
+          "name": "Charlotte Flair",
+          "rating": 93
+        },
+        {
+          "name": "Iyo Sky",
+          "rating": 93
+        },
+        {
+          "name": "Naomi",
+          "rating": 92
+        },
+        {
+          "name": "Stephanie Vaquer",
+          "rating": 92
+        },
+        {
+          "name": "Liv Morgan",
+          "rating": 92
+        },
+        {
+          "name": "AJ Lee '15",
+          "rating": 92
+        },
+        {
+          "name": "Tiffany Stratton",
+          "rating": 91
+        }
+      ],
+      "highlights": [
+        "男子最高レーティング: 97",
+        "女子最高レーティング: 96",
+        "レーティングは現役スター、レジェンド、そして別時代の姿を融合させています"
+      ]
+    },
+    "controls": {
+      "title": "WWE 2K26 操作方法",
+      "subtitle": "PS5、Xbox、PCの基本操作をマスターしよう",
+      "platforms": [
+        {
+          "name": "PS5",
+          "controls": [
+            {
+              "action": "走る",
+              "input": "L2長押し + 左スティック"
+            },
+            {
+              "action": "掴む（グラップル）",
+              "input": "○"
+            },
+            {
+              "action": "弱攻撃 / 弱グラップル",
+              "input": "□"
+            },
+            {
+              "action": "強攻撃 / 強グラップル",
+              "input": "×"
+            },
+            {
+              "action": "アイリッシュホイップ",
+              "input": "○（掴み中）"
+            },
+            {
+              "action": "シグネチャー",
+              "input": "R2 + □"
+            },
+            {
+              "action": "フィニッシャー",
+              "input": "R2 + ×"
+            },
+            {
+              "action": "サブミッション",
+              "input": "R2 + ○"
+            },
+            {
+              "action": "ペイバック",
+              "input": "R2 + △"
+            },
+            {
+              "action": "リバーサル / 回避",
+              "input": "△"
+            },
+            {
+              "action": "ブロック",
+              "input": "△長押し"
+            },
+            {
+              "action": "フォール",
+              "input": "右スティック下"
+            },
+            {
+              "action": "武器を拾う",
+              "input": "L1"
+            }
+          ]
+        },
+        {
+          "name": "Xbox Series X|S",
+          "controls": [
+            {
+              "action": "走る",
+              "input": "LT長押し + 左スティック"
+            },
+            {
+              "action": "掴む（グラップル）",
+              "input": "B"
+            },
+            {
+              "action": "弱攻撃 / 弱グラップル",
+              "input": "X"
+            },
+            {
+              "action": "強攻撃 / 強グラップル",
+              "input": "A"
+            },
+            {
+              "action": "アイリッシュホイップ",
+              "input": "B（掴み中）"
+            },
+            {
+              "action": "シグネチャー",
+              "input": "RT + X"
+            },
+            {
+              "action": "フィニッシャー",
+              "input": "RT + A"
+            },
+            {
+              "action": "サブミッション",
+              "input": "RT + B"
+            },
+            {
+              "action": "ペイバック",
+              "input": "RT + Y"
+            },
+            {
+              "action": "リバーサル / 回避",
+              "input": "Y"
+            },
+            {
+              "action": "ブロック",
+              "input": "Y長押し"
+            },
+            {
+              "action": "フォール",
+              "input": "右スティック下"
+            },
+            {
+              "action": "武器を拾う",
+              "input": "LB"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "コンボは弱攻撃と強攻撃を組み合わせて繋げます",
+        "ブレイカーは相手が押したボタンと同じボタンを使用します",
+        "タイミングを合わせるキックアウトのミニゲームでは、右スティックを上に倒します",
+        "スペシャルレフェリーのアクションには、カウント、ロープブレイク、警告、退場処分が含まれます"
+      ]
+    },
+    "matchTypes": {
+      "title": "WWE 2K26 新しい試合形式",
+      "subtitle": "4つの新しい試合形式と拡張されたゲームプレイを体験しよう",
+      "quickFacts": [
+        {
+          "label": "新しい試合形式",
+          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+        },
+        {
+          "label": "新しい乱闘エリア",
+          "value": "Scrapyard Brawl"
+        },
+        {
+          "label": "モードの追加",
+          "value": "MyFACTION でのクイックスワップ"
+        }
+      ],
+      "matches": [
+        {
+          "name": "I Quit",
+          "description": "この過酷な対決で、相手に「I Quit」と言わせて勝利を掴め"
+        },
+        {
+          "name": "Inferno",
+          "description": "この焦土戦で勝利を確実にするため、相手に火を放て"
+        },
+        {
+          "name": "Dumpster",
+          "description": "相手を叩きのめし、ダンプスター（ゴミ収集箱）の中に投げ入れて勝利しろ"
+        },
+        {
+          "name": "3 Stages of Hell",
+          "description": "各フォールで異なる試合形式が採用される、2本先取の3本勝負チャレンジ"
+        },
+        {
+          "name": "Scrapyard Brawl",
+          "description": "The Island の廃材が広がる荒野を舞台にした、新しい乱闘環境"
+        }
+      ],
+      "newSystems": [
+        "拡張された客席戦闘",
+        "重ね置き可能なテーブル",
+        "画鋲",
+        "サプライズ・アタッカー",
+        "バリケード戦",
+        "クイックスワップによるチームノックアウトアクション"
+      ]
+    },
+    "showcase": {
+      "title": "WWE 2K26 ショーケース",
+      "subtitle": "CM Punkの最高のライバル関係を追体験しよう",
+      "quickFacts": [
+        {
+          "label": "カバースター",
+          "value": "CM Punk"
+        },
+        {
+          "label": "タイムライン",
+          "value": "25年以上のWWEの歴史"
+        },
+        {
+          "label": "マッチタイプ",
+          "value": "ヒストリカル、ファンタジー、ホワット・イフ"
+        }
+      ],
+      "moments": [
+        {
+          "title": "オープニングマッチ",
+          "description": "WrestleMania 41 トリプルスレット: CM Punk vs Seth Rollins vs Roman Reigns"
+        },
+        {
+          "title": "ヒストリカルマッチ",
+          "description": "本物のアリーナとマッチオブジェクティブによる忠実な再現"
+        },
+        {
+          "title": "ファンタジー・ウォーフェア",
+          "description": "Punkの道のりに影響を与えたレジェンドたちとのドリームマッチ"
+        },
+        {
+          "title": "ホワット・イフ・マッチ",
+          "description": "異なるキャリアの道を探索する、別のタイムラインのシナリオ"
+        }
+      ],
+      "specialFeature": {
+        "name": "ザ・ガントレット",
+        "description": "CM PunkまたはAJ Leeとして20人の対戦相手と連続で対戦し、すべてのショーケース報酬を一度にアンロックしよう"
+      }
+    },
+    "mygm": {
+      "title": "WWE 2K26 MyGM",
+      "subtitle": "より深化したマッチメイクと戦略で、ブランドを運営しよう",
+      "quickFacts": [
+        {
+          "label": "シーズン期間",
+          "value": "50週間"
+        },
+        {
+          "label": "初期予算",
+          "value": "$300万 - $700万"
+        },
+        {
+          "label": "平均ロースター数",
+          "value": "20-35名のスーパースター"
+        },
+        {
+          "label": "新難易度",
+          "value": "Immortal"
+        }
+      ],
+      "features": [
+        {
+          "title": "シーズンの延長",
+          "description": "デフォルトのシーズン期間が50週間に。柔軟な予算設定も可能"
+        },
+        {
+          "title": "試合形式の拡張",
+          "description": "5ウェイ、6ウェイ、8ウェイ、トリプルスレット・タッグ、フェイタル4ウェイ・タッグ、ハンディキャップマッチが編成可能"
+        },
+        {
+          "title": "新しい試合ルール",
+          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
+        },
+        {
+          "title": "パワーカードのトレード",
+          "description": "トレード期間中にパワーカードの取引が可能。パワーカードストアの無効化オプションも追加"
+        },
+        {
+          "title": "インタージェンダー・マッチ",
+          "description": "追加コストを支払うことで、男女混合のインタージェンダー・マッチを編成可能"
+        }
+      ],
+      "ples": [
+        "Clash at Paris",
+        "Crown Jewel",
+        "Battleground",
+        "Evolution",
+        "Great American Bash",
+        "Halloween Havoc",
+        "Night of Champions",
+        "No Mercy",
+        "Worlds Collide",
+        "Survivor Series: War Games",
+        "Elimination Chamber",
+        "WrestleMania"
+      ]
+    },
+    "myrise": {
+      "title": "WWE 2K26 MyRISE",
+      "subtitle": "The Comeback で再起をかけて戦い抜け",
+      "quickFacts": [
+        {
+          "label": "ストーリー名",
+          "value": "The Comeback"
+        },
+        {
+          "label": "主人公",
+          "value": "The Archetype"
+        },
+        {
+          "label": "テーマ",
+          "value": "2年の空白期間を経ての復帰"
+        }
+      ],
+      "paths": [
+        {
+          "name": "トラディショナル・ルート",
+          "description": "正当な方法でチャンスを掴み、再び王座争いへと返り咲け"
+        },
+        {
+          "name": "ルースレス・ルート",
+          "description": "手段を選ばず、攻撃的な戦術で復帰への近道を突き進め"
+        }
+      ],
+      "divisions": [
+        {
+          "name": "男子部門",
+          "goal": "WWE王者 Bron Breakker への再挑戦権を獲得せよ",
+          "opponents": [
+            "Jey Uso",
+            "Jacob Fatu",
+            "Ethan Page",
+            "The New Day",
+            "The Wyatt Sicks"
+          ]
+        },
+        {
+          "name": "女子部門",
+          "goal": "WWE女子王者 Jordynne Grace との再対決を目指せ",
+          "opponents": [
+            "Naomi",
+            "Roxanne Perez",
+            "Kelani Jordan",
+            "Nia Jax",
+            "Liv Morgan",
+            "The Wyatt Sicks"
+          ]
+        }
+      ],
+      "features": [
+        "分岐するダイアログがストーリーの進行を左右する",
+        "プレイヤーの選択肢によって反応が変わるWWE記者会見",
+        "王座保持期間に影響を与える重大な最終決断"
+      ],
+      "rewards": [
+        "アリーナ",
+        "チャンピオンシップ",
+        "CASパーツ",
+        "プレイアブルキャラクター",
+        "武器",
+        "Paybacks",
+        "MyFACTION コンテンツ"
+      ]
+    },
+    "universeMode": {
+      "title": "WWE 2K26 ユニバースモード",
+      "subtitle": "より詳細なコントロールで、理想のWWEカレンダーを構築",
+      "quickFacts": [
+        {
+          "label": "セットアップツール",
+          "value": "ユニバース・ウィザード"
+        },
+        {
+          "label": "最大ドラフトイベント数",
+          "value": "8"
+        },
+        {
+          "label": "各番組の王座数",
+          "value": "最大8"
+        },
+        {
+          "label": "MITBスロット",
+          "value": "各番組に2つ"
+        }
+      ],
+      "features": [
+        {
+          "title": "ユニバース・ウィザード",
+          "description": "番組、PLE、チャンピオン、ロースターを事前に選択することで、セーブデータをより素早く開始"
+        },
+        {
+          "title": "WWEドラフト",
+          "description": "番組間でスーパースターをトレードするドラフトイベントを作成・スケジュール"
+        },
+        {
+          "title": "MITBキャッシュイン",
+          "description": "ブリーフケースは、番組内の対象となるすべての王座に対して使用可能"
+        },
+        {
+          "title": "強化されたマイクパフォーマンス",
+          "description": "セルフプロモ、呼び出し、乱入、オープンチャレンジ、試合後インタビュー"
+        },
+        {
+          "title": "マッチメイキングスライダー",
+          "description": "王座、抗争、試合形式のボーナスを設定し、対戦カードのソートを調整"
+        }
+      ]
+    },
+    "communityCreations": {
+      "title": "WWE 2K26 コミュニティ・クリエイション",
+      "subtitle": "より大きく、より詳細なカスタムコンテンツを作成",
+      "quickFacts": [
+        {
+          "label": "CASスロット",
+          "value": "200"
+        },
+        {
+          "label": "画像スロット",
+          "value": "2,000"
+        },
+        {
+          "label": "ボディテンプレート",
+          "value": "40+"
+        },
+        {
+          "label": "レイヤー分割",
+          "value": "60（コスチューム）+ 40（頭部/ボディ）"
+        }
+      ],
+      "sections": [
+        {
+          "title": "スーパースター作成",
+          "description": "40以上のボディテンプレートを使用したボディモーフィングと改良されたフェイスモーフィング"
+        },
+        {
+          "title": "ヘアー＆ボディペイント",
+          "description": "2トーンのヘアカラーブレンディングと、ボディペイント用のJoy-Con 2マウス操作"
+        },
+        {
+          "title": "アリーナ作成",
+          "description": "LEDバリケード、新しい実況席、拡張されたリングマットとエプロンのオプション"
+        },
+        {
+          "title": "画像作成",
+          "description": "画像アップローダーの制限が1,000から2,000スロットに倍増"
+        },
+        {
+          "title": "チャンピオンシップ作成",
+          "description": "拡張されたパーツと刷新された作成インターフェース"
+        },
+        {
+          "title": "入場シーン作成",
+          "description": "チャンピオン、MITB、ユニット（4人/5人）入場の高度なタイムライン編集"
+        }
+      ]
+    },
+    "theIsland": {
+      "title": "WWE 2K26 ジ・アイランド",
+      "subtitle": "オーダーを選び、支配権を懸けて戦え",
+      "quickFacts": [
+        {
+          "label": "派閥",
+          "value": "3つのオーダー"
+        },
+        {
+          "label": "ストーリーチャプター",
+          "value": "3"
+        },
+        {
+          "label": "プレステージティア",
+          "value": "4"
+        },
+        {
+          "label": "新しいPvP",
+          "value": "2v2 PvP"
+        }
+      ],
+      "orders": [
+        {
+          "name": "オーダー・オブ・トラディション",
+          "leader": "Cody Rhodes",
+          "description": "リングの伝統、スペクタクル、そしてオールドスクールの価値観を基盤としている"
+        },
+        {
+          "name": "オーダー・オブ・シャドウズ",
+          "leader": "Rhea Ripley",
+          "description": "奇妙さ、演劇性、そして威圧の力を取り入れている"
+        },
+        {
+          "name": "オーダー・オブ-・アナーキー",
+          "leader": "CM Punk",
+          "description": "現状を打破し、ジ・アイランドを大胆な新しい方向へと推し進める"
+        }
+      ],
+      "prestige": [
+        {
+          "tier": "リクルート",
+          "ovrRange": "70-85"
+        },
+        {
+          "tier": "ディスラプター",
+          "ovrRange": "75-90"
+        },
+        {
+          "tier": "ブループリント",
+          "ovrRange": "80-95"
+        },
+        {
+          "tier": "レジェンダリー",
+          "ovrRange": "85-100"
+        }
+      ],
+      "highlights": [
+        "スクラップヤード：ギミックや登れる構造物がある中央乱闘ゾーン",
+        "タワー：ランダムなルートとボス戦が楽しめる、リプレイ性の高いPvE",
+        "ウィークリークエストでXP、カスタマイズアイテム、ジ・アイランド報酬を獲得",
+        "1v1、2v2、チャンピオンシップのリーダーボードを備えたシーズンランクプレイ"
+      ]
+    },
+    "myfaction": {
+      "title": "WWE 2K26 MyFACTION",
+      "subtitle": "ケミストリーとQuick Swapでより強力なラインナップを構築",
+      "quickFacts": [
+        {
+          "label": "ラインナップのサイズ",
+          "value": "4名のスーパースター"
+        },
+        {
+          "label": "ケミストリー特性",
+          "value": "10カテゴリーにわたる60種類"
+        },
+        {
+          "label": "新しいマッチタイプ",
+          "value": "Quick Swap"
+        },
+        {
+          "label": "ローンチカードセット",
+          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
+        }
+      ],
+      "features": [
+        {
+          "title": "チームケミストリー",
+          "description": "ポジティブおよびネガティブな反応がケミストリースコアに影響。マネージャーはネガティブな影響を軽減します"
+        },
+        {
+          "title": "男女混合サポート",
+          "description": "男女混合の4人編成ラインナップを構築"
+        },
+        {
+          "title": "Quick Swap",
+          "description": "試合中にチームメイトを交代、シグネチャー/フィニッシャースロットを共有、ノックアウトで勝利"
+        },
+        {
+          "title": "Faction Wars",
+          "description": "Crowd's Deckから始まるデッキベースの進行"
+        },
+        {
+          "title": "World Tour",
+          "description": "報酬には、世界各地のPersona、MFP、Arc Cards、パックが含まれます"
+        }
+      ]
+    },
+    "lockerCodes": {
+      "title": "WWE 2K26 ロッカーコード",
+      "subtitle": "MyFACTION の報酬と引き換えられる有効なコード",
+      "quickFacts": [
+        {
+          "label": "モード",
+          "value": "MyFACTION"
+        },
+        {
+          "label": "有効なコード",
+          "value": "BSTINTWRLD26"
+        },
+        {
+          "label": "有効期限",
+          "value": "March 13, 2026"
+        }
+      ],
+      "codes": [
+        {
+          "code": "BSTINTWRLD26",
+          "rewards": [
+            "1x Aftershock Series I ベーシックパック",
+            "1x Momentum Series I ベーシックパック"
+          ],
+          "expires": "March 13, 2026"
+        }
+      ],
+      "howToRedeem": [
+        "メインメニューから WWE 2K26 を開く",
+        "ロッカーコードを選択する",
+        "表示されている通りにコードを入力する",
+        "コードを引き換え、MyFACTION でパックを開封する"
+      ]
+    },
+    "pcRequirements": {
+      "title": "WWE 2K26 PC システム要件",
+      "subtitle": "お使いの PC で WWE 2K26 が動作するか確認してください",
+      "quickFacts": [
+        {
+          "label": "OS",
+          "value": "Windows 10 64ビット"
+        },
+        {
+          "label": "RAM",
+          "value": "16 GB"
+        },
+        {
+          "label": "ストレージ",
+          "value": "120 GB"
+        },
+        {
+          "label": "CPUに関する注意",
+          "value": "AVX2およびF16Cのサポートが必要"
+        }
+      ],
+      "minimum": {
+        "os": "Windows 10 64ビット",
+        "processor": "Intel Core i7-4770 または AMD Ryzen 5 1500X",
+        "memory": "16 GB RAM",
+        "graphics": "NVIDIA RTX 2060 または AMD Radeon RX 5700",
+        "directX": "バージョン 12",
+        "storage": "120 GB の空き容量",
+        "notes": "GPUには少なくとも 6 GB の VRAM が必要です。CPUは AVX2 および F16C をサポートしている必要があります。"
+      },
+      "recommended": {
+        "os": "Windows 10 64ビット",
+        "processor": "Intel Core i7-7700 または AMD Ryzen 5 2600",
+        "memory": "16 GB RAM",
+        "graphics": "NVIDIA RTX 3060 または AMD Radeon RX 6700 XT",
+        "directX": "バージョン 12",
+        "storage": "120 GB の空き容量",
+        "notes": "少なくとも 12 GB の VRAM が必要です。CPUは AVX2 および F16C をサポートしている必要があります。"
+      }
+    },
+    "arenas": {
+      "title": "WWE 2K26 アリーナ",
+      "subtitle": "モダン、クラシック、オリジナルの会場にわたる40以上のアリーナを探索しよう",
+      "quickFacts": [
+        {
+          "label": "アリーナ数",
+          "value": "40+"
+        },
+        {
+          "label": "新しい会場",
+          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+        },
+        {
+          "label": "クラシック・ハイライト",
+          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+        }
+      ],
+      "categories": [
+        {
+          "name": "現在の週間番組",
+          "arenas": [
+            "Raw 2025",
+            "SmackDown 2025",
+            "NXT 2025",
+            "Main Event 2025"
+          ]
+        },
+        {
+          "name": "プレミアム・ライブ・イベント",
+          "arenas": [
+            "Royal Rumble 2025",
+            "Elimination Chamber 2025",
+            "WrestleMania 41",
+            "Backlash 2025",
+            "Money in the Bank 2025",
+            "Night of Champions 2025",
+            "Evolution 2025",
+            "SummerSlam 2025",
+            "Clash in Paris",
+            "Survivor Series: WarGames 2025",
+            "WrestleMania 42"
+          ]
+        },
+        {
+          "name": "クラシック・アリーナ",
+          "arenas": [
+            "ECW Hardcore Heaven 1994",
+            "ECW One Night Stand 2006",
+            "Raw 2002",
+            "Raw 2013",
+            "Raw Is War 1998",
+            "SmackDown! 2002",
+            "WCW Halloween Havoc 1997",
+            "WCW Nitro 1998",
+            "WCW Thunder 1998",
+            "WWE SummerSlam 2008",
+            "WWE WrestleMania 29",
+            "WWE WrestleMania 32",
+            "WWE WrestleMania 35"
+          ]
+        },
+        {
+          "name": "オリジナル＆乱闘スペース",
+          "arenas": [
+            "Archetypal Gym",
+            "Arena Estatal",
+            "BCW",
+            "Club UK",
+            "Wrestling Convention (Grapple Legends)",
+            "Backstage Brawl",
+            "NXT Parking Lot",
+            "The Scrapyard"
+          ]
+        }
+      ]
+    },
+    "dlcUnlockables": {
+      "title": "WWE 2K26 DLCとアンロック要素",
+      "subtitle": "発売後の主要な報酬パスをすべて確認",
+      "quickFacts": [
+        {
+          "label": "リングサイドパス・シーズン",
+          "value": "6"
+        },
+        {
+          "label": "シーズンごとのティア",
+          "value": "40"
+        },
+        {
+          "label": "無料トラック報酬",
+          "value": "60"
+        },
+        {
+          "label": "報酬合計",
+          "value": "120"
+        }
+      ],
+      "seasons": [
+        {
+          "season": "シーズン1",
+          "release": "March 6, 2026"
+        },
+        {
+          "season": "シーズン2",
+          "release": "April 2026"
+        },
+        {
+          "season": "シーズン3",
+          "release": "June 2026"
+        },
+        {
+          "season": "シーズン4",
+          "release": "July 2026"
+        },
+        {
+          "season": "シーズン5",
+          "release": "September 2026"
+        },
+        {
+          "season": "シーズン6",
+          "release": "October 2026"
+        }
+      ],
+      "editionPacks": [
+        {
+          "name": "King of Kings エディションパック",
+          "includes": [
+            "Triple H '98",
+            "Stephanie McMahon '00",
+            "Triple H シグネチャー・タウント"
+          ]
+        },
+        {
+          "name": "Attitude Era エディションパック",
+          "includes": [
+            "The Rock '99",
+            "Kane '98",
+            "Chyna '97",
+            "Stone Cold Steve Austin EVOカード",
+            "The Rock EVOカード",
+            "Raw Is War '98 アリーナ"
+          ]
+        },
+        {
+          "name": "Monday Night War エディションパック",
+          "includes": [
+            "Shawn Michaels DX",
+            "Macho Man Randy Savage '98",
+            "Rowdy Roddy Piper '98",
+            "WCW Thunder '98 アリーナ"
+          ]
+        },
+        {
+          "name": "WrestleMania 42 パック",
+          "includes": [
+            "WrestleMania 42 アリーナ",
+            "WM42 ペルソナ #1",
+            "WM42 ペルソナ #2",
+            "WM42 ペルソナ #3"
+          ]
+        }
+      ],
+      "unlockExamples": [
+        {
+          "name": "AJ Lee",
+          "source": "Showcase: What If マッチ #7"
+        },
+        {
+          "name": "Alundra Blayze '94",
+          "source": "リングサイドパス #1 無料トラック ティア 5"
+        },
+        {
+          "name": "Andre The Giant",
+          "source": "リングサイドパス #1 無料トラック ティア 4"
+        },
+        {
+          "name": "El Hijo del Vikingo",
+          "source": "リングサイドパス #1 プレミアムトラック ティア 1"
+        },
+        {
+          "name": "Flammer",
+          "source": "リングサイドパス #1 プレミアムトラック ティア 7"
+        },
+        {
+          "name": "Main Event R-Truth",
+          "source": "MyRISE"
+        },
+        {
+          "name": "Dusty Rhodes '89",
+          "source": "MyRISE"
+        },
+        {
+          "name": "Brock Lesnar '13",
+          "source": "Showcase: ヒストリカルマッチ #7"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "WWE 2K26について知っておくべきすべてのこと",
+    "questions": [
+      {
+        "question": "WWE 2K26の発売日はいつですか？",
+        "answer": "WWE 2K26の通常版は2026年3月13日に発売されます。デラックスエディションは2026年3月6日から早期アクセスが可能です。"
+      },
+      {
+        "question": "WWE 2K26には何人のスーパースターが収録されていますか？",
+        "answer": "WWE 2K26には、レジェンド、現役ロースター、DLCキャラクターを含む400人以上のプレイ可能なスーパースターが収録されています。"
+      },
+      {
+        "question": "WWE 2K26はどのプラットフォームで利用できますか？",
+        "answer": "WWE 2K26は、PS5、Xbox Series X|S、Steam（PC）、Nintendo Switch 2で利用できます。"
+      },
+      {
+        "question": "WWE 2K26のロッカーコードを引き換えるにはどうすればよいですか？",
+        "answer": "MyFACTIONモードに移動し、ロッカーコードメニューを選択してコードを入力してください。最新の有効なコードについては、コードページをご確認ください。"
+      },
+      {
+        "question": "WWE 2K26の新しい試合形式は何ですか？",
+        "answer": "WWE 2K26では、Inferno Match、Dumpster Match、Three Stages of Hell、I Quit Matchを含む4つの新しい試合形式が導入されています。"
+      },
+      {
+        "question": "WWE 2K26にはどのようなゲームモードがありますか？",
+        "answer": "WWE 2K26には、MyGM、MyRISE、ユニバースモード、ショーケース（CM Punk）、The Island、MyFACTION、クリエイションスイートが含まれています。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "リングに上がる準備はできていますか？",
+    "description": "DiscordのWWE 2K26コミュニティに参加して、最新情報、ロスター公開、ゲームプレイの議論をチェックしましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "WWE 2K26を購入"
+  },
+  "footer": {
+    "title": "WWE 2K26 ウィキ",
+    "description": "WWE 2K26のロースター、評価、ロッカーコード、試合形式、ゲームモードガイドを網羅した完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 WWE 2K26 Wiki. 2K Sports、Visual Concepts、またはWWEとは提携していません。",
+    "disclaimer": "非公式のファン作成リソースサイトです。"
+  }
+}

@@ -1,0 +1,1299 @@
+{
+  "seo": {
+    "home": {
+      "title": "ويكي WWE 2K26 - القائمة، التقييمات، الأطوار والأدلة",
+      "description": "يغطي ويكي WWE 2K26 القائمة، التقييمات، أكواد الخزنة، أنواع المباريات، وأدلة MyGM و MyRISE و Universe و The Island لأجهزة PS5 و Xbox و Steam و Switch 2.",
+      "keywords": "WWE 2K26, قائمة WWE 2K26, تقييمات WWE 2K26, أكواد خزنة WWE 2K26, WWE 2K26 MyGM",
+      "ogTitle": "ويكي WWE 2K26 - القائمة، التقييمات، الأطوار والأدلة",
+      "ogDescription": "يغطي ويكي WWE 2K26 القائمة، التقييمات، أكواد الخزنة، أنواع المباريات، وأدلة MyGM و MyRISE و Universe و The Island لأجهزة PS5 و Xbox و Steam و Switch 2.",
+      "twitterTitle": "ويكي WWE 2K26 - القائمة، التقييمات، الأطوار والأدلة",
+      "twitterDescription": "يغطي ويكي WWE 2K26 القائمة، التقييمات، أكواد الخزنة، أنواع المباريات، وأدلة أطوار اللعبة."
+    }
+  },
+  "nav": {
+    "game_title": "WWE 2K26",
+    "platforms": "PS5, Xbox, Steam, PC",
+    "modes": {
+      "mygm": "MyGM",
+      "myrise": "MyRISE",
+      "myfaction": "MyFACTION",
+      "showcase": "نمط Showcase",
+      "universe": "نمط Universe",
+      "the_island": "The Island"
+    },
+    "features": {
+      "showcase_description": "أعد كتابة تاريخ المصارعة واسترجع أعظم منافسات CM Punk في رحلة شخصية يرويها بنفسه.",
+      "universe_description": "يصل نظام WWE Draft أخيراً إلى نمط Universe، مما يمنحك تحكماً كاملاً في العروض الأسبوعية والمنافسات.",
+      "mygm_description": "ارتقِ باستراتيجيتك مع MyGM التي تدعم الآن المباريات المختلطة ومباريات لـ 5 و6 و8 أشخاص.",
+      "the_island_description": "قاتل من أجل السيطرة على The Island، وهو عالم WWE تفاعلي يضم مهاماً وقصصاً وصراعات بين الفصائل.",
+      "ringside_pass_description": "نظام Ringside Pass الجديد يقدم 120 مكافأة عبر مستويات مجانية ومميزة طوال الموسم."
+    },
+    "match_types": {
+      "i_quit": "مباراة أنا أنسحب (I Quit)",
+      "inferno": "مباراة الجحيم (Inferno)",
+      "dumpster": "مباراة حاوية النفايات (Dumpster)",
+      "three_stages_of_hell": "مباراة 3 مراحل من الجحيم",
+      "ambulance": "مباراة سيارة الإسعاف",
+      "casket": "مباراة التابوت",
+      "special_guest_referee": "حكم ضيف خاص"
+    },
+    "roster": {
+      "total_superstars": "أكثر من 400 نجم ونجمة من الأساطير والحاضر",
+      "cover_star": "CM Punk",
+      "preorder_bonus": "حزمة Joe Hendry"
+    }
+  },
+  "common": {
+    "home": "الرئيسية",
+    "more": "المزيد",
+    "playNow": "اشترِ الآن",
+    "switchLanguage": "تغيير اللغة",
+    "switchTheme": "تغيير المظهر",
+    "lightMode": "الوضع الفاتح",
+    "darkMode": "الوضع الداكن",
+    "notFound": "الصفحة غير موجودة",
+    "notFoundDescription": "الصفحة التي تبحث عنها غير موجودة.",
+    "backToHome": "العودة إلى الرئيسية",
+    "relatedArticles": "مقالات ذات صلة",
+    "readMore": "اقرأ المزيد"
+  },
+  "hero": {
+    "badge": "محاكاة المصارعة الرسمية مع أكثر من 400 نجم",
+    "title": "WWE 2K26 ويكي",
+    "description": "تتبع القائمة الكاملة، والتقييمات، وأنواع المباريات، والإصدارات، وأدلة الأطوار لـ WWE 2K26، من CM Punk Showcase إلى The Island، و MyGM، و MyRISE، و Universe.",
+    "getFreeCodesCTA": "احصل على أكواد مجانية",
+    "playOnRobloxCTA": "شراء WWE 2K26",
+    "stats": {
+      "stat1": {
+        "value": "2026-03-13",
+        "label": "الإصدار القياسي"
+      },
+      "stat2": {
+        "value": "400+",
+        "label": "نجوم قابلون للعب"
+      },
+      "stat3": {
+        "value": "40+",
+        "label": "الحلبات"
+      },
+      "stat4": {
+        "value": "4",
+        "label": "أنواع مباريات جديدة"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "أسلوب لعب WWE 2K26",
+    "description": "عِش تجربة محاكاة المصارعة الأكثر واقعية مع أكثر من 400 نجم وأنواع مباريات جديدة!"
+  },
+  "tools": {
+    "title": "WWE 2K26",
+    "titleHighlight": "التنقل السريع",
+    "subtitle": "انتقل إلى أي قسم أدناه",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "الإصدارات والمواعيد",
+        "description": "قارن بين جميع الإصدارات الأربعة ومواعيد الإصدار"
+      },
+      {
+        "icon": "Users",
+        "title": "قائمة المصارعين",
+        "description": "تصفح أكثر من 400 نجم قابل للعب"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "التقييمات",
+        "description": "تصنيفات النجوم الأعلى تقييماً"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "أدوات التحكم",
+        "description": "أدوات التحكم الخاصة بـ PS5 و Xbox و PC"
+      },
+      {
+        "icon": "Flame",
+        "title": "أنواع مباريات جديدة",
+        "description": "ظهور 4 أنواع مباريات جديدة لأول مرة"
+      },
+      {
+        "icon": "Film",
+        "title": "Showcase",
+        "description": "مسيرة CM Punk الأسطورية"
+      },
+      {
+        "icon": "Briefcase",
+        "title": "MyGM",
+        "description": "إدارة علامة WWE التجارية الخاصة بك"
+      },
+      {
+        "icon": "Trophy",
+        "title": "MyRISE",
+        "description": "أنشئ قصة النجم الخاصة بك"
+      },
+      {
+        "icon": "Globe",
+        "title": "Universe Mode",
+        "description": "التحكم في WWE Universe"
+      },
+      {
+        "icon": "Palette",
+        "title": "إبداعات المجتمع",
+        "description": "تنزيل ومشاركة الإبداعات"
+      },
+      {
+        "icon": "Map",
+        "title": "The Island",
+        "description": "طور معركة يعتمد على الفرق"
+      },
+      {
+        "icon": "Layers",
+        "title": "MyFACTION",
+        "description": "ابنِ فريق أحلامك"
+      },
+      {
+        "icon": "Gift",
+        "title": "Locker Codes",
+        "description": "أكواد نشطة للحصول على مكافآت"
+      },
+      {
+        "icon": "Monitor",
+        "title": "متطلبات PC",
+        "description": "المواصفات الأدنى والموصى بها"
+      },
+      {
+        "icon": "Building",
+        "title": "الحلبات",
+        "description": "أكثر من 40 قاعة عرض شهيرة"
+      },
+      {
+        "icon": "Package",
+        "title": "DLC والمحتويات القابلة للفتح",
+        "description": "Season Pass وخارطة طريق المحتوى"
+      }
+    ]
+  },
+  "modules": {
+    "releaseEditions": {
+      "title": "تاريخ إصدار WWE 2K26 والإصدارات",
+      "subtitle": "اختر الإصدار الذي يناسب أسلوب لعبك",
+      "quickFacts": [
+        {
+          "label": "الإصدار القياسي",
+          "value": "March 13, 2026"
+        },
+        {
+          "label": "الوصول المبكر المتميز",
+          "value": "March 6, 2026"
+        },
+        {
+          "label": "المنصات",
+          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+        },
+        {
+          "label": "النوع",
+          "value": "رياضة، مصارعة محترفة"
+        }
+      ],
+      "editions": [
+        {
+          "name": "Standard Edition",
+          "price": "$69.99",
+          "releaseDate": "March 13, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "لعبة WWE 2K26 الأساسية"
+          ]
+        },
+        {
+          "name": "King of Kings Edition",
+          "price": "$99.99",
+          "releaseDate": "March 6, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "لعبة WWE 2K26 الأساسية",
+            "حزمة King of Kings Edition",
+            "تذكرة Ringside Pass Premium الموسم 1",
+            "وصول مبكر لمدة 7 أيام",
+            "حزمة Joe Hendry"
+          ]
+        },
+        {
+          "name": "Attitude Era Edition",
+          "price": "$129.99",
+          "releaseDate": "March 6, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "لعبة WWE 2K26 الأساسية",
+            "حزمة King of Kings Edition",
+            "حزمة Attitude Era Edition",
+            "تذكرة Ringside Pass Premium الموسم 1-4",
+            "وصول مبكر لمدة 7 أيام",
+            "Superstar Mega-Boost",
+            "حزمة Joe Hendry"
+          ]
+        },
+        {
+          "name": "Monday Night War Edition",
+          "price": "$149.99",
+          "releaseDate": "March 6, 2026",
+          "platforms": [
+            "PS5",
+            "Xbox",
+            "Steam",
+            "Switch 2"
+          ],
+          "includes": [
+            "لعبة WWE 2K26 الأساسية",
+            "حزمة Monday Night War Edition",
+            "حزمة King of Kings Edition",
+            "حزمة Attitude Era Edition",
+            "حزمة WrestleMania 42",
+            "تذكرة Ringside Pass Premium الموسم 1-6",
+            "وصول مبكر لمدة 7 أيام",
+            "Superstar Mega-Boost",
+            "حزمة Joe Hendry",
+            "32,500 VC"
+          ]
+        }
+      ],
+      "highlights": [
+        "الإصدارات المتميزة تفتح اللعبة قبل 7 أيام",
+        "إصدار Monday Night War يتضمن جميع حزم المحتوى المتميز الثلاث",
+        "تتوسع تذكرة Ringside Pass عبر ستة مواسم في الإصدارات المتميزة"
+      ]
+    },
+    "roster": {
+      "title": "قائمة WWE 2K26",
+      "subtitle": "تصفح أكثر من 400 نجم وأسطورة قابلين للعب",
+      "stats": [
+        {
+          "label": "إجمالي النجوم",
+          "value": "400+"
+        },
+        {
+          "label": "إضافات جديدة",
+          "value": "50+"
+        },
+        {
+          "label": "نطاق القائمة",
+          "value": "الأكبر في تاريخ السلسلة"
+        }
+      ],
+      "categories": [
+        {
+          "name": "نجوم حاليون",
+          "superstars": [
+            "CM Punk",
+            "Cody Rhodes",
+            "Rhea Ripley",
+            "Roman Reigns",
+            "Seth Rollins",
+            "Becky Lynch"
+          ]
+        },
+        {
+          "name": "أساطير",
+          "superstars": [
+            "The Rock",
+            "Triple H",
+            "Stone Cold Steve Austin",
+            "Undertaker",
+            "Batista",
+            "Chyna"
+          ]
+        },
+        {
+          "name": "أبرز نجوم العصر الجديد",
+          "superstars": [
+            "Rey Fénix",
+            "Rusev",
+            "Blake Monroe",
+            "Giulia",
+            "Bron Breakker",
+            "Stephanie Vaquer"
+          ]
+        },
+        {
+          "name": "تسليط الضوء على الموسم 1",
+          "superstars": [
+            "El Hijo del Vikingo",
+            "Flammer"
+          ]
+        }
+      ]
+    },
+    "ratings": {
+      "title": "تقييمات WWE 2K26",
+      "subtitle": "تصنيفات النجوم الأعلى تقييماً",
+      "menTopRated": [
+        {
+          "name": "Stone Cold Steve Austin",
+          "rating": 97
+        },
+        {
+          "name": "Roman Reigns '22",
+          "rating": 97
+        },
+        {
+          "name": "John Cena",
+          "rating": 97
+        },
+        {
+          "name": "John Cena '12",
+          "rating": 96
+        },
+        {
+          "name": "The Rock '01",
+          "rating": 96
+        },
+        {
+          "name": "The Undertaker",
+          "rating": 96
+        },
+        {
+          "name": "Stone Cold Steve Austin '00",
+          "rating": 95
+        },
+        {
+          "name": "The Rock",
+          "rating": 95
+        },
+        {
+          "name": "Cody Rhodes",
+          "rating": 95
+        },
+        {
+          "name": "Roman Reigns",
+          "rating": 95
+        }
+      ],
+      "womenTopRated": [
+        {
+          "name": "Rhea Ripley",
+          "rating": 96
+        },
+        {
+          "name": "Becky Lynch",
+          "rating": 94
+        },
+        {
+          "name": "Bianca Belair",
+          "rating": 94
+        },
+        {
+          "name": "Charlotte Flair",
+          "rating": 93
+        },
+        {
+          "name": "Iyo Sky",
+          "rating": 93
+        },
+        {
+          "name": "Naomi",
+          "rating": 92
+        },
+        {
+          "name": "Stephanie Vaquer",
+          "rating": 92
+        },
+        {
+          "name": "Liv Morgan",
+          "rating": 92
+        },
+        {
+          "name": "AJ Lee '15",
+          "rating": 92
+        },
+        {
+          "name": "Tiffany Stratton",
+          "rating": 91
+        }
+      ],
+      "highlights": [
+        "أعلى تقييم للرجال: 97",
+        "أعلى تقييم للنساء: 96",
+        "تمزج التقييمات بين النجوم الحاليين، والأساطير، وشخصيات من عصور بديلة"
+      ]
+    },
+    "controls": {
+      "title": "عناصر التحكم في WWE 2K26",
+      "subtitle": "أتقن عناصر التحكم الأساسية لأجهزة PS5 و Xbox و PC",
+      "platforms": [
+        {
+          "name": "PS5",
+          "controls": [
+            {
+              "action": "ركض",
+              "input": "استمرار الضغط على L2 + العصا اليسرى"
+            },
+            {
+              "action": "إمساك (اشتباك)",
+              "input": "O"
+            },
+            {
+              "action": "ضربة خفيفة / اشتباك خفيف",
+              "input": "مربع"
+            },
+            {
+              "action": "ضربة ثقيلة / اشتباك ثقيل",
+              "input": "X"
+            },
+            {
+              "action": "Irish Whip",
+              "input": "O (أثناء الإمساك)"
+            },
+            {
+              "action": "Signature",
+              "input": "R2 + مربع"
+            },
+            {
+              "action": "Finisher",
+              "input": "R2 + X"
+            },
+            {
+              "action": "إخضاع",
+              "input": "R2 + O"
+            },
+            {
+              "action": "Payback",
+              "input": "R2 + مثلث"
+            },
+            {
+              "action": "عكس الحركة / تفادي",
+              "input": "مثلث"
+            },
+            {
+              "action": "صد",
+              "input": "استمرار الضغط على مثلث"
+            },
+            {
+              "action": "تثبيت الخصم",
+              "input": "العصا اليمنى لأسفل"
+            },
+            {
+              "action": "التقاط سلاح",
+              "input": "L1"
+            }
+          ]
+        },
+        {
+          "name": "Xbox Series X|S",
+          "controls": [
+            {
+              "action": "ركض",
+              "input": "استمرار الضغط على LT + العصا اليسرى"
+            },
+            {
+              "action": "إمساك (اشتباك)",
+              "input": "B"
+            },
+            {
+              "action": "ضربة خفيفة / اشتباك خفيف",
+              "input": "X"
+            },
+            {
+              "action": "ضربة ثقيلة / اشتباك ثقيل",
+              "input": "A"
+            },
+            {
+              "action": "Irish Whip",
+              "input": "B (أثناء الإمساك)"
+            },
+            {
+              "action": "Signature",
+              "input": "RT + X"
+            },
+            {
+              "action": "Finisher",
+              "input": "RT + A"
+            },
+            {
+              "action": "إخضاع",
+              "input": "RT + B"
+            },
+            {
+              "action": "Payback",
+              "input": "RT + Y"
+            },
+            {
+              "action": "عكس الحركة / تفادي",
+              "input": "Y"
+            },
+            {
+              "action": "صد",
+              "input": "استمرار الضغط على Y"
+            },
+            {
+              "action": "تثبيت الخصم",
+              "input": "العصا اليمنى لأسفل"
+            },
+            {
+              "action": "التقاط سلاح",
+              "input": "LB"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "تربط الـ Combos بين الضربات الخفيفة والثقيلة معاً",
+        "تستخدم الـ Breakers نفس الزر الذي يضغط عليه خصمك",
+        "تستخدم لعبة الـ kick-out الموقوتة العصا اليمنى لأعلى",
+        "تشمل إجراءات الحكم الخاص العد، وكسر الحبال، والتحذيرات، والطرد"
+      ]
+    },
+    "matchTypes": {
+      "title": "WWE 2K26 أنواع مباريات جديدة",
+      "subtitle": "خض تجربة 4 أنواع مباريات جديدة وأسلوب لعب مطور",
+      "quickFacts": [
+        {
+          "label": "أنواع مباريات جديدة",
+          "value": "I Quit، Inferno، Dumpster، 3 Stages of Hell"
+        },
+        {
+          "label": "مساحة عراك جديدة",
+          "value": "عراك ساحة الخردة"
+        },
+        {
+          "label": "إضافة للنمط",
+          "value": "التبديل السريع في MyFACTION"
+        }
+      ],
+      "matches": [
+        {
+          "name": "I Quit",
+          "description": "أجبر خصمك على قول 'I Quit' للفوز في هذه المواجهة العنيفة"
+        },
+        {
+          "name": "Inferno",
+          "description": "أشعل النار في خصمك لتحقيق الفوز في هذه المباراة الحارقة"
+        },
+        {
+          "name": "Dumpster",
+          "description": "أبرح خصمك ضرباً ثم ألقه في حاوية النفايات للفوز"
+        },
+        {
+          "name": "3 Stages of Hell",
+          "description": "تحدي الأفضل من ثلاثة حيث تستخدم كل جولة نوع مباراة مختلف"
+        },
+        {
+          "name": "Scrapyard Brawl",
+          "description": "بيئة عراك جديدة تقع في أرض الجزيرة القاحلة المليئة بالحطام"
+        }
+      ],
+      "newSystems": [
+        "قتال موسع بين الجماهير",
+        "طاولات قابلة للتكديس",
+        "دبابيس",
+        "مهاجمون مفاجئون",
+        "القتال عند الحواجز",
+        "حركة إقصاء الفريق بالتبديل السريع"
+      ]
+    },
+    "showcase": {
+      "title": "WWE 2K26 Showcase",
+      "subtitle": "استرجع أعظم عداوات CM Punk",
+      "quickFacts": [
+        {
+          "label": "نجم الغلاف",
+          "value": "CM Punk"
+        },
+        {
+          "label": "الجدول الزمني",
+          "value": "أكثر من 25 عاماً من تاريخ WWE"
+        },
+        {
+          "label": "أنواع النزالات",
+          "value": "تاريخية، خيالية، ماذا لو"
+        }
+      ],
+      "moments": [
+        {
+          "title": "مباراة الافتتاح",
+          "description": "WrestleMania 41 تهديد ثلاثي: CM Punk ضد Seth Rollins ضد Roman Reigns"
+        },
+        {
+          "title": "نزالات تاريخية",
+          "description": "إعادة بناء دقيقة مع حلبات أصلية وأهداف للمباريات"
+        },
+        {
+          "title": "حرب الخيال",
+          "description": "مواجهات الأحلام ضد أساطير أثروا في مسيرة Punk"
+        },
+        {
+          "title": "نزالات ماذا لو",
+          "description": "سيناريوهات لجدول زمني بديل تستكشف مسارات مهنية مختلفة"
+        }
+      ],
+      "specialFeature": {
+        "name": "The Gauntlet",
+        "description": "واجه 20 خصماً متتالياً بشخصية CM Punk أو AJ Lee لفتح جميع مكافآت Showcase دفعة واحدة"
+      }
+    },
+    "mygm": {
+      "title": "WWE 2K26 MyGM",
+      "subtitle": "أدر علامتك التجارية مع حجز واستراتيجية أعمق",
+      "quickFacts": [
+        {
+          "label": "طول الموسم",
+          "value": "50 أسبوعاً"
+        },
+        {
+          "label": "ميزانيات البداية",
+          "value": "$3M - $7M"
+        },
+        {
+          "label": "متوسط حجم القائمة",
+          "value": "20-35 Superstars"
+        },
+        {
+          "label": "صعوبة جديدة",
+          "value": "Immortal"
+        }
+      ],
+      "features": [
+        {
+          "title": "مواسم ممتدة",
+          "description": "طول الموسم الافتراضي الآن 50 أسبوعاً مع خيارات ميزانية مرنة"
+        },
+        {
+          "title": "أنواع مباريات موسعة",
+          "description": "احجز مباريات خماسية، سداسية، ثمانية، تاغ ثلاثية، تاغ رباعية قاتلة، ومباريات هانديكاب"
+        },
+        {
+          "title": "قواعد مباريات جديدة",
+          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
+        },
+        {
+          "title": "تبادل بطاقات القوة",
+          "description": "تبادل بطاقات القوة خلال أسابيع التبادل مع خيار لتعطيل متجر بطاقات القوة"
+        },
+        {
+          "title": "مباريات مختلطة بين الجنسين",
+          "description": "احجز مباريات مختلطة بين الجنسين مع تكلفة حجز إضافية"
+        }
+      ],
+      "ples": [
+        "Clash at Paris",
+        "Crown Jewel",
+        "Battleground",
+        "Evolution",
+        "Great American Bash",
+        "Halloween Havoc",
+        "Night of Champions",
+        "No Mercy",
+        "Worlds Collide",
+        "Survivor Series: War Games",
+        "Elimination Chamber",
+        "WrestleMania"
+      ]
+    },
+    "myrise": {
+      "title": "WWE 2K26 MyRISE",
+      "subtitle": "قاتل في طريق عودتك في The Comeback",
+      "quickFacts": [
+        {
+          "label": "اسم القصة",
+          "value": "The Comeback"
+        },
+        {
+          "label": "الشخصية الرئيسية",
+          "value": "The Archetype"
+        },
+        {
+          "label": "السمة",
+          "value": "العودة بعد غياب دام عامين"
+        }
+      ],
+      "paths": [
+        {
+          "name": "المسار التقليدي",
+          "description": "احصل على الفرص بالطريقة الصحيحة وشق طريقك للعودة إلى المنافسة على اللقب"
+        },
+        {
+          "name": "المسار الشرس",
+          "description": "اختصر الطرق وسرّع عملية العودة من خلال تكتيكات عدوانية"
+        }
+      ],
+      "divisions": [
+        {
+          "name": "قسم الرجال",
+          "goal": "احصل على فرصة أخرى لمواجهة بطل WWE Bron Breakker",
+          "opponents": [
+            "Jey Uso",
+            "Jacob Fatu",
+            "Ethan Page",
+            "The New Day",
+            "The Wyatt Sicks"
+          ]
+        },
+        {
+          "name": "قسم النساء",
+          "goal": "اسعَ لمواجهة أخرى مع بطلة WWE للنساء Jordynne Grace",
+          "opponents": [
+            "Naomi",
+            "Roxanne Perez",
+            "Kelani Jordan",
+            "Nia Jax",
+            "Liv Morgan",
+            "The Wyatt Sicks"
+          ]
+        }
+      ],
+      "features": [
+        "حوارات متفرعة تشكل تقدم القصة",
+        "مؤتمرات WWE الصحفية مع ردود تعتمد على خيارات اللاعب",
+        "قرار نهائي كبير يؤثر على فترة الاحتفاظ باللقب"
+      ],
+      "rewards": [
+        "حلبات",
+        "بطولات",
+        "أجزاء CAS",
+        "شخصيات قابلة للعب",
+        "أسلحة",
+        "Paybacks",
+        "محتوى MyFACTION"
+      ]
+    },
+    "universeMode": {
+      "title": "نمط Universe في WWE 2K26",
+      "subtitle": "ابنِ تقويم WWE الذي تحلم به بتحكم أعمق",
+      "quickFacts": [
+        {
+          "label": "أداة الإعداد",
+          "value": "Universe Wizard"
+        },
+        {
+          "label": "أقصى عدد لفعاليات Draft",
+          "value": "8"
+        },
+        {
+          "label": "الألقاب لكل عرض",
+          "value": "حتى 8"
+        },
+        {
+          "label": "خانات MITB",
+          "value": "2 لكل عرض"
+        }
+      ],
+      "features": [
+        {
+          "title": "Universe Wizard",
+          "description": "ابدأ ملفات الحفظ بشكل أسرع عبر اختيار العروض، وPLEs، والأبطال، والقوائم مسبقاً"
+        },
+        {
+          "title": "WWE Draft",
+          "description": "أنشئ وجدول فعاليات Draft حيث تتبادل العروض النجوم"
+        },
+        {
+          "title": "صرف حقيبة MITB",
+          "description": "يمكن صرف الحقائب على أي لقب مؤهل في العرض"
+        },
+        {
+          "title": "البروموهات المحسنة",
+          "description": "البروموهات الذاتية، وطلبات المواجهة، والمقاطعات، والتحديات المفتوحة، ومقابلات ما بعد النزال"
+        },
+        {
+          "title": "أشرطة ضبط تنظيم النزالات",
+          "description": "اضبط فرز بطاقة النزالات مع مكافآت للألقاب، والعداوات، وأنواع النزالات"
+        }
+      ]
+    },
+    "communityCreations": {
+      "title": "إبداعات مجتمع WWE 2K26",
+      "subtitle": "أنشئ محتوى مخصصاً أكبر وأكثر تفصيلاً",
+      "quickFacts": [
+        {
+          "label": "فتحات CAS",
+          "value": "200"
+        },
+        {
+          "label": "فتحات الصور",
+          "value": "2,000"
+        },
+        {
+          "label": "قوالب الجسم",
+          "value": "+40"
+        },
+        {
+          "label": "تقسيم الطبقات",
+          "value": "60 للزي + 40 للرأس/الجسم"
+        }
+      ],
+      "sections": [
+        {
+          "title": "إنشاء مصارع",
+          "description": "تشكيل الجسم وتشكيل الوجه المحسن مع +40 قالب للجسم"
+        },
+        {
+          "title": "الشعر وطلاء الجسم",
+          "description": "دمج ألوان الشعر ثنائي اللون وعناصر تحكم Joy-Con 2 للماوس لطلاء الجسم"
+        },
+        {
+          "title": "إنشاء حلبة",
+          "description": "حواجز LED، طاولات معلقين جديدة، وخيارات موسعة لبساط الحلبة وحوافها"
+        },
+        {
+          "title": "إنشاء صورة",
+          "description": "مضاعفة حد رفع الصور من 1,000 إلى 2,000 فتحة"
+        },
+        {
+          "title": "إنشاء بطولة",
+          "description": "أجزاء موسعة وواجهة بناء محدثة"
+        },
+        {
+          "title": "إنشاء دخلة",
+          "description": "تعديل الجدول الزمني المتقدم لدخلات البطل، MITB، والفرق (رباعي/خماسي)"
+        }
+      ]
+    },
+    "theIsland": {
+      "title": "WWE 2K26 الجزيرة",
+      "subtitle": "اختر تنظيماً وقاتل من أجل السيطرة",
+      "quickFacts": [
+        {
+          "label": "الفصائل",
+          "value": "3 تنظيمات"
+        },
+        {
+          "label": "فصول القصة",
+          "value": "3"
+        },
+        {
+          "label": "مستويات الهيبة",
+          "value": "4"
+        },
+        {
+          "label": "نمط PvP جديد",
+          "value": "2 ضد 2 PvP"
+        }
+      ],
+      "orders": [
+        {
+          "name": "تنظيم التقاليد",
+          "leader": "Cody Rhodes",
+          "description": "مبني على تراث الحلبة، الاستعراض، وقيم المدرسة القديمة"
+        },
+        {
+          "name": "تنظيم الظلال",
+          "leader": "Rhea Ripley",
+          "description": "يتبنى الغرابة، والمسرحية، وقوة الترهيب"
+        },
+        {
+          "name": "تنظيم الفوضى",
+          "leader": "CM Punk",
+          "description": "يرفض الوضع الراهن ويدفع الجزيرة في اتجاهات جريئة جديدة"
+        }
+      ],
+      "prestige": [
+        {
+          "tier": "مجنّد",
+          "ovrRange": "70-85"
+        },
+        {
+          "tier": "المشاغب",
+          "ovrRange": "75-90"
+        },
+        {
+          "tier": "المخطط",
+          "ovrRange": "80-95"
+        },
+        {
+          "tier": "أسطوري",
+          "ovrRange": "85-100"
+        }
+      ],
+      "highlights": [
+        "ساحة الخردة: منطقة عراك مركزية تحتوي على مخاطر وهياكل قابلة للتسلق",
+        "الأبراج: نمط PvE قابل للتكرار بمسارات عشوائية ومعارك زعماء",
+        "المهام الأسبوعية تمنح XP، وعناصر تجميلية، ومكافآت الجزيرة",
+        "اللعب المصنف الموسمي مع لوحات صدارة لـ 1 ضد 1، و2 ضد 2، والبطولات"
+      ]
+    },
+    "myfaction": {
+      "title": "WWE 2K26 MyFACTION",
+      "subtitle": "ابنِ تشكيلات أقوى مع التناغم وQuick Swap",
+      "quickFacts": [
+        {
+          "label": "حجم التشكيلة",
+          "value": "4 Superstars"
+        },
+        {
+          "label": "سمات التناغم",
+          "value": "60 عبر 10 فئات"
+        },
+        {
+          "label": "نوع مباراة جديد",
+          "value": "Quick Swap"
+        },
+        {
+          "label": "مجموعات بطاقات الإطلاق",
+          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
+        }
+      ],
+      "features": [
+        {
+          "title": "تناغم الفريق",
+          "description": "تؤثر التفاعلات الإيجابية والسلبية على Chemistry Score؛ ويقلل Managers من السلبيات"
+        },
+        {
+          "title": "دعم الجنسين",
+          "description": "ابنِ تشكيلات مكونة من أربعة أشخاص مختلطة الجنسين"
+        },
+        {
+          "title": "Quick Swap",
+          "description": "بدّل زملاء الفريق في منتصف المباراة، وشارك خانات Signature/Finisher، وفُز بالضربة القاضية"
+        },
+        {
+          "title": "Faction Wars",
+          "description": "تقدم قائم على المجموعة يبدأ بـ Crowd's Deck"
+        },
+        {
+          "title": "World Tour",
+          "description": "تشمل المكافآت Personas وMFP وArc Cards وحزمًا عبر مواقع عالمية"
+        }
+      ]
+    },
+    "lockerCodes": {
+      "title": "أكواد خزانة WWE 2K26",
+      "subtitle": "استبدل الأكواد النشطة للحصول على مكافآت MyFACTION",
+      "quickFacts": [
+        {
+          "label": "الوضع",
+          "value": "MyFACTION"
+        },
+        {
+          "label": "الكود النشط",
+          "value": "BSTINTWRLD26"
+        },
+        {
+          "label": "تاريخ الانتهاء",
+          "value": "March 13, 2026"
+        }
+      ],
+      "codes": [
+        {
+          "code": "BSTINTWRLD26",
+          "rewards": [
+            "1x حزمة Aftershock Series I الأساسية",
+            "1x حزمة Momentum Series I الأساسية"
+          ],
+          "expires": "March 13, 2026"
+        }
+      ],
+      "howToRedeem": [
+        "افتح WWE 2K26 من القائمة الرئيسية",
+        "اختر Locker Codes",
+        "أدخل الكود تماماً كما هو موضح",
+        "استبدل الكود وافتح حزمك في MyFACTION"
+      ]
+    },
+    "pcRequirements": {
+      "title": "متطلبات PC للعبة WWE 2K26",
+      "subtitle": "تحقق مما إذا كان PC الخاص بك يمكنه تشغيل WWE 2K26",
+      "quickFacts": [
+        {
+          "label": "نظام التشغيل",
+          "value": "Windows 10 64-bit"
+        },
+        {
+          "label": "RAM",
+          "value": "16 جيجابايت"
+        },
+        {
+          "label": "التخزين",
+          "value": "120 جيجابايت"
+        },
+        {
+          "label": "ملاحظة المعالج",
+          "value": "يتطلب دعم AVX2 و F16C"
+        }
+      ],
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i7-4770 أو AMD Ryzen 5 1500X",
+        "memory": "16 جيجابايت RAM",
+        "graphics": "NVIDIA RTX 2060 أو AMD Radeon RX 5700",
+        "directX": "الإصدار 12",
+        "storage": "مساحة متوفرة 120 جيجابايت",
+        "notes": "يجب أن تحتوي GPU على 6 جيجابايت VRAM على الأقل؛ يجب أن يدعم CPU تقنيات AVX2 و F16C"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "processor": "Intel Core i7-7700 أو AMD Ryzen 5 2600",
+        "memory": "16 جيجابايت RAM",
+        "graphics": "NVIDIA RTX 3060 أو AMD Radeon RX 6700 XT",
+        "directX": "الإصدار 12",
+        "storage": "مساحة متوفرة 120 جيجابايت",
+        "notes": "12 جيجابايت VRAM على الأقل؛ يجب أن يدعم CPU تقنيات AVX2 و F16C"
+      }
+    },
+    "arenas": {
+      "title": "WWE 2K26 Arenas",
+      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
+      "quickFacts": [
+        {
+          "label": "Arena Count",
+          "value": "40+"
+        },
+        {
+          "label": "New Venues",
+          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+        },
+        {
+          "label": "Classic Highlights",
+          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Current Weekly Shows",
+          "arenas": [
+            "Raw 2025",
+            "SmackDown 2025",
+            "NXT 2025",
+            "Main Event 2025"
+          ]
+        },
+        {
+          "name": "Premium Live Events",
+          "arenas": [
+            "Royal Rumble 2025",
+            "Elimination Chamber 2025",
+            "WrestleMania 41",
+            "Backlash 2025",
+            "Money in the Bank 2025",
+            "Night of Champions 2025",
+            "Evolution 2025",
+            "SummerSlam 2025",
+            "Clash in Paris",
+            "Survivor Series: WarGames 2025",
+            "WrestleMania 42"
+          ]
+        },
+        {
+          "name": "Classic Arenas",
+          "arenas": [
+            "ECW Hardcore Heaven 1994",
+            "ECW One Night Stand 2006",
+            "Raw 2002",
+            "Raw 2013",
+            "Raw Is War 1998",
+            "SmackDown! 2002",
+            "WCW Halloween Havoc 1997",
+            "WCW Nitro 1998",
+            "WCW Thunder 1998",
+            "WWE SummerSlam 2008",
+            "WWE WrestleMania 29",
+            "WWE WrestleMania 32",
+            "WWE WrestleMania 35"
+          ]
+        },
+        {
+          "name": "Original and Brawl Spaces",
+          "arenas": [
+            "Archetypal Gym",
+            "Arena Estatal",
+            "BCW",
+            "Club UK",
+            "Wrestling Convention (Grapple Legends)",
+            "Backstage Brawl",
+            "NXT Parking Lot",
+            "The Scrapyard"
+          ]
+        }
+      ]
+    },
+    "dlcUnlockables": {
+      "title": "محتويات WWE 2K26 DLC والعناصر القابلة للفتح",
+      "subtitle": "تتبع كل مسار مكافآت رئيسي بعد الإطلاق",
+      "quickFacts": [
+        {
+          "label": "مواسم Ringside Pass",
+          "value": "6"
+        },
+        {
+          "label": "المستويات لكل موسم",
+          "value": "40"
+        },
+        {
+          "label": "مكافآت المسار المجاني",
+          "value": "60"
+        },
+        {
+          "label": "إجمالي المكافآت",
+          "value": "120"
+        }
+      ],
+      "seasons": [
+        {
+          "season": "الموسم 1",
+          "release": "March 6, 2026"
+        },
+        {
+          "season": "الموسم 2",
+          "release": "April 2026"
+        },
+        {
+          "season": "الموسم 3",
+          "release": "June 2026"
+        },
+        {
+          "season": "الموسم 4",
+          "release": "July 2026"
+        },
+        {
+          "season": "الموسم 5",
+          "release": "September 2026"
+        },
+        {
+          "season": "الموسم 6",
+          "release": "October 2026"
+        }
+      ],
+      "editionPacks": [
+        {
+          "name": "حزمة إصدار King of Kings",
+          "includes": [
+            "Triple H '98",
+            "Stephanie McMahon '00",
+            "حركة Triple H الاستعراضية الخاصة"
+          ]
+        },
+        {
+          "name": "حزمة إصدار Attitude Era",
+          "includes": [
+            "The Rock '99",
+            "Kane '98",
+            "Chyna '97",
+            "بطاقة EVO لـ Stone Cold Steve Austin",
+            "بطاقة EVO لـ The Rock",
+            "حلبة Raw Is War '98"
+          ]
+        },
+        {
+          "name": "حزمة إصدار Monday Night War",
+          "includes": [
+            "Shawn Michaels DX",
+            "Macho Man Randy Savage '98",
+            "Rowdy Roddy Piper '98",
+            "حلبة WCW Thunder '98"
+          ]
+        },
+        {
+          "name": "حزمة WrestleMania 42",
+          "includes": [
+            "حلبة WrestleMania 42",
+            "شخصية WM42 رقم 1",
+            "شخصية WM42 رقم 2",
+            "شخصية WM42 رقم 3"
+          ]
+        }
+      ],
+      "unlockExamples": [
+        {
+          "name": "AJ Lee",
+          "source": "Showcase: مباراة What If رقم 7"
+        },
+        {
+          "name": "Alundra Blayze '94",
+          "source": "المستوى 5 في المسار المجاني لـ Ringside Pass #1"
+        },
+        {
+          "name": "Andre The Giant",
+          "source": "المستوى 4 في المسار المجاني لـ Ringside Pass #1"
+        },
+        {
+          "name": "El Hijo del Vikingo",
+          "source": "المستوى 1 في المسار المميز لـ Ringside Pass #1"
+        },
+        {
+          "name": "Flammer",
+          "source": "المستوى 7 في المسار المميز لـ Ringside Pass #1"
+        },
+        {
+          "name": "Main Event R-Truth",
+          "source": "MyRISE"
+        },
+        {
+          "name": "Dusty Rhodes '89",
+          "source": "MyRISE"
+        },
+        {
+          "name": "Brock Lesnar '13",
+          "source": "Showcase: المباراة التاريخية رقم 7"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "الأسئلة الأكثر",
+    "titleHighlight": "شيوعاً",
+    "subtitle": "كل ما تحتاج لمعرفته حول WWE 2K26",
+    "questions": [
+      {
+        "question": "متى سيتم إصدار WWE 2K26؟",
+        "answer": "يصدر الإصدار القياسي من WWE 2K26 في 13 مارس 2026. تحصل إصدارات Deluxe على وصول مبكر بدءاً من 6 مارس 2026."
+      },
+      {
+        "question": "كم عدد النجوم في WWE 2K26؟",
+        "answer": "تضم WWE 2K26 أكثر من 400 نجم قابل للعب، بما في ذلك الأساطير، والقائمة الحالية، وشخصيات DLC."
+      },
+      {
+        "question": "ما هي المنصات التي تتوفر عليها WWE 2K26؟",
+        "answer": "تتوفر WWE 2K26 على PS5، و Xbox Series X|S، و Steam (PC)، و Nintendo Switch 2."
+      },
+      {
+        "question": "كيف يمكنني استرداد رموز Locker Codes في WWE 2K26؟",
+        "answer": "انتقل إلى نمط MyFACTION، واختر قائمة Locker Code، ثم أدخل الرمز. تحقق من صفحة الرموز الخاصة بنا للحصول على أحدث الرموز النشطة."
+      },
+      {
+        "question": "ما هي أنواع المباريات الجديدة في WWE 2K26؟",
+        "answer": "تقدم WWE 2K26 4 أنواع جديدة من المباريات تشمل Inferno Match، و Dumpster Match، و Three Stages of Hell، و I Quit Match."
+      },
+      {
+        "question": "ما هي أنماط اللعب المتوفرة في WWE 2K26؟",
+        "answer": "تتضمن WWE 2K26 أنماط MyGM، و MyRISE، و Universe Mode، و Showcase (CM Punk)، و The Island، و MyFACTION، و Creation Suite."
+      }
+    ]
+  },
+  "cta": {
+    "title": "هل أنت مستعد لدخول الحلبة؟",
+    "description": "انضم إلى مجتمع WWE 2K26 على Discord للحصول على التحديثات، والكشف عن القوائم، ومناقشات أسلوب اللعب!",
+    "joinCommunity": "انضم إلى Discord",
+    "joinGame": "اشترِ WWE 2K26"
+  },
+  "footer": {
+    "title": "ويكي WWE 2K26",
+    "description": "مركزك المتكامل للمصادر لقائمة مصارعي WWE 2K26، والتقييمات، ورموز الخزانة، وأنواع المباريات، وأدلة أنماط اللعب.",
+    "resources": "المصادر",
+    "community": "المجتمع",
+    "legal": "قانوني",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "about": "حول",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "copyrightNotice": "حقوق الطبع والنشر",
+    "copyright": "© 2026 WWE 2K26 Wiki. غير تابع لـ 2K Sports، أو Visual Concepts، أو WWE.",
+    "disclaimer": "موقع مصادر غير رسمي من صنع المعجبين."
+  }
+}

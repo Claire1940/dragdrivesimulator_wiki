@@ -1,0 +1,14 @@
+{
+  "lang": "pt",
+  "strategies_tried": [
+    {
+      "strategy": "small",
+      "chunk_size": 15,
+      "success": false,
+      "chunks_count": 1,
+      "failed_chunks": 1
+    }
+  ],
+  "final_status": "failed",
+  "error": "所有分块策略都失败"
+}
