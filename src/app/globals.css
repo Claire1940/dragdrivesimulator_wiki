@@ -12,29 +12,29 @@
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: 0 82% 48%;
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 36 42% 42%;       /* ash-gold */
+    --nav-theme-light: 36 48% 56%; /* lighter ash-gold */
+
+    --primary: var(--nav-theme);
     --primary-foreground: 0 0% 98%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
-    --accent: 0 88% 60%;
+    --accent: var(--nav-theme-light);
     --accent-foreground: 0 0% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 0 82% 48%;
+    --ring: var(--nav-theme);
     --radius: 0.5rem;
-    --chart-1: 0 82% 48%;
-    --chart-2: 0 88% 60%;
-    --chart-3: 0 70% 40%;
-    --chart-4: 0 75% 65%;
-    --chart-5: 0 80% 55%;
-
-    /* 导航页主题色 - 亮色主题 */
-    --nav-theme: 350 72% 44%;  /* Drag Drive Simulator brand red */
-    --nav-theme-light: 350 78% 56%;  /* brighter brand red */
+    --chart-1: var(--nav-theme);
+    --chart-2: var(--nav-theme-light);
+    --chart-3: var(--nav-theme);
+    --chart-4: var(--nav-theme-light);
+    --chart-5: var(--nav-theme);
 
     /* 金色系统 - Championship Belt Luxury */
     --gold: 45 100% 51%;  /* 纯金色 */
@@ -63,28 +63,28 @@
     --card-foreground: 0 0% 98%;
     --popover: 220 25% 8%;
     --popover-foreground: 0 0% 98%;
-    --primary: 0 82% 48%;
+    /* 导航页主题色 - 暗色主题 */
+    --nav-theme: 36 48% 56%;       /* ash-gold (dark) */
+    --nav-theme-light: 36 54% 64%; /* lighter ash-gold (dark) */
+
+    --primary: var(--nav-theme);
     --primary-foreground: 0 0% 98%;
     --secondary: 220 20% 12%;
     --secondary-foreground: 0 0% 98%;
     --muted: 220 20% 15%;
     --muted-foreground: 220 10% 60%;
-    --accent: 0 88% 60%;
+    --accent: var(--nav-theme-light);
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 220 20% 15%;
     --input: 220 20% 15%;
-    --ring: 0 82% 48%;
-    --chart-1: 0 82% 48%;
-    --chart-2: 0 88% 60%;
-    --chart-3: 0 70% 40%;
-    --chart-4: 0 75% 65%;
-    --chart-5: 0 80% 55%;
-
-    /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 350 78% 56%;  /* Drag Drive Simulator brand red (dark mode) */
-    --nav-theme-light: 350 84% 64%;  /* brighter brand red */
+    --ring: var(--nav-theme);
+    --chart-1: var(--nav-theme);
+    --chart-2: var(--nav-theme-light);
+    --chart-3: var(--nav-theme);
+    --chart-4: var(--nav-theme-light);
+    --chart-5: var(--nav-theme);
 
     /* 金色系统 - Championship Belt Luxury */
     --gold: 45 100% 51%;
@@ -148,7 +148,7 @@
   }
   to {
     transform: translateY(-8px);
-    box-shadow: 0 12px 32px rgba(220,38,38,0.3);
+    box-shadow: 0 12px 32px hsl(var(--nav-theme) / 0.3);
   }
 }
 
@@ -170,8 +170,8 @@
 }
 
 /* 发光效果 */
-.glow-red {
-  box-shadow: 0 0 20px rgba(220, 38, 38, 0.4);
+.glow-theme {
+  box-shadow: 0 0 20px hsl(var(--nav-theme) / 0.4);
 }
 
 .glow-gold {

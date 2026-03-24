@@ -222,7 +222,7 @@ export default function HomePage() {
             <h1 className="text-5xl md:text-7xl font-bebas mb-6 leading-tight
                            bg-gradient-to-r from-foreground via-[hsl(var(--nav-theme))] to-foreground
                            bg-clip-text text-transparent
-                           drop-shadow-[0_2px_8px_rgba(220,38,38,0.3)]">
+                           drop-shadow-[0_2px_8px_hsl(var(--nav-theme)/0.3)]">
               {t.hero.title}
             </h1>
 
@@ -239,7 +239,7 @@ export default function HomePage() {
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-lg
                            transition-all duration-300
-                           hover:shadow-[0_8px_24px_rgba(220,38,38,0.4)]
+                           hover:shadow-[0_8px_24px_hsl(var(--nav-theme)/0.4)]
                            hover:-translate-y-1"
               >
                 <Gift className="w-5 h-5 transition-transform group-hover:scale-110" />
