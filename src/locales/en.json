@@ -10,7 +10,9 @@
       "twitterDescription": "Drag Drive Simulator Wiki covers codes, tuning, vehicles, jobs, tracks, and community updates for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guides"
+  },
   "common": {
     "home": "Home",
     "more": "More",

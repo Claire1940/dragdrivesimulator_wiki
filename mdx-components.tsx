@@ -1,28 +1,7 @@
 import type { MDXComponents } from 'mdx/types'
-import { Section } from '@/components/mdx/Section'
-import { CardGrid, Card } from '@/components/mdx/CardGrid'
-import { Callout } from '@/components/mdx/Callout'
-import { Steps, Step } from '@/components/mdx/Steps'
-import { CTAButtons } from '@/components/mdx/CTAButtons'
-import { Checklist } from '@/components/mdx/Checklist'
-import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
-import { FAQ, FAQItem } from '@/components/mdx/FAQ'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
-    // 自定义组件
-    Section,
-    CardGrid,
-    Card,
-    Callout,
-    Steps,
-    Step,
-    CTAButtons,
-    Checklist,
-    YouTubeEmbed,
-    FAQ,
-    FAQItem,
-
     // 覆盖默认 HTML 元素
     h1: (props) => <h1 className="text-4xl font-bold text-white mb-3" {...props} />,
     h2: (props) => <h2 className="text-3xl font-bold text-white mb-2 mt-4" {...props} />,
