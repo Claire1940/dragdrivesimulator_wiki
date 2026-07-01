@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Drag Drive Simulator Garage: Best Builds & Tuning Setup",
+  description: "Optimize your cars in the Drag Drive Simulator garage. Learn to customize rims, apply materials, save builds, and use the drag prop spawner.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drag+Drive+Simulator+Garage",
+  date: "2026-07-01",
+  author: "drag drive simulator Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Garage customization**: Modify your vehicles in the drag drive simulator garage using secondary materials, custom rims, and unique rider styles.
+- **Saving builds**: Always save your custom tuning configurations to prevent losing setups when spawning new vehicles.
+- **Drag racing setup**: Utilize the new drag mode prop spawner and countdown commands to host organized races.
+- **Active codes**: Redeem active promo codes to secure cash for purchasing high-tier modification parts.
+</Callout>
+
+<Section icon={Sparkles} title="Customizing Vehicles in the Drag Drive Simulator Garage">
+
+Entering the drag drive simulator garage allows you to completely overhaul your vehicle's appearance and performance characteristics. The garage serves as the central hub for modifying standard cars, motorcycles, police cruisers, and limited edition event vehicles. With the release of the V1.1.6 update, customization options have expanded to include secondary material applications, intricate rim designs, and specialized rider styles like the Superman Style.
+
+To get the most out of your vehicle, you need to understand the different modification categories. The customization system is divided into distinct sections, allowing you to fine-tune both the visual appeal and the physical presence of your ride on the drag strip.
+
+| Modification Type | Available Options | Primary Benefit |
+| **Rims Type** | Standard, Alloy, Custom Sport | Improves aesthetic and track stance |
+| **Secondary Material** | Matte, Metallic, Chrome, Gloss | Enhances vehicle paint styling and reflection |
+| **Rider Style** | Standard, Superman Style, Police | Customizes character appearance while riding |
+| **Vehicle Type** | Cars, Motorcycles, Police Vehicles | Diversifies roleplay options and racing classes |
+
+When planning your build, you should consider the style of vehicle you want to create. The garage supports various build archetypes, each suited to different activities within the game.
+
+<CardGrid cols={3}>
+  <Card title="Street Tuner Build">
+    - **High-contrast metallic paint**
+    - Lightweight custom sport rims
+    - Ideal for casual cruising and street meets
+  </Card>
+  <Card title="Drag Strip Build">
+    - **Matte secondary materials**
+    - Drag mode prop spawner optimization
+    - Built for maximum straight-line acceleration
+  </Card>
+  <Card title="Roleplay Setup">
+    - **Police or Superman rider style**
+    - Standard rims for realistic appearance
+    - Optimized for city roleplay and patrol scenarios
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tuning Tip">
+Combine chrome secondary materials with custom alloy rims to make your vehicle stand out during nighttime street meets and drag races.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Garage Customization & Saving Guide">
+
+Creating a custom build requires navigating the garage interface and utilizing the save system. Unsaved modifications will be lost if your vehicle is despawned or if you leave the server. Follow this step-by-step process to ensure your custom builds are permanently saved.
+
+<Steps>
+  <Step num="1" title="Access the Garage Interface">
+    Drive your vehicle into the designated garage zone or open the customization menu from your player HUD to begin editing.
+  </Step>
+  <Step num="2" title="Select Paint and Materials">
+    Navigate to the material tab and apply your primary and secondary paint finishes. Choose between matte, metallic, gloss, or chrome.
+  </Step>
+  <Step num="3" title="Equip Custom Rims">
+    Browse the rims menu and select a design that matches your vehicle class. Ensure the stance fits your drag racing preferences.
+  </Step>
+  <Step num="4" title="Save Your Custom Preset">
+    Open the save menu within the garage interface, choose an empty slot, and save your preset to secure your modifications.
+  </Step>
+</Steps>
+
+Managing your saved presets allows you to quickly swap between different setups depending on whether you are drag racing, roleplaying, or engaging in police pursuits.
+
+| Preset Feature | Menu Command | Practical Application |
+| **Save Preset** | Save Build | Saves current paint, rims, and material configurations |
+| **Load Preset** | Load Build | Spawns your saved custom vehicle instantly |
+| **Reset Vehicle** | Clear Customization | Reverts the vehicle back to its factory stock settings |
+
+<Callout type="warning" title="Save Warning">
+Always double-check that you have saved your preset before clicking the reset button or spawning a different vehicle class, as unsaved modifications cannot be recovered.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vehicle Classes and Performance Tuning">
+
+The vehicle roster in Drag Drive Simulator is diverse, offering options ranging from standard commuter cars to high-performance motorcycles and limited-edition event vehicles. Understanding how each class performs helps you choose the right base vehicle for your garage modifications.
+
+| Vehicle Class | Acceleration | Top Speed | Handling Rating |
+| **Limited Special** | **Excellent** | **Very High** | **Excellent** |
+| **Police Vehicle** | **Good** | **High** | **Good** |
+| **Standard Car** | **Average** | **Medium** | **Good** |
+| **Motorcycle** | **Excellent** | **Very High** | **Fair** |
+
+The V1.1.6 update introduced several new vehicles that have shifted the performance meta. Acquiring these vehicles allows you to build highly competitive drag racers.
+
+| Vehicle Name | Class | Availability | Special Feature |
+| **Superman Edition** | Limited Special | Event Exclusive | Custom Superman Rider Style |
+| **Highway Patrol Interceptor** | Police Vehicle | Standard Purchase | Emergency Siren and Light Systems |
+| **Sport Cruiser** | Motorcycle | Standard Shop | Exceptional Acceleration |
+
+<Callout type="success" title="Performance Tip">
+Prioritize upgrading limited special vehicles first, as they possess higher base stats that make them superior platforms for drag racing.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prop Spawner and Drag Mode Setup">
+
+To test the builds you create in the drag drive simulator garage, you can use the newly added Save, Load, & Drag Mode Prop Spawner. This system allows players to construct custom drag strips and staging areas anywhere on the map, facilitating organized community races.
+
+Setting up a proper drag strip requires placing staging props and utilizing private server commands to ensure fair starts.
+
+| Tool / Command | Action | Usage Scenario |
+| **Prop Spawner Menu** | Spawns track barriers | Outlines the boundaries of your custom drag strip |
+| **Drag Mode Prop** | Places staging lights | Aligns vehicles at the starting line |
+| **!cd [x]** | Initiates countdown | Synchronizes the start of the race for all drivers |
+
+When hosting a drag race, use the countdown command by typing `!cd 5` in the chat to initiate a five-second visual countdown on the screen. This eliminates starting line confusion and ensures that races are decided by vehicle tuning and reaction time rather than connection latency.
+
+<Callout type="info" title="Command Info">
+The `!cd` command can be adjusted to any duration by replacing the variable with your desired number of seconds, making it highly customizable for different racing formats.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Garage Progression Checklist">
+
+To fully optimize your garage experience and unlock the highest tier of vehicle modifications, you should aim to complete these progression milestones.
+
+<Checklist
+  id="garage-progression"
+  title="Garage Milestones:"
+  items={[
+    "Redeem all active codes to maximize starting cash reserves",
+    "Unlock at least three custom vehicle presets in the save menu",
+    "Acquire a limited special vehicle from the V1.1.6 update roster",
+    "Master the prop spawner to build a functional drag racing strip",
+    "Test your custom tuning configurations using the countdown command"
+  ]}
+/>
+
+<Callout type="warning" title="Code Expiration">
+Redeem codes like `DRAGDRIVESIMULATORMAY26` as soon as possible, as promo codes have limited active periods and will expire in future updates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I save my car modifications in the drag drive simulator garage?",
+    answer: "Open the garage customization menu, navigate to the preset save section, select an empty slot, and click save. You can load this configuration at any time."
+  },
+  {
+    question: "What modifications were added in the V1.1.6 update?",
+    answer: "The update introduced custom rims types, secondary material finishes (like matte and chrome), and specialized rider styles, including the Superman Style."
+  },
+  {
+    question: "How do I use the countdown command for drag racing?",
+    answer: "Type `!cd [seconds]` (for example, `!cd 5`) in the chat to start a synchronized countdown timer for all players on the track."
+  },
+  {
+    question: "Can I customize police vehicles in the garage?",
+    answer: "Yes, police vehicles can be modified with different rims and materials, and you can equip the police rider style for roleplay scenarios."
+  }
+]} />
+
+<Callout type="success" title="Final Checklist">
+With your vehicles fully customized in the drag drive simulator garage, your presets saved, and your drag strip set up, you are ready to dominate the leaderboard.
+</Callout>
+
+</Section>

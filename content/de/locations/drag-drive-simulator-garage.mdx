@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Drag Drive Simulator Garage: Beste Builds & Tuning-Setups",
+  description: "Optimieren Sie Ihre Fahrzeuge in der Drag Drive Simulator Garage. Erfahren Sie, wie Sie Felgen anpassen, Materialien anwenden, Builds speichern und den Drag-Prop-Spawner nutzen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drag+Drive+Simulator+Garage",
+  date: "2026-07-01",
+  author: "drag drive simulator Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Garagen-Anpassung**: Modifizieren Sie Ihre Fahrzeuge in der Drag Drive Simulator Garage mit Sekundärmaterialien, individuellen Felgen und einzigartigen Fahrerstilen.
+- **Builds speichern**: Speichern Sie immer Ihre individuellen Tuning-Konfigurationen, um zu verhindern, dass Setups beim Spawnen neuer Fahrzeuge verloren gehen.
+- **Drag-Racing-Setup**: Nutzen Sie den neuen Drag-Mode-Prop-Spawner und Countdown-Befehle, um organisierte Rennen zu veranstalten.
+- **Aktive Codes**: Lösen Sie aktive Promo-Codes ein, um Bargeld für den Kauf hochwertiger Modifikationsteile zu erhalten.
+</Callout>
+
+<Section icon={Sparkles} title="Fahrzeuganpassung in der Drag Drive Simulator Garage">
+
+Das Betreten der Drag Drive Simulator Garage ermöglicht es Ihnen, das Aussehen und die Leistungsmerkmale Ihres Fahrzeugs vollständig zu überarbeiten. Die Garage dient als zentraler Knotenpunkt für die Modifikation von Standardautos, Motorrädern, Polizeifahrzeugen und limitierten Event-Fahrzeugen. Mit der Veröffentlichung des Updates V1.1.6 wurden die Anpassungsoptionen um Sekundärmaterialien, komplizierte Felgendesigns und spezialisierte Fahrerstile wie den Superman-Stil erweitert.
+
+Um das Beste aus Ihrem Fahrzeug herauszuholen, müssen Sie die verschiedenen Modifikationskategorien verstehen. Das Anpassungssystem ist in verschiedene Abschnitte unterteilt, sodass Sie sowohl die optische Attraktivität als auch die physische Präsenz Ihres Fahrzeugs auf dem Drag Strip feinabstimmen können.
+
+| Modifikationstyp | Verfügbare Optionen | Hauptvorteil |
+| :--- | :--- | :--- |
+| **Felgentyp** | Standard, Legierung, Custom Sport | Verbessert Ästhetik und Track-Stance |
+| **Sekundärmaterial** | Matt, Metallic, Chrom, Glänzend | Verbessert das Lackstyling und die Reflexion |
+| **Fahrerstil** | Standard, Superman-Stil, Polizei | Passt das Erscheinungsbild des Charakters beim Fahren an |
+| **Fahrzeugtyp** | Autos, Motorräder, Polizeifahrzeuge | Diversifiziert Rollenspieloptionen und Rennklassen |
+
+Bei der Planung Ihres Builds sollten Sie den Stil des Fahrzeugs berücksichtigen, das Sie erstellen möchten. Die Garage unterstützt verschiedene Build-Archetypen, die jeweils für unterschiedliche Aktivitäten im Spiel geeignet sind.
+
+<CardGrid cols={3}>
+  <Card title="Street-Tuner-Build">
+    - **Kontrastreiche Metallic-Lackierung**
+    - Leichte Custom-Sportfelgen
+    - Ideal für entspanntes Cruisen und Street-Meets
+  </Card>
+  <Card title="Drag-Strip-Build">
+    - **Matte Sekundärmaterialien**
+    - Optimierung für den Drag-Mode-Prop-Spawner
+    - Gebaut für maximale Beschleunigung auf gerader Strecke
+  </Card>
+  <Card title="Rollenspiel-Setup">
+    - **Polizei- oder Superman-Fahrerstil**
+    - Standardfelgen für ein realistisches Aussehen
+    - Optimiert für Stadt-Rollenspiele und Patrouillen-Szenarien
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tuning-Tipp">
+Kombinieren Sie Chrom-Sekundärmaterialien mit individuellen Leichtmetallfelgen, damit Ihr Fahrzeug bei nächtlichen Street-Meets und Drag-Rennen besonders auffällt.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Anleitung zur Garagenanpassung & Speicherung">
+
+Das Erstellen eines individuellen Builds erfordert das Navigieren durch das Garagen-Interface und die Nutzung des Speichersystems. Nicht gespeicherte Modifikationen gehen verloren, wenn Ihr Fahrzeug despawnt wird oder wenn Sie den Server verlassen. Folgen Sie diesem Schritt-für-Schritt-Prozess, um sicherzustellen, dass Ihre individuellen Builds dauerhaft gespeichert werden.
+
+<Steps>
+  <Step num="1" title="Garagen-Interface aufrufen">
+    Fahren Sie mit Ihrem Fahrzeug in die markierte Garagenzone oder öffnen Sie das Anpassungsmenü über Ihr Spieler-HUD, um mit der Bearbeitung zu beginnen.
+  </Step>
+  <Step num="2" title="Lackierung und Materialien wählen">
+    Navigieren Sie zum Reiter „Material“ und tragen Sie Ihre Primär- und Sekundärlackierungen auf. Wählen Sie zwischen matt, metallic, glänzend oder chrom.
+  </Step>
+  <Step num="3" title="Individuelle Felgen ausrüsten">
+    Durchsuchen Sie das Felgenmenü und wählen Sie ein Design, das zu Ihrer Fahrzeugklasse passt. Stellen Sie sicher, dass die Stance Ihren Drag-Racing-Präferenzen entspricht.
+  </Step>
+  <Step num="4" title="Eigenes Preset speichern">
+    Öffnen Sie das Speichermenü im Garagen-Interface, wählen Sie einen leeren Slot und speichern Sie Ihr Preset, um Ihre Modifikationen zu sichern.
+  </Step>
+</Steps>
+
+Die Verwaltung Ihrer gespeicherten Presets ermöglicht es Ihnen, schnell zwischen verschiedenen Setups zu wechseln, je nachdem, ob Sie Drag-Rennen fahren, Rollenspiele betreiben oder an Polizeiverfolgungen teilnehmen.
+
+| Preset-Funktion | Menübefehl | Praktische Anwendung |
+| :--- | :--- | :--- |
+| **Preset speichern** | Build speichern | Speichert aktuelle Lack-, Felgen- und Materialkonfigurationen |
+| **Preset laden** | Build laden | Spawnt Ihr gespeichertes individuelles Fahrzeug sofort |
+| **Fahrzeug zurücksetzen** | Anpassung löschen | Setzt das Fahrzeug auf die Werkseinstellungen zurück |
+
+<Callout type="warning" title="Speicher-Warnung">
+Überprüfen Sie immer doppelt, ob Sie Ihr Preset gespeichert haben, bevor Sie auf die Schaltfläche zum Zurücksetzen klicken oder eine andere Fahrzeugklasse spawnen, da nicht gespeicherte Modifikationen nicht wiederhergestellt werden können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fahrzeugklassen und Leistungs-Tuning">
+
+Der Fahrzeugkatalog in Drag Drive Simulator ist vielfältig und bietet Optionen von Standard-Pendlerautos bis hin zu Hochleistungs-Motorrädern und limitierten Event-Fahrzeugen. Zu verstehen, wie jede Klasse abschneidet, hilft Ihnen bei der Auswahl des richtigen Basisfahrzeugs für Ihre Garagen-Modifikationen.
+
+| Fahrzeugklasse | Beschleunigung | Höchstgeschwindigkeit | Handling-Bewertung |
+| :--- | :--- | :--- | :--- |
+| **Limitierte Specials** | **Exzellent** | **Sehr hoch** | **Exzellent** |
+| **Polizeifahrzeug** | **Gut** | **Hoch** | **Gut** |
+| **Standardauto** | **Durchschnittlich** | **Mittel** | **Gut** |
+| **Motorrad** | **Exzellent** | **Sehr hoch** | **Akzeptabel** |
+
+Das Update V1.1.6 führte mehrere neue Fahrzeuge ein, die das Leistungs-Meta verschoben haben. Der Erwerb dieser Fahrzeuge ermöglicht es Ihnen, hochgradig wettbewerbsfähige Drag-Racer zu bauen.
+
+| Fahrzeugname | Klasse | Verfügbarkeit | Besonderheit |
+| :--- | :--- | :--- | :--- |
+| **Superman Edition** | Limitiertes Special | Event-Exklusiv | Eigener Superman-Fahrerstil |
+| **Highway Patrol Interceptor** | Polizeifahrzeug | Standardkauf | Notfallsirene und Lichtsysteme |
+| **Sport Cruiser** | Motorrad | Standard-Shop | Außergewöhnliche Beschleunigung |
+
+<Callout type="success" title="Leistungs-Tipp">
+Priorisieren Sie das Upgrade von limitierten Spezialfahrzeugen, da diese über höhere Basiswerte verfügen, die sie zu überlegenen Plattformen für Drag-Rennen machen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prop-Spawner und Drag-Mode-Setup">
+
+Um die Builds zu testen, die Sie in der Drag Drive Simulator Garage erstellt haben, können Sie den neu hinzugefügten Save, Load & Drag Mode Prop Spawner verwenden. Dieses System ermöglicht es Spielern, überall auf der Karte eigene Drag Strips und Aufstellbereiche zu errichten, was organisierte Community-Rennen erleichtert.
+
+Das Einrichten eines ordnungsgemäßen Drag Strips erfordert das Platzieren von Start-Props und die Nutzung von Befehlen auf privaten Servern, um faire Starts zu gewährleisten.
+
+| Werkzeug / Befehl | Aktion | Nutzungsszenario |
+| :--- | :--- | :--- |
+| **Prop-Spawner-Menü** | Spawnt Streckenbarrieren | Markiert die Grenzen Ihres eigenen Drag Strips |
+| **Drag-Mode-Prop** | Platziert Startampeln | Richtet Fahrzeuge an der Startlinie aus |
+| **!cd [x]** | Startet Countdown | Synchronisiert den Start des Rennens für alle Fahrer |
+
+Wenn Sie ein Drag-Rennen veranstalten, nutzen Sie den Countdown-Befehl, indem Sie `!cd 5` in den Chat eingeben, um einen visuellen Fünf-Sekunden-Countdown auf dem Bildschirm zu starten. Dies verhindert Verwirrung an der Startlinie und stellt sicher, dass Rennen durch Fahrzeug-Tuning und Reaktionszeit entschieden werden, anstatt durch Verbindungsverzögerungen.
+
+<Callout type="info" title="Befehls-Info">
+Der `!cd`-Befehl kann auf jede beliebige Dauer angepasst werden, indem die Variable durch die gewünschte Sekundenzahl ersetzt wird. Dies macht ihn für verschiedene Rennformate hochgradig anpassbar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checkliste für den Garagen-Fortschritt">
+
+Um Ihr Garagenerlebnis vollständig zu optimieren und die höchste Stufe der Fahrzeugmodifikationen freizuschalten, sollten Sie diese Meilensteine anstreben.
+
+<Checklist
+  id="garage-progression"
+  title="Garagen-Meilensteine:"
+  items={[
+    "Lösen Sie alle aktiven Codes ein, um Ihre Startkapitalreserven zu maximieren",
+    "Schalten Sie mindestens drei individuelle Fahrzeug-Presets im Speichermenü frei",
+    "Erwerben Sie ein limitiertes Spezialfahrzeug aus dem V1.1.6 Update-Katalog",
+    "Meistern Sie den Prop-Spawner, um einen funktionalen Drag-Strip zu bauen",
+    "Testen Sie Ihre individuellen Tuning-Konfigurationen mit dem Countdown-Befehl"
+  ]}
+/>
+
+<Callout type="warning" title="Code-Ablauf">
+Lösen Sie Codes wie `DRAGDRIVESIMULATORMAY26` so schnell wie möglich ein, da Promo-Codes begrenzte Gültigkeitsdauer haben und in zukünftigen Updates ablaufen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie speichere ich meine Automodifikationen in der Drag Drive Simulator Garage?",
+    answer: "Öffnen Sie das Anpassungsmenü der Garage, navigieren Sie zum Bereich für Preset-Speicherungen, wählen Sie einen leeren Slot und klicken Sie auf Speichern. Sie können diese Konfiguration jederzeit laden."
+  },
+  {
+    question: "Welche Modifikationen wurden im Update V1.1.6 hinzugefügt?",
+    answer: "Das Update führte neue Felgentypen, Sekundärmaterial-Finishes (wie Matt und Chrom) und spezialisierte Fahrerstile, einschließlich des Superman-Stils, ein."
+  },
+  {
+    question: "Wie verwende ich den Countdown-Befehl für Drag-Rennen?",
+    answer: "Geben Sie `!cd [Sekunden]` (zum Beispiel `!cd 5`) in den Chat ein, um einen synchronisierten Countdown-Timer für alle Spieler auf der Strecke zu starten."
+  },
+  {
+    question: "Kann ich Polizeifahrzeuge in der Garage anpassen?",
+    answer: "Ja, Polizeifahrzeuge können mit verschiedenen Felgen und Materialien modifiziert werden, und Sie können den Polizei-Fahrerstil für Rollenspielszenarien ausrüsten."
+  }
+]} />
+
+<Callout type="success" title="Abschließende Checkliste">
+Mit Ihren vollständig in der Drag Drive Simulator Garage angepassten Fahrzeugen, Ihren gespeicherten Presets und Ihrem eingerichteten Drag Strip sind Sie bereit, die Bestenliste zu dominieren.
+</Callout>
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Ajuste do Drag Drive Simulator: Melhores Relações de Marcha e Dicas de Configuração",
+  description: "Domine o guia de ajuste do drag drive simulator com configurações especializadas de relação de marcha, recomendações de veículos e estratégias de progressão para jogadores de Roblox em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tuning+Guide+Gear+Ratios",
+  date: "2026-07-01",
+  author: "Equipe da Wiki do drag drive simulator",
+  keywords: "drag drive simulator, guia de ajuste, relações de marcha, roblox, dicas de corrida"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Ajuste do Drag Drive Simulator**: O sucesso nas arrancadas depende inteiramente da otimização das suas relações de marcha e do tempo de largada, em vez de apenas comprar o carro mais caro.
+- **Lógica da Relação de Marchas**: Relações mais curtas proporcionam aceleração explosiva para pistas de arrancada, enquanto relações mais longas são necessárias para cruzeiros em alta velocidade em rodovias.
+- **Melhor Escolha de Veículo**: Motocicletas como a **Kawasaki ZX10R** dominam atualmente o meta devido à sua superior relação peso-potência e flexibilidade de ajuste.
+- **Campos de Teste**: Sempre valide suas novas configurações na **Pista Sentul** ou na nova **Pista Pettarani** em Makassar City antes de entrar em corridas de alto risco.
+</Callout>
+
+<Section icon={Sparkles} title="Introdução à Mecânica de Ajuste">
+
+O cerne da experiência nesta sensação do Roblox gira em torno do equilíbrio refinado entre potência mecânica e otimização de marchas. Um **guia de ajuste do drag drive simulator** adequado é essencial porque, ao contrário dos jogos de corrida arcade, este simulador recompensa jogadores que entendem como o torque e o RPM interagem com a transmissão. Seja pilotando uma motocicleta econômica ou um carro de luxo premium, a configuração "Stock" (padrão) raramente é suficiente para vencer corridas de arrancada competitivas.
+
+**Destaques do Vídeo:**
+- Visão geral dos novos recursos da atualização V1.0.9 e expansões do mapa.
+- Demonstração visual dos novos veículos de edição limitada em ação.
+- Passo a passo da interface atualizada para os sistemas de ajuste e concessionária.
+- Prévia dos ambientes de Makassar City e Pettarani Track.
+
+<YouTubeEmbed videoId="ZJR6KxyDTDE" title="TRAILER DRAG AND DRIVE SIMULATOR UPDATE V1.0.9" />
+
+Para começar sua jornada de ajuste, você deve primeiro entender que cada veículo tem uma faixa de potência única. O ajuste não é um processo de "tamanho único"; uma configuração que funciona para uma pista curta de arrancada provavelmente falhará em um longo percurso de rodovia. Ao ajustar suas relações de marcha, você está essencialmente decidindo como a potência do motor é distribuída em diferentes velocidades.
+
+<Callout type="tip" title="Recomendação do Editor">
+Antes de gastar seu suado RP em peças avançadas de motor, sempre resgate os códigos ativos mais recentes como **100KLIKESFORBIGCODE** para garantir capital suficiente para várias iterações de ajuste.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando as Relações de Marcha para Arrancadas">
+
+O componente mais crítico do **guia de ajuste do drag drive simulator** é o sistema de relação de marchas. No menu de ajuste, você verá controles deslizantes para cada marcha (geralmente de 1 a 6) e uma relação final (Final Drive). Ajustar esses valores determina o quão rápido seu veículo atinge o limite de giro (redline) e qual velocidade máxima ele pode alcançar.
+
+| Tipo de Relação | Impacto na Aceleração | Impacto na Velocidade Máxima | Tipo de Corrida Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Marchas Curtas** | Aumento Massivo | Diminuição Significativa | Arrancadas de 200m / 400m |
+| **Marchas Longas** | Diminuição Notável | Aumento Massivo | Rodovias / Testes de Velocidade |
+| **Configuração Equilibrada** | Moderado | Moderado | Corridas de Circuito / Direção Diária |
+| **Largada Agressiva** | Extremo (Marcha 1-2) | N/A | Torneios de Arrancada Competitivos |
+
+Ao configurar para uma corrida de arrancada, seu objetivo é que a Marcha 1 e a Marcha 2 sejam curtas o suficiente para você sair da linha instantaneamente sem patinar excessivamente as rodas. À medida que você avança para marchas mais altas, deve alongar gradualmente as relações para garantir que o motor permaneça dentro de sua faixa de potência máxima até cruzar a linha de chegada.
+
+<Callout type="warning" title="Armadilha de Ajuste">
+Evite configurar sua Relação Final (Final Drive) muito alta. Embora melhore a aceleração em todas as marchas, isso pode fazer com que seu veículo "bata" no limitador de giro antes de chegar ao fim da pista, desperdiçando segundos preciosos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Processo de Ajuste Passo a Passo">
+
+Siga estes passos para criar uma configuração de corrida competitiva do zero. Este processo funciona tanto para motocicletas quanto para carros, embora as motocicletas geralmente exijam ajustes mais precisos devido aos seus limites de RPM mais altos.
+
+<Steps>
+  <Step num="1" title="Corrida de Base Inicial">
+    Leve seu veículo para a Pista Sentul em sua configuração padrão. Registre seu tempo de 400m e sua velocidade máxima na linha de chegada. Isso fornece os dados necessários para ver se seus ajustes estão realmente melhorando o desempenho.
+  </Step>
+  <Step num="2" title="Ajuste a Relação Final (Final Drive)">
+    Comece encurtando levemente a relação final. Isso proporciona um impulso universal à aceleração. Se o seu veículo atingir a velocidade máxima muito cedo, alongue-a novamente.
+  </Step>
+  <Step num="3" title="Otimize as Marchas Baixas">
+    Ajuste a Marcha 1 e a Marcha 2 para que você largue no RPM mais alto possível sem perder tração. Você quer que a troca da 1ª para a 2ª aconteça de forma rápida, mas suave.
+  </Step>
+  <Step num="4" title="Alongue o Final">
+    Configure a Marcha 5 e a Marcha 6 para serem mais longas. Idealmente, você deve atingir o limite de giro na sua última marcha exatamente ao cruzar a linha de chegada da sua pista preferida.
+  </Step>
+  <Step num="5" title="Validação e Teste">
+    Realize três corridas consecutivas. Se seus tempos forem consistentes e mais rápidos que a base, salve o ajuste. Se o veículo parecer lento, reverta a última alteração e tente um incremento diferente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica Pro: Ajuste de Suspensão">
+Se você tiver o **Suspension Pro Pass**, abaixe a altura do seu veículo e aumente a rigidez para corridas de arrancada. Isso reduz a resistência do ar e evita que a frente levante durante largadas de alto torque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Veículos para Ajuste em 2026">
+
+Nem todos os veículos são criados iguais. Alguns têm um "Teto de Ajuste" mais alto, o que significa que respondem melhor aos ajustes de marcha e peças de reposição. Com base no meta atual de 2026, as motocicletas são a escolha preferida para jogadores que buscam maximizar seu RP por hora.
+
+<CardGrid cols={2}>
+  <Card title="Kawasaki ZX10R (O Rei da Arrancada)">
+    - **Prós**: Velocidade máxima excepcional e alto limite de RPM.
+    - **Ideal Para**: Corridas de arrancada profissionais e eventos competitivos.
+    - **Foco do Ajuste**: Requer sincronização muito específica das marchas 1-3.
+  </Card>
+  <Card title="Kawasaki ZX25R (Melhor Valor)">
+    - **Prós**: Preço acessível com alta responsividade ao ajuste.
+    - **Ideal Para**: Iniciantes e jogadores intermediários.
+    - **Foco do Ajuste**: Excelente para aprender a lógica de marchas curtas.
+  </Card>
+  <Card title="Aerox All New (Limitado)">
+    - **Prós**: Dirigibilidade única e alto torque para sua classe.
+    - **Ideal Para**: Colecionadores e corridas especializadas em pistas curtas.
+    - **Foco do Ajuste**: Foco na Relação Final para maximizar o torque.
+  </Card>
+  <Card title="PCX 160 (O Polivalente)">
+    - **Prós**: Estatísticas equilibradas e muito estável em altas velocidades.
+    - **Ideal Para**: Deslocamento diário e roleplay casual.
+    - **Foco do Ajuste**: Uma configuração de marcha equilibrada é ideal para este modelo.
+  </Card>
+</CardGrid>
+
+| Modelo do Veículo | Categoria | Desempenho Base | Potencial de Ajuste |
+| :--- | :--- | :--- | :--- |
+| **ZX10R** | Motocicleta | ★★★★★ | ★★★★★ |
+| **ZX25R** | Motocicleta | ★★★☆☆ | ★★★★☆ |
+| **RX KING** | Motocicleta | ★★★★☆ | ★★★☆☆ |
+| **Sedan de Luxo** | Carro | ★★★☆☆ | ★★★☆☆ |
+| **Drag Spec Limitado** | Especial | ★★★★★ | ★★★★☆ |
+
+<Callout type="info" title="Locais das Concessionárias">
+Lembre-se de que diferentes concessionárias possuem estoques diferentes. A expansão de **Surakarta City** geralmente apresenta modelos de alto padrão, enquanto as concessionárias do mapa original são melhores para motos iniciantes e carros padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maximizando RP e Progressão">
+
+Ajustar custa dinheiro e, neste simulador, o RP é a moeda de escolha. Para financiar sua carreira de piloto, você deve combinar corridas ativas com os vários sistemas de empregos disponíveis no jogo. Empilhar esses métodos garante que você nunca fique sem fundos para sua próxima construção.
+
+<Checklist
+  id="rp-farming-goals"
+  title="Lista de Verificação de Progressão Diária:"
+  items={[
+    "Resgatar todos os códigos de RP mensais ativos",
+    "Completar pelo menos 10 corridas de arrancada na Pista Sentul",
+    "Terminar um turno completo na Cafeteria (Emprego de Barista)",
+    "Localizar e coletar 3 Caixas Escondidas pelo mapa",
+    "Verificar Anomalias de tempo limitado para recompensas bônus"
+  ]}
+/>
+
+O **Emprego de Barista** é atualmente uma das formas mais confiáveis de obter uma renda estável. À medida que você ganha XP, pode passar de Barista Júnior para Barista Sênior, desbloqueando bônus em dinheiro significativos (até 10M de RP) em marcos específicos. Para aqueles dispostos a gastar Robux, o **2x Paycheck Pass** é o investimento individual mais eficaz para a progressão a longo prazo.
+
+| Função do Emprego | Nível de Esforço | Rendimento de RP | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Piloto de Arrancada** | Alto | Variável (Baseado em habilidade) | Tuners experientes |
+| **Barista** | Médio | Estável/Alto (com XP) | Jogadores dedicados (grinders) |
+| **Policial** | Alto | Alto (Requer Passe) | Entusiastas de roleplay |
+| **Entregador** | Baixo | Moderado | Conhecer o mapa |
+| **Trabalhador de Escritório** | Baixo | Baixo/Estável | Jogo quase AFK |
+
+<Callout type="tip" title="Recompensas Escondidas">
+Fique atento às **Anomalias**. Esses eventos ou locais especiais, como a "Anomalia Brainrot", geralmente fornecem emblemas exclusivos e aumentos massivos de RP que podem acelerar significativamente as atualizações do seu veículo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que meu veículo está mais lento após ajustar as relações de marcha?",
+    answer: "Isso geralmente acontece se as marchas forem configuradas muito longas para a potência do motor, fazendo com que ele 'engasgue', ou muito curtas, fazendo com que ele atinja o limitador de giro muito cedo. Consulte os passos do guia de ajuste do drag drive simulator para encontrar um equilíbrio."
+  },
+  {
+    question: "Qual pista é melhor para testar configurações de velocidade máxima?",
+    answer: "A Pista Pettarani em Makassar City ou os longos trechos em Surakarta City são ideais para testar a velocidade máxima, enquanto a Pista Sentul continua sendo o padrão ouro para testes de arrancada."
+  },
+  {
+    question: "O Passe de Polícia vale o Robux para ganhar dinheiro?",
+    answer: "Sim, se você gosta de jogabilidade ativa. O emprego de policial oferece missões únicas e progressão de patente que fornecem rendimentos de RP competitivos em comparação com os empregos gratuitos."
+  },
+  {
+    question: "Como eu corrijo a patinagem das rodas (wheelspin) durante a largada?",
+    answer: "Alongue a relação da sua 1ª marcha ou ajuste a rigidez da suspensão se você tiver o Pro Pass. Isso ajuda a colocar mais potência no chão em vez de girar os pneus sem sair do lugar."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+O mundo do **Drag Drive Simulator** está em constante evolução, com novas atualizações a cada poucas semanas. Fique sempre conectado com a comunidade ADV Gamers Team no Discord para obter as planilhas de relação de marchas mais recentes e as construções eleitas pela comunidade.
+</Callout>
+
+</Section>

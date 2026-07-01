@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tuning en Drag Drive Simulator: Guía de Relaciones de Transmisión y Configuración",
+  description: "Domina el tuning en Drag Drive Simulator con nuestra guía completa de relaciones de transmisión, configuraciones de salida y perfiles de rendimiento en el mejor juego de carreras de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Gear+Ratio+Tuning+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Drag Drive Simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Prioridad de Tuning**: Optimizar el tuning en Drag Drive Simulator es más rentable que comprar potencia bruta para el vehículo.
+- **Relaciones de Transmisión**: Ajusta las marchas más bajas para la aceleración y las marchas más altas para alcanzar la velocidad máxima en la línea de meta.
+- **Pruebas**: Realiza siempre pruebas en modo libre antes de participar en torneos competitivos en Sentul Track.
+- **Ventaja de las Motocicletas**: Las motocicletas tuneadas superan fácilmente a los autos de serie que cuestan el triple.
+- **Pases Premium**: Considera los pases de Suspensión Pro y Pago Doble (2x Paycheck) para maximizar la eficiencia de tu tuning.
+</Callout>
+
+<Section icon={Sparkles} title="Conceptos Básicos del Tuning en Drag Drive Simulator">
+
+Para dominar la competencia en Sentul Track, debes dominar el tuning en Drag Drive Simulator. Aunque muchos jugadores se enfocan únicamente en acumular RP para comprar los autos o motocicletas más caros, los corredores veteranos saben que un vehículo de gama media bien tuneado superará constantemente a una costosa configuración de serie. El núcleo del sistema de rendimiento del juego radica en la manipulación de la relación de transmisión, que dicta directamente cómo se traduce la potencia de tu motor en velocidad en línea recta.
+
+**Puntos Clave del Video:**
+- Comprender cómo los deslizadores de relación de transmisión ajustan el comportamiento del vehículo.
+- Técnicas de salida en la pista de aceleración de Sentul Track.
+- Analizar el equilibrio entre la aceleración y la velocidad máxima.
+
+<YouTubeEmbed videoId="7kWk2DA2-hg" title="Drag Drive Simulator Roblox [ZX-10R] - Gear Ratio Tuning" />
+
+### Comprensión de las Relaciones de Transmisión
+
+El sistema de relaciones de transmisión es un delicado acto de equilibrio entre la aceleración y la velocidad máxima. En Drag Drive Simulator, tienes la libertad de ajustar la relación de cada marcha de forma individual. Las relaciones de transmisión más cortas proporcionan una aceleración rápida pero limitan tu velocidad máxima temprano. Por el contrario, las relaciones de transmisión más largas tardan más en acumular impulso pero ofrecen una velocidad máxima mucho mayor.
+
+| Configuración de Marchas | Velocidad de Aceleración | Velocidad Máxima | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Marchas Cortas** | Salida rápida desde la línea | Menor velocidad máxima | Primera y segunda marcha para evitar que el motor se ahogue |
+| **Marchas Largas** | Acumulación inicial más lenta | Mayor velocidad máxima | Cuarta, quinta y sexta marcha para estirar la velocidad final |
+
+Para maximizar tu rendimiento en el cuarto de milla, tu vehículo debe cruzar la línea de meta justo al alcanzar su velocidad máxima absoluta en su última marcha. Si alcanzas el límite demasiado pronto, perderás valiosos segundos circulando a una velocidad limitada. Si tus marchas son demasiado largas, la carrera terminará antes de que alcances la marcha más alta, desperdiciando el potencial de tu motor.
+
+<Callout type="tip" title="Consejo Pro">
+Nunca ajustes todas tus marchas a los valores mínimos o máximos absolutos. Las transiciones suaves entre marchas evitan que tus RPM caigan drásticamente durante los cambios.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de Tuning de Marchas Paso a Paso">
+
+Lograr la configuración de transmisión perfecta requiere paciencia y pruebas sistemáticas. En lugar de adivinar valores en el menú de personalización, sigue este proceso estructurado para ajustar tus relaciones de transmisión. Recuerda realizar tus pruebas en modo libre en una carretera larga y recta antes de comprometerte en los torneos competitivos.
+
+<Callout type="warning" title="Advertencia">
+Evita realizar ajustes masivos en varias marchas a la vez. Cambiar demasiadas variables hace imposible identificar qué ajuste mejoró o perjudicó tu rendimiento.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Establece tu Carrera de Referencia">
+    Lleva tu vehículo de serie a un tramo de carretera tranquilo y recto. Registra tu tiempo de salida, los puntos de cambio y la velocidad máxima que alcances antes de quedarte sin asfalto. Esta referencia servirá como punto de comparación para todos los ajustes futuros.
+  </Step>
+  <Step num="2" title="Optimiza las Marchas de Salida">
+    Accede al menú de modificaciones y acorta ligeramente la primera y segunda marcha. Este ajuste aumenta el torque y ayuda a que tu vehículo salga con más fuerza desde la línea de salida. Prueba la salida para asegurarte de que los neumáticos no patinen excesivamente, lo que desperdiciaría tracción.
+  </Step>
+  <Step num="3" title="Suaviza las Transiciones de Rango Medio">
+    Ajusta la tercera y cuarta marcha para crear una progresión suave. Querrás que tu motor se mantenga dentro de su rango de potencia óptimo inmediatamente después del cambio. Si el motor se ahoga y pierde RPM, acorta la marcha receptora.
+  </Step>
+  <Step num="4" title="Estira las Marchas Superiores">
+    Alarga la quinta y sexta marcha para maximizar tu velocidad final. El objetivo es alcanzar tu velocidad máxima justo al cruzar la línea de meta en Sentul Track. Ajusta estas marchas finales dependiendo de si estás realizando pruebas de tiempo cortas o carreras de aceleración más largas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Map} title="Vehículos Iniciales y Perfiles de Tuning">
+
+Al comenzar tu viaje en Drag Drive Simulator, las primeras opciones de tu garaje deben enfocarse en la eficiencia de la progresión más que en el estatus. El enfoque más inteligente es canjear todos los códigos de RP activos de inmediato para asegurar un saldo inicial saludable. Esta inyección de dinero inicial te permite saltarte por completo el proceso de inicio básico e invertir en una plataforma competitiva.
+
+<CardGrid cols={3}>
+  <Card title="Motocicletas Iniciales">
+    - **Bajo precio de compra**
+    - Alta relación potencia-peso
+    - Extremadamente competitivas cuando están tuneadas
+  </Card>
+  <Card title="Autos Estándar">
+    - **Manejo equilibrado**
+    - Alto potencial de personalización
+    - Excelentes para pasear y juego de rol
+  </Card>
+  <Card title="Vehículos de Carreras de Aceleración">
+    - **Máquinas construidas específicamente para aceleración**
+    - Bloqueados detrás de pases premium
+    - Velocidad de élite en línea recta
+  </Card>
+</CardGrid>
+
+### Perfiles de Tuning de Vehículos
+
+Las diferentes categorías de vehículos requieren filosofías de tuning distintas debido a sus características únicas de peso, tracción y potencia. Por ejemplo, las motocicletas son increíblemente ligeras y pueden salir con una aceleración inmensa, pero a menudo tienen dificultades para mantener la estabilidad a velocidades máximas extremas en comparación con los pesados autos de aceleración.
+
+| Categoría de Vehículo | Característica de Salida | Progresión de Marchas | Enfoque de Tuning |
+| :--- | :--- | :--- | :--- |
+| **Motocicletas** | Altamente explosivas en la salida | Cambios rápidos al inicio | Marchas inferiores cortas, estiramiento progresivo en rango medio |
+| **Autos Estándar** | Tracción inicial moderada | Acumulación constante de RPM | Relaciones de transmisión equilibradas para mantener el rango de potencia |
+| **Especiales de Aceleración** | Agarre de élite con neumáticos traseros anchos | Ventanas de cambio ultraprecisas | Marchas de salida agresivas con marchas superiores largas |
+
+<Callout type="success" title="Éxito">
+Las motocicletas como la Kawasaki ZX25R o la ZX10R ofrecen la mayor relación rendimiento-RP en el juego. Una motocicleta adecuadamente tuneada derrotará fácilmente a superdeportivos de serie que cuestan tres veces más.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tuning Avanzado y Pases de Personalización">
+
+Aunque los ajustes estándar de la relación de transmisión son gratuitos y accesibles para todos los jugadores, Drag Drive Simulator ofrece varios pases premium para los entusiastas que desean un control absoluto sobre el rendimiento y la estética de su máquina. Estas mejoras te permiten ajustar la mecánica de tu suspensión y personalizar tus vehículos para destacar en la expansión de la ciudad de Surakarta.
+
+### Mejoras de Rendimiento y Personalización
+
+Para elevar tu ventaja competitiva, considera invertir en opciones de tuning avanzado. El tuning de Suspensión Pro, por ejemplo, te permite ajustar la amortiguación y la rigidez. Esto evita que la parte delantera de tu vehículo se eleve demasiado durante las salidas agresivas, manteniendo tu potencia firmemente plantada en el asfalto.
+
+| Mejora de Tuning | Método de Acceso | Precio en Robux | Impacto en Rendimiento y Estética |
+| :--- | :--- | :--- | :--- |
+| **Ajuste de Relación de Transmisión** | Sistema base del juego | **Gratis** | Control esencial sobre la aceleración y la velocidad máxima |
+| **Suspensión Pro** | Pase de Suspensión Pro | **29 Robux** | Control avanzado sobre amortiguación, rigidez y estabilidad en la salida |
+| **Pintura Avanzada** | Pase de Pintura Avanzada | **59 Robux** | Soporte para colores HEX, acabados de fibra de carbono, mate y metálicos |
+| **Matrícula Personalizada** | Pase de Matrícula Personalizada | **79 Robux** | Placas de texto personalizadas para mostrar la identidad de tu vehículo |
+
+<Callout type="info" title="Importante">
+Si te falta RP para las mejoras, recuerda acumular tus fuentes de ingresos. Combina misiones diarias, cofres ocultos en Surakarta y roles activos como el trabajo de Barista o la carrera de Policía para maximizar tu velocidad de progresión.
+</Callout>
+
+Antes de dirigirte a la pista de aceleración para apostar tu RP ganado con tanto esfuerzo, asegúrate de que tu vehículo cumple con todos los puntos de referencia competitivos. Utiliza esta lista de verificación para verificar la preparación de tu configuración.
+
+<Checklist
+  id="tuning-milestones"
+  title="Lista de Verificación Antes de la Carrera:"
+  items={[
+    "Canjea todos los códigos de RP activos para financiar las máximas mejoras del motor",
+    "Prueba el agarre de salida en modo libre para minimizar el patinado de ruedas",
+    "Asegúrate de que las RPM no caigan por debajo del rango de potencia durante los cambios",
+    "Verifica que la velocidad máxima se alcance justo antes de la línea de meta",
+    "Ajusta la rigidez de la suspensión para evitar que la parte delantera se eleve en la salida"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Para ayudarte a sacar el máximo provecho de tus vehículos, hemos recopilado las preguntas más comunes sobre el tuning y la optimización del rendimiento en Drag Drive Simulator.
+
+<FAQ items={[
+  {
+    question: "¿Cómo afectan las relaciones de transmisión más cortas al rendimiento de mi vehículo?",
+    answer: "Las relaciones de transmisión más cortas aumentan tu aceleración y torque desde la línea de salida. Sin embargo, reducen tu velocidad máxima, lo que significa que alcanzarás el límite mucho antes en la carrera."
+  },
+  {
+    question: "¿Por qué mi motor se ahoga y pierde velocidad inmediatamente después de cambiar de marcha?",
+    answer: "Si tu motor pierde una cantidad significativa de RPM y se ahoga después de un cambio, la relación de la marcha receptora es demasiado larga. Acorta ligeramente esa marcha específica para mantener el motor dentro de su rango de potencia óptimo."
+  },
+  {
+    question: "¿Los elementos cosméticos como los cascos afectan las estadísticas de carrera de mi vehículo?",
+    answer: "No. Los cascos y otros accesorios del personaje son puramente cosméticos. No influyen en la velocidad, el peso, el manejo o el rendimiento general de tu vehículo en la pista de aceleración."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para probar mis configuraciones de relación de transmisión personalizadas?",
+    answer: "Sentul Track en el mapa principal es el lugar principal para realizar pruebas de aceleración repetibles. Para pruebas avanzadas en carretera y aceleración, explora la nueva pista Pettarani Track ubicada en la ciudad de Makassar."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+El tuning es un proceso continuo de prueba y error. Lleva un registro de tus números de relación de transmisión favoritos para que puedas volver a ellos fácilmente si un nuevo ajuste no da los resultados esperados.
+</Callout>
+
+</Section>

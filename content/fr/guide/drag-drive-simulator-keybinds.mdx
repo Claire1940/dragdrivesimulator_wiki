@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Touches de raccourci pour Drag Drive Simulator : Guide des commandes et de la configuration de conduite",
+  description: "Maîtrisez les touches de raccourci de Drag Drive Simulator. Apprenez les commandes PC, les mécaniques de changement de vitesse et utilisez les codes actifs 2026 pour améliorer vos véhicules.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Keybinds+and+Controls+Guide",
+  date: "2026-07-01",
+  author: "Équipe du Wiki drag drive simulator"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Configuration par défaut** : Accélérez avec **W**, freinez avec **S** et passez les rapports manuellement avec **E** et **Q**.
+- **Avantage du mode manuel** : Maîtriser le passage manuel des rapports avec la touche d'embrayage permet d'obtenir jusqu'à 15 % d'accélération supplémentaire.
+- **Départs** : Maintenez la touche du frein à main (**Barre d'espace**) tout en accélérant pour atteindre le régime moteur (RPM) optimal sur la ligne de départ.
+- **Améliorations gratuites** : Utilisez les codes actifs de 2026 pour obtenir plus de 100k Cash et de RP afin d'acheter des pièces de performance.
+</Callout>
+
+<Section icon={Map} title="Touches de raccourci par défaut de Drag Drive Simulator sur PC">
+
+Prendre le volant d'un véhicule de dragster haute performance nécessite une compréhension totale de votre configuration de commandes. Que vous pilotiez une moto de sport personnalisée ou une voiture de dragster bi-turbo, configurer correctement vos touches de raccourci dans Drag Drive Simulator fait toute la différence entre remporter une course et caler au feu vert. Les joueurs PC utilisent une disposition de clavier hybride conçue pour garder la direction, la gestion de l'accélérateur et le changement de vitesse à portée d'une seule main.
+
+**Points forts de la vidéo :**
+- Présentation étape par étape du concessionnaire de véhicules et de l'achat de votre première moto.
+- Analyse des erreurs de conduite courantes et des problèmes de contrôle rencontrés par les joueurs débutants.
+- Guide pour accéder à la boutique en jeu et utiliser avec succès les codes de progression.
+
+<YouTubeEmbed videoId="MY6kwm8VztI" title="Guide des commandes et des codes de Drag Drive Simulator" />
+
+La configuration par défaut du clavier associe les mécaniques de conduite essentielles au côté gauche du clavier. Cela vous permet de garder le contrôle de la direction avec votre main gauche tout en utilisant votre souris pour ajuster les angles de caméra ou naviguer dans les menus.
+
+| Action | Touche | Description |
+|---|---|---|
+| Accélérateur / Accélérer | W / Flèche du haut | Augmente le régime moteur (RPM) et fait avancer le véhicule |
+| Frein / Marche arrière | S / Flèche du bas | Ralentit le véhicule ou recule lorsqu'il est complètement arrêté |
+| Tourner à gauche | A / Flèche gauche | Tourne les roues avant ou penche votre moto vers la gauche |
+| Tourner à droite | D / Flèche droite | Tourne les roues avant ou penche votre moto vers la droite |
+| Rapport supérieur (Vitesse +) | E | Passe au rapport supérieur en mode de transmission manuelle |
+| Rapport inférieur (Vitesse -) | Q | Rétrograde vers un rapport inférieur en mode de transmission manuelle |
+| Embrayage | Maj gauche | Désengage le moteur de la transmission pour monter en régime |
+| Frein à main | Barre d'espace | Bloque les roues arrière pour le positionnement ou l'initiation au drift |
+| Protoxyde d'azote (NOS) | F | Active votre système de boost de puissance équipé |
+| Changer de vue caméra | V | Alterne entre la perspective à la première personne et à la troisième personne |
+
+<Callout type="warning" title="Avertissement matériel anti-ghosting">
+Assurez-vous que votre clavier prend en charge le rollover multi-touches. Maintenir enfoncées les touches W, Maj gauche et appuyer sur E simultanément peut provoquer un échec de saisie sur les claviers à membrane plus anciens en raison du ghosting matériel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mécaniques de changement de vitesse et de départ">
+
+Mémoriser simplement la configuration par défaut n'est que la première étape. Pour dominer la piste de dragster, vous devez maîtriser la physique du départ et du changement de vitesse. La transmission manuelle offre des vitesses de pointe nettement plus élevées et une accélération plus rapide que le mode automatique, mais elle nécessite une exécution précise des touches.
+
+| Classe de véhicule | RPM de départ optimal | Fenêtre de changement parfaite | Note d'accélération |
+|---|---|---|---|
+| Motos de sport | 8 000 RPM | 11 000 - 11 500 RPM | Excellent (5/5) |
+| Muscle Cars | 4 500 RPM | 6 200 - 6 800 RPM | Bon (4/5) |
+| Supercars | 6 500 RPM | 8 500 - 9 000 RPM | Excellent (5/5) |
+| Voitures modifiées (Tuner) | 5 500 RPM | 7 200 - 7 800 RPM | Bon (3/5) |
+
+Lors du positionnement (staging), vos pneus doivent chauffer. Maintenir le frein à main et faire patiner les pneus augmente leur température, ce qui améliore directement le coefficient de traction. Si vous partez avec des pneus froids, vous subirez un patinage excessif des roues, perdant ainsi de précieuses millisecondes sur la ligne de départ.
+
+<Steps>
+  <Step num="1" title="Positionnez votre véhicule">
+    Alignez-vous sur la ligne de départ et maintenez le frein à main (Barre d'espace) pour garder votre véhicule complètement immobile.
+  </Step>
+  <Step num="2" title="Montez le moteur en régime">
+    Maintenez l'accélérateur (W) enfoncé tout en gardant le frein à main serré pour faire monter votre moteur au régime de départ optimal.
+  </Step>
+  <Step num="3" title="Relâchez et démarrez">
+    Relâchez le frein à main exactement au moment où le feu passe au vert tout en maintenant l'accélérateur enfoncé à fond.
+  </Step>
+  <Step num="4" title="Effectuez des passages de rapports parfaits">
+    Surveillez attentivement votre compte-tours et appuyez sur la touche de rapport supérieur (E) pile au moment où l'aiguille entre dans la zone verte.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conseil de pro pour le passage des rapports">
+Passer le rapport trop tôt fait chuter le moteur sous sa plage de puissance, tandis que le passer trop tard fait buter le moteur contre le limiteur de régime. Ces deux erreurs nuisent gravement à vos temps sur le quart de mile.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personnalisation de la configuration pour manette et mobile">
+
+Pour les joueurs qui préfèrent une expérience de course plus ergonomique, le jeu prend en charge l'intégration complète des manettes et des configurations mobiles personnalisables. L'utilisation d'une manette offre une précision de direction analogique, ce qui est très bénéfique pour gérer les voitures à propulsion arrière de forte puissance qui ont tendance à glisser.
+
+| Action | Manette Xbox | Manette PlayStation |
+|---|---|---|
+| Accélérateur | Gâchette droite (RT) | Touche R2 |
+| Frein / Marche arrière | Gâchette gauche (LT) | Touche L2 |
+| Direction | Joystick analogique gauche | Joystick analogique gauche |
+| Rapport supérieur | Touche B | Touche Cercle |
+| Rapport inférieur | Touche X | Touche Carré |
+| Frein à main | Touche A | Touche Croix |
+| Protoxyde d'azote | Touche Y | Touche Triangle |
+
+Les commandes mobiles peuvent être délicates en raison de l'absence de retour tactile. Il est fortement recommandé d'utiliser les boutons statiques à l'écran plutôt que la direction par inclinaison pour les courses de dragster. La direction par inclinaison introduit un temps de latence qui peut gâcher le timing de votre départ et vous faire dévier de votre voie.
+
+<CardGrid cols={3}>
+  <Card title="Direction analogique">
+    - **Trajectoires de virage plus fluides**
+    - Meilleur contrôle du drift
+    - Fortement recommandé pour les motos
+  </Card>
+  <Card title="Accélérateur par gâchette">
+    - **Modulation précise du régime (RPM)**
+    - Contrôle du départ plus facile
+    - Évite le patinage excessif des roues
+  </Card>
+  <Card title="Passage de rapports par boutons">
+    - **Retour tactile du changement de vitesse**
+    - Temps de réaction plus rapides
+    - Disposition ergonomique
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Correction du drift de joystick">
+Si vous rencontrez un problème de dérive (drift) de la direction avec une manette, augmentez les paramètres de zone morte interne dans le menu du jeu pour calibrer vos joysticks analogiques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Codes actifs pour une progression rapide">
+
+Améliorer le moteur, les pneus et la transmission de votre véhicule est essentiel pour tirer le meilleur parti des touches de raccourci de Drag Drive Simulator. Pour vous aider à obtenir l'argent (Cash) et les RP nécessaires à ces améliorations, l'équipe de développement publie périodiquement des codes promotionnels. Vous trouverez ci-dessous les codes actifs vérifiés pour 2026.
+
+| Nom du code | Description de la récompense | Statut |
+|---|---|---|
+| drag drive simulator January 26 | Cash et RP gratuits | Actif |
+| 2026 DDS next level | Booster de Cash gratuit | Actif |
+| happy first anniversary DDS | 50 000 RP | Actif |
+| THX 1 million Roblox members | Cash bonus | Actif |
+| Alla Make Delay | Cash supplémentaire | Actif |
+| 75K likes for new code | 75 000 Cash | Actif |
+
+Une fois ces codes utilisés, n'achetez pas immédiatement le véhicule le plus cher disponible. Achetez plutôt une voiture de milieu de gamme et investissez vos fonds restants dans la réduction de poids de niveau 3 (Stage 3) et des pneus drag slicks. Une voiture plus légère avec une adhérence élevée surpassera toujours une supercar d'origine équipée de pneus de route standard.
+
+<Checklist
+  id="progression-checklist"
+  title="Liste de contrôle quotidienne du pilote :"
+  items={[
+    "Utiliser tous les codes promo actifs dans le menu de la boutique",
+    "Visiter le concessionnaire de motos pour découvrir les motos de route d'entrée de gamme",
+    "Atteindre l'objectif quotidien de temps de jeu pour obtenir des RP bonus",
+    "Améliorer le type de gomme des pneus de votre véhicule pour maximiser la traction au départ"
+  ]}
+/>
+
+<Callout type="success" title="Succès de l'utilisation du code">
+Copiez et collez toujours les codes directement depuis ce guide pour éviter les erreurs de majuscules, car tous les codes promotionnels de ce jeu sont strictement sensibles à la casse.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire aux questions (FAQ)">
+
+Trouvez les réponses aux questions les plus courantes concernant les commandes, les touches de raccourci et l'optimisation de la conduite.
+
+<FAQ items={[
+  {
+    question: "Comment modifier mes touches de raccourci par défaut dans Drag Drive Simulator ?",
+    answer: "Ouvrez le menu des paramètres depuis le tableau de bord principal, accédez à l'onglet des commandes, puis cliquez sur n'importe quelle action pour la réassocier à la touche de clavier ou au bouton de manette de votre choix."
+  },
+  {
+    question: "Pourquoi mon véhicule cale-t-il sur la ligne de départ ?",
+    answer: "Le calage se produit généralement si vous utilisez la transmission manuelle et que vous n'embrayez pas, ou si vous tentez de démarrer sur un rapport supérieur au premier."
+  },
+  {
+    question: "Puis-je utiliser un volant USB pour jouer ?",
+    answer: "Oui, le jeu prend en charge la plupart des volants de course USB standard, bien que vous puissiez avoir besoin d'un logiciel de mappage tiers pour configurer correctement la sensibilité des pédales."
+  },
+  {
+    question: "Quelle est la méthode de changement de vitesse la plus rapide du jeu ?",
+    answer: "Le passage manuel des rapports avec le débrayage manuel (clutch override) est la méthode la plus rapide, car elle élimine complètement le délai de changement de vitesse de la transmission présent en mode automatique."
+  }
+]} />
+
+<Callout type="tip" title="Conseil en cas de réinitialisation des commandes">
+Si vos touches personnalisées se réinitialisent après une mise à jour du jeu, le fait de vous reconnecter à votre client restaure généralement vos fichiers de configuration locaux enregistrés de manière automatique.
+</Callout>
+
+</Section>

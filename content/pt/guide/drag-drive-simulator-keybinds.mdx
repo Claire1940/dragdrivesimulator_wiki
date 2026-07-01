@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles e Teclas do Drag Drive Simulator: Guia de Configuração de Direção",
+  description: "Domine os controles do Drag Drive Simulator. Aprenda os comandos para PC, mecânicas de marcha e resgate códigos ativos de 2026 para melhorar seus veículos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Keybinds+and+Controls+Guide",
+  date: "2026-07-01",
+  author: "Equipe Wiki do drag drive simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Layout Padrão**: Acelere com **W**, freie com **S** e passe as marchas manualmente usando **E** and **Q**.
+- **Vantagem do Câmbio Manual**: Dominar a troca de marchas manual com o controle da embreagem rende até 15% de aumento na aceleração.
+- **Arrancadas**: Segure o freio de mão (**Barra de Espaço**) enquanto acelera para atingir o RPM ideal de arrancada na linha de partida.
+- **Melhorias Grátis**: Resgate códigos ativos de 2026 para garantir mais de 100 mil em Dinheiro e RP para peças de alta performance.
+</Callout>
+
+<Section icon={Map} title="Teclas Padrão do Drag Drive Simulator para PC">
+
+Sentar-se ao volante de um veículo de arrancada de alta performance exige uma compreensão completa do seu esquema de controles. Quer você esteja pilotando uma moto esportiva personalizada ou um carro de arrancada biturbo, configurar as teclas do seu drag drive simulator corretamente é a diferença entre vencer uma corrida e morrer na linha de partida. Os jogadores de PC utilizam um layout de teclado híbrido projetado para manter a direção, o controle do acelerador e a troca de marchas ao alcance confortável de uma única mão.
+
+**Destaques do Vídeo:**
+- Passo a passo da concessionária de veículos e compra da sua primeira moto.
+- Análise de erros comuns de direção e problemas de controle enfrentados por jogadores iniciantes.
+- Guia para acessar a loja do jogo e resgatar com sucesso os códigos de progressão.
+
+<YouTubeEmbed videoId="MY6kwm8VztI" title="Guia de Controles e Códigos do Drag Drive Simulator" />
+
+A configuração padrão do teclado mapeia as mecânicas essenciais de direção no lado esquerdo do teclado. Isso permite que você mantenha o controle da direção com a mão esquerda enquanto utiliza o mouse para ajustar os ângulos da câmera ou navegar pelos menus.
+
+| Ação | Tecla | Descrição |
+|---|---|---|
+| Acelerar | W / Seta para Cima | Aumenta o RPM do motor e move o veículo para a frente |
+| Freio / Ré | S / Seta para Baixo | Desacelera o veículo ou dá ré quando totalmente parado |
+| Virar à Esquerda | A / Seta para a Esquerda | Vira as rodas dianteiras ou inclina sua moto para a esquerda |
+| Virar à Direita | D / Seta para a Direita | Vira as rodas dianteiras ou inclina sua moto para a direita |
+| Subir Marcha (Marcha +) | E | Passa para a próxima marcha no modo de transmissão manual |
+| Reduzir Marcha (Marcha -) | Q | Reduz para uma marcha inferior no modo de transmissão manual |
+| Embreagem | Shift Esquerdo | Desacopla o motor da transmissão para acelerar em ponto morto |
+| Freio de Mão | Barra de Espaço | Trava as rodas traseiras para alinhamento ou início de drift |
+| Óxido Nitroso (NOS) | F | Ativa o sistema de nitro equipado |
+| Mudar Visão da Câmera | V | Alterna entre as perspectivas de primeira e terceira pessoa |
+
+<Callout type="warning" title="Aviso de Hardware Anti-Ghosting">
+Certifique-se de que seu teclado suporta multi-key rollover (anti-ghosting). Segurar W, Shift Esquerdo e pressionar E simultaneamente pode causar falha de comando em teclados de membrana mais antigos devido ao ghosting de hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecânicas de Marcha e Arrancada">
+
+Apenas memorizar o layout padrão é só o primeiro passo. Para dominar a pista de arrancada, você precisa dominar a física de largada e troca de marchas. A transmissão manual oferece velocidades máximas significativamente maiores e aceleração mais rápida em comparação com o modo automático, mas exige uma execução precisa dos comandos.
+
+| Classe do Veículo | RPM Ideal de Arrancada | Janela de Marcha Perfeita | Classificação de Aceleração |
+|---|---|---|---|
+| Motos Esportivas | 8.000 RPM | 11.000 - 11.500 RPM | Excelente (5/5) |
+| Muscle Cars | 4.500 RPM | 6.200 - 6.800 RPM | Bom (4/5) |
+| Supercarros | 6.500 RPM | 8.500 - 9.000 RPM | Excelente (5/5) |
+| Carros Tunados | 5.500 RPM | 7.200 - 7.800 RPM | Bom (3/5) |
+
+Ao se alinhar, seus pneus precisam aquecer. Segurar o freio de mão e girar os pneus aumenta a temperatura deles, o que melhora diretamente o coeficiente de tração. Se você arrancar com pneus frios, sofrerá com derrapagem excessiva, desperdiçando milissegundos preciosos na linha de partida.
+
+<Steps>
+  <Step num="1" title="Alinhe seu Veículo">
+    Alinhe-se na linha de partida e segure o Freio de Mão (Barra de Espaço) para manter seu veículo completamente parado.
+  </Step>
+  <Step num="2" title="Suba o RPM do Motor">
+    Segure o Acelerador (W) enquanto mantém o Freio de Mão acionado para acelerar o motor até o RPM ideal de arrancada.
+  </Step>
+  <Step num="3" title="Solte e Arranque">
+    Solte o Freio de Mão exatamente quando a luz ficar verde, mantendo o Acelerador totalmente pressionado.
+  </Step>
+  <Step num="4" title="Execute Marchas Perfeitas">
+    Observe o tacômetro de perto e pressione a tecla de Subir Marcha (E) assim que o ponteiro entrar na zona verde.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica Profissional de Marcha">
+Passar a marcha muito cedo faz o motor perder força abaixo da sua faixa de potência, enquanto passar muito tarde faz o motor bater no limitador de giros. Ambos os erros prejudicam severamente seus tempos no quarto de milha.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalização do Layout de Controle e Celular">
+
+Para os jogadores que preferem uma experiência de corrida mais ergonômica, o jogo oferece suporte completo a controles e layouts personalizáveis para celular. Utilizar um controle oferece precisão de direção analógica, o que é altamente benéfico ao pilotar carros de tração traseira de alta potência que tendem a derrapar.
+
+| Ação | Controle de Xbox | Controle de PlayStation |
+|---|---|---|
+| Acelerador | Gatilho Direito (RT) | Botão R2 |
+| Freio / Ré | Gatilho Esquerdo (LT) | Botão L2 |
+| Direção | Analógico Esquerdo | Analógico Esquerdo |
+| Subir Marcha | Botão B | Botão Bola |
+| Reduzir Marcha | Botão X | Botão Quadrado |
+| Freio de Mão | Botão A | Botão Xis |
+| Óxido Nitroso | Botão Y | Botão Triângulo |
+
+Os controles móveis podem ser complicados devido à falta de feedback tátil. É altamente recomendável usar os botões estáticos na tela em vez do controle por inclinação para corridas de arrancada. A inclinação introduz latência de comando que pode arruinar o tempo de arrancada e fazer você sair da sua pista.
+
+<CardGrid cols={3}>
+  <Card title="Direção Analógica">
+    - **Curvas mais suaves**
+    - Melhor controle de drift
+    - Altamente recomendado para motos
+  </Card>
+  <Card title="Acelerador no Gatilho">
+    - **Modulação precisa de RPM**
+    - Controle de arrancada mais fácil
+    - Evita derrapagem excessiva das rodas
+  </Card>
+  <Card title="Passagem por Botões">
+    - **Feedback tátil de troca**
+    - Tempos de reação mais rápidos
+    - Layout ergonômico
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Correção de Drift no Analógico">
+Se você notar que o carro está puxando para o lado no controle, aumente as configurações de zona morta interna no menu do jogo para calibrar seus analógicos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Códigos Ativos para Progressão Rápida">
+
+Melhorar o motor, os pneus e a transmissão do seu veículo é essencial para aproveitar ao máximo as teclas do seu drag drive simulator. Para ajudar você a conseguir o dinheiro e o RP necessários para essas melhorias, a equipe de desenvolvimento lança códigos promocionais periodicamente. Abaixo estão os códigos ativos verificados para 2026.
+
+| Nome do Código | Descrição da Recompensa | Status |
+|---|---|---|
+| drag drive simulator January 26 | Dinheiro e RP Grátis | Ativo |
+| 2026 DDS next level | Booster de Dinheiro Grátis | Ativo |
+| happy first anniversary DDS | 50.000 RP | Ativo |
+| THX 1 million Roblox members | Dinheiro Bônus | Ativo |
+| Alla Make Delay | Dinheiro Extra | Ativo |
+| 75K likes for new code | 75.000 de Dinheiro | Ativo |
+
+Assim que resgatar esses códigos, não compre imediatamente o veículo mais caro disponível. Em vez disso, compre um carro intermediário e invista os fundos restantes em redução de peso Estágio 3 e pneus slick de arrancada. Um carro mais leve e com alta aderência sempre superará um supercarro original com pneus de rua padrão.
+
+<Checklist
+  id="progression-checklist"
+  title="Lista de Tarefas Diárias do Piloto:"
+  items={[
+    "Resgatar todos os códigos promocionais ativos no menu da loja",
+    "Visitar a concessionária de motos para ver os modelos de rua para iniciantes",
+    "Completar a meta diária de tempo de jogo para ganhar RP bônus",
+    "Melhorar o composto dos pneus do seu veículo para maximizar a tração na arrancada"
+  ]}
+/>
+
+<Callout type="success" title="Sucesso no Resgate de Código">
+Sempre copie e cole os códigos diretamente deste guia para evitar erros de maiúsculas e minúsculas, pois todos os códigos promocionais neste jogo diferenciam maiúsculas de minúsculas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+Encontre respostas para as dúvidas mais comuns sobre controles, teclas e otimização de direção.
+
+<FAQ items={[
+  {
+    question: "Como faço para alterar as teclas padrão do drag drive simulator?",
+    answer: "Abra o menu de configurações no painel principal, navegue até a aba de controles e clique em qualquer ação para remapeá-la para a tecla do teclado ou botão do controle de sua preferência."
+  },
+  {
+    question: "Por que meu veículo está morrendo na linha de partida?",
+    answer: "O motor geralmente morre se você estiver usando transmissão manual e não acionar a embreagem, ou se tentar arrancar em uma marcha acima da primeira."
+  },
+  {
+    question: "Posso usar um volante USB para jogar?",
+    answer: "Sim, o jogo suporta a maioria dos volantes de corrida USB padrão, embora você possa precisar de um software de mapeamento de terceiros para configurar corretamente a sensibilidade dos pedais."
+  },
+  {
+    question: "Qual é o método de troca de marcha mais rápido no jogo?",
+    answer: "A troca manual com controle de embreagem é o método mais rápido, pois elimina completamente o atraso de troca da transmissão encontrado no modo automático."
+  }
+]} />
+
+<Callout type="tip" title="Dica de Redefinição de Comandos">
+Se as suas teclas personalizadas forem redefinidas após uma atualização do jogo, fazer login novamente no cliente geralmente restaura seus arquivos de configuração locais salvos de forma automática.
+</Callout>
+
+</Section>

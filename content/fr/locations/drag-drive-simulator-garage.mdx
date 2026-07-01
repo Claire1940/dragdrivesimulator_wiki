@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Garage de Drag Drive Simulator : Meilleurs Builds & Configurations de Réglage",
+  description: "Optimisez vos voitures dans le garage de Drag Drive Simulator. Apprenez à personnaliser les jantes, appliquer des matériaux, sauvegarder des builds et utiliser le générateur d'accessoires de drag.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drag+Drive+Simulator+Garage",
+  date: "2026-07-01",
+  author: "Équipe Wiki de Drag Drive Simulator"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Personnalisation du garage** : Modifiez vos véhicules dans le garage de drag drive simulator en utilisant des matériaux secondaires, des jantes personnalisées et des styles de pilote uniques.
+- **Sauvegarde des builds** : Sauvegardez toujours vos configurations de réglage personnalisées pour éviter de perdre vos réglages lors de l'apparition de nouveaux véhicules.
+- **Configuration de course de drag** : Utilisez le nouveau générateur d'accessoires en mode drag et les commandes de compte à rebours pour organiser des courses structurées.
+- **Codes actifs** : Échangez les codes promotionnels actifs pour obtenir de l'argent afin d'acheter des pièces de modification de haut niveau.
+</Callout>
+
+<Section icon={Sparkles} title="Personnalisation des véhicules dans le garage de Drag Drive Simulator">
+
+Entrer dans le garage de drag drive simulator vous permet de revoir complètement l'apparence et les caractéristiques de performance de votre véhicule. Le garage sert de hub central pour modifier les voitures standard, les motos, les voitures de police et les véhicules d'événement en édition limitée. Avec la sortie de la mise à jour V1.1.6, les options de personnalisation se sont élargies pour inclure des applications de matériaux secondaires, des designs de jantes complexes et des styles de pilote spécialisés comme le style Superman.
+
+Pour tirer le meilleur parti de votre véhicule, vous devez comprendre les différentes catégories de modification. Le système de personnalisation est divisé en sections distinctes, vous permettant de peaufiner à la fois l'aspect visuel et la présence physique de votre monture sur la piste de drag.
+
+| Type de modification | Options disponibles | Bénéfice principal |
+| :--- | :--- | :--- |
+| **Type de jantes** | Standard, Alliage, Sport personnalisé | Améliore l'esthétique et la posture sur piste |
+| **Matériau secondaire** | Mat, Métallique, Chrome, Brillant | Améliore le style de peinture et la réflexion du véhicule |
+| **Style de pilote** | Standard, Style Superman, Police | Personnalise l'apparence du personnage pendant la conduite |
+| **Type de véhicule** | Voitures, Motos, Véhicules de police | Diversifie les options de jeu de rôle et les classes de course |
+
+Lors de la planification de votre build, vous devez tenir compte du style de véhicule que vous souhaitez créer. Le garage prend en charge différents archétypes de build, chacun adapté à différentes activités au sein du jeu.
+
+<CardGrid cols={3}>
+  <Card title="Build Street Tuner">
+    - **Peinture métallique à fort contraste**
+    - Jantes sport personnalisées légères
+    - Idéal pour les balades décontractées et les rassemblements de rue
+  </Card>
+  <Card title="Build Drag Strip">
+    - **Matériaux secondaires mats**
+    - Optimisation du générateur d'accessoires en mode drag
+    - Conçu pour une accélération maximale en ligne droite
+  </Card>
+  <Card title="Configuration Jeu de Rôle">
+    - **Style de pilote Police ou Superman**
+    - Jantes standard pour une apparence réaliste
+    - Optimisé pour le jeu de rôle en ville et les scénarios de patrouille
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de réglage">
+Combinez des matériaux secondaires chromés avec des jantes en alliage personnalisées pour faire ressortir votre véhicule lors des rassemblements de rue nocturnes et des courses de drag.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide étape par étape de personnalisation et de sauvegarde dans le garage">
+
+Créer un build personnalisé nécessite de naviguer dans l'interface du garage et d'utiliser le système de sauvegarde. Les modifications non sauvegardées seront perdues si votre véhicule disparaît ou si vous quittez le serveur. Suivez ce processus étape par étape pour vous assurer que vos builds personnalisés sont enregistrés de manière permanente.
+
+<Steps>
+  <Step num="1" title="Accéder à l'interface du garage">
+    Conduisez votre véhicule dans la zone de garage désignée ou ouvrez le menu de personnalisation depuis votre HUD de joueur pour commencer l'édition.
+  </Step>
+  <Step num="2" title="Sélectionner la peinture et les matériaux">
+    Naviguez vers l'onglet des matériaux et appliquez vos finitions de peinture principale et secondaire. Choisissez entre mat, métallique, brillant ou chrome.
+  </Step>
+  <Step num="3" title="Équiper des jantes personnalisées">
+    Parcourez le menu des jantes et sélectionnez un design qui correspond à la classe de votre véhicule. Assurez-vous que la posture correspond à vos préférences pour la course de drag.
+  </Step>
+  <Step num="4" title="Sauvegarder votre préréglage personnalisé">
+    Ouvrez le menu de sauvegarde dans l'interface du garage, choisissez un emplacement vide et sauvegardez votre préréglage pour sécuriser vos modifications.
+  </Step>
+</Steps>
+
+La gestion de vos préréglages sauvegardés vous permet de basculer rapidement entre différente configurations selon que vous faites des courses de drag, du jeu de rôle ou des poursuites policières.
+
+| Fonctionnalité de préréglage | Commande de menu | Application pratique |
+| :--- | :--- | :--- |
+| **Sauvegarder le préréglage** | Sauvegarder le build | Sauvegarde les configurations actuelles de peinture, de jantes et de matériaux |
+| **Charger le préréglage** | Charger le build | Fait apparaître instantanément votre véhicule personnalisé sauvegardé |
+| **Réinitialiser le véhicule** | Effacer la personnalisation | Rétablit le véhicule à ses paramètres d'usine d'origine |
+
+<Callout type="warning" title="Avertissement de sauvegarde">
+Vérifiez toujours que vous avez sauvegardé votre préréglage avant de cliquer sur le bouton de réinitialisation ou de faire apparaître une classe de véhicule différente, car les modifications non sauvegardées ne peuvent pas être récupérées.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Classes de véhicules et réglage des performances">
+
+La liste des véhicules dans Drag Drive Simulator est variée, offrant des options allant des voitures de banlieue standard aux motos haute performance et aux véhicules d'événement en édition limitée. Comprendre le fonctionnement de chaque classe vous aide à choisir le bon véhicule de base pour vos modifications de garage.
+
+| Classe de véhicule | Accélération | Vitesse maximale | Note de maniabilité |
+| :--- | :--- | :--- | :--- |
+| **Spécial limité** | **Excellente** | **Très élevée** | **Excellente** |
+| **Véhicule de police** | **Bonne** | **Élevée** | **Bonne** |
+| **Voiture standard** | **Moyenne** | **Moyenne** | **Bonne** |
+| **Moto** | **Excellente** | **Très élevée** | **Passable** |
+
+La mise à jour V1.1.6 a introduit plusieurs nouveaux véhicules qui ont modifié la méta des performances. L'acquisition de ces véhicules vous permet de construire des dragsters hautement compétitifs.
+
+| Nom du véhicule | Classe | Disponibilité | Caractéristique spéciale |
+| :--- | :--- | :--- | :--- |
+| **Édition Superman** | Spécial limité | Exclusivité d'événement | Style de pilote Superman personnalisé |
+| **Intercepteur de patrouille routière** | Véhicule de police | Achat standard | Systèmes de sirène et de gyrophares d'urgence |
+| **Sport Cruiser** | Moto | Boutique standard | Accélération exceptionnelle |
+
+<Callout type="success" title="Conseil de performance">
+Donnez la priorité à l'amélioration des véhicules spéciaux limités en premier, car ils possèdent des statistiques de base plus élevées qui en font de meilleures plateformes pour la course de drag.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Générateur d'accessoires et configuration du mode Drag">
+
+Pour tester les builds que vous créez dans le garage de drag drive simulator, vous pouvez utiliser le générateur d'accessoires de sauvegarde, chargement et mode drag nouvellement ajouté. Ce système permet aux joueurs de construire des pistes de drag personnalisées et des zones de départ n'importe où sur la carte, facilitant ainsi les courses communautaires organisées.
+
+La configuration d'une piste de drag appropriée nécessite de placer des accessoires de départ et d'utiliser des commandes de serveur privé pour garantir des départs équitables.
+
+| Outil / Commande | Action | Scénario d'utilisation |
+| :--- | :--- | :--- |
+| **Menu du générateur d'accessoires** | Fait apparaître des barrières de piste | Délimite les limites de votre piste de drag personnalisée |
+| **Accessoire de mode drag** | Place des feux de départ | Aligne les véhicules sur la ligne de départ |
+| **!cd [x]** | Lance le compte à rebours | Synchronise le départ de la course pour tous les pilotes |
+
+Lorsque vous organisez une course de drag, utilisez la commande de compte à rebours en tapant `!cd 5` dans le chat pour lancer un compte à rebours visuel de cinq secondes sur l'écran. Cela élimine la confusion sur la ligne de départ et garantit que les courses se décident par le réglage du véhicule et le temps de réaction plutôt que par la latence de connexion.
+
+<Callout type="info" title="Info de commande">
+La commande `!cd` peut être ajustée à n'importe quelle durée en remplaçant la variable par le nombre de secondes souhaité, ce qui la rend hautement personnalisable pour différents formats de course.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Liste de contrôle de progression du garage">
+
+Pour optimiser pleinement votre expérience de garage et débloquer le plus haut niveau de modifications de véhicule, vous devriez viser à atteindre ces étapes de progression.
+
+<Checklist
+  id="garage-progression"
+  title="Étapes importantes du garage :"
+  items={[
+    "Échangez tous les codes actifs pour maximiser les réserves d'argent de départ",
+    "Débloquez au moins trois préréglages de véhicules personnalisés dans le menu de sauvegarde",
+    "Acquérez un véhicule spécial limité de la liste de la mise à jour V1.1.6",
+    "Maîtrisez le générateur d'accessoires pour construire une piste de course de drag fonctionnelle",
+    "Testez vos configurations de réglage personnalisées en utilisant la commande de compte à rebours"
+  ]}
+/>
+
+<Callout type="warning" title="Expiration du code">
+Échangez les codes comme `DRAGDRIVESIMULATORMAY26` dès que possible, car les codes promotionnels ont des périodes d'activité limitées et expireront dans les prochaines mises à jour.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment sauvegarder mes modifications de voiture dans le garage de drag drive simulator ?",
+    answer: "Ouvrez le menu de personnalisation du garage, naviguez vers la section de sauvegarde des préréglages, sélectionnez un emplacement vide et cliquez sur sauvegarder. Vous pouvez charger cette configuration à tout moment."
+  },
+  {
+    question: "Quelles modifications ont été ajoutées dans la mise à jour V1.1.6 ?",
+    answer: "La mise à jour a introduit des types de jantes personnalisées, des finitions de matériaux secondaires (comme le mat et le chrome) et des styles de pilote spécialisés, y compris le style Superman."
+  },
+  {
+    question: "Comment utiliser la commande de compte à rebours pour la course de drag ?",
+    answer: "Tapez `!cd [secondes]` (par exemple, `!cd 5`) dans le chat pour démarrer un compte à rebours synchronisé pour tous les joueurs sur la piste."
+  },
+  {
+    question: "Puis-je personnaliser des véhicules de police dans le garage ?",
+    answer: "Oui, les véhicules de police peuvent être modifiés avec différentes jantes et matériaux, et vous pouvez équiper le style de pilote de police pour les scénarios de jeu de rôle."
+  }
+]} />
+
+<Callout type="success" title="Liste de contrôle finale">
+Avec vos véhicules entièrement personnalisés dans le garage de drag drive simulator, vos préréglages sauvegardés et votre piste de drag configurée, vous êtes prêt à dominer le classement.
+</Callout>
+
+</Section>

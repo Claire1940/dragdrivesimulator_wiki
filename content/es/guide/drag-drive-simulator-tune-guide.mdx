@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Tuning de Drag Drive Simulator: Mejores Relaciones de Transmisión y Consejos",
+  description: "Domina la guía de tuning de drag drive simulator con configuraciones expertas de relaciones de transmisión, recomendaciones de vehículos y estrategias de progresión para jugadores de Roblox en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tuning+Guide+Gear+Ratios",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de drag drive simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Tuning de Drag Drive Simulator**: El éxito en las carreras de aceleración (drag racing) depende completamente de optimizar tus relaciones de transmisión y el momento de salida (launch timing), en lugar de simplemente comprar el auto más caro.
+- **Lógica de Relaciones de Transmisión**: Las relaciones más cortas proporcionan una aceleración explosiva para las pistas de aceleración (drag strips), mientras que las relaciones más largas son necesarias para recorrer autopistas a alta velocidad.
+- **Mejor Elección de Vehículo**: Las motocicletas como la **Kawasaki ZX10R** dominan actualmente el meta debido a su excelente relación potencia-peso y su flexibilidad de tuning.
+- **Zonas de Prueba**: Valida siempre tus nuevas configuraciones en la **Pista de Sentul** o en la nueva **Pista de Pettarani** en Makassar City antes de participar en carreras de apuestas altas.
+</Callout>
+
+<Section icon={Sparkles} title="Introducción a las Mecánicas de Tuning">
+
+El núcleo de la experiencia en esta sensación de Roblox gira en torno al equilibrio perfecto entre la potencia mecánica y la optimización de las marchas. Una buena **guía de tuning de drag drive simulator** es esencial porque, a diferencia de los juegos de carreras arcade, este simulador premia a los jugadores que entienden cómo interactúan el torque y las RPM con el tren motriz. Ya sea que estés pilotando una motocicleta económica o un auto de lujo premium, la configuración de fábrica ("Stock") rara vez es suficiente para ganar carreras de aceleración competitivas.
+
+**Puntos destacados del video:**
+- Resumen de las características de la última actualización V1.0.9 y las expansiones de mapas.
+- Demostración visual de los nuevos vehículos de edición limitada en acción.
+- Recorrido por la interfaz de usuario actualizada para los sistemas de tuning y concesionarios.
+- Un vistazo a los entornos de Makassar City y la pista Pettarani.
+
+<YouTubeEmbed videoId="ZJR6KxyDTDE" title="TRAILER DRAG AND DRIVE SIMULATOR UPDATE V1.0.9" />
+
+Para comenzar tu viaje en el tuning, primero debes entender que cada vehículo tiene una banda de potencia única. El tuning no es un proceso de \"talla única\"; una configuración que funciona para una pista de aceleración corta probablemente fallará en un recorrido largo por autopista. Al ajustar tus relaciones de transmisión, básicamente estás decidiendo cómo se distribuye la potencia del motor a diferentes velocidades.
+
+<Callout type="tip" title="Recomendación del Editor">
+Antes de gastar tus preciados RP en piezas de motor avanzadas, canjea siempre los últimos códigos activos como **100KLIKESFORBIGCODE** para asegurar suficiente capital para múltiples iteraciones de tuning.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando las Relaciones de Transmisión para Carreras de Aceleración">
+
+El componente más crítico de la **guía de tuning de drag drive simulator** es el sistema de relaciones de transmisión. En el menú de tuning, verás deslizadores para cada marcha (generalmente de la 1 a la 6) y una relación de Transmisión Final (Final Drive). Ajustar estos valores determina qué tan rápido alcanza tu vehículo su límite de revoluciones (redline) y qué velocidad máxima puede lograr en última instancia.
+
+| Tipo de Relación | Impacto en Aceleración | Impacto en Velocidad Máxima | Tipo de Carrera Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Marchas Cortas** | Incremento Masivo | Disminución Significativa | Pistas de Aceleración de 200m / 400m |
+| **Marchas Largas** | Disminución Notoria | Incremento Masivo | Autopista / Pruebas de Velocidad Máxima |
+| **Configuración Equilibrada** | Moderado | Moderado | Carreras de Circuito / Conducción Diaria |
+| **Salida Agresiva** | Extremo (Marchas 1-2) | N/A | Torneo de Aceleración Competitivo |
+
+Cuando configures tu vehículo para una carrera de aceleración, tu objetivo es que la 1.ª y la 2.ª marcha sean lo suficientemente cortas como para salir de la línea de salida instantáneamente sin que las ruedas patinen en exceso. A medida que avanzas a marchas más altas, debes alargar gradualmente las relaciones para asegurarte de que el motor se mantenga dentro de su banda de potencia máxima hasta que cruces la línea de meta.
+
+<Callout type="warning" title="Trampa del Tuning">
+Evita configurar tu Transmisión Final (Final Drive) demasiado alta. Aunque mejora la aceleración en todas las marchas, puede hacer que tu vehículo \"rebote\" en el limitador de revoluciones antes de llegar al final de la pista, perdiendo valiosos segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Proceso de Tuning Paso a Paso">
+
+Sigue estos pasos para crear una configuración de carrera competitiva desde cero. Este proceso funciona tanto para motocicletas como para autos, aunque las motocicletas generalmente requieren ajustes más precisos debido a sus límites de RPM más altos.
+
+<Steps>
+  <Step num="1" title="Prueba de Referencia Inicial">
+    Lleva tu vehículo a la Pista de Sentul en su configuración de fábrica. Registra tu tiempo en los 400m y tu velocidad máxima en la línea de meta. Esto proporciona los datos necesarios para ver si tus ajustes realmente están mejorando el rendimiento.
+  </Step>
+  <Step num="2" title="Ajusta la Transmisión Final">
+    Comienza acortando ligeramente la relación de la Transmisión Final (Final Drive). Esto proporciona un impulso universal a la aceleración. Si tu vehículo alcanza su velocidad máxima demasiado pronto, vuelve a alargarla.
+  </Step>
+  <Step num="3" title="Optimiza las Marchas Bajas">
+    Ajusta la 1.ª y la 2.ª marcha para salir con las RPM más altas posibles sin perder tracción. Querrás que el cambio de 1.ª a 2.ª ocurra de manera rápida pero suave.
+  </Step>
+  <Step num="4" title="Estira las Marchas Altas">
+    Configura la 5.ª y la 6.ª marcha para que sean más largas. Lo ideal es alcanzar el límite de revoluciones en tu última marcha exactamente al cruzar la línea de meta de tu pista preferida.
+  </Step>
+  <Step num="5" title="Validación y Pruebas">
+    Realiza tres carreras consecutivas. Si tus tiempos son consistentes y más rápidos que la referencia inicial, guarda la configuración. Si el vehículo se siente lento, revierte el último cambio e intenta con un incremento diferente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo Profesional: Tuning de Suspensión">
+Si tienes el **Pase de Suspensión Pro (Suspension Pro Pass)**, reduce la altura de la carrocería y aumenta la rigidez para las carreras de aceleración. Esto reduce la resistencia del aire y evita que la parte delantera se levante durante las salidas de alto torque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mejores Vehículos para Tuning en 2026">
+
+No todos los vehículos son creados iguales. Algunos tienen un \"techo de tuning\" más alto, lo que significa que responden mejor a los ajustes de marcha y a las piezas de repuesto. Basado en el meta actual de 2026, las motocicletas son la opción preferida para los jugadores que buscan maximizar sus RP por hora.
+
+<CardGrid cols={2}>
+  <Card title="Kawasaki ZX10R (El Rey de la Aceleración)">
+    - **Pros**: Velocidad máxima excepcional y límite de RPM elevado.
+    - **Best For**: Carreras de aceleración profesionales y eventos competitivos.
+    - **Tuning Focus**: Requiere una sincronización muy específica de las marchas 1 a 3.
+  </Card>
+  <Card title="Kawasaki ZX25R (Mejor Relación Calidad-Precio)">
+    - **Pros**: Precio asequible con alta respuesta al tuning.
+    - **Best For**: Principiantes y jugadores intermedios.
+    - **Tuning Focus**: Excelente para aprender la lógica de marchas más cortas.
+  </Card>
+  <Card title="Aerox All New (Limitada)">
+    - **Pros**: Manejo único y alto torque para su clase.
+    - **Best For**: Coleccionistas y carreras especializadas en pistas cortas.
+    - **Tuning Focus**: Enfoque en la Transmisión Final para maximizar el torque.
+  </Card>
+  <Card title="PCX 160 (El Todoterreno)">
+    - **Pros**: Estadísticas equilibradas y muy estable a altas velocidades.
+    - **Best For**: Desplazamientos diarios y juego de rol casual.
+    - **Tuning Focus**: Una configuración de marchas equilibrada es ideal para este modelo.
+  </Card>
+</CardGrid>
+
+| Modelo de Vehículo | Categoría | Rendimiento Base | Potencial de Tuning |
+| :--- | :--- | :--- | :--- |
+| **ZX10R** | Motocicleta | ★★★★★ | ★★★★★ |
+| **ZX25R** | Motocicleta | ★★★☆☆ | ★★★★☆ |
+| **RX KING** | Motocicleta | ★★★★☆ | ★★★☆☆ |
+| **Sedán de Lujo** | Auto | ★★★☆☆ | ★★★☆☆ |
+| **Especificación Drag Limitada** | Especial | ★★★★★ | ★★★★☆ |
+
+<Callout type="info" title="Ubicaciones de Concesionarios">
+Recuerda que diferentes concesionarios tienen diferentes existencias. La expansión de **Surakarta City** a menudo presenta modelos de alta gama, mientras que los concesionarios del mapa original son mejores para motos de inicio y autos estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maximizando el RP y la Progresión">
+
+El tuning cuesta dinero, y en este simulador, el RP es la moneda de cambio. Para financiar tu carrera como piloto, debes combinar las carreras activas con los diversos sistemas de trabajo disponibles en el juego. Acumular estos métodos te asegurará no quedarte nunca sin fondos para tu próximo proyecto.
+
+<Checklist
+  id="rp-farming-goals"
+  title="Lista de Verificación de Progresión Diaria:"
+  items={[
+    "Canjear todos los códigos de RP mensuales activos",
+    "Completar al menos 10 carreras de aceleración en la Pista de Sentul",
+    "Terminar un turno completo en la Cafetería (Trabajo de Barista)",
+    "Localizar y recoger 3 Cofres Ocultos por el mapa",
+    "Buscar Anomalías de tiempo limitado para obtener recompensas de bonificación"
+  ]}
+/>
+
+El **Trabajo de Barista** es actualmente una de las formas más confiables de obtener ingresos constantes. A medida que ganas XP, puedes pasar de Barista Junior a Barista Senior, desbloqueando importantes bonos de dinero (hasta 10M de RP) en hitos específicos. Para aquellos dispuestos a gastar Robux, el **Pase de Pago Doble (2x Paycheck Pass)** es la inversión individual más efectiva para la progresión a largo plazo.
+
+| Rol de Trabajo | Nivel de Esfuerzo | Rendimiento de RP | Ideal Para |
+| :--- | :--- | :--- | :--- |
+| **Piloto de Aceleración** | Alto | Variable (Basado en habilidad) | Ajustadores experimentados |
+| **Barista** | Medio | Constante/Alto (con XP) | Jugadores activos |
+| **Policía** | Alto | Alto (Requiere Pase) | Entusiastas del juego de rol |
+| **Mensajero** | Bajo | Moderado | Conocer el mapa |
+| **Oficinista** | Bajo | Bajo/Constante | Juego semiactivo (AFK) |
+
+<Callout type="tip" title="Recompensas Ocultas">
+Mantente atento a las **Anomalías**. Estos eventos o ubicaciones especiales, como la \"Anomalía Brainrot\", a menudo proporcionan insignias únicas y enormes aumentos de RP que pueden acelerar significativamente las mejoras de tus vehículos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi vehículo es más lento después de ajustar las relaciones de transmisión?",
+    answer: "Esto suele ocurrir si las marchas están configuradas demasiado largas para la potencia del motor, lo que hace que se 'ahogue', o demasiado cortas, lo que provoca que alcance el limitador de revoluciones demasiado pronto. Consulta los pasos de la guía de tuning de drag drive simulator para encontrar un equilibrio."
+  },
+  {
+    question: "¿Qué pista es la mejor para probar configuraciones de velocidad máxima?",
+    answer: "La pista Pettarani en Makassar City o los tramos largos en Surakarta City son ideales para probar la velocidad máxima, mientras que la pista de Sentul sigue siendo el estándar de oro para las pruebas de aceleración."
+  },
+  {
+    question: "¿Vale la pena el Pase de Policía por Robux para ganar dinero?",
+    answer: "Sí, si disfrutas de un estilo de juego activo. El trabajo de Policía ofrece misiones únicas y una progresión de rango que proporciona rendimientos de RP muy competitivos en comparación con los trabajos gratuitos."
+  },
+  {
+    question: "¿Cómo soluciono el patinado de las ruedas durante la salida?",
+    answer: "Alarga la relación de tu 1.ª marcha o ajusta la rigidez de tu suspensión si tienes el Pase Pro. Esto ayuda a transmitir más potencia al suelo en lugar de hacer patinar los neumáticos."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El mundo de **Drag Drive Simulator** evoluciona constantemente con nuevas actualizaciones cada pocas semanas. Mantente siempre conectado con la comunidad del ADV Gamers Team en Discord para obtener las últimas hojas de cálculo de relaciones de transmisión y las configuraciones meta votadas por la comunidad.
+</Callout>
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Garagem do Drag Drive Simulator: Melhores Builds e Configurações de Tuning",
+  description: "Otimize seus carros na garagem do Drag Drive Simulator. Aprenda a personalizar rodas, aplicar materiais, salvar builds e usar o gerador de objetos de arrancada.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drag+Drive+Simulator+Garage",
+  date: "2026-07-01",
+  author: "Equipe da Wiki do Drag Drive Simulator",
+  keywords: "drag drive simulator, garagem, tuning, builds de carros, personalização, roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Personalização na Garagem**: Modifique seus veículos na garagem do Drag Drive Simulator usando materiais secundários, rodas personalizadas e estilos de piloto únicos.
+- **Salvando Builds**: Sempre salve suas configurações de tuning personalizadas para evitar a perda de ajustes ao gerar novos veículos.
+- **Configuração de Arrancada**: Utilize o novo gerador de objetos (prop spawner) do modo de arrancada e comandos de contagem regressiva para organizar corridas.
+- **Códigos Ativos**: Resgate códigos promocionais ativos para garantir dinheiro e comprar peças de modificação de alto nível.
+</Callout>
+
+<Section icon={Sparkles} title="Personalizando Veículos na Garagem do Drag Drive Simulator">
+
+Entrar na garagem do Drag Drive Simulator permite que você reformule completamente a aparência e as características de desempenho do seu veículo. A garagem serve como o hub central para modificar carros padrão, motocicletas, viaturas policiais e veículos de eventos de edição limitada. Com o lançamento da atualização V1.1.6, as opções de personalização foram expandidas para incluir aplicações de materiais secundários, designs de rodas intrincados e estilos de piloto especializados, como o Estilo Superman.
+
+Para tirar o máximo proveito do seu veículo, você precisa entender as diferentes categorias de modificação. O sistema de personalização é dividido em seções distintas, permitindo que você ajuste tanto o apelo visual quanto a presença física da sua máquina na pista de arrancada.
+
+| Tipo de Modificação | Opções Disponíveis | Benefício Principal |
+| :--- | :--- | :--- |
+| **Tipo de Rodas** | Padrão, Liga Leve, Esportiva Personalizada | Melhora a estética e a postura na pista |
+| **Material Secundário** | Fosco, Metálico, Cromado, Brilhante | Melhora o estilo da pintura e o reflexo do veículo |
+| **Estilo do Piloto** | Padrão, Estilo Superman, Policial | Personaliza a aparência do personagem ao pilotar |
+| **Tipo de Veículo** | Carros, Motocicletas, Veículos Policiais | Diversifica as opções de roleplay e classes de corrida |
+
+Ao planejar sua build, você deve considerar o estilo de veículo que deseja criar. A garagem suporta vários arquétipos de build, cada um adequado para diferentes atividades dentro do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Build Street Tuner">
+    - **Pintura metálica de alto contraste**
+    - Rodas esportivas personalizadas leves
+    - Ideal para passeios casuais e encontros de rua
+  </Card>
+  <Card title="Build de Arrancada">
+    - **Materiais secundários foscos**
+    - Otimização para gerador de objetos de arrancada
+    - Focada em aceleração máxima em linha reta
+  </Card>
+  <Card title="Configuração de Roleplay">
+    - **Estilo de piloto Policial ou Superman**
+    - Rodas padrão para uma aparência realista
+    - Otimizada para roleplay na cidade e cenários de patrulha
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Tuning">
+Combine materiais secundários cromados com rodas de liga leve personalizadas para fazer seu veículo se destacar durante encontros de rua noturnos e corridas de arrancada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guia Passo a Passo de Personalização e Salvamento">
+
+Criar uma build personalizada exige navegar na interface da garagem e utilizar o sistema de salvamento. Modificações não salvas serão perdidas se o seu veículo for removido ou se você sair do servidor. Siga este processo passo a passo para garantir que suas builds personalizadas sejam salvas permanentemente.
+
+<Steps>
+  <Step num="1" title="Acesse a Interface da Garagem">
+    Dirija seu veículo até a zona designada da garagem ou abra o menu de personalização pelo HUD do jogador para começar a editar.
+  </Step>
+  <Step num="2" title="Selecione Pintura e Materiais">
+    Navegue até a aba de materiais e aplique seus acabamentos de pintura primária e secundária. Escolha entre fosco, metálico, brilhante ou cromado.
+  </Step>
+  <Step num="3" title="Equipe Rodas Personalizadas">
+    Navegue pelo menu de rodas e selecione um design que combine com a classe do seu veículo. Garanta que a postura (stance) se ajuste às suas preferências de corrida.
+  </Step>
+  <Step num="4" title="Salve seu Preset Personalizado">
+    Abra o menu de salvamento dentro da interface da garagem, escolha um slot vazio e salve seu preset para segurar suas modificações.
+  </Step>
+</Steps>
+
+Gerenciar seus presets salvos permite que você alterne rapidamente entre diferentes configurações, dependendo se você está correndo arrancada, fazendo roleplay ou participando de perseguições policiais.
+
+| Recurso de Preset | Comando do Menu | Aplicação Prática |
+| :--- | :--- | :--- |
+| **Salvar Preset** | Salvar Build | Salva as configurações atuais de pintura, rodas e materiais |
+| **Carregar Preset** | Carregar Build | Gera seu veículo personalizado salvo instantaneamente |
+| **Resetar Veículo** | Limpar Personalização | Reverte o veículo para as configurações de fábrica |
+
+<Callout type="warning" title="Aviso de Salvamento">
+Sempre verifique se você salvou seu preset antes de clicar no botão de reset ou gerar uma classe de veículo diferente, pois modificações não salvas não podem ser recuperadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Classes de Veículos e Ajuste de Desempenho">
+
+A lista de veículos no Drag Drive Simulator é diversificada, oferecendo opções que vão de carros comuns a motocicletas de alto desempenho e veículos de eventos de edição limitada. Entender como cada classe se comporta ajuda você a escolher o veículo base certo para suas modificações na garagem.
+
+| Classe do Veículo | Aceleração | Velocidade Máxima | Avaliação de Dirigibilidade |
+| :--- | :--- | :--- | :--- |
+| **Especial Limitado** | **Excelente** | **Muito Alta** | **Excelente** |
+| **Veículo Policial** | **Boa** | **Alta** | **Boa** |
+| **Carro Padrão** | **Média** | **Média** | **Boa** |
+| **Motocicleta** | **Excelente** | **Muito Alta** | **Regular** |
+
+A atualização V1.1.6 introduziu vários novos veículos que mudaram o meta de desempenho. Adquirir esses veículos permite que você construa competidores de arrancada altamente competitivos.
+
+| Nome do Veículo | Classe | Disponibilidade | Recurso Especial |
+| :--- | :--- | :--- | :--- |
+| **Superman Edition** | Especial Limitado | Exclusivo de Evento | Estilo de Piloto Superman Personalizado |
+| **Highway Patrol Interceptor** | Veículo Policial | Compra Padrão | Sistemas de Sirene e Luzes de Emergência |
+| **Sport Cruiser** | Motocicleta | Loja Padrão | Aceleração Excepcional |
+
+<Callout type="success" title="Dica de Desempenho">
+Priorize o upgrade de veículos especiais limitados primeiro, pois eles possuem estatísticas base mais altas, o que os torna plataformas superiores para corridas de arrancada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gerador de Objetos e Configuração do Modo de Arrancada">
+
+Para testar as builds que você cria na garagem do Drag Drive Simulator, você pode usar o recém-adicionado Gerador de Objetos de Salvamento, Carregamento e Modo de Arrancada. Este sistema permite que os jogadores construam pistas de arrancada personalizadas e áreas de alinhamento em qualquer lugar do mapa, facilitando corridas comunitárias organizadas.
+
+Configurar uma pista de arrancada adequada requer a colocação de objetos de alinhamento e a utilização de comandos de servidor privado para garantir largadas justas.
+
+| Ferramenta / Comando | Ação | Cenário de Uso |
+| :--- | :--- | :--- |
+| **Menu de Objetos** | Gera barreiras de pista | Define os limites da sua pista de arrancada personalizada |
+| **Objeto Modo Arrancada**| Coloca luzes de largada | Alinha os veículos na linha de partida |
+| **!cd [x]** | Inicia contagem | Sincroniza o início da corrida para todos os motoristas |
+
+Ao organizar uma corrida de arrancada, use o comando de contagem regressiva digitando `!cd 5` no chat para iniciar uma contagem visual de cinco segundos na tela. Isso elimina confusões na linha de partida e garante que as corridas sejam decididas pelo tuning do veículo e tempo de reação, em vez de latência de conexão.
+
+<Callout type="info" title="Informação de Comando">
+O comando `!cd` pode ser ajustado para qualquer duração, substituindo a variável pelo número desejado de segundos, tornando-o altamente personalizável para diferentes formatos de corrida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist de Progressão da Garagem">
+
+Para otimizar totalmente sua experiência na garagem e desbloquear o nível mais alto de modificações de veículos, você deve buscar completar estes marcos de progressão.
+
+<Checklist
+  id="garage-progression"
+  title="Marcos da Garagem:"
+  items={[
+    "Resgate todos os códigos ativos para maximizar as reservas de dinheiro iniciais",
+    "Desbloqueie pelo menos três presets de veículos personalizados no menu de salvamento",
+    "Adquira um veículo especial limitado da lista da atualização V1.1.6",
+    "Domine o gerador de objetos para construir uma pista de arrancada funcional",
+    "Teste suas configurações de tuning personalizadas usando o comando de contagem regressiva"
+  ]}
+/>
+
+<Callout type="warning" title="Expiração de Códigos">
+Resgate códigos como `DRAGDRIVESIMULATORMAY26` o mais rápido possível, pois os códigos promocionais têm períodos ativos limitados e expirarão em atualizações futuras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como salvo as modificações do meu carro na garagem do Drag Drive Simulator?",
+    answer: "Abra o menu de personalização da garagem, navegue até a seção de salvar preset, selecione um slot vazio e clique em salvar. Você pode carregar esta configuração a qualquer momento."
+  },
+  {
+    question: "Quais modificações foram adicionadas na atualização V1.1.6?",
+    answer: "A atualização introduziu tipos de rodas personalizadas, acabamentos de materiais secundários (como fosco e cromado) e estilos de piloto especializados, incluindo o Estilo Superman."
+  },
+  {
+    question: "Como uso o comando de contagem regressiva para corridas de arrancada?",
+    answer: "Digite `!cd [segundos]` (por exemplo, `!cd 5`) no chat para iniciar um cronômetro de contagem regressiva sincronizado para todos os jogadores na pista."
+  },
+  {
+    question: "Posso personalizar veículos policiais na garagem?",
+    answer: "Sim, veículos policiais podem ser modificados com diferentes rodas e materiais, e você pode equipar o estilo de piloto policial para cenários de roleplay."
+  }
+]} />
+
+<Callout type="success" title="Checklist Final">
+Com seus veículos totalmente personalizados na garagem do Drag Drive Simulator, seus presets salvos e sua pista de arrancada configurada, você está pronto para dominar a tabela de classificação.
+</Callout>
+
+</Section>

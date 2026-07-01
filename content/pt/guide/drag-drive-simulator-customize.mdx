@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Personalização no drag drive simulator: Guia de Modificação de Veículos 2026",
+  description: "Aprenda a personalizar veículos no drag drive simulator, incluindo os recursos da atualização do Superman, tipos de rodas e o método secreto de modificação do escapamento.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vehicle+Customization+Guide",
+  date: "2026-07-01",
+  author: "Equipe Wiki do drag drive simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As opções de **personalização do drag drive simulator** incluem Tipo de Rodas, Materiais Secundários e Estilos de Piloto exclusivos, como o estilo Superman.
+- A **modificação do escapamento** requer uma sequência específica entre os menus de modificação Mini, Real e Office para funcionar corretamente.
+- Os recursos do **Gerador de Objetos (Prop Spawner)** agora permitem que os jogadores salvem e carreguem pistas de arrancada personalizadas e objetos para um melhor roleplay.
+- **Veículos limitados** são lançados durante grandes atualizações, como o evento Superman de 2026, oferecendo desempenho único e atributos visuais exclusivos.
+- **Comandos privados** como `!cd [x]` são essenciais para organizar corridas de arrancada justas com amigos em servidores privados.
+</Callout>
+
+<Section icon={Sparkles} title="Introdução à Personalização de Veículos">
+
+No mundo em constante evolução do roleplay no Roblox, os recursos de **personalização do drag drive simulator** se destacam como um pilar fundamental para os jogadores que desejam expressar seu estilo único. Quer você esteja passeando pela cidade ou se preparando para uma corrida de arrancada de alto nível, a capacidade de ajustar a aparência e o desempenho do seu veículo é vital. O jogo, frequentemente chamado de DDS ou RDID Revamp, enfatiza recursos realistas que refletem a cultura automotiva do mundo real, permitindo um nível profundo de imersão.
+
+**Destaques do Vídeo:**
+- Demonstra a navegação específica do menu para alterações no escapamento.
+- Mostra a diferença entre as interfaces de modificação Mini e Office.
+- Destaca a importância de repetir as ações três vezes para glitches específicos.
+
+<YouTubeEmbed videoId="N8AZHx9JPAE" title="Como mudar o escapamento no drag drive simulator" />
+
+A personalização em 2026 expandiu-se significativamente além de simples mudanças de cor. Os jogadores agora têm acesso a designs complexos de rodas, acabamentos de materiais secundários que reagem à iluminação e até estilos de piloto especializados que mudam a forma como seu personagem interage com o veículo. Dominar essas ferramentas é o primeiro passo para se tornar um piloto de elite na comunidade.
+
+| Categoria do Veículo | Profundidade de Personalização | Acessibilidade | Valor de Roleplay |
+| :--- | :--- | :--- | :--- |
+| **Carros Padrão** | Alta | Alta (Dinheiro do Jogo) | Moderado |
+| **Motocicletas** | Moderada | Alta (Dinheiro do Jogo) | Alto |
+| **Especiais Limitados** | Muito Alta | Baixa (Apenas Evento) | Extremo |
+| **Veículos Policiais** | Moderada | Restrita (Baseada em Funções) | Alto |
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre verifique suas configurações de iluminação antes de finalizar um material secundário; alguns acabamentos metálicos parecem significativamente diferentes sob as luzes de neon noturnas da cidade em comparação com a luz do dia.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Novos Recursos de Modificação em 2026">
+
+As atualizações mais recentes nos sistemas de **personalização do drag drive simulator** introduziram quatro pilares principais de modificação. Essas atualizações atendem tanto aos entusiastas da estética quanto àqueles focados nos aspectos técnicos da simulação do "RDID Revamp". Ao focar nessas categorias, você pode garantir que seu veículo esteja otimizado tanto para o meta da "Atualização do Superman" quanto para cenários gerais de roleplay.
+
+<CardGrid cols={2}>
+  <Card title="Tipo de Rodas e Ajuste">
+    - **Designs Diversos**: Escolha desde padrões clássicos de raios até rodas modernas de perfil profundo.
+    - **Visual Impact**: As rodas alteram significativamente a postura e o perfil do seu veículo.
+    - **Compatibilidade**: A maioria das rodas agora serve tanto para carros padrão quanto para os novos veículos limitados.
+  </Card>
+  <Card title="Materiais Secundários">
+    - **Variedade de Texturas**: Inclui acabamentos fosco, brilhante, metálico e de fibra de carbono.
+    - **Camadas**: Aplique materiais em partes específicas da carroceria, como capôs, aerofólios ou retrovisores.
+    - **Iluminação Dinâmica**: Os materiais reagem aos shaders aprimorados do motor gráfico de 2026.
+  </Card>
+  <Card title="Estilo do Piloto">
+    - **Estilo Superman**: Uma animação especial e limitada de piloto para corridas de arrancada em alta velocidade.
+    - **Poses Personalizadas**: Altere a forma como seu personagem se senta ou se inclina durante a aceleração.
+    - **Interação**: Os estilos de piloto afetam a perspectiva da câmera no modo em primeira pessoa.
+  </Card>
+  <Card title="Gerador de Objetos e Modo de Arrancada">
+    - **Salvar/Carregar**: Crie uma pista de corrida personalizada e salve-a para sessões futuras.
+    - **Objetos Funcionais**: Os geradores incluem semáforos, barreiras e equipamentos de cronometragem.
+    - **Modo de Arrancada**: Uma alternância de física especializada para otimizar a velocidade em linha reta.
+  </Card>
+</CardGrid>
+
+Esses recursos permitem milhares de combinações exclusivas. Por exemplo, combinar um material secundário de fibra de carbono com o novo piloto limitado no Estilo Superman cria um visual distinto que sinaliza que você é um jogador veterano.
+
+| Espaço de Modificação | Opções Disponíveis | Uso Recomendado |
+| :--- | :--- | :--- |
+| **Cor Primária** | Espectro RGB Completo | Painéis principais da carroceria |
+| **Material Secundário** | Fosco, Cromado, Carbono | Detalhes e acabamentos |
+| **Tipo de Roda** | Mais de 20 Designs | Postura e fluxo estético |
+| **Estilo do Piloto** | Padrão, Superman | Animações de corrida e roleplay |
+
+<Callout type="success" title="Sucesso da Atualização">
+A Atualização do Superman adicionou 7 novos Veículos Especiais Limitados, que apresentam espaços de modificação exclusivos não encontrados em carros padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guia Passo a Passo de Modificação do Escapamento">
+
+Um dos truques de **personalização do drag drive simulator** mais procurados envolve a modificação específica dos escapamentos. Embora o sistema de menus seja geralmente intuitivo, certas melhorias visuais exigem uma sequência precisa de ações para serem desbloqueadas ou exibidas corretamente. Esse processo envolve navegar entre diferentes oficinas de modificação dentro do mundo do jogo.
+
+Siga estes passos para modificar com sucesso o escapamento do seu veículo:
+
+<Steps>
+  <Step num="1" title="Acesse a Mini Modificação">
+    Dirija seu veículo até a estação de Mini Modificação. Uma vez dentro do menu, localize a opção 'Pipe' (Escapamento). Pressione o botão de seleção do escapamento exatamente três vezes.
+  </Step>
+  <Step num="2" title="Transição para a Modificação Real">
+    Saia do menu de Mini Modificação e prossiga para a área de Modificação Real. Esta é geralmente a garagem principal, onde ocorrem as maiores mudanças na carroceria.
+  </Step>
+  <Step num="3" title="Sequência de Modificação Office">
+    Vá para a seção de Modificação Office dentro da garagem. Encontre as configurações de escapamento novamente e pressione a seleção mais três vezes.
+  </Step>
+  <Step num="4" title="Finalizar e Salvar">
+    Uma vez concluída a sequência, o estilo de escapamento selecionado deve ser fixado. Certifique-se de usar o recurso 'Save' (Salvar) no Gerador de Objetos ou no menu principal para manter suas alterações.
+  </Step>
+</Steps>
+
+Este método específico é uma técnica popular na comunidade para garantir que as ponteiras de escapamento personalizadas e os efeitos de chama sejam renderizados corretamente no modelo do veículo. Se o escapamento parecer não mudar, tente resetar seu veículo e repetir os passos em um servidor privado para evitar a interferência de outros jogadores.
+
+| Passo | Localização | Ação | Contagem |
+| :--- | :--- | :--- | :--- |
+| 1 | Estação Mini Mod | Pressionar Pipe | 3 Vezes |
+| 2 | Garagem Principal | Entrar em Real Mod | N/A |
+| 3 | Menu Office Mod | Pressionar Pipe | 3 Vezes |
+| 4 | Menu | Salvar Modificação | 1 Vez |
+
+<Callout type="warning" title="Requisito Importante">
+Certifique-se de ter créditos suficientes no jogo antes de iniciar este processo, pois alguns estilos de escapamento têm um custo premium que deve ser pago durante a etapa final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia do Gerador de Objetos e Modo de Arrancada">
+
+A introdução do Sistema de Gerador de Objetos (Prop Spawner) revolucionou a forma como os jogadores interagem com o ambiente de **personalização do drag drive simulator**. Não se trata mais apenas do carro; trata-se do ambiente em que você corre. O gerador permite que você construa pistas de arrancada personalizadas, completas com cronômetros de contagem regressiva funcionais e áreas para espectadores.
+
+Para aproveitar ao máximo esse sistema, você deve se familiarizar com os comandos privados e com a funcionalidade de salvar/carregar. Isso garante que seu trabalho árduo no design de uma pista não seja perdido quando você sair do servidor.
+
+| Comando / Recurso | Descrição | Melhor Para |
+| :--- | :--- | :--- |
+| **!cd [x]** | Inicia uma contagem regressiva de 'x' segundos | Início de corrida justo |
+| **Save Prop** | Salva o layout atual dos itens gerados | Pistas de corrida persistentes |
+| **Load Prop** | Gera instantaneamente um layout salvo anteriormente | Configuração rápida |
+| **Drag Mode Prop** | Gera equipamentos de corrida especializados | Eventos competitivos |
+
+Ao organizar uma corrida de arrancada, o posicionamento é fundamental. Use o Gerador de Objetos para colocar barreiras que evitem que não participantes entrem na pista. Além disso, a nova alternância do "Modo de Arrancada" (Drag Mode) para veículos ajusta a suspensão e a aderência dos pneus, tornando-se uma parte funcional da sua estratégia de personalização.
+
+<Checklist
+  id="drag-race-prep"
+  title="Lista de Verificação de Preparação para Corrida de Arrancada:"
+  items={[
+    "Aplicar a física do Modo de Arrancada ao seu veículo",
+    "Configurar uma contagem regressiva de 5 segundos usando !cd 5",
+    "Implantar barreiras para liberar a pista de corrida",
+    "Verificar se o seu Estilo de Piloto está definido como Superman para uma aerodinâmica ideal",
+    "Salvar o layout da sua pista para uso futuro"
+  ]}
+/>
+
+<Callout type="info" title="Informações do Sistema">
+O Gerador de Objetos atualmente suporta uma ampla variedade de itens, incluindo estruturas de iluminação que são essenciais para eventos noturnos de roleplay.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Códigos Ativos e Recompensas para Julho de 2026">
+
+Para poder pagar as melhores opções de **personalização do drag drive simulator**, você precisará de um suprimento constante de moedas do jogo e itens especiais. Os desenvolvedores frequentemente lançam códigos de resgate para comemorar marcos, como a recente meta de 150.000 curtidas. Esses códigos podem fornecer um impulso significativo para novos jogadores e veteranos.
+
+| Código | Tipo de Recompensa | Status |
+| :--- | :--- | :--- |
+| **DRAGDRIVESIMULATORMAY26** | +50.000 Créditos | Ativo |
+| **SUPERMANSTYLE** | Animação de Piloto Exclusiva | Ativo |
+| **DDS150KLIKES** | Conjunto de Rodas Limitado | Ativo |
+| **RDIDREVAMP2026** | Impulso de XP Duplo (1 Hora) | Ativo |
+
+Resgatar esses códigos é simples. Navegue até o menu social ou de recompensas na interface do jogo, insira o código exatamente como mostrado e resgate suas recompensas. Observe que os códigos geralmente diferenciam maiúsculas de minúsculas e podem expirar após um determinado período ou após um número específico de usos totais em toda a comunidade.
+
+<Callout type="success" title="Alerta de Novo Código">
+Um novo código está programado para ser lançado assim que o jogo atingir 150.000 curtidas na plataforma Roblox. Não se esqueça de curtir o jogo para ajudar a comunidade a alcançar essa meta!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para acessar o Estilo Superman na personalização do drag drive simulator?",
+    answer: "O Estilo Superman é um Estilo de Piloto especial adicionado na atualização V1.1.6. Você pode selecioná-lo na seção 'Rider' (Piloto) do menu de modificação, desde que o tenha desbloqueado através do evento por tempo limitado ou por códigos de resgate relevantes."
+  },
+  {
+    question: "Posso salvar minhas modificações de veículos personalizadas?",
+    answer: "Sim, o novo Gerador de Objetos e sistema de modificação inclui um recurso de Salvar e Carregar. Isso permite que você armazene a configuração específica do seu veículo e os layouts de pista personalizados."
+  },
+  {
+    question: "Qual é o benefício de usar o Modo de Arrancada (Drag Mode)?",
+    answer: "O Modo de Arrancada é um recurso especializado que ajusta as características de desempenho do seu veículo para corridas em linha reta, oferecendo melhor tração e aceleração em comparação com o modo de direção padrão."
+  },
+  {
+    question: "Por que meu escapamento não está mudando depois que eu o seleciono?",
+    answer: "Pode ser necessário seguir a sequência específica de 'três pressões' entre os menus de modificação Mini e Office. Consulte o guia passo a passo neste artigo para obter o procedimento exato."
+  }
+]} />
+
+<Callout type="tip" title="Sugestão da Comunidade">
+Se você encontrar bugs ao personalizar, como peças que não carregam, os desenvolvedores recomendam relatá-los por meio dos links sociais oficiais fornecidos na descrição do jogo.
+</Callout>
+
+</Section>

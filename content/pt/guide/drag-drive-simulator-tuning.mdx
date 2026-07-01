@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ajuste no Drag Drive Simulator: Guia de Relação de Marchas e Configuração",
+  description: "Domine o ajuste no Drag Drive Simulator com nosso guia completo de relação de marchas, configurações de largada e perfis de desempenho no principal jogo de corrida do Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Gear+Ratio+Tuning+Guide",
+  date: "2026-07-01",
+  author: "Equipe da Wiki do Drag Drive Simulator",
+  keywords: "drag drive simulator, ajuste, relação de marchas, roblox, guia de corrida"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Prioridade de Ajuste**: Otimizar o ajuste no seu veículo é mais econômico do que comprar potência bruta.
+- **Relação de Marchas**: Ajuste as marchas baixas para aceleração e as marchas altas para atingir a velocidade máxima na linha de chegada.
+- **Testes**: Sempre realize testes em modo livre antes de entrar em torneios competitivos na Pista Sentul.
+- **Vantagem das Motocicletas**: Motocicletas ajustadas superam facilmente carros originais que custam três vezes mais.
+- **Passes Premium**: Considere os passes Pro Suspension e 2x Paycheck para maximizar a eficiência do seu ajuste.
+</Callout>
+
+<Section icon={Sparkles} title="Fundamentos do ajuste no Drag Drive Simulator">
+
+Para dominar a competição na Pista Sentul, você deve dominar o ajuste no Drag Drive Simulator. Enquanto muitos jogadores se concentram apenas em acumular RP para comprar os carros ou motocicletas mais caros, pilotos veteranos sabem que um veículo de nível médio bem ajustado superará consistentemente uma build cara original. O núcleo do sistema de desempenho do jogo reside na manipulação da relação de marchas, que dita diretamente como a potência do seu motor se traduz em velocidade em linha reta.
+
+**Destaques do Vídeo:**
+- Entendendo como os controles deslizantes de relação de marchas ajustam o comportamento do veículo.
+- Técnicas de largada na pista de arrancada de Sentul.
+- Analisando o equilíbrio entre aceleração e velocidade final.
+
+<YouTubeEmbed videoId="7kWk2DA2-hg" title="Drag Drive Simulator Roblox [ZX-10R] - Ajuste de Relação de Marchas" />
+
+### Entendendo as Relações de Marchas
+
+O sistema de relação de marchas é um delicado equilíbrio entre aceleração e velocidade máxima. No Drag Drive Simulator, você tem a liberdade de ajustar a relação de cada marcha individualmente. Relações de marcha mais curtas proporcionam aceleração rápida, mas limitam sua velocidade máxima cedo. Por outro lado, relações de marcha mais longas demoram mais para ganhar impulso, mas oferecem uma velocidade final muito maior.
+
+| Configuração de Marcha | Velocidade de Aceleração | Velocidade Final | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Marchas Curtas** | Largada rápida | Velocidade máxima menor | Primeira e segunda marchas para evitar que o motor "morra" |
+| **Marchas Longas** | Ganho inicial mais lento | Velocidade máxima maior | Quarta, quinta e sexta marchas para esticar o final |
+
+Para maximizar seu desempenho no quarto de milha, seu veículo deve cruzar a linha de chegada exatamente quando atingir sua velocidade máxima absoluta na última marcha. Se você atingir o limite muito cedo, perderá segundos valiosos mantendo uma velocidade constante. Se suas marchas forem muito longas, a corrida terminará antes mesmo de você chegar à última marcha, desperdiçando o potencial do seu motor.
+
+<Callout type="tip" title="Dica de Profissional">
+Nunca ajuste todas as suas marchas para os valores mínimos ou máximos absolutos. Transições suaves entre as marchas evitam que seu RPM caia drasticamente durante as trocas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processo de Ajuste de Marchas Passo a Passo">
+
+Alcançar a configuração perfeita de transmissão requer paciência e testes sistemáticos. Em vez de adivinhar valores no menu de customização, siga este processo estruturado para calibrar suas relações de marcha. Lembre-se de realizar seus testes em modo livre em uma estrada longa e reta antes de se comprometer com chaves de torneios competitivos.
+
+<Callout type="warning" title="Aviso">
+Evite fazer ajustes massivos em várias marchas de uma só vez. Mudar muitas variáveis torna impossível identificar qual ajuste melhorou ou prejudicou seu desempenho.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Estabeleça sua Corrida de Referência">
+    Leve seu veículo original para um trecho de estrada reto e tranquilo. Registre seu tempo de largada, pontos de troca e a velocidade máxima que você atinge antes de acabar o asfalto. Esta base serve como seu ponto de comparação para todos os ajustes futuros.
+  </Step>
+  <Step num="2" title="Otimize as Marchas de Largada">
+    Acesse o menu de modificação e encurte levemente sua primeira e segunda marchas. Este ajuste aumenta o torque e ajuda seu veículo a largar com mais força. Teste a largada para garantir que os pneus não girem excessivamente, o que desperdiça tração.
+  </Step>
+  <Step num="3" title="Suavize as Transições Médias">
+    Ajuste a terceira e quarta marchas para criar uma progressão suave. Você quer que seu motor permaneça dentro de sua faixa de potência ideal imediatamente após a troca. Se o motor "engasgar" e perder RPM, encurte a marcha seguinte.
+  </Step>
+  <Step num="4" title="Estique as Marchas Finais">
+    Alonge sua quinta e sexta marchas para maximizar sua velocidade final. O objetivo é atingir seu pico de velocidade exatamente ao cruzar a linha de chegada na Pista Sentul. Ajuste estas marchas finais dependendo se você está correndo em contra-relógio curtos ou arrancadas mais longas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Map} title="Veículos Iniciais e Perfis de Ajuste">
+
+Ao iniciar sua jornada no Drag Drive Simulator, suas primeiras escolhas de garagem devem focar na eficiência de progressão em vez de status. A abordagem mais inteligente é resgatar todos os códigos de RP ativos imediatamente para garantir um saldo inicial saudável. Esta injeção inicial de dinheiro permite que você pule o grind inicial e invista em uma plataforma competitiva.
+
+<CardGrid cols={3}>
+  <Card title="Motocicletas Iniciais">
+    - **Baixo preço de compra**
+    - Alta relação peso-potência
+    - Extremamente competitivas quando ajustadas
+  </Card>
+  <Card title="Carros Padrão">
+    - **Dirigibilidade equilibrada**
+    - Alto potencial de customização
+    - Ótimos para passear e roleplay
+  </Card>
+  <Card title="Veículos Drag Spec">
+    - **Máquinas construídas para arrancada**
+    - Bloqueados atrás de passes premium
+    - Velocidade de linha reta de elite
+  </Card>
+</CardGrid>
+
+### Perfis de Ajuste de Veículos
+
+Diferentes categorias de veículos exigem filosofias de ajuste distintas devido às suas características únicas de peso, tração e potência. Por exemplo, as motocicletas são incrivelmente leves e podem largar com uma aceleração imensa, mas muitas vezes lutam para manter a estabilidade em velocidades finais extremas em comparação com carros de arrancada pesados.
+
+| Categoria do Veículo | Traço de Largada | Progressão de Marchas | Foco do Ajuste |
+| :--- | :--- | :--- | :--- |
+| **Motocicletas** | Altamente explosiva na saída | Trocas rápidas iniciais | Marchas baixas curtas, alongamento progressivo médio |
+| **Carros Padrão** | Tração inicial moderada | Ganho constante de RPM | Relações equilibradas para manter a faixa de potência |
+| **Drag Spec** | Aderência de elite com pneus largos | Janelas de troca ultraprecisas | Marchas de largada agressivas com marchas finais longas |
+
+<Callout type="success" title="Sucesso">
+Motocicletas como a Kawasaki ZX25R ou ZX10R oferecem a maior relação desempenho-por-RP no jogo. Uma motocicleta devidamente ajustada derrotará facilmente supercarros originais que custam três vezes mais.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ajustes Avançados e Passes de Customização">
+
+Embora os ajustes padrão de relação de marchas sejam gratuitos e acessíveis a todos os jogadores, o Drag Drive Simulator oferece vários passes premium para entusiastas que desejam controle absoluto sobre o desempenho e a estética de sua máquina. Essas melhorias permitem que você refine a mecânica da suspensão e personalize seus veículos para se destacar na expansão da cidade de Surakarta.
+
+### Melhorias de Desempenho e Customização
+
+Para elevar sua vantagem competitiva, considere investir em opções de ajuste avançado. O ajuste Pro Suspension, por exemplo, permite ajustar as configurações de amortecimento e rigidez. Isso evita que a frente do seu veículo levante demais durante largadas agressivas, mantendo sua potência firmemente plantada no asfalto.
+
+| Melhoria de Ajuste | Método de Acesso | Preço em Robux | Impacto no Desempenho e Estética |
+| :--- | :--- | :--- | :--- |
+| **Ajuste de Marchas** | Sistema base do jogo | **Grátis** | Controle essencial sobre aceleração e velocidade máxima |
+| **Suspension Pro** | Passe Suspension Pro | **29 Robux** | Controle avançado sobre amortecimento, rigidez e estabilidade de largada |
+| **Pintura Avançada** | Passe Advance Paint | **59 Robux** | Suporte a cores HEX, fibra de carbono, acabamentos foscos e metálicos |
+| **Placa Personalizada** | Passe Custom Plate | **79 Robux** | Placas de texto personalizadas para exibir a identidade da sua build |
+
+<Callout type="info" title="Importante">
+Se você estiver com pouco RP para melhorias, lembre-se de acumular suas fontes de renda. Combine missões diárias, caixas escondidas em Surakarta e funções ativas como o trabalho de Barista ou a carreira na Polícia para maximizar sua velocidade de progressão.
+</Callout>
+
+Antes de ir para a pista de arrancada para apostar seu suado RP, certifique-se de que seu veículo atenda a todos os marcos competitivos. Use este checklist para verificar a prontidão da sua build.
+
+<Checklist
+  id="tuning-milestones"
+  title="Checklist de Ajuste Pré-Corrida:"
+  items={[
+    "Resgate todos os códigos de RP ativos para financiar melhorias máximas de motor",
+    "Teste a aderência da largada em modo livre para minimizar a patinação das rodas",
+    "Certifique-se de que o RPM não caia abaixo da faixa de potência durante as trocas",
+    "Verifique se a velocidade máxima é atingida logo antes da linha de chegada",
+    "Ajuste a rigidez da suspensão para evitar o levantamento da frente na largada"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para ajudar você a tirar o máximo proveito de seus veículos, compilamos as perguntas mais comuns sobre o ajuste no Drag Drive Simulator e a otimização de desempenho.
+
+<FAQ items={[
+  {
+    question: " Como as relações de marcha mais curtas afetam o desempenho do meu veículo?",
+    answer: "Relações de marcha mais curtas aumentam sua aceleração e torque na saída. No entanto, elas reduzem sua velocidade máxima, o que significa que você atingirá o limite muito mais cedo na corrida."
+  },
+  {
+    question: "Por que meu motor engasga e perde velocidade imediatamente após eu trocar de marcha?",
+    answer: "Se o seu motor perde muito RPM e engasga após uma troca, a relação da marcha seguinte está muito longa. Encurte essa marcha específica levemente para manter o motor dentro de sua faixa de potência ideal."
+  },
+  {
+    question: "Itens cosméticos como capacetes afetam as estatísticas de corrida do meu veículo?",
+    answer: "Não. Capacetes e outros acessórios de personagem são puramente cosméticos. Eles não influenciam a velocidade, peso, dirigibilidade ou o desempenho geral na pista de arrancada."
+  },
+  {
+    question: "Qual é o melhor lugar para testar minhas configurações de relação de marchas personalizadas?",
+    answer: "A Pista Sentul no mapa principal é o local principal para testes de arrancada repetíveis. Para testes avançados de estrada e arrancada, explore a nova Pista Pettarani localizada na cidade de Makassar."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+O ajuste é um processo contínuo de tentativa e erro. Mantenha um bloco de notas com seus números de relação de marchas favoritos para que você possa reverter facilmente se um novo ajuste não render os resultados esperados.
+</Callout>
+
+</Section>

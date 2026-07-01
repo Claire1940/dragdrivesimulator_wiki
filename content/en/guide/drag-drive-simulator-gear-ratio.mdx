@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "drag drive simulator gear ratio: 2026 Tuning Setup Guide",
+  description: "Master the drag drive simulator gear ratio with our expert setup guide. Learn short vs long gear tuning, launch mechanics, and track setups for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gear+Ratio+Tuning+Guide",
+  date: "2026-07-01",
+  author: "drag drive simulator Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Tuning Goal**: Adjusting your **drag drive simulator gear ratio** is key to balancing launch acceleration and top speed.
+- **Launch vs Top Speed**: Shorter gear ratios deliver faster off-the-line acceleration, while longer ratios maximize top-end speed.
+- **Optimal Test Track**: Always validate your custom gear setups at Sentul Track or the newer Pettarani Track.
+- **Starter Strategy**: Buy an affordable motorcycle, apply a custom gear tune, and dominate early drag races for fast RP.
+</Callout>
+
+<Section icon={Sparkles} title="Introduction to Gear Ratio Tuning">
+
+Understanding how to configure your **drag drive simulator gear ratio** is the defining factor between winning close drag races and falling behind the competition on Roblox [1, 4]. Unlike standard driving games where vehicle price alone dictates performance, this simulator rewards players who dive deep into mechanical customization [1, 4]. A properly tuned budget motorcycle can easily defeat an expensive stock supercar if the gear ratios are optimized for the track [4].
+
+Before adjusting your sliders, you must understand the core relationship between engine RPM, torque, and wheel speed [4]. Tuning is not about moving every slider to the maximum value; it is a delicate balancing act of power delivery [4].
+
+**Video Highlights:**
+- Learn how to balance shorter and longer gear ratios for maximum acceleration [4].
+- Understand the impact of launch RPM and gear shifting on high-performance bikes.
+- Step-by-step visual walkthrough of modifying gear sliders in the tuning menu [4].
+
+<YouTubeEmbed videoId="7kWk2DA2-hg" title="Drag Drive Simulator Roblox [ZX-10R] – Gear Ratio Tuning" />
+
+When configuring your transmission, you will work with two primary concepts: the final drive ratio and individual gear ratios [4]. The final drive acts as a global multiplier for your entire gearbox, while individual gears allow you to shape the power curve of each shift [4].
+
+| Gear Type | Acceleration | Top Speed | Best For | Shift Timing |
+| :--- | :--- | :--- | :--- | :--- |
+| **Short Gears** | **Extremely Fast** | Limited | Short Drag Strips | Rapid shifting |
+| **Long Gears** | Slower Off Line | **Maximum Speed** | Highway Cruising | Delayed shifting |
+| **Balanced Gears** | Moderate | High | Mixed Circuit Racing | Standard shifting |
+
+<Callout type="tip" title="Pro Launch Tip">
+For drag racing, keep your first gear relatively short to maximize immediate off-the-line torque, but ensure second gear is long enough to prevent the engine from instantly hitting the rev limiter [4].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Tuning Process">
+
+Tuning your transmission requires a systematic approach. Making random adjustments to multiple gears at once makes it impossible to identify which changes improved your quarter-mile times [4]. Follow this structured process to build a highly optimized custom tune [4].
+
+<Steps>
+  <Step num="1" title="Establish Your Baseline Run">
+    Before changing any values, take your vehicle to Sentul Track and perform three baseline runs [4]. Record your launch reaction time, 0-60 MPH split, and final trap speed to use as a comparison metric [4].
+  </Step>
+  <Step num="2" title="Adjust the Final Drive Ratio">
+    Open the customization menu and locate the final drive slider [4]. If you are consistently hitting your top speed before the finish line, lower the final drive (longer ratio) [4]. If you never reach your top gear, raise the final drive (shorter ratio) [4].
+  </Step>
+  <Step num="3" title="Configure Individual Gear Steps">
+    Adjust individual gear sliders to create a smooth progression [4]. First gear should be short for launch traction [4]. Subsequent gears should gradually decrease in numerical value, keeping the engine within its optimal RPM power band after each shift [4].
+  </Step>
+  <Step num="4" title="Validate and Refine on the Track">
+    Return to the track and perform test passes [4]. If the vehicle wheelspins excessively at launch, lengthen first gear slightly [4]. If the engine bogs down (drops below the power band) after a shift, shorten that specific gear [4].
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid Over-Shortening">
+Setting individual gears too short will cause the transmission to shift constantly, wasting valuable milliseconds during gear transitions and severely capping your top-end speed [4].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Drag Drive Simulator Gear Ratio Setups by Vehicle">
+
+Different vehicle classes require distinct tuning philosophies [4]. Motorcycles, standard cars, and specialty drag machines deliver power differently, meaning a gear setup that works on a sportbike will cause a muscle car to lose traction instantly [4]. Use the specialized configurations below to match your specific vehicle class [4].
+
+<CardGrid cols={3}>
+  <Card title="Motorcycle Tuning">
+    - **High Power-to-Weight**: Bikes accelerate incredibly fast but suffer from launch instability [4].
+    - **Shorter Mid-Gears**: Keep gears 2 through 4 closely spaced to maintain peak RPM [4].
+    - **Traction Control**: Prevent front-wheel lift by slightly lengthening the first gear [4].
+  </Card>
+  <Card title="Standard Car Tuning">
+    - **Heavy Chassis**: Cars require significant low-end torque to get moving [4].
+    - **Short First Gear**: Use a short first gear to overcome vehicle weight quickly [4].
+    - **Wide Gear Spacing**: Stretch out higher gears to take advantage of high-speed aerodynamics [4].
+  </Card>
+  <Card title="DragSpec Tuning">
+    - **Maximum Grip**: Built purely for straight-line speed with specialized drag tires [4].
+    - **Aggressive Launch**: Utilize extremely short lower gears to maximize initial launch thrust [4].
+    - **Perfect Shifts**: Align gear ratios with shift lights for seamless power delivery [4].
+  </Card>
+</CardGrid>
+
+To help you get started, we have compiled a table of recommended baseline gear ratios for popular community-showcase vehicles [4]. Use these values as a starting point before fine-tuning for your specific driving style [4].
+
+| Vehicle Model | Recommended Final Drive | 1st Gear Ratio | 2nd Gear Ratio | Primary Track |
+| :--- | :--- | :--- | :--- | :--- |
+| **Kawasaki ZX25R** | **3.85** | **2.90** | **2.10** | Sentul Track [4] |
+| **Kawasaki ZX10R** | **3.40** | **2.60** | **1.95** | Pettarani Track [4] |
+| **RX KING** | **4.10** | **3.15** | **2.30** | Sentul Track [4] |
+| **Aerox All New** | **3.95** | **2.95** | **2.15** | Sentul Track [4] |
+
+<Callout type="success" title="Budget Bike Dominance">
+Highly tuned starter motorcycles like the Kawasaki ZX25R offer some of the best performance-to-cost ratios in the game, frequently beating expensive supercars when equipped with a custom gear tune [4].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Advanced Suspension & Customization Upgrades">
+
+While optimizing your **drag drive simulator gear ratio** is critical, power is useless if you cannot transfer it to the pavement [4]. Advanced suspension tuning and premium customization upgrades allow you to control weight transfer, reduce wheelspin, and personalize your high-performance builds [4].
+
+Unlocking premium passes provides deeper control over your vehicle's physical behavior [4]. For example, the Suspension Pro Pass allows you to adjust damping and stiffness settings, which directly impacts how your vehicle loads its tires during a hard launch [4].
+
+| Upgrade Pass | Price (Robux) | Core Benefit | Performance Impact |
+| :--- | :--- | :--- | :--- |
+| **Suspension Pro** | **29** | Advanced stiffness and damping control | High (reduces wheelspin) [4] |
+| **Advance Paint** | **59** | HEX color support and custom finishes | None (cosmetic only) [4] |
+| **Custom Plate** | **79** | Personalized text plates | None (cosmetic only) [4] |
+| **DragSpec Pass** | **109** | Unlocks elite drag-focused bikes | **Very High** [4] |
+| **Luxury Pass** | **119** | Premium high-end vehicles | High [4] |
+
+By pairing a custom suspension setup with your optimized gear ratios, you can virtually eliminate wheelspin, allowing you to run much shorter gear ratios for explosive off-the-line acceleration [4].
+
+<Callout type="info" title="Weight Transfer Dynamics">
+Stiffening the rear suspension prevents the back of the vehicle from squatting too deeply during acceleration, keeping the front tires of motorcycles closer to the ground and maintaining steering control [4].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Map Testing Routes & Milestones">
+
+A great gear tune is only proven by its track times [4]. The game features multiple locations designed to test different aspects of your vehicle's performance, from short drag strips to long high-speed highway expansions [4].
+
+Sentul Track is the classic testing ground for quarter-mile drag setups, offering a structured environment with timing boards [4]. For players looking to test top-end gear ratios and high-speed cornering stability, the Pettarani Track in Makassar City provides the perfect high-speed test route [4].
+
+<Checklist
+  id="tuning-milestones"
+  title="Tuning Progression Goals:"
+  items={[
+    "Redeem all active RP codes to fund early gear upgrades [1].",
+    "Purchase a budget motorcycle and establish a baseline run at Sentul Track [4].",
+    "Optimize your first and second gear ratios to eliminate launch wheelspin [4].",
+    "Achieve a 200+ MPH trap speed on the long straights of Pettarani Track [4].",
+    "Unlock the Suspension Pro Pass to fine-tune weight transfer and launch grip [4]."
+  ]}
+/>
+
+<Callout type="tip" title="Track Selection">
+Use Sentul Track for short, acceleration-focused gear setups, and transition to the newer Pettarani Track when testing long-gear configurations designed for maximum top speed [4].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is my vehicle hitting the rev limiter too quickly at launch?",
+    answer: "If your engine bounces off the rev limiter instantly when launching, your first gear ratio is too short. Open the customization menu and lengthen your first gear by lowering its numerical value to allow the vehicle to build more speed before needing a shift [4]."
+  },
+  {
+    question: "How do I unlock custom gear tuning in Drag Drive Simulator?",
+    answer: "Custom gear ratio tuning is a core base-game mechanic accessible to all players. You do not need a premium gamepass to adjust your transmission sliders; simply head to any modification garage or access the tuning menu from your garage [4]."
+  },
+  {
+    question: "What is the best drag drive simulator gear ratio for beginner motorcycles?",
+    answer: "For beginner motorcycles like the ZX25R, start with a final drive ratio around 3.85, a short first gear of 2.90 for fast launch acceleration, and a second gear of 2.10 to smoothly transition into the mid-range power band without losing momentum [4]."
+  },
+  {
+    question: "Does upgrading my suspension affect my gear ratio setup?",
+    answer: "Yes. Upgrading your suspension using the Suspension Pro Pass allows you to reduce wheelspin and control chassis squat. With better launch traction, you can run shorter, more aggressive lower gear ratios without spinning your tires [4]."
+  }
+]} />
+
+<Callout type="warning" title="Final Tuning Reminder">
+Always save your custom tunes before joining a different server. Small changes to your gear ratios can drastically alter your vehicle's behavior, so keeping a record of your favorite setups is highly recommended [4].
+</Callout>
+
+</Section>

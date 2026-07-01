@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Relación de marchas en drag drive simulator: Guía de tuning para 2026",
+  description: "Domina la relación de marchas en drag drive simulator con nuestra guía de expertos. Aprende tuning de marchas cortas vs. largas, mecánicas de salida y configuraciones de pista para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gear+Ratio+Tuning+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de drag drive simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal de tuning**: Ajustar la **relación de marchas en drag drive simulator** es clave para equilibrar la aceleración de salida y la velocidad máxima.
+- **Salida vs. Velocidad máxima**: Las relaciones de marcha más cortas ofrecen una aceleración de salida más rápida, mientras que las relaciones más largas maximizan la velocidad final.
+- **Pista de prueba óptima**: Valida siempre tus configuraciones de marchas personalizadas en Sentul Track o en la más nueva Pettarani Track.
+- **Estrategia para principiantes**: Compra una motocicleta económica, aplica un ajuste de marchas personalizado y domina las primeras carreras de aceleración para obtener RP rápidamente.
+</Callout>
+
+<Section icon={Sparkles} title="Introducción al tuning de la relación de marchas">
+
+Comprender cómo configurar la **relación de marchas en drag drive simulator** es el factor decisivo entre ganar carreras de aceleración reñidas o quedarse atrás frente a la competencia en Roblox [1, 4]. A diferencia de los juegos de conducción estándar donde el precio del vehículo dicta el rendimiento por sí solo, este simulador recompensa a los jugadores que profundizan en la personalización mecánica [1, 4]. Una motocicleta económica correctamente afinada puede derrotar fácilmente a un costoso superdeportivo de fábrica si las relaciones de marcha están optimizadas para la pista [4].
+
+Antes de ajustar los controles deslizantes, debes comprender la relación fundamental entre las RPM del motor, el par de torsión y la velocidad de las ruedas [4]. El tuning no consiste en mover cada control deslizante al valor máximo; es un delicado acto de equilibrio en la entrega de potencia [4].
+
+**Puntos destacados del video:**
+- Aprende a equilibrar las relaciones de marcha más cortas y más largas para obtener la máxima aceleración [4].
+- Comprende el impacto de las RPM de salida y el cambio de marchas en motocicletas de alto rendimiento.
+- Guía visual paso a paso para modificar los controles deslizantes de las marchas en el menú de tuning [4].
+
+<YouTubeEmbed videoId="7kWk2DA2-hg" title="Drag Drive Simulator Roblox [ZX-10R] – Ajuste de relación de marchas" />
+
+Al configurar tu transmisión, trabajarás con dos conceptos principales: la relación de transmisión final (final drive) y las relaciones de marchas individuales [4]. La transmisión final actúa como un multiplicador global para toda tu caja de cambios, mientras que las marchas individuales te permiten dar forma a la curva de potencia de cada cambio [4].
+
+| Tipo de marcha | Aceleración | Velocidad máxima | Ideal para | Sincronización del cambio |
+| :--- | :--- | :--- | :--- | :--- |
+| **Marchas cortas** | **Extremadamente rápida** | Limitada | Pistas de aceleración cortas | Cambios rápidos |
+| **Marchas largas** | Más lenta en salida | **Velocidad máxima** | Conducción en autopista | Cambios retrasados |
+| **Marchas equilibradas** | Moderada | Alta | Carreras de circuito mixto | Cambios estándar |
+
+<Callout type="tip" title="Consejo profesional de salida">
+Para las carreras de aceleración, mantén la primera marcha relativamente corta para maximizar el par de torsión inmediato en la salida, pero asegúrate de que la segunda marcha sea lo suficientemente larga para evitar que el motor alcance instantáneamente el limitador de revoluciones [4].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de tuning paso a paso">
+
+Ajustar tu transmisión requiere un enfoque sistemático. Hacer ajustes aleatorios en varias marchas a la vez hace que sea imposible identificar qué cambios mejoraron tus tiempos en el cuarto de milla [4]. Sigue este proceso estructurado para crear un ajuste personalizado altamente optimizado [4].
+
+<Steps>
+  <Step num="1" title="Establece tu carrera de referencia">
+    Antes de cambiar cualquier valor, lleva tu vehículo a Sentul Track y realiza tres carreras de referencia [4]. Registra tu tiempo de reacción en la salida, el tiempo de 0 a 60 MPH y la velocidad de trampa final para usarlos como métrica de comparación [4].
+  </Step>
+  <Step num="2" title="Ajusta la relación de transmisión final (Final Drive)">
+    Abre el menú de personalización y localiza el control deslizante de la transmisión final [4]. Si alcanzas constantemente tu velocidad máxima antes de la línea de meta, reduce la transmisión final (relación más larga) [4]. Si nunca llegas a la última marcha, aumenta la transmisión final (relación más corta) [4].
+  </Step>
+  <Step num="3" title="Configura los pasos de las marchas individuales">
+    Ajusta los controles deslizantes de las marchas individuales para crear una progresión suave [4]. La primera marcha debe ser corta para la tracción de salida [4]. Las marchas siguientes deben disminuir gradualmente en su valor numérico, manteniendo el motor dentro de su rango óptimo de RPM después de cada cambio [4].
+  </Step>
+  <Step num="4" title="Valida y perfecciona en la pista">
+    Regresa a la pista y realiza pasadas de prueba [4]. Si el vehículo patina excesivamente al salir, alarga un poco la primera marcha [4]. Si el motor se ahoga (cae por debajo de la banda de potencia) después de un cambio, acorta esa marcha específica [4].
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita acortar en exceso">
+Configurar las marchas individuales demasiado cortas hará que la transmisión cambie constantemente, perdiendo valiosos milisegundos durante las transiciones de marcha y limitando severamente tu velocidad máxima [4].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Las mejores configuraciones de relación de marchas por vehículo en Drag Drive Simulator">
+
+Las diferentes clases de vehículos requieren filosofías de tuning distintas [4]. Las motocicletas, los autos estándar y las máquinas de aceleración especializadas entregan la potencia de manera diferente, lo que significa que una configuración de marchas que funciona en una moto deportiva hará que un muscle car pierda tracción instantáneamente [4]. Utiliza las configuraciones especializadas a continuación para que coincidan con tu clase de vehículo específica [4].
+
+<CardGrid cols={3}>
+  <Card title="Tuning de motocicletas">
+    - **Alta relación potencia-peso**: Las motos aceleran increíblemente rápido pero sufren de inestabilidad en la salida [4].
+    - **Marchas medias más cortas**: Mantén las marchas de la 2 a la 4 con un espaciado estrecho para mantener las RPM máximas [4].
+    - **Control de tracción**: Evita el levantamiento de la rueda delantera alargando ligeramente la primera marcha [4].
+  </Card>
+  <Card title="Tuning de autos estándar">
+    - **Chasis pesado**: Los autos requieren un par de torsión bajo significativo para empezar a moverse [4].
+    - **Primera marcha corta**: Usa una primera marcha corta para superar el peso del vehículo rápidamente [4].
+    - **Espaciado de marchas amplio**: Estira las marchas más altas para aprovechar la aerodinámica a alta velocidad [4].
+  </Card>
+  <Card title="Tuning DragSpec">
+    - **Agarre máximo**: Construido exclusivamente para velocidad en línea recta con neumáticos de aceleración especializados [4].
+    - **Salida agresiva**: Utiliza marchas bajas extremadamente cortas para maximizar el empuje inicial de salida [4].
+    - **Cambios perfectos**: Alinea las relaciones de marcha con las luces de cambio para una entrega de potencia fluida [4].
+  </Card>
+</CardGrid>
+
+Para ayudarte a comenzar, hemos recopilado una tabla con las relaciones de marcha de referencia recomendadas para vehículos populares mostrados por la comunidad [4]. Utiliza estos valores como punto de partida antes de afinarlos para tu estilo de conducción específico [4].
+
+| Modelo de vehículo | Transmisión final recomendada | Relación de 1.ª marcha | Relación de 2.ª marcha | Pista principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Kawasaki ZX25R** | **3.85** | **2.90** | **2.10** | Sentul Track [4] |
+| **Kawasaki ZX10R** | **3.40** | **2.60** | **1.95** | Pettarani Track [4] |
+| **RX KING** | **4.10** | **3.15** | **2.30** | Sentul Track [4] |
+| **Aerox All New** | **3.95** | **2.95** | **2.15** | Sentul Track [4] |
+
+<Callout type="success" title="Dominio con motos económicas">
+Las motocicletas de inicio altamente afinadas como la Kawasaki ZX25R ofrecen algunas de las mejores relaciones rendimiento-costo del juego, superando con frecuencia a costosos superdeportivos cuando están equipadas con un ajuste de marchas personalizado [4].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Suspensión avanzada y mejoras de personalización">
+
+Aunque optimizar la **relación de marchas en drag drive simulator** es fundamental, la potencia es inútil si no puedes transferirla al pavimento [4]. El tuning de suspensión avanzada y las mejoras de personalización premium te permiten controlar la transferencia de peso, reducir el patinado de las ruedas y personalizar tus creaciones de alto rendimiento [4].
+
+Desbloquear pases premium proporciona un control más profundo sobre el comportamiento físico de tu vehículo [4]. For ejemplo, el Pase Suspension Pro te permite ajustar la configuración de amortiguación y rigidez, lo que afecta directamente la forma en que tu vehículo carga sus neumáticos durante una salida fuerte [4].
+
+| Pase de mejora | Precio (Robux) | Beneficio principal | Impacto en el rendimiento |
+| :--- | :--- | :--- | :--- |
+| **Suspension Pro** | **29** | Control avanzado de rigidez y amortiguación | Alto (reduce el patinado de ruedas) [4] |
+| **Advance Paint** | **59** | Soporte de color HEX y acabados personalizados | Ninguno (solo cosmético) [4] |
+| **Custom Plate** | **79** | Placas de matrícula personalizadas | Ninguno (solo cosmético) [4] |
+| **DragSpec Pass** | **109** | Desbloquea motos de élite enfocadas en aceleración | **Muy alto** [4] |
+| **Luxury Pass** | **119** | Vehículos premium de gama alta | Alto [4] |
+
+Al combinar una configuración de suspensión personalizada con tus relaciones de marcha optimizadas, puedes eliminar virtualmente el patinado de las ruedas, lo que te permite usar relaciones de marcha mucho más cortas para una aceleración explosiva en la salida [4].
+
+<Callout type="info" title="Dinámica de transferencia de peso">
+Endurecer la suspensión trasera evita que la parte trasera del vehículo se hunda demasiado durante la aceleración, manteniendo las ruedas delanteras de las motocicletas más cerca del suelo y conservando el control de la dirección [4].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rutas de prueba del mapa y objetivos">
+
+Un excelente ajuste de marchas solo se demuestra con sus tiempos en pista [4]. El juego cuenta con múltiples ubicaciones diseñadas para probar diferentes aspectos del rendimiento de tu vehículo, desde pistas de aceleración cortas hasta largas expansiones de autopistas de alta velocidad [4].
+
+Sentul Track es el terreno de prueba clásico para configuraciones de aceleración de un cuarto de milla, ofreciendo un entorno estructurado con tableros de tiempos [4]. Para los jugadores que buscan probar relaciones de marcha de velocidad final y estabilidad en curvas a alta velocidad, la Pettarani Track en Makassar City ofrece la ruta de prueba perfecta de alta velocidad [4].
+
+<Checklist
+  id="tuning-milestones"
+  title="Objetivos de progresión del tuning:"
+  items={[
+    "Canjea todos los códigos de RP activos para financiar las primeras mejoras de marchas [1].",
+    "Compra una motocicleta económica y establece una carrera de referencia en Sentul Track [4].",
+    "Optimiza tus relaciones de primera y segunda marcha para eliminar el patinado de ruedas en la salida [4].",
+    "Alcanza una velocidad de más de 200 MPH en las largas rectas de Pettarani Track [4].",
+    "Desbloquea el Pase Suspension Pro para ajustar la transferencia de peso y el agarre en la salida [4]."
+  ]}
+/>
+
+<Callout type="tip" title="Selección de pista">
+Usa Sentul Track para configuraciones de marchas cortas enfocadas en la aceleración, y pasa a la más nueva Pettarani Track cuando pruebes configuraciones de marchas largas diseñadas para la velocidad máxima [4].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi vehículo alcanza el limitador de revoluciones demasiado rápido en la salida?",
+    answer: "Si tu motor rebota instantáneamente en el limitador de revoluciones al salir, tu relación de primera marcha es demasiado corta. Abre el menú de personalización y alarga tu primera marcha reduciendo su valor numérico para permitir que el vehículo gane más velocidad antes de necesitar un cambio [4]."
+  },
+  {
+    question: "¿Cómo desbloqueo el tuning de marchas personalizado en Drag Drive Simulator?",
+    answer: "El tuning de relación de marchas personalizado es una mecánica central del juego base accesible para todos los jugadores. No necesitas un pase de juego premium para ajustar los controles deslizantes de tu transmisión; simplemente dirígete a cualquier taller de modificación o accede al menú de tuning desde tu garaje [4]."
+  },
+  {
+    question: "¿Cuál es la mejor relación de marchas en drag drive simulator para motocicletas de principiantes?",
+    answer: "Para motocicletas de principiantes como la ZX25R, comienza con una relación de transmisión final de alrededor de 3.85, una primera marcha corta de 2.90 para una rápida aceleración de salida y una segunda marcha de 2.10 para realizar una transición suave a la banda de potencia de rango medio sin perder impulso [4]."
+  },
+  {
+    question: "¿Afecta la mejora de mi suspensión a mi configuración de relación de marchas?",
+    answer: "Sí. Mejorar tu suspensión con el Pase Suspension Pro te permite reducir el patinado de las ruedas y controlar el hundimiento del chasis. Con una mejor tracción de salida, puedes usar relaciones de marchas inferiores más cortas y agresivas sin que patinen tus neumáticos [4]."
+  }
+]} />
+
+<Callout type="warning" title="Recordatorio final de tuning">
+Guarda siempre tus ajustes personalizados antes de unirte a un servidor diferente. Los pequeños cambios en tus relaciones de marcha pueden alterar drásticamente el comportamiento de tu vehículo, por lo que se recomienda encarecidamente llevar un registro de tus configuraciones favoritas [4].
+</Callout>
+
+</Section>

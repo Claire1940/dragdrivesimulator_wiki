@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rapport de transmission Drag Drive Simulator : Guide de réglage 2026",
+  description: "Maîtrisez le rapport de transmission dans Drag Drive Simulator avec notre guide d'expert. Apprenez le réglage des rapports courts vs longs, la mécanique de départ et les configurations de piste pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gear+Ratio+Tuning+Guide",
+  date: "2026-07-01",
+  author: "Équipe Wiki de Drag Drive Simulator",
+  keywords: "drag drive simulator, rapport de transmission, réglage, guide, Roblox, accélération"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal du réglage** : Ajuster votre **rapport de transmission dans Drag Drive Simulator** est essentiel pour équilibrer l'accélération au départ et la vitesse de pointe.
+- **Départ vs Vitesse de pointe** : Les rapports de vitesse courts offrent une accélération plus rapide au démarrage, tandis que les rapports longs maximisent la vitesse finale.
+- **Piste d'essai optimale** : Validez toujours vos configurations personnalisées sur la piste Sentul ou la nouvelle piste Pettarani.
+- **Stratégie pour débutants** : Achetez une moto abordable, appliquez un réglage de transmission personnalisé et dominez les premières courses de drag pour gagner rapidement des RP.
+</Callout>
+
+<Section icon={Sparkles} title="Introduction au réglage du rapport de transmission">
+
+Comprendre comment configurer votre **rapport de transmission dans Drag Drive Simulator** est le facteur déterminant entre gagner des courses de drag serrées ou se laisser distancer par la concurrence sur Roblox [1, 4]. Contrairement aux jeux de conduite standards où seul le prix du véhicule dicte les performances, ce simulateur récompense les joueurs qui s'immergent dans la personnalisation mécanique [1, 4]. Une moto d'entrée de gamme bien réglée peut facilement vaincre une supercar de luxe d'origine si les rapports de transmission sont optimisés pour la piste [4].
+
+Avant d'ajuster vos curseurs, vous devez comprendre la relation fondamentale entre le régime moteur (RPM), le couple et la vitesse des roues [4]. Le réglage ne consiste pas à pousser chaque curseur à sa valeur maximale ; c'est un acte d'équilibrage délicat de la puissance délivrée [4].
+
+**Points forts de la vidéo :**
+- Apprenez à équilibrer les rapports courts et longs pour une accélération maximale [4].
+- Comprenez l'impact du régime de départ et du passage des vitesses sur les motos haute performance.
+- Guide visuel étape par étape pour modifier les curseurs de transmission dans le menu de réglage [4].
+
+<YouTubeEmbed videoId="7kWk2DA2-hg" title="Drag Drive Simulator Roblox [ZX-10R] – Gear Ratio Tuning" />
+
+Lors de la configuration de votre transmission, vous travaillerez avec deux concepts principaux : le rapport final (final drive) et les rapports de vitesse individuels [4]. Le rapport final agit comme un multiplicateur global pour l'ensemble de votre boîte de vitesses, tandis que les rapports individuels vous permettent de façonner la courbe de puissance de chaque passage [4].
+
+| Type de rapport | Accélération | Vitesse de pointe | Idéal pour | Timing de passage |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rapports courts** | **Extrêmement rapide** | Limitée | Pistes de drag courtes | Passages rapides |
+| **Rapports longs** | Plus lent au départ | **Vitesse maximale** | Croisière sur autoroute | Passages retardés |
+| **Rapports équilibrés**| Modérée | Élevée | Courses sur circuit mixte | Passages standards |
+
+<Callout type="tip" title="Conseil de pro pour le départ">
+Pour les courses de drag, gardez votre première vitesse relativement courte pour maximiser le couple immédiat au démarrage, mais assurez-vous que la deuxième vitesse est assez longue pour éviter que le moteur ne frappe instantanément le limiteur de régime [4].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de réglage étape par étape">
+
+Le réglage de votre transmission nécessite une approche systématique. Faire des ajustements aléatoires sur plusieurs vitesses à la fois rend impossible l'identification des changements qui ont amélioré vos temps sur le quart de mile [4]. Suivez ce processus structuré pour créer un réglage personnalisé hautement optimisé [4].
+
+<Steps>
+  <Step num="1" title="Établir votre course de référence">
+    Avant de modifier une valeur, emmenez votre véhicule sur la piste Sentul et effectuez trois courses de référence [4]. Enregistrez votre temps de réaction au départ, votre temps de 0 à 60 MPH et votre vitesse finale pour les utiliser comme métriques de comparaison [4].
+  </Step>
+  <Step num="2" title="Ajuster le rapport final (Final Drive)">
+    Ouvrez le menu de personnalisation et localisez le curseur du rapport final [4]. Si vous atteignez systématiquement votre vitesse maximale avant la ligne d'arrivée, baissez le rapport final (rapport plus long) [4]. Si vous n'atteignez jamais votre dernière vitesse, augmentez le rapport final (rapport plus court) [4].
+  </Step>
+  <Step num="3" title="Configurer les paliers de vitesses individuels">
+    Ajustez les curseurs de chaque vitesse pour créer une progression fluide [4]. La première vitesse doit être courte pour la traction au départ [4]. Les vitesses suivantes doivent diminuer progressivement en valeur numérique, maintenant le moteur dans sa plage de puissance RPM optimale après chaque passage [4].
+  </Step>
+  <Step num="4" title="Valider et affiner sur la piste">
+    Retournez sur la piste et effectuez des passages de test [4]. Si le véhicule patine excessivement au départ, rallongez légèrement la première vitesse [4]. Si le moteur s'étouffe (tombe sous la plage de puissance) après un passage, raccourcissez cette vitesse spécifique [4].
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Évitez de trop raccourcir">
+Régler des vitesses individuelles trop courtes obligera la transmission à changer constamment de rapport, perdant ainsi de précieuses millisecondes lors des transitions et limitant sévèrement votre vitesse de pointe [4].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleures configurations de rapports par véhicule">
+
+Différentes classes de véhicules nécessitent des philosophies de réglage distinctes [4]. Les motos, les voitures standards et les machines de drag spécialisées délivrent la puissance différemment, ce qui signifie qu'un réglage qui fonctionne sur une moto de sport fera perdre instantanément toute traction à une muscle car [4]. Utilisez les configurations spécialisées ci-dessous pour correspondre à votre classe de véhicule [4].
+
+<CardGrid cols={3}>
+  <Card title="Réglage des Motos">
+    - **Rapport poids/puissance élevé** : Les motos accélèrent incroyablement vite mais souffrent d'instabilité au départ [4].
+    - **Rapports intermédiaires courts** : Gardez les vitesses 2 à 4 rapprochées pour maintenir le régime maximal [4].
+    - **Contrôle de traction** : Empêchez le levage de la roue avant en rallongeant légèrement la première vitesse [4].
+  </Card>
+  <Card title="Réglage des Voitures Standards">
+    - **Châssis lourd** : Les voitures nécessitent un couple important à bas régime pour se mettre en mouvement [4].
+    - **Première vitesse courte** : Utilisez une première courte pour surmonter rapidement le poids du véhicule [4].
+    - **Espacement large des vitesses** : Étirez les vitesses supérieures pour profiter de l'aérodynamisme à haute vitesse [4].
+  </Card>
+  <Card title="Réglage DragSpec">
+    - **Adhérence maximale** : Conçu purement pour la vitesse en ligne droite avec des pneus drag spécialisés [4].
+    - **Départ agressif** : Utilisez des rapports inférieurs extrêmement courts pour maximiser la poussée initiale [4].
+    - **Passages parfaits** : Alignez les rapports de transmission avec les témoins de passage pour une puissance continue [4].
+  </Card>
+</CardGrid>
+
+Pour vous aider à démarrer, nous avons compilé un tableau des rapports de transmission de base recommandés pour les véhicules populaires de la communauté [4]. Utilisez ces valeurs comme point de départ avant d'affiner selon votre style de conduite [4].
+
+| Modèle de véhicule | Rapport final recommandé | Rapport 1ère vitesse | Rapport 2ème vitesse | Piste principale |
+| :--- | :--- | :--- | :--- | :--- |
+| **Kawasaki ZX25R** | **3.85** | **2.90** | **2.10** | Piste Sentul [4] |
+| **Kawasaki ZX10R** | **3.40** | **2.60** | **1.95** | Piste Pettarani [4] |
+| **RX KING** | **4.10** | **3.15** | **2.30** | Piste Sentul [4] |
+| **Aerox All New** | **3.95** | **2.95** | **2.15** | Piste Sentul [4] |
+
+<Callout type="success" title="Dominance des motos économiques">
+Les motos de débutant hautement réglées comme la Kawasaki ZX25R offrent certains des meilleurs rapports performance-prix du jeu, battant fréquemment des supercars coûteuses lorsqu'elles sont équipées d'un réglage de transmission personnalisé [4].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Suspension avancée et améliorations de personnalisation">
+
+Bien que l'optimisation de votre **rapport de transmission dans Drag Drive Simulator** soit critique, la puissance est inutile si vous ne pouvez pas la transférer au bitume [4]. Le réglage avancé de la suspension et les améliorations de personnalisation premium vous permettent de contrôler le transfert de poids, de réduire le patinage et de personnaliser vos constructions haute performance [4].
+
+Débloquer les pass premium offre un contrôle plus approfondi sur le comportement physique de votre véhicule [4]. Par exemple, le Suspension Pro Pass vous permet d'ajuster les réglages d'amortissement et de rigidité, ce qui impacte directement la façon dont votre véhicule charge ses pneus lors d'un départ brutal [4].
+
+| Pass d'amélioration | Prix (Robux) | Avantage principal | Impact performance |
+| :--- | :--- | :--- | :--- |
+| **Suspension Pro** | **29** | Contrôle avancé de rigidité et amortissement | Élevé (réduit le patinage) [4] |
+| **Advance Paint** | **59** | Support des couleurs HEX et finitions personnalisées | Aucun (cosmétique) [4] |
+| **Custom Plate** | **79** | Plaques d'immatriculation personnalisées | Aucun (cosmétique) [4] |
+| **DragSpec Pass** | **109** | Débloque des motos d'élite orientées drag | **Très Élevé** [4] |
+| **Luxury Pass** | **119** | Véhicules premium haut de gamme | Élevé [4] |
+
+En associant une configuration de suspension personnalisée à vos rapports de transmission optimisés, vous pouvez virtuellement éliminer le patinage, vous permettant d'utiliser des rapports beaucoup plus courts pour une accélération explosive au départ [4].
+
+<Callout type="info" title="Dynamique du transfert de poids">
+Raffermir la suspension arrière empêche l'arrière du véhicule de trop s'affaisser lors de l'accélération, maintenant les pneus avant des motos plus proches du sol et préservant le contrôle de la direction [4].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Itinéraires d'essai et jalons">
+
+Un excellent réglage de transmission ne se prouve que par ses temps sur piste [4]. Le jeu propose plusieurs lieux conçus pour tester différents aspects des performances de votre véhicule, des courtes pistes de drag aux extensions d'autoroute à grande vitesse [4].
+
+La piste Sentul est le terrain d'essai classique pour les configurations de drag sur quart de mile, offrant un environnement structuré avec des panneaux de chronométrage [4]. Pour les joueurs cherchant à tester les rapports de vitesse de pointe et la stabilité en virage à haute vitesse, la piste Pettarani à Makassar City offre l'itinéraire d'essai parfait [4].
+
+<Checklist
+  id="tuning-milestones"
+  title="Objectifs de progression du réglage :"
+  items={[
+    "Utilisez tous les codes RP actifs pour financer vos premières améliorations [1].",
+    "Achetez une moto économique et établissez une course de référence sur la piste Sentul [4].",
+    "Optimisez vos rapports de première et deuxième vitesses pour éliminer le patinage au départ [4].",
+    "Atteignez une vitesse de plus de 200 MPH sur les longues lignes droites de la piste Pettarani [4].",
+    "Débloquez le Suspension Pro Pass pour affiner le transfert de poids et l'adhérence au départ [4]."
+  ]}
+/>
+
+<Callout type="tip" title="Sélection de la piste">
+Utilisez la piste Sentul pour les réglages de transmission courts axés sur l'accélération, et passez à la nouvelle piste Pettarani pour tester les configurations de rapports longs conçues pour la vitesse de pointe maximale [4].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi mon véhicule frappe-t-il le limiteur de régime trop vite au départ ?",
+    answer: "Si votre moteur rebondit instantanément sur le limiteur de régime lors du départ, votre rapport de première vitesse est trop court. Ouvrez le menu de personnalisation et rallongez votre première vitesse en abaissant sa valeur numérique pour permettre au véhicule de prendre plus de vitesse avant de devoir changer de rapport [4]."
+  },
+  {
+    question: "Comment débloquer le réglage personnalisé des vitesses dans Drag Drive Simulator ?",
+    answer: "Le réglage personnalisé du rapport de transmission est une mécanique de base du jeu accessible à tous les joueurs. Vous n'avez pas besoin d'un gamepass premium pour ajuster les curseurs de transmission ; rendez-vous simplement dans n'importe quel garage de modification ou accédez au menu de réglage depuis votre garage [4]."
+  },
+  {
+    question: "Quel est le meilleur rapport de transmission pour les motos débutantes ?",
+    answer: "Pour les motos débutantes comme la ZX25R, commencez avec un rapport final autour de 3.85, une première vitesse courte de 2.90 pour une accélération rapide au départ, et une deuxième vitesse de 2.10 pour une transition fluide vers la plage de puissance moyenne sans perdre d'élan [4]."
+  },
+  {
+    question: "Est-ce que l'amélioration de ma suspension affecte mon réglage de transmission ?",
+    answer: "Oui. Améliorer votre suspension avec le Suspension Pro Pass permet de réduire le patinage et de contrôler l'affaissement du châssis. Avec une meilleure traction au départ, vous pouvez utiliser des rapports inférieurs plus courts et plus agressifs sans faire patiner vos pneus [4]."
+  }
+]} />
+
+<Callout type="warning" title="Dernier rappel de réglage">
+Sauvegardez toujours vos réglages personnalisés avant de rejoindre un autre serveur. De petits changements dans vos rapports de transmission peuvent modifier radicalement le comportement de votre véhicule, il est donc fortement recommandé de garder une trace de vos configurations préférées [4].
+</Callout>
+
+</Section>

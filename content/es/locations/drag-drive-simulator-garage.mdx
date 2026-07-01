@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Garaje de Drag Drive Simulator: Mejores Construcciones y Configuración de Tuning",
+  description: "Optimiza tus coches en el garaje de Drag Drive Simulator. Aprende a personalizar llantas, aplicar materiales, guardar construcciones y usar el generador de objetos de drag.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drag+Drive+Simulator+Garage",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Drag Drive Simulator",
+  keywords: "drag drive simulator, garaje, tuning, personalización de coches, llantas, materiales"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Personalización en el garaje**: Modifica tus vehículos en el garaje de Drag Drive Simulator utilizando materiales secundarios, llantas personalizadas y estilos de conductor únicos.
+- **Guardado de construcciones**: Guarda siempre tus configuraciones de tuning personalizadas para evitar perder los ajustes al generar nuevos vehículos.
+- **Configuración de carreras de drag**: Utiliza el nuevo generador de objetos del modo drag y los comandos de cuenta regresiva para organizar carreras estructuradas.
+- **Códigos activos**: Canjea los códigos promocionales activos para obtener dinero y comprar piezas de modificación de alto nivel.
+</Callout>
+
+<Section icon={Sparkles} title="Personalización de Vehículos en el Garaje de Drag Drive Simulator">
+
+Entrar en el garaje de Drag Drive Simulator te permite renovar por completo la apariencia y las características de rendimiento de tu vehículo. El garaje sirve como el centro principal para modificar coches estándar, motocicletas, patrullas de policía y vehículos de eventos de edición limitada. Con el lanzamiento de la actualización V1.1.6, las opciones de personalización se han ampliado para incluir aplicaciones de materiales secundarios, diseños de llantas intrincados y estilos de conductor especializados como el Estilo Superman.
+
+Para sacar el máximo provecho de tu vehículo, debes comprender las diferentes categorías de modificación. El sistema de personalización está dividido en secciones distintas, lo que te permite ajustar tanto el atractivo visual como la presencia física de tu coche en la pista de drag.
+
+| Tipo de Modificación | Opciones Disponibles | Beneficio Principal |
+| :--- | :--- | :--- |
+| **Tipo de Llantas** | Estándar, Aleación, Sport Personalizado | Mejora la estética y la postura en pista |
+| **Material Secundario** | Mate, Metálico, Cromo, Brillante | Mejora el estilo de la pintura y los reflejos |
+| **Estilo de Conductor** | Estándar, Estilo Superman, Policía | Personaliza la apariencia del personaje al conducir |
+| **Tipo de Vehículo** | Coches, Motos, Vehículos Policiales | Diversifica las opciones de rol y clases de carrera |
+
+Al planificar tu construcción, debes considerar el estilo de vehículo que deseas crear. El garaje admite varios arquetipos de construcción, cada uno adecuado para diferentes actividades dentro del juego.
+
+<CardGrid cols={3}>
+  <Card title="Construcción Street Tuner">
+    - **Pintura metálica de alto contraste**
+    - Llantas sport personalizadas ligeras
+    - Ideal para paseos casuales y reuniones callejeras
+  </Card>
+  <Card title="Construcción para Pista de Drag">
+    - **Materiales secundarios mate**
+    - Optimización del generador de objetos de modo drag
+    - Diseñado para la máxima aceleración en línea recta
+  </Card>
+  <Card title="Configuración para Rol (Roleplay)">
+    - **Estilo de conductor de Policía o Superman**
+    - Llantas estándar para una apariencia realista
+    - Optimizado para rol en la ciudad y escenarios de patrullaje
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Tuning">
+Combina materiales secundarios de cromo con llantas de aleación personalizadas para que tu vehículo destaque durante las reuniones callejeras nocturnas y las carreras de drag.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía Paso a Paso de Personalización y Guardado en el Garaje">
+
+Crear una construcción personalizada requiere navegar por la interfaz del garaje y utilizar el sistema de guardado. Las modificaciones no guardadas se perderán si tu vehículo desaparece o si abandonas el servidor. Sigue este proceso paso a paso para asegurar que tus construcciones personalizadas se guarden permanentemente.
+
+<Steps>
+  <Step num="1" title="Acceder a la Interfaz del Garaje">
+    Conduce tu vehículo hacia la zona de garaje designada o abre el menú de personalización desde tu HUD de jugador para comenzar a editar.
+  </Step>
+  <Step num="2" title="Seleccionar Pintura y Materiales">
+    Navega a la pestaña de materiales y aplica tus acabados de pintura primarios y secundarios. Elige entre mate, metálico, brillante o cromo.
+  </Step>
+  <Step num="3" title="Equipar Llantas Personalizadas">
+    Explora el menú de llantas y selecciona un diseño que coincida con la clase de tu vehículo. Asegúrate de que la postura se ajuste a tus preferencias de carreras de drag.
+  </Step>
+  <Step num="4" title="Guardar tu Ajuste Personalizado">
+    Abre el menú de guardado dentro de la interfaz del garaje, elige una ranura vacía y guarda tu ajuste para asegurar tus modificaciones.
+  </Step>
+</Steps>
+
+Gestionar tus ajustes guardados te permite cambiar rápidamente entre diferentes configuraciones dependiendo de si estás compitiendo en drag, haciendo rol o participando en persecuciones policiales.
+
+| Función de Ajuste | Comando de Menú | Aplicación Práctica |
+| :--- | :--- | :--- |
+| **Guardar Ajuste** | Save Build | Guarda la pintura actual, llantas y configuraciones de material |
+| **Cargar Ajuste** | Load Build | Genera tu vehículo personalizado guardado al instante |
+| **Restablecer Vehículo** | Clear Customization | Revierte el vehículo a sus ajustes de fábrica originales |
+
+<Callout type="warning" title="Advertencia de Guardado">
+Verifica siempre que hayas guardado tu ajuste antes de hacer clic en el botón de restablecer o generar una clase de vehículo diferente, ya que las modificaciones no guardadas no se pueden recuperar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Clases de Vehículos y Ajuste de Rendimiento">
+
+La lista de vehículos en Drag Drive Simulator es diversa, ofreciendo opciones que van desde coches urbanos estándar hasta motocicletas de alto rendimiento y vehículos de eventos de edición limitada. Comprender cómo se desempeña cada clase te ayuda a elegir el vehículo base adecuado para tus modificaciones en el garaje.
+
+| Clase de Vehículo | Aceleración | Velocidad Máxima | Calificación de Manejo |
+| :--- | :--- | :--- | :--- |
+| **Especial Limitado** | **Excelente** | **Muy Alta** | **Excelente** |
+| **Vehículo Policial** | **Buena** | **Alta** | **Buena** |
+| **Coche Estándar** | **Promedio** | **Media** | **Buena** |
+| **Motocicleta** | **Excelente** | **Muy Alta** | **Regular** |
+
+La actualización V1.1.6 introdujo varios vehículos nuevos que han cambiado el meta de rendimiento. Adquirir estos vehículos te permite construir corredores de drag altamente competitivos.
+
+| Nombre del Vehículo | Clase | Disponibilidad | Característica Especial |
+| :--- | :--- | :--- | :--- |
+| **Edición Superman** | Especial Limitado | Exclusivo de Evento | Estilo de Conductor Superman Personalizado |
+| **Interceptor de Patrulla** | Vehículo Policial | Compra Estándar | Sistemas de Sirena y Luces de Emergencia |
+| **Sport Cruiser** | Motocicleta | Tienda Estándar | Aceleración Excepcional |
+
+<Callout type="success" title="Consejo de Rendimiento">
+Prioriza la mejora de los vehículos especiales limitados primero, ya que poseen estadísticas base más altas que los convierten en plataformas superiores para las carreras de drag.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Generador de Objetos y Configuración del Modo Drag">
+
+Para probar las construcciones que creas en el garaje de Drag Drive Simulator, puedes usar el generador de objetos de Guardar, Cargar y Modo Drag recién añadido. Este sistema permite a los jugadores construir pistas de drag personalizadas y áreas de salida en cualquier lugar del mapa, facilitando las carreras comunitarias organizadas.
+
+Configurar una pista de drag adecuada requiere colocar objetos de salida y utilizar comandos de servidor privado para asegurar inicios justos.
+
+| Herramienta / Comando | Acción | Escenario de Uso |
+| :--- | :--- | :--- |
+| **Menú del Generador** | Genera barreras de pista | Delimita los límites de tu pista de drag personalizada |
+| **Objeto de Modo Drag** | Coloca luces de salida | Alinea los vehículos en la línea de salida |
+| **!cd [x]** | Inicia cuenta regresiva | Sincroniza el inicio de la carrera para todos los conductores |
+
+Al organizar una carrera de drag, usa el comando de cuenta regresiva escribiendo `!cd 5` en el chat para iniciar una cuenta regresiva visual de cinco segundos en la pantalla. Esto elimina la confusión en la línea de salida y asegura que las carreras se decidan por el tuning del vehículo y el tiempo de reacción en lugar de la latencia de conexión.
+
+<Callout type="info" title="Información de Comando">
+El comando `!cd` se puede ajustar a cualquier duración reemplazando la variable con el número deseado de segundos, lo que lo hace altamente personalizable para diferentes formatos de carrera.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Progresión del Garaje">
+
+To fully optimize your garage experience and unlock the highest tier of vehicle modifications, you should aim to complete these progression milestones.
+
+<Checklist
+  id="garage-progression"
+  title="Hitos del Garaje:"
+  items={[
+    "Canjea todos los códigos activos para maximizar las reservas de efectivo iniciales",
+    "Desbloquea al menos tres ajustes de vehículos personalizados en el menú de guardado",
+    "Adquiere un vehículo especial limitado de la lista de la actualización V1.1.6",
+    "Domina el generador de objetos para construir una pista de carreras de drag funcional",
+    "Prueba tus configuraciones de tuning personalizadas usando el comando de cuenta regresiva"
+  ]}
+/>
+
+<Callout type="warning" title="Expiración de Códigos">
+Canjea códigos como `DRAGDRIVESIMULATORMAY26` lo antes posible, ya que los códigos promocionales tienen periodos activos limitados y expirarán en futuras actualizaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo guardo las modificaciones de mi coche en el garaje de Drag Drive Simulator?",
+    answer: "Abre el menú de personalización del garaje, navega a la sección de guardado de ajustes, selecciona una ranura vacía y haz clic en guardar. Puedes cargar esta configuración en cualquier momento."
+  },
+  {
+    question: "¿Qué modificaciones se añadieron en la actualización V1.1.6?",
+    answer: "La actualización introdujo tipos de llantas personalizadas, acabados de materiales secundarios (como mate y cromo) y estilos de conductor especializados, incluyendo el Estilo Superman."
+  },
+  {
+    question: "¿Cómo uso el comando de cuenta regresiva para las carreras de drag?",
+    answer: "Escribe `!cd [segundos]` (por ejemplo, `!cd 5`) en el chat para iniciar un temporizador de cuenta regresiva sincronizado para todos los jugadores en la pista."
+  },
+  {
+    question: "¿Puedo personalizar vehículos policiales en el garaje?",
+    answer: "Sí, los vehículos policiales se pueden modificar con diferentes llantas y materiales, y puedes equipar el estilo de conductor de policía para escenarios de rol."
+  }
+]} />
+
+<Callout type="success" title="Lista de Verificación Final">
+Con tus vehículos totalmente personalizados en el garaje de Drag Drive Simulator, tus ajustes guardados y tu pista de drag configurada, estás listo para dominar la tabla de clasificación.
+</Callout>
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Terminal, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Commandes de serveur privé Drag Drive Simulator : Liste complète et guide de configuration",
+  description: "Maîtrisez toutes les commandes de serveur privé de Drag Drive Simulator en 2026. Apprenez à utiliser le multispawn, à trouver des lieux secrets et à optimiser votre serveur de course privé.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Commands+Guide",
+  date: "2026-07-01",
+  author: "Équipe du Wiki Drag Drive Simulator"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Commandes principales** : Utilisez les **commandes de serveur privé de Drag Drive Simulator** comme `!multispawn` pour gérer plusieurs véhicules simultanément.
+- **Contrôle du serveur** : Les serveurs privés permettent des **environnements de course exclusifs** et des tests personnalisés sans interférence publique.
+- **Accès secret** : Accédez aux mises à jour uniques de 2026, notamment les **lettres d'Engkong Dadang** et les dernières **anomalies DDS**.
+- **Optimisation** : Utilisez des commandes spécifiques pour **réduire le lag** et tester des modifications à haute vitesse pour des motos comme la Suzuki-Satria FU.
+- **Récompenses échangeables** : Même sur les serveurs privés, vous pouvez utiliser les **codes secrets de 2026** pour booster votre progression initiale.
+</Callout>
+
+<Section icon={Terminal} title="Introduction à la gestion des serveurs privés">
+
+La gestion d'un espace dédié dans Roblox nécessite une bonne maîtrise des **commandes de serveur privé de Drag Drive Simulator**. Que vous souhaitiez organiser des tournois de drag racing ou simplement tester en toute tranquillité la vitesse de pointe de vos dernières modifications de moto, les serveurs privés offrent une expérience sandbox ultime. En 2026, la complexité de ces serveurs a augmenté, offrant un contrôle plus granulaire sur l'apparition des véhicules et les paramètres environnementaux.
+
+**Points forts de la vidéo :**
+- **Codes actifs** : Liste détaillée des codes valides en 2026 pour obtenir de la monnaie et des objets gratuits.
+- **Processus de rédemption** : Comment saisir rapidement les codes pour financer vos projets sur serveur privé.
+- **Récompenses secrètes** : Aperçu du cadeau "Code Admin" pour les joueurs dévoués.
+- **Aperçu des mises à jour** : Un regard sur la liste des véhicules et les changements de carte de mars 2026.
+
+<YouTubeEmbed videoId="p-14Z0xTGwA" title="*CODES SECRETS* TOUS LES CODES VALIDES pour Drag Drive Simulator en MARS 2026 !" />
+
+<Callout type="tip" title="Conseil de pro">
+Assurez-vous toujours d'être le propriétaire du serveur ou d'avoir reçu les permissions d'administrateur de la part du propriétaire avant de tenter d'exécuter des commandes administratives.
+</Callout>
+
+| Fonctionnalité | Serveur public | Serveur privé |
+| :--- | :--- | :--- |
+| **Limite de joueurs** | Élevée (Joueurs aléatoires) | Contrôlée (Sur invitation uniquement) |
+| **Accès aux commandes** | Limité aux bases | Accès complet Admin/Propriétaire |
+| **Niveaux de lag** | Variable (Trafic élevé) | Optimisé (Trafic faible) |
+| **Tests** | Difficiles à cause de la foule | Idéal pour les speed runs |
+| **Coût** | Gratuit | Généralement 100-500 Robux |
+
+</Section>
+
+<Section icon={Settings} title="Commandes essentielles de serveur privé Drag Drive Simulator">
+
+Le cœur de votre pouvoir administratif réside dans le système de commande basé sur le chat. La commande la plus importante introduite dans les récentes mises à jour est l'utilitaire multispawn, qui permet aux joueurs de peupler la carte avec divers véhicules pour comparaison ou exposition.
+
+<CardGrid cols={2}>
+  <Card title="Gestion des véhicules">
+    - **!multispawn me [1-5]** : Fait apparaître plusieurs versions de votre véhicule actuel.
+    - **!clear** : Supprime tous les véhicules apparus pour réinitialiser le moteur physique.
+    - **!fix** : Réinitialise votre véhicule actuel s'il reste coincé dans l'environnement.
+  </Card>
+  <Card title="Gouvernance du serveur">
+    - **!kick [nom d'utilisateur]** : Expulse un joueur perturbateur de votre session.
+    - **!ban [nom d'utilisateur]** : Empêche définitivement un utilisateur de revenir sur votre serveur.
+    - **!unban [nom d'utilisateur]** : Annule un bannissement précédent pour des joueurs spécifiques.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement de performance">
+L'utilisation de `!multispawn` avec la valeur maximale (5) peut avoir un impact significatif sur les performances du serveur et le taux de rafraîchissement (FPS) sur les appareils mobiles moins puissants. À utiliser avec prudence lors des courses à haute vitesse.
+</Callout>
+
+| Commande | Exemple de syntaxe | Cas d'utilisation principal |
+| :--- | :--- | :--- |
+| **Multispawn** | `!multispawn me 3` | Tester différents réglages de modification |
+| **Kick** | `!kick User123` | Supprimer les invités indésirables |
+| **Réinitialisation spawn** | `!respawn` | Retour rapide à la ligne de départ |
+| **Accorder Admin** | `!admin [nom d'utilisateur]` | Donner aux amis le contrôle sur le serveur |
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Configuration de votre serveur privé">
+
+Si vous n'avez pas encore créé votre espace de course exclusif, suivez ces étapes pour initialiser votre environnement et commencer à utiliser les **commandes de serveur privé de Drag Drive Simulator**.
+
+<Steps>
+  <Step num="1" title="Achat et création">
+    Naviguez vers l'onglet "Servers" sur la page du jeu Drag Drive Simulator. Cliquez sur "Create Private Server" et finalisez la transaction en Robux.
+  </Step>
+  <Step num="2" title="Configuration des permissions">
+    Ouvrez les paramètres du serveur pour autoriser "Friends Allowed" ou ajoutez manuellement des noms d'utilisateur Roblox spécifiques à la liste blanche.
+  </Step>
+  <Step num="3" title="Initialisation de la console Admin">
+    Entrez dans le serveur et ouvrez la fenêtre de chat (appuyez sur '/' ou cliquez sur l'icône de chat). Tapez votre première commande pour vérifier le statut de propriétaire.
+  </Step>
+  <Step num="4" title="Exécution du Multispawn">
+    Testez les limites du serveur en tapant `!multispawn me 1` pour vous assurer que le système d'apparition des véhicules est actif et réactif.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Configuration terminée">
+Une fois ces étapes terminées, vous pouvez inviter votre équipe de course et commencer à organiser des événements de drag racing à gros enjeux sans l'interférence des trolls des serveurs publics.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Localisation des secrets et anomalies de 2026">
+
+Les serveurs privés sont le meilleur endroit pour chasser les derniers secrets de 2026 sans que d'autres joueurs ne les saisissent en premier. La mise à jour de juin 2026 a introduit plusieurs "Anomalies" et les mystérieuses lettres d'"Engkong Dadang" dispersées sur la carte.
+
+<Checklist
+  id="secret-hunting"
+  title="Objectifs d'exploration 2026 :"
+  items={[
+    "Trouver les 5 lettres secrètes d'Engkong Dadang",
+    "Identifier le dernier emplacement de l'anomalie DDS (Mise à jour du 22 juin)",
+    "Localiser le nouvel emplacement caché du concessionnaire de motos",
+    "Découvrir la zone de tactique Crab Walk pour les motos spécialisées",
+    "Débloquer la moto de drag Vespa cachée par l'exploration"
+  ]}
+/>
+
+<Callout type="info" title="Mise à jour de l'emplacement">
+Le nouvel emplacement du concessionnaire de motos a changé dans le dernier patch. Utilisez votre serveur privé pour explorer le périmètre de la ville principale sans risquer d'être percuté par d'autres joueurs.
+</Callout>
+
+| Objet secret | Emplacement général | Récompense/Avantage |
+| :--- | :--- | :--- |
+| **Lettre Engkong 1** | Près de la piste de drag de départ | Lore et petit bonus d'argent |
+| **Anomalie de juin** | Derrière la crête de la montagne | Effets de particules uniques |
+| **Concessionnaire Vespa** | Ruelle du quartier industriel | Accès aux scooters limités |
+| **Pièce Satria FU** | Cachée à l'intérieur de l'entrepôt | Boost de performance pour la Satria |
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de course avancées et réglages">
+
+Avec l'aide des **commandes de serveur privé de Drag Drive Simulator**, vous pouvez affiner vos performances. La Suzuki-Satria FU est actuellement le choix méta pour 2026, et les serveurs privés vous permettent de tester sa vitesse de pointe avec différents rapports de vitesse.
+
+**Mesures de réglage clés pour 2026 :**
+- **Optimisation de la vitesse de pointe** : Utilisez la commande `!multispawn` pour placer cinq motos avec des réglages de vitesse différents et faites-les courir côte à côte en utilisant la fonction fantôme IA.
+- **Test de modification** : La mise à jour des modifications de novembre a ajouté des options "Big Update Modification". Testez-les dans un serveur privé pour voir comment elles affectent la maniabilité lors de la manœuvre "Crab Walk".
+- **Intégration Lith Hub** : Pour ceux qui utilisent des scripts communautaires pour le suivi des performances, les serveurs privés offrent un environnement sûr pour analyser les données de télémétrie sans violer les règles des serveurs publics.
+
+<Callout type="tip" title="Conseil de réglage">
+La Satria FU donne les meilleurs résultats lorsque la pression des pneus est ajustée spécifiquement pour la surface de la piste de drag. Utilisez votre serveur privé pour effectuer 10-20 passages consécutifs afin de trouver le point idéal pour votre accélération.
+</Callout>
+
+| Modification | Impact vitesse | Impact maniabilité | Coût (en jeu) |
+| :--- | :--- | :--- | :--- |
+| **Turbo Stage 3** | +25% | -5% Stabilité | 50 000 |
+| **Pneus Slicks** | +10% | +20% Traction | 15 000 |
+| **Réduction de poids** | +15% | -10% Durabilité | 30 000 |
+| **ECU personnalisé** | Variable | Changement optimisé | 45 000 |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ : Commandes et fonctionnalités du serveur privé">
+
+<FAQ items={[
+  {
+    question: "Comment utiliser la commande multispawn dans Drag Drive Simulator ?",
+    answer: "Tapez simplement `!multispawn me [nombre]` dans la fenêtre de chat pendant que vous êtes dans votre serveur privé. Vous pouvez faire apparaître jusqu'à 5 véhicules à la fois pour tester différentes modifications."
+  },
+  {
+    question: "Existe-t-il des codes admin secrets pour les serveurs privés ?",
+    answer: "Bien qu'il n'y ait pas de 'code admin' unique qui débloque tout, les propriétaires de serveurs ont accès à des commandes comme `!kick`, `!ban` et `!multispawn`. Les codes de jeu standard, comme ceux de la mise à jour de mars 2026, fonctionnent également dans les sessions privées."
+  },
+  {
+    question: "Où se trouve l'emplacement de l'anomalie DDS dans la mise à jour 2026 ?",
+    answer: "Le dernier emplacement de l'anomalie pour juin 2026 se trouve généralement près de la nouvelle extension de la crête de la montagne. Il est préférable d'utiliser une moto rapide comme la Satria FU pour l'atteindre rapidement dans un serveur privé."
+  },
+  {
+    question: "Puis-je utiliser des commandes dans un serveur public ?",
+    answer: "Non, la plupart des **commandes de serveur privé de Drag Drive Simulator** sont réservées au propriétaire du serveur et aux administrateurs désignés. Les serveurs publics autorisent uniquement les commandes sociales de base et la rédemption de codes."
+  }
+]} />
+
+</Section>
